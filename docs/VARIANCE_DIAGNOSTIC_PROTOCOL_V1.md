@@ -73,6 +73,10 @@ exist to bound spending, not to establish which factor matters.
 
 **Stage 0. Repeat evaluation of existing checkpoints. No training.**
 
+Executable specification: `VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md`. Where the two differ, the
+specification governs Stage 0. It adds a 64-episode determinism check and defines replicates
+as task-order permutations.
+
 - The six stored full-experience A adapters (API and generic, three seeds), each evaluated
   three more times: 1,152 episodes. The original recorded evaluation is a fourth replicate.
 - Adapter hashes are checked against the recorded values first. If the weights are no longer
