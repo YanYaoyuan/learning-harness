@@ -87,6 +87,8 @@ def run_step(label, arguments, job):
     verify_pins(job)
     save(QUEUE / "state.json", dict(status=label, gpu=job["gpu"], updated_unix=time.time()))
     env = dict(os.environ, PYTHONPATH=str(Path("src").resolve()), MPLCONFIGDIR="/tmp/lh-mpl")
+    for name in ("NO_PROXY", "no_proxy"):
+        env[name] = ",".join(value for value in (env.get(name, ""), "127.0.0.1", "localhost", "::1") if value)
     for key in list(env):
         if key.startswith("LH_TEACHER_"):
             env.pop(key)

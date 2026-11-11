@@ -7,10 +7,14 @@ reference before computing repeat variance, so identical floating-point repeats 
 spread while genuine small differences remain measurable. A seventh estimator test covers
 the latter. Historical hash manifests must also exist; missing manifests are errors.
 
-Thirty CPU tests cover the estimator, the smoke/full execution plans, completion/failure/
+Thirty-one CPU tests cover the estimator, the smoke/full execution plans, completion/failure/
 timeout/interruption accounting, freeze and budget changes, documented hash exceptions,
 missing manifests, and the source-study/resource scheduling guards. No real model is launched
 by these tests. GPU smoke and end-to-end acceptance remain pending.
+
+Local model requests explicitly bypass inherited HTTP proxies through `NO_PROXY` and
+`no_proxy`, preserving existing bypasses. This addresses observed HTTP 502 failures when
+loopback inference requests were sent through the inherited proxy.
 
 `scripts/queue_stage0_after_source_comparison.py` waits for all of:
 

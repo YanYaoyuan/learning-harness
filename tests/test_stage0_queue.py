@@ -82,3 +82,18 @@ def test_busy_model_port_blocks_without_querying_gpu(queue, monkeypatch):
     monkeypatch.setattr(queue.socket, "create_connection", lambda *args, **kwargs: Connection())
     monkeypatch.setattr(queue.subprocess, "run", lambda *args, **kwargs: pytest.fail("GPU query should not occur"))
     assert queue.resources_ready(0) is False
+
+
+def test_local_requests_bypass_proxy_and_existing_bypasses_are_preserved(queue, monkeypatch):
+    observed = []
+    monkeypatch.setenv("NO_PROXY", "existing.internal")
+    monkeypatch.setenv("no_proxy", "other.internal")
+    monkeypatch.setenv("LH_TEACHER_TEST_CREDENTIAL", "synthetic")
+    monkeypatch.setattr(queue.subprocess, "run", lambda args, **kwargs: observed.append(kwargs["env"]))
+    queue.run_step("proxy-check", ["scripts/example.py"], dict(files={}, gpu=0))
+    env = observed[0]
+    assert "existing.internal" in env["NO_PROXY"].split(",")
+    assert "other.internal" in env["no_proxy"].split(",")
+    for name in ("NO_PROXY", "no_proxy"):
+        assert {"127.0.0.1", "localhost", "::1"}.issubset(env[name].split(","))
+    assert "LH_TEACHER_TEST_CREDENTIAL" not in env
