@@ -134,7 +134,10 @@ def variance_share(d: np.ndarray, level=0.90) -> dict:
     n_seeds, n_reps = d.shape
     if n_seeds < 2 or n_reps < 2:
         raise ValueError("Need at least two seeds and two replicates")
-    msw = float(d.var(axis=1, ddof=1).mean())
+    # Center on a row-wise reference to preserve exact zero for identical repeats.
+    # No tolerance is used: genuine small repeat differences remain measurable.
+    within = d - d[:, :1]
+    msw = float(within.var(axis=1, ddof=1).mean())
     msb = float(n_reps * d.mean(axis=1).var(ddof=1))
     seed_variance = max(0.0, (msb - msw) / n_reps)
     total = msw + seed_variance
