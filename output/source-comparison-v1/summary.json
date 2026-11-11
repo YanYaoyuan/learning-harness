@@ -1,12 +1,320 @@
 {
-  "complete": false,
-  "completed_evaluation_task_runs": 0,
+  "complete": true,
+  "completed_evaluation_task_runs": 4284,
   "planned_evaluation_task_runs": 4284,
   "exploratory": true,
   "official_final_tests_used": false,
   "new_paid_api_calls": 0,
-  "seed_scores": [],
-  "curves": [],
+  "seed_scores": [
+    {
+      "family": "cool",
+      "source": "base",
+      "seed": 101,
+      "initial": 0.03125,
+      "final": 0.71875,
+      "raw_auc": 0.6005859375,
+      "gain_auc": 0.5693359375
+    },
+    {
+      "family": "cool",
+      "source": "base",
+      "seed": 202,
+      "initial": 0.03125,
+      "final": 0.6875,
+      "raw_auc": 0.5888671875,
+      "gain_auc": 0.5576171875
+    },
+    {
+      "family": "cool",
+      "source": "base",
+      "seed": 303,
+      "initial": 0.03125,
+      "final": 0.71875,
+      "raw_auc": 0.6005859375,
+      "gain_auc": 0.5693359375
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "seed": 101,
+      "initial": 0.0625,
+      "final": 0.6875,
+      "raw_auc": 0.5498046875,
+      "gain_auc": 0.4873046875
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "seed": 202,
+      "initial": 0.25,
+      "final": 0.71875,
+      "raw_auc": 0.67578125,
+      "gain_auc": 0.42578125
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "seed": 303,
+      "initial": 0.0625,
+      "final": 0.71875,
+      "raw_auc": 0.603515625,
+      "gain_auc": 0.541015625
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "seed": 101,
+      "initial": 0.0625,
+      "final": 0.8125,
+      "raw_auc": 0.6376953125,
+      "gain_auc": 0.5751953125
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "seed": 202,
+      "initial": 0.21875,
+      "final": 0.75,
+      "raw_auc": 0.6455078125,
+      "gain_auc": 0.4267578125
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "seed": 303,
+      "initial": 0.15625,
+      "final": 0.78125,
+      "raw_auc": 0.6435546875,
+      "gain_auc": 0.4873046875
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "seed": 101,
+      "initial": 0.0625,
+      "final": 0.8125,
+      "raw_auc": 0.6240234375,
+      "gain_auc": 0.5615234375
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "seed": 202,
+      "initial": 0.0625,
+      "final": 0.84375,
+      "raw_auc": 0.599609375,
+      "gain_auc": 0.537109375
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "seed": 303,
+      "initial": 0.0625,
+      "final": 0.8125,
+      "raw_auc": 0.609375,
+      "gain_auc": 0.546875
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "seed": 101,
+      "initial": 0.0625,
+      "final": 0.8125,
+      "raw_auc": 0.6767578125,
+      "gain_auc": 0.6142578125
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "seed": 202,
+      "initial": 0.125,
+      "final": 0.8125,
+      "raw_auc": 0.6943359375,
+      "gain_auc": 0.5693359375
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "seed": 303,
+      "initial": 0.21875,
+      "final": 0.84375,
+      "raw_auc": 0.767578125,
+      "gain_auc": 0.548828125
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "seed": 101,
+      "initial": 0.375,
+      "final": 0.875,
+      "raw_auc": 0.7841796875,
+      "gain_auc": 0.4091796875
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "seed": 202,
+      "initial": 0.53125,
+      "final": 0.875,
+      "raw_auc": 0.79296875,
+      "gain_auc": 0.26171875
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "seed": 303,
+      "initial": 0.375,
+      "final": 0.875,
+      "raw_auc": 0.677734375,
+      "gain_auc": 0.302734375
+    }
+  ],
+  "curves": [
+    {
+      "family": "cool",
+      "source": "base",
+      "step": 0,
+      "success_rate": 0.03125
+    },
+    {
+      "family": "cool",
+      "source": "base",
+      "step": 8,
+      "success_rate": 0.0625
+    },
+    {
+      "family": "cool",
+      "source": "base",
+      "step": 32,
+      "success_rate": 0.6875
+    },
+    {
+      "family": "cool",
+      "source": "base",
+      "step": 128,
+      "success_rate": 0.7083333333333334
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "step": 0,
+      "success_rate": 0.125
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "step": 8,
+      "success_rate": 0.2604166666666667
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "step": 32,
+      "success_rate": 0.65625
+    },
+    {
+      "family": "cool",
+      "source": "api",
+      "step": 128,
+      "success_rate": 0.7083333333333334
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "step": 0,
+      "success_rate": 0.14583333333333334
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "step": 8,
+      "success_rate": 0.21875
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "step": 32,
+      "success_rate": 0.6770833333333334
+    },
+    {
+      "family": "cool",
+      "source": "react",
+      "step": 128,
+      "success_rate": 0.78125
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "step": 0,
+      "success_rate": 0.0625
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "step": 8,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "step": 32,
+      "success_rate": 0.5520833333333334
+    },
+    {
+      "family": "heat",
+      "source": "base",
+      "step": 128,
+      "success_rate": 0.8229166666666666
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "step": 0,
+      "success_rate": 0.13541666666666666
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "step": 8,
+      "success_rate": 0.5833333333333334
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "step": 32,
+      "success_rate": 0.6979166666666666
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "step": 128,
+      "success_rate": 0.8229166666666666
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "step": 0,
+      "success_rate": 0.4270833333333333
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "step": 8,
+      "success_rate": 0.625
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "step": 32,
+      "success_rate": 0.7083333333333334
+    },
+    {
+      "family": "heat",
+      "source": "react",
+      "step": 128,
+      "success_rate": 0.875
+    }
+  ],
   "selection": {
     "common_task_seed_pairs": 58,
     "common_task_groups": 34,
@@ -329,5 +637,151 @@
     },
     "query_used_for_matching": false
   },
-  "A_training": []
+  "A_training": [
+    {
+      "source": "api",
+      "seed": 101,
+      "processed_examples": 256,
+      "eligible_examples": 452,
+      "unique_scheduled_examples": 256,
+      "input_tokens": 152871,
+      "target_tokens": 3345,
+      "schedule_sha256": "74c9c2c31e328fe25f434b4634f5f44c237d448fe9ff635fc96d86b9c1c6d299"
+    },
+    {
+      "source": "api",
+      "seed": 202,
+      "processed_examples": 256,
+      "eligible_examples": 452,
+      "unique_scheduled_examples": 256,
+      "input_tokens": 156533,
+      "target_tokens": 3348,
+      "schedule_sha256": "ac2559dddb325836763b7063bb8db73a23bf1094e90f18a9a13501fee920cb8c"
+    },
+    {
+      "source": "api",
+      "seed": 303,
+      "processed_examples": 256,
+      "eligible_examples": 452,
+      "unique_scheduled_examples": 256,
+      "input_tokens": 155392,
+      "target_tokens": 3372,
+      "schedule_sha256": "92b36178832a0752945397ab5cacbd836e71416e7cfdfd3cb18889a6e3950537"
+    },
+    {
+      "source": "react",
+      "seed": 101,
+      "processed_examples": 256,
+      "eligible_examples": 452,
+      "unique_scheduled_examples": 256,
+      "input_tokens": 148906,
+      "target_tokens": 3390,
+      "schedule_sha256": "74c9c2c31e328fe25f434b4634f5f44c237d448fe9ff635fc96d86b9c1c6d299"
+    },
+    {
+      "source": "react",
+      "seed": 202,
+      "processed_examples": 256,
+      "eligible_examples": 452,
+      "unique_scheduled_examples": 256,
+      "input_tokens": 153905,
+      "target_tokens": 3405,
+      "schedule_sha256": "ac2559dddb325836763b7063bb8db73a23bf1094e90f18a9a13501fee920cb8c"
+    },
+    {
+      "source": "react",
+      "seed": 303,
+      "processed_examples": 256,
+      "eligible_examples": 452,
+      "unique_scheduled_examples": 256,
+      "input_tokens": 152147,
+      "target_tokens": 3400,
+      "schedule_sha256": "92b36178832a0752945397ab5cacbd836e71416e7cfdfd3cb18889a6e3950537"
+    }
+  ],
+  "paired_B_validation": [
+    {
+      "family": "cool",
+      "seed": 101,
+      "identical_B_initialization": true,
+      "identical_B_sample_order": true
+    },
+    {
+      "family": "cool",
+      "seed": 202,
+      "identical_B_initialization": true,
+      "identical_B_sample_order": true
+    },
+    {
+      "family": "cool",
+      "seed": 303,
+      "identical_B_initialization": true,
+      "identical_B_sample_order": true
+    },
+    {
+      "family": "heat",
+      "seed": 101,
+      "identical_B_initialization": true,
+      "identical_B_sample_order": true
+    },
+    {
+      "family": "heat",
+      "seed": 202,
+      "identical_B_initialization": true,
+      "identical_B_sample_order": true
+    },
+    {
+      "family": "heat",
+      "seed": 303,
+      "identical_B_initialization": true,
+      "identical_B_sample_order": true
+    }
+  ],
+  "primary_api_minus_react": {
+    "raw_auc": {
+      "difference_pp": -3.564453125,
+      "ci95_pp": [
+        -10.986328125,
+        3.955078125
+      ],
+      "family_differences_pp": {
+        "cool": -3.2552083333333335,
+        "heat": -3.8736979166666665
+      }
+    },
+    "gain_auc": {
+      "difference_pp": 12.060546875,
+      "ci95_pp": [
+        0.5367024739583335,
+        24.626464843750004
+      ],
+      "family_differences_pp": {
+        "cool": -1.171875,
+        "heat": 25.29296875
+      }
+    },
+    "initial": {
+      "difference_pp": -15.625,
+      "ci95_pp": [
+        -25.520833333333332,
+        -6.25
+      ],
+      "family_differences_pp": {
+        "cool": -2.083333333333333,
+        "heat": -29.166666666666668
+      }
+    },
+    "final": {
+      "difference_pp": -6.25,
+      "ci95_pp": [
+        -13.020833333333332,
+        0.0
+      ],
+      "family_differences_pp": {
+        "cool": -7.291666666666667,
+        "heat": -5.208333333333334
+      }
+    }
+  },
+  "token_and_budget_audit_passed": true
 }

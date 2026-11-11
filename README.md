@@ -2,7 +2,21 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前研究入口（2026-11-11）**：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub 快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。候选方案是“教师辅助采集→SFT”，强基线是“ReAct 自采→同预算 SFT”；正在比较撤除辅助后的能力与后续适应，尚未得出最终学习优势结论。
+**当前状态（2026-11-11）**：强基线对照已完成全部4,284次评测并通过核账。教师辅助来源相对ReAct来源的主AUC差为−3.56个百分点，当前没有显示候选优势；三个种子的差值为−9.77、−3.42、+2.49。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) · [执行方式检查](output/source-comparison-v1/execution-robustness.png)。旧结果保留各自适用范围，不把增益AUC较高解读为学习能力更强。
+
+Stage 0已通过真实GPU smoke并冻结，正在测量旧API−generic模型的批布局敏感性；预算四GPU小时，历史重复仅作补充。[Stage 0协议](docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md) · [验收与执行](docs/STAGE0_LOCAL_VALIDATION_2026-11-11.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
+
+研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
+
+## CPU 开发检查
+
+```bash
+python3 -m venv .venv-dev
+.venv-dev/bin/python -m pip install -e '.[dev]'
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv-dev/bin/python -m pytest -q
+```
+
+独立开发环境已通过90项CPU测试；GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
 
 [实验协议：环境、baseline、benchmark 与统计口径](docs/EXPERIMENT_PLAN.zh-CN.md) · [前期调研](output/pdf/agent-research/README.md)
 
@@ -60,9 +74,9 @@ PYTHONPATH=src .venv-wandb/bin/python scripts/track_wandb.py --watch
 - 真实 ALFWorld 文本环境、官方数据和固定清单；隔离 CPU 环境 `.venv`。
 - 无支持、早期、随机时机、延迟支持的配对采样器，公开观测教师缓存，费用 ledger。
 - 目标视角 rejection SFT 导出、LoRA 脚本和统一 H0 评测。
-- SkillScaffold、EvoIn、Harness-Zero 的固定源码，位于 `third_party/`；原论文训练尚未运行。
+- GitHub快照包含ReAct、Reflexion的固定提示来源。SkillScaffold、EvoIn、Harness-Zero为原工作机的调研缓存，原论文训练尚未复现；它们没有随初始代码快照上传。
 
-数据、模型缓存、运行日志与密钥不进入代码版本库。没有设置教师 API 时，不会发出教师请求。
+密钥、模型权重、原始数据集和本地缓存不进入代码仓库。历史快照包含筛选后的实验记录；新完成实验的摘要、图表和逐任务CSV随代码保存，原始JSON记录压缩包归档到私有W&B，校验值见各实验的`archival.json`。没有设置教师API时，不会发出教师请求。
 
 ## 1. CPU 环境与清单
 

@@ -10,7 +10,9 @@ the latter. Historical hash manifests must also exist; missing manifests are err
 Thirty-one CPU tests cover the estimator, the smoke/full execution plans, completion/failure/
 timeout/interruption accounting, freeze and budget changes, documented hash exceptions,
 missing manifests, and the source-study/resource scheduling guards. No real model is launched
-by these tests. GPU smoke and end-to-end acceptance remain pending.
+by these tests. The real GPU smoke completed 32 tasks without errors in 197.62 seconds.
+Stage 0 is now frozen and running; full end-to-end completion remains pending. The wider
+CPU suite also passes in an independent clean development environment.
 
 Local model requests explicitly bypass inherited HTTP proxies through `NO_PROXY` and
 `no_proxy`, preserving existing bypasses. This addresses observed HTTP 502 failures when

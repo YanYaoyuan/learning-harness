@@ -1,0 +1,152 @@
+{
+  "descriptive": true,
+  "learner_outcomes_read": false,
+  "collection": {
+    "api": {
+      "pick_and_place_simple": {
+        "attempts": 48,
+        "successes": 38,
+        "success_rate": 0.7916666666666666,
+        "successful_task_groups": 20
+      },
+      "pick_clean_then_place_in_recep": {
+        "attempts": 48,
+        "successes": 18,
+        "success_rate": 0.375,
+        "successful_task_groups": 10
+      },
+      "pick_heat_then_place_in_recep": {
+        "attempts": 48,
+        "successes": 13,
+        "success_rate": 0.2708333333333333,
+        "successful_task_groups": 7
+      }
+    },
+    "react": {
+      "pick_and_place_simple": {
+        "attempts": 48,
+        "successes": 38,
+        "success_rate": 0.7916666666666666,
+        "successful_task_groups": 21
+      },
+      "pick_clean_then_place_in_recep": {
+        "attempts": 48,
+        "successes": 33,
+        "success_rate": 0.6875,
+        "successful_task_groups": 17
+      },
+      "pick_heat_then_place_in_recep": {
+        "attempts": 48,
+        "successes": 39,
+        "success_rate": 0.8125,
+        "successful_task_groups": 21
+      }
+    }
+  },
+  "pair_coverage": {
+    "common": 58,
+    "api_only": 11,
+    "react_only": 52
+  },
+  "corpus_composition": {
+    "api": {
+      "eligible_action_labels": {
+        "pick_and_place_simple": 362,
+        "pick_clean_then_place_in_recep": 222,
+        "pick_heat_then_place_in_recep": 142
+      },
+      "matched_action_labels": {
+        "pick_clean_then_place_in_recep": 133,
+        "pick_and_place_simple": 228,
+        "pick_heat_then_place_in_recep": 91
+      }
+    },
+    "react": {
+      "eligible_action_labels": {
+        "pick_and_place_simple": 361,
+        "pick_clean_then_place_in_recep": 303,
+        "pick_heat_then_place_in_recep": 317
+      },
+      "matched_action_labels": {
+        "pick_clean_then_place_in_recep": 133,
+        "pick_and_place_simple": 228,
+        "pick_heat_then_place_in_recep": 91
+      }
+    }
+  },
+  "actual_training_exposure": [
+    {
+      "source": "api",
+      "seed": 101,
+      "processed_labels": {
+        "pick_and_place_simple": 132,
+        "pick_heat_then_place_in_recep": 52,
+        "pick_clean_then_place_in_recep": 72
+      },
+      "unique_examples": 256,
+      "input_tokens": 152871,
+      "target_tokens": 3345
+    },
+    {
+      "source": "react",
+      "seed": 101,
+      "processed_labels": {
+        "pick_and_place_simple": 132,
+        "pick_heat_then_place_in_recep": 52,
+        "pick_clean_then_place_in_recep": 72
+      },
+      "unique_examples": 256,
+      "input_tokens": 148906,
+      "target_tokens": 3390
+    },
+    {
+      "source": "api",
+      "seed": 202,
+      "processed_labels": {
+        "pick_heat_then_place_in_recep": 59,
+        "pick_clean_then_place_in_recep": 77,
+        "pick_and_place_simple": 120
+      },
+      "unique_examples": 256,
+      "input_tokens": 156533,
+      "target_tokens": 3348
+    },
+    {
+      "source": "react",
+      "seed": 202,
+      "processed_labels": {
+        "pick_heat_then_place_in_recep": 59,
+        "pick_clean_then_place_in_recep": 77,
+        "pick_and_place_simple": 120
+      },
+      "unique_examples": 256,
+      "input_tokens": 153905,
+      "target_tokens": 3405
+    },
+    {
+      "source": "api",
+      "seed": 303,
+      "processed_labels": {
+        "pick_and_place_simple": 130,
+        "pick_heat_then_place_in_recep": 46,
+        "pick_clean_then_place_in_recep": 80
+      },
+      "unique_examples": 256,
+      "input_tokens": 155392,
+      "target_tokens": 3372
+    },
+    {
+      "source": "react",
+      "seed": 303,
+      "processed_labels": {
+        "pick_and_place_simple": 130,
+        "pick_heat_then_place_in_recep": 46,
+        "pick_clean_then_place_in_recep": 80
+      },
+      "unique_examples": 256,
+      "input_tokens": 152147,
+      "target_tokens": 3400
+    }
+  ],
+  "caveat": "Mutual-success conditioning excludes source-specific coverage. Equal labels do not imply equal tokens or compute."
+}
