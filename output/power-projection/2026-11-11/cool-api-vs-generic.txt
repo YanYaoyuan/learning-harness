@@ -1,0 +1,140 @@
+
+=== cool / matched: api - generic, 3 seeds x 32 tasks, checkpoints [0, 8, 16, 32, 64, 128]
+checkpoint correlation of cell-level differences:
+[[ 1.    0.    0.14  0.    0.    0.  ]
+ [ 0.    1.   -0.13  0.19  0.   -0.02]
+ [ 0.14 -0.13  1.   -0.01  0.    0.05]
+ [ 0.    0.19 -0.01  1.    0.25  0.26]
+ [ 0.    0.    0.    0.25  1.    0.  ]
+ [ 0.   -0.02  0.05  0.26  0.    1.  ]]
+
+raw_auc: mean -1.99pp   seed means [0.0, 1.0, -6.9]
+  raw components   seed +0.0012   task +0.0004   resid 0.0214
+  planning (pool, seed variance x1, floor 0): seed 0.0012  task 0.0004  resid 0.0214
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     2.52   2.1      13.17      7.05   0.63/0.02/0.35
+        6    64   384     1.61   5.2       5.58      4.52   0.76/0.02/0.21
+        8    64   512     1.40   7.4       4.52      3.93   0.76/0.03/0.21
+       12    64   768     1.16  12.0       3.52      3.24   0.74/0.05/0.21
+  planning (pool, seed variance x4, floor 0): seed 0.0048  task 0.0004  resid 0.0214
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     4.27   2.0      22.76     11.97   0.87/0.01/0.12
+        6    64   384     2.93   5.1      10.25      8.20   0.93/0.01/0.06
+        8    64   512     2.54   7.1       8.25      7.11   0.93/0.01/0.06
+       12    64   768     2.08  11.3       6.40      5.82   0.92/0.01/0.06
+
+initial: mean +0.00pp   seed means [3.1, -3.1, 0.0]
+  raw components   seed -0.0000   task +0.0111   resid 0.0313
+  planning (pool, seed variance x1, floor 0): seed 0.0000  task 0.0111  resid 0.0313
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     2.59   6.5       8.59      7.26   0.00/0.52/0.48
+        6    64   384     1.60  27.3       4.63      4.47   0.00/0.68/0.32
+        8    64   512     1.53  38.9       4.39      4.29   0.00/0.74/0.26
+       12    64   768     1.46  52.0       4.18      4.10   0.00/0.81/0.19
+  planning (pool, seed variance x4, floor 0): seed 0.0000  task 0.0111  resid 0.0313
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     2.59   6.5       8.57      7.26   0.00/0.52/0.48
+        6    64   384     1.60  27.3       4.63      4.47   0.00/0.68/0.32
+        8    64   512     1.53  38.9       4.39      4.29   0.00/0.74/0.26
+       12    64   768     1.46  52.0       4.19      4.10   0.00/0.81/0.19
+
+final: mean +3.12pp   seed means [9.4, 3.1, -3.1]
+  raw components   seed +0.0024   task +0.0003   resid 0.0497
+  planning (pool, seed variance x1, floor 0): seed 0.0024  task 0.0003  resid 0.0497
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.62   2.0      19.33     10.15   0.60/0.01/0.39
+        6    64   384     2.30   5.1       8.00      6.43   0.74/0.01/0.25
+        8    64   512     1.99   7.1       6.47      5.58   0.74/0.01/0.25
+       12    64   768     1.63  11.3       4.99      4.57   0.74/0.02/0.24
+  planning (pool, seed variance x4, floor 0): seed 0.0094  task 0.0003  resid 0.0497
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     6.05   2.0      32.55     16.96   0.86/0.00/0.14
+        6    64   384     4.13   5.0      14.42     11.56   0.92/0.00/0.08
+        8    64   512     3.58   7.1      11.61     10.02   0.92/0.00/0.08
+       12    64   768     2.92  11.1       9.00      8.19   0.92/0.01/0.08
+
+gain_auc: mean -1.99pp   seed means [-3.1, 4.1, -6.9]
+  raw components   seed +0.0016   task +0.0089   resid 0.0503
+  planning (pool, seed variance x1, floor 0): seed 0.0016  task 0.0089  resid 0.0503
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.64   3.1      14.95     10.20   0.39/0.21/0.40
+        6    64   384     2.31   8.8       7.25      6.46   0.49/0.26/0.25
+        8    64   512     2.08  14.1       6.26      5.83   0.45/0.32/0.23
+       12    64   768     1.83  27.0       5.31      5.13   0.39/0.41/0.20
+  planning (pool, seed variance x4, floor 0): seed 0.0063  task 0.0089  resid 0.0503
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     5.38   2.4      25.09     15.08   0.72/0.10/0.18
+        6    64   384     3.63   6.2      12.06     10.17   0.79/0.11/0.10
+        8    64   512     3.20   9.3       9.99      8.96   0.77/0.14/0.10
+       12    64   768     2.70  16.5       8.04      7.56   0.72/0.19/0.09
+
+=== cool / full: api - generic, 3 seeds x 32 tasks, checkpoints [0, 8, 16, 32, 64, 128]
+checkpoint correlation of cell-level differences:
+[[ 1.    0.12 -0.17 -0.09 -0.01 -0.03]
+ [ 0.12  1.    0.04 -0.11 -0.02 -0.06]
+ [-0.17  0.04  1.    0.01  0.    0.01]
+ [-0.09 -0.11  0.01  1.    0.2  -0.1 ]
+ [-0.01 -0.02  0.    0.2   1.   -0.01]
+ [-0.03 -0.06  0.01 -0.1  -0.01  1.  ]]
+
+raw_auc: mean +3.45pp   seed means [5.6, 5.4, -0.6]
+  raw components   seed +0.0004   task -0.0033   resid 0.0248
+  planning (pool, seed variance x1, floor 0): seed 0.0006  task 0.0000  resid 0.0215
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     2.02   1.9      11.12      5.66   0.45/0.00/0.55
+        6    64   384     1.22   4.9       4.26      3.41   0.62/0.00/0.38
+        8    64   512     1.05   6.9       3.43      2.95   0.62/0.00/0.38
+       12    64   768     0.86  10.7       2.66      2.41   0.62/0.00/0.38
+  planning (pool, seed variance x4, floor 0): seed 0.0022  task 0.0000  resid 0.0215
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.10   2.0      16.62      8.68   0.77/0.00/0.23
+        6    64   384     2.06   5.0       7.18      5.77   0.87/0.00/0.13
+        8    64   512     1.78   7.0       5.83      5.00   0.87/0.00/0.13
+       12    64   768     1.46  11.0       4.48      4.08   0.87/0.00/0.13
+
+initial: mean +7.29pp   seed means [3.1, 9.4, 9.4]
+  raw components   seed -0.0027   task +0.0057   resid 0.1277
+  planning (pool, seed variance x1, floor 0): seed 0.0000  task 0.0066  resid 0.1250
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.88   2.4      18.22     10.88   0.00/0.14/0.86
+        6    64   384     2.07   7.5       6.69      5.80   0.00/0.24/0.76
+        8    64   512     1.86  11.4       5.71      5.22   0.00/0.30/0.70
+       12    64   768     1.63  19.8       4.82      4.57   0.00/0.39/0.61
+  planning (pool, seed variance x4, floor 0): seed 0.0000  task 0.0066  resid 0.1250
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.88   2.4      18.42     10.88   0.00/0.14/0.86
+        6    64   384     2.07   7.5       6.68      5.80   0.00/0.24/0.76
+        8    64   512     1.86  11.4       5.71      5.22   0.00/0.30/0.70
+       12    64   768     1.63  19.8       4.80      4.57   0.00/0.39/0.61
+
+final: mean +4.17pp   seed means [6.2, 6.2, 0.0]
+  raw components   seed -0.0007   task +0.0202   resid 0.0632
+  planning (pool, seed variance x1, floor 0): seed 0.0000  task 0.0204  resid 0.0625
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.59   6.1      11.94     10.05   0.00/0.49/0.51
+        6    64   384     2.19  25.6       6.39      6.15   0.00/0.66/0.34
+        8    64   512     2.10  37.0       6.06      5.88   0.00/0.72/0.28
+       12    64   768     2.00  50.8       5.72      5.60   0.00/0.80/0.20
+  planning (pool, seed variance x4, floor 0): seed 0.0000  task 0.0204  resid 0.0625
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     3.59   6.1      11.99     10.05   0.00/0.49/0.51
+        6    64   384     2.19  25.6       6.40      6.15   0.00/0.66/0.34
+        8    64   512     2.10  37.0       6.03      5.88   0.00/0.72/0.28
+       12    64   768     2.00  50.8       5.74      5.60   0.00/0.80/0.20
+
+gain_auc: mean -3.84pp   seed means [2.4, -4.0, -10.0]
+  raw components   seed -0.0009   task +0.0020   resid 0.1524
+  planning (pool, seed variance x1, floor 0): seed 0.0000  task 0.0023  resid 0.1515
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     4.06   2.0      21.86     11.38   0.00/0.04/0.96
+        6    64   384     2.08   5.4       7.14      5.82   0.00/0.08/0.92
+        8    64   512     1.82   7.6       5.86      5.11   0.00/0.11/0.89
+       12    64   768     1.53  12.2       4.65      4.28   0.00/0.16/0.84
+  planning (pool, seed variance x4, floor 0): seed 0.0000  task 0.0023  resid 0.1515
+    seeds tasks cells   SE(pp)    df   MDE_t(pp) MDE_z(pp)   variance share seed/task/resid
+        3    32    96     4.06   2.0      21.92     11.38   0.00/0.04/0.96
+        6    64   384     2.08   5.4       7.12      5.82   0.00/0.08/0.92
+        8    64   512     1.82   7.6       5.86      5.11   0.00/0.11/0.89
+       12    64   768     1.53  12.2       4.65      4.28   0.00/0.16/0.84
+
+Wrote output/power-projection/2026-11-11/cool-api-vs-generic.json
