@@ -27,6 +27,7 @@ tasks. If the total is below TOTAL_FLOOR the share is undefined and the default 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -181,13 +182,25 @@ def decide(share, new_replicates) -> str:
     return "Stage 1 in full"
 
 
+def load_freeze() -> dict:
+    """Validate freeze.json; the analysis takes its one execution choice from it."""
+    path = STAGE0_ROOT / "freeze.json"
+    if not path.exists():
+        raise SystemExit(f"{path} is missing; Stage 0 results are analysed only under a freeze")
+    freeze = json.loads(path.read_text())
+    for target, recorded in freeze["files"].items():
+        if hashlib.sha256(Path(target).read_bytes()).hexdigest() != recorded:
+            raise SystemExit(f"Changed after freezing: {target}")
+    return freeze
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--include-historical", action="store_true",
-                        help="Use the historical evaluation as an additional replicate. Decided at freeze "
-                             "time; refused if the compatibility checks fail.")
     parser.add_argument("--out", default=str(STAGE0_ROOT / "result.json"))
     args = parser.parse_args()
+    freeze = load_freeze()
+    # Whether the historical evaluation is a replicate was decided at freeze time.
+    args.include_historical = bool(freeze["include_historical"])
 
     new = [r for r in (1, 2, 3) if replicate_complete(r)]
     if not new:
@@ -212,6 +225,8 @@ def main():
     primary = variance_share(paired_differences(primary_cells)) if len(primary_cells) >= 2 else None
     report = dict(
         specification="docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md",
+        freeze_sha256=hashlib.sha256((STAGE0_ROOT / "freeze.json").read_bytes()).hexdigest(),
+        include_historical_frozen_choice=args.include_historical,
         exploratory=True,
         complete_new_replicates=new,
         primary_replicates=primary_labels,

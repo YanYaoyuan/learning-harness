@@ -1,14 +1,10 @@
 # Variance diagnostic, Stage 0: executable specification
 
 Date: 2026-11-11. Status: **ready to freeze; not yet frozen**. Stage 0 freezes independently
-of the rest of `VARIANCE_DIAGNOSTIC_PROTOCOL_V1.md`. To freeze, record the SHA-256 of this
-file, `scripts/run_stage0_repeat_eval.py` and `scripts/stage0_variance_share.py`, and the
-`--include-historical` decision of section 1, in `runs/variance-diagnostic-v1/stage0/freeze.json`
-before the first evaluation starts.
+of the rest of `VARIANCE_DIAGNOSTIC_PROTOCOL_V1.md`.
 
 The runner and the analysis script were written without access to a GPU and have not been
-executed end to end. The estimator has unit tests in `tests/test_stage0_variance.py`. Run the
-tests, and one evaluation as a smoke check, before freezing.
+executed end to end. The estimator has unit tests in `tests/test_stage0_variance.py`.
 
 Stage 0 is exploratory. It trains nothing, makes no teacher calls and opens no official test
 set. It writes only under `runs/variance-diagnostic-v1/stage0/`.
@@ -69,10 +65,47 @@ holds. None of them looks at task outcomes.
    model are unchanged since the historical run. The repository holds no historical record
    of these, so this check cannot be automated.
 
-Checks 1 to 5 are implemented in `stage0_variance_share.py`, which refuses
-`--include-historical` if any fails. If check 7 cannot be attested, the flag is left off, the
-primary estimate uses the new replicates only, and the four-replicate estimate is reported as
-a labelled sensitivity result. The choice is fixed in `freeze.json` before any new run.
+Checks 1 to 5 are implemented in `stage0_variance_share.py`, which stops if the frozen
+choice includes the historical replicate and any of them fails. If check 7 cannot be
+attested, the historical replicate is left out, the primary estimate uses the new replicates
+only, and the four-replicate estimate is reported as a labelled sensitivity result.
+
+### Known hash mismatch in the historical study
+
+`scripts/transfer_factorial_report.py` no longer matches `execution-code.sha256.json`
+(recorded `50e95362...`, current `4ff9cdea...`). The current hash equals the
+`report_script_sha256` recorded in `runs/transfer-factorial-v1/postrun-figure-audit.json`,
+which describes the change as "Share y labels between combined-figure panels to avoid
+overlap" and states that numerical results are unchanged. That statement is the audit
+record's own; the earlier version of the file is not in the repository, so the difference
+has not been re-inspected here. The frozen checksum is left as it is.
+
+The runner handles this as a documented exception, not by narrowing the check:
+
+- Every file in the three historical hash lists is still verified.
+- An exception is accepted only for a report, plot or tracking script, only when given with
+  its provenance at freeze time, and only while the file keeps the hash recorded in the
+  exception. A changed file on the evaluation path always stops the runner.
+- The report script is not imported or executed by Stage 0.
+
+## Freezing
+
+Order: unit tests, smoke check, freeze, run.
+
+1. **Smoke check** (`--smoke --gpu N`): one evaluation of one cell (heat, API, seed 1101)
+   with the unmodified historical configuration, written to `smoke/`. It is allowed only
+   before the freeze, never enters the estimator, and its time is charged against the cap.
+   Its outcomes are the same kind of information as the determinism check and are not used
+   to change the design.
+2. **Freeze** (`--freeze --gpu N ...`): writes `freeze.json` and refuses to overwrite one.
+   It records the SHA-256 of this file, the runner and the analysis script; the GPU; the
+   cap; whether the historical evaluation is a replicate, with the attestation of check 7;
+   the replicate design; and each documented hash exception with both hashes and its reason.
+3. **Run** (no mode flag): takes the GPU, the cap and every other choice from `freeze.json`.
+   It stops before any evaluation if a frozen file changed, if a run-time argument
+   contradicts the freeze, or if the historical hash lists show an undocumented or changed
+   mismatch. The analysis script validates the same freeze and takes the historical-replicate
+   choice from it; it has no flag for that choice.
 
 ## 2. Variance-share estimator
 
@@ -132,16 +165,24 @@ Measured throughput: the 12 historical evaluations of these cells took 155 to 20
 each for 32 episodes (mean 190 s, total 2,274 s) on one RTX 5090 at batch size 8, excluding
 model loading. The 38 planned runs therefore need about 2.0 GPU-hours plus loading.
 
-- **Cap:** 4.0 GPU-hours of cumulative evaluation wall time on one GPU, including server
-  start-up, tracked across invocations in `execution.json`.
+- **Cap:** 4.0 GPU-hours of cumulative wall time on one GPU, fixed in `freeze.json`. Every
+  attempt is charged from server start to server stop: the smoke check, completed runs, and
+  failed, interrupted and timed-out runs alike.
 - **Order:** replicate 1 for all 12 cells, then replicate 2, then replicate 3, then the
   determinism check. A stop therefore leaves whole replicates.
-- **Stop at the cap:** before each run the runner stops if less than 300 seconds remain.
-  Only complete replicates enter the estimator. The cap is not raised after results are seen.
-- **Errors:** a server or rollout error stops the runner and is not counted as task failure.
-  A resumed run verifies and skips completed evaluations, and the batch runner continues an
-  interrupted one under its fingerprint check. No evaluation is repeated because of its
-  outcome.
+- **Termination:** a run starts only if at least 300 seconds of the cap remain. Once the
+  server is up, the rollout is given exactly the remaining time as its timeout, so the cap
+  can be exceeded only by server shutdown (up to about 20 seconds). A run cut off this way
+  is recorded as stopped at the cap and is not completed later.
+- **Interruption:** Ctrl-C and SIGTERM stop the server, charge the elapsed time and mark the
+  ledger interrupted. An attempt that ends without accounting (kill -9, power loss) is
+  charged on the next start, from its recorded start time to the newest file written in its
+  directory.
+- **Estimator input:** only complete replicates. The cap is not raised after results are seen.
+- **Errors:** a server or rollout error stops the runner, is charged, and is not counted as
+  task failure. A resumed run verifies and skips completed evaluations, and the batch runner
+  continues an interrupted one under its fingerprint check. No evaluation is repeated
+  because of its outcome.
 - **Concurrency:** the runner refuses to start if a model server is already listening for the
   chosen GPU. It must not share a GPU with `source-comparison-v1` while that study runs.
 
@@ -149,10 +190,16 @@ model loading. The 38 planned runs therefore need about 2.0 GPU-hours plus loadi
 
 ```bash
 PYTHONPATH=src .venv-model/bin/python -m pytest -q tests/test_stage0_variance.py
-PYTHONPATH=src .venv-model/bin/python scripts/run_stage0_repeat_eval.py --gpu 0
-PYTHONPATH=src python3 scripts/stage0_variance_share.py            # add --include-historical if frozen so
+PYTHONPATH=src .venv-model/bin/python scripts/run_stage0_repeat_eval.py --smoke --gpu 0
+PYTHONPATH=src .venv-model/bin/python scripts/run_stage0_repeat_eval.py --freeze --gpu 0 \
+    --cap-gpu-hours 4 \
+    --hash-exception "scripts/transfer_factorial_report.py=<provenance and impact>"
+PYTHONPATH=src .venv-model/bin/python scripts/run_stage0_repeat_eval.py
+PYTHONPATH=src python3 scripts/stage0_variance_share.py
 ```
 
+Add `--include-historical --attestation "<text>"` to the freeze command if check 7 is attested.
+
 Outputs: `runs/variance-diagnostic-v1/stage0/rep<r>/...` (one directory per evaluation, same
-files as the historical runs), `determinism/...`, `manifests/`, `execution.json`, and
+files as the historical runs), `determinism/...`, `smoke/...`, `manifests/`, `freeze.json`, `execution.json` (the time ledger), and
 `result.json` with the components, interval, secondary results and the branch taken.
