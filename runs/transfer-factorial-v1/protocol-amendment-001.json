@@ -1,0 +1,11 @@
+{
+  "before_query_opened": true,
+  "scientific_design_and_splits_unchanged": true,
+  "reason": "Bitwise validation failed; same-GPU training without diagnostics also failed bitwise repeatability (max absolute parameter difference 0.00048828125).",
+  "change": "Restore original training script; score diagnostics only in a separate process after training exits. Validate checkpoint immutability instead of falsely promising deterministic training.",
+  "original_diagnostic_failure": "diagnostic-invariance.json",
+  "repeat_audit": "diagnostic-invariance/same-gpu-repeat.json",
+  "primary_metrics_gates_and_budgets_unchanged": true,
+  "diagnostic_bitwise_gate_replaced_with_process_isolation_gate": true,
+  "limitation": "BF16/GPU training has run-to-run numerical variation beyond nominal seeds; paired initial weights and data order remain verified."
+}

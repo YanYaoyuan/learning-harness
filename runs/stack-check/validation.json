@@ -1,0 +1,7 @@
+{
+  "kind": "synthetic_training_stack_validation",
+  "research_result": false,
+  "actual_train_entrypoint_passed": true,
+  "optimizer_steps": 2,
+  "lora_updated": true
+}

@@ -1,0 +1,10 @@
+{
+  "src/learning_harness/reference_cooling.py": "72a99adfea708601e7de7a2333c941dfb3101eda3d4f990cbc9b762d3daf3a04",
+  "src/learning_harness/adaptation.py": "61cbc1c0f11ce75d79fd07f24a31266644b51c3b248d52be1213cffcbecdc7b0",
+  "scripts/collect_cooling_reference.py": "aa76c5528bd576c1fee2a335ef5e2872fa070e1dc606d9c42dc4ebe80fb920bc",
+  "scripts/build_learning_data.py": "0a996522eddd3fcdfa2f43644edbe768c42d4bbcf6a9f7100ecbccbfdac5eb04",
+  "scripts/train_adaptation.py": "8697d6f8452426ac7b16b6a6edd0c2f4575151ea167f5762db43f61a4b53a980",
+  "scripts/run_learning_speed.py": "befe57596039e647d76a083342c569d684fa262ef908de79c358403eee0c5b10",
+  "scripts/learning_speed_report.py": "eae8eb83282cacfa16f3e7ca8e97bdba1d48212d780ed1339d75cf5ea31de98f",
+  "scripts/hf_batch_server.py": "38c463d809bc37f381c75dc94ae136bbbcd9a98615340b3b8fd1e660f720fff9"
+}

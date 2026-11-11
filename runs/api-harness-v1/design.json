@@ -1,0 +1,99 @@
+{
+  "protocol": "api-harness-v1",
+  "status": "frozen_before_teacher_generation",
+  "question": "Does a stronger task-specific scaffold change data collection, unsupported ability, and fixed-data future adaptation?",
+  "conditions": [
+    "none",
+    "generic",
+    "api"
+  ],
+  "teacher_model": "qwen3.8-max-0902",
+  "teacher_input": "public reset observation only",
+  "teacher_support": "One cached strategy per A training task; visible for first 4 student turns",
+  "teacher_max_calls": 80,
+  "teacher_max_cost_cny": 20,
+  "collection": {
+    "tasks": 72,
+    "task_groups": 71,
+    "families": [
+      "pick_and_place_simple",
+      "pick_clean_then_place_in_recep",
+      "pick_heat_then_place_in_recep"
+    ],
+    "rollout_seeds": [
+      11,
+      23
+    ],
+    "max_steps": 40,
+    "temperature": 0.7,
+    "batch_size": 8,
+    "fresh_rollouts_all_conditions": true
+  },
+  "a_training": {
+    "method": "target-view success-only SFT",
+    "matching": "Common successful task/rollout-seed groups across all three sources; exclude literal Nothing happens labels, then match example counts",
+    "minimum_common_groups": 8,
+    "max_steps": 64,
+    "processed_examples": 256,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "support_masked": true
+  },
+  "b_training": {
+    "shared_schedule": "runs/learning-speed-v1/b_schedule.jsonl",
+    "shared_schedule_sha256": "0d65b08f575c388751baad21b196e93a8463633c3d5ac8cbce1626c4143b889f",
+    "adaptation_config": "runs/learning-speed-v1/adaptation-config.json",
+    "family": "pick_cool_then_place_in_recep",
+    "processed_examples": 512,
+    "max_steps": 128,
+    "checkpoints": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      64,
+      128
+    ],
+    "seeds": [
+      1101,
+      1202,
+      1303
+    ],
+    "parameterization": "Frozen A + fresh B LoRA; paired B weights and sample order; optimizer reset"
+  },
+  "evaluation": {
+    "a_query_tasks": 24,
+    "b_query_tasks": 24,
+    "b_only_each_checkpoint": true,
+    "a_retention_at": [
+      0,
+      128
+    ],
+    "no_support": true,
+    "batch_size": 8,
+    "max_steps": 40,
+    "temperature": 0,
+    "query_never_used_for_tuning": true
+  },
+  "primary_contrast": "api minus generic: paired B normalized raw AUC and gain AUC, with initial ability/NLL",
+  "secondary": [
+    "api minus none",
+    "collection success and cost",
+    "unsupported A ability and A retention",
+    "per-family breakdown"
+  ],
+  "gate": "If fewer than 8 common successful groups, report collection result and stop adaptation; do not switch analysis population silently",
+  "limitations": [
+    "Conditioning on mutual collection successes changes the estimand",
+    "AUC can reflect prior knowledge and ceiling effects, not only plasticity",
+    "Three paired seeds and one B family are a pilot",
+    "Task-group disjointness does not imply room or pretraining disjointness",
+    "Fixed batched BF16 inference may be sensitive to batch composition"
+  ],
+  "official_final_tests_used": false,
+  "report_plots": true
+}

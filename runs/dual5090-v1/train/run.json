@@ -1,0 +1,80 @@
+{
+  "fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+  "planned_episodes": 64,
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "source_workers": [
+    {
+      "fingerprint": "289a393651ccf25ac727cf828d2b7da72dfe04e35a4c9a3dd9367919e721421a",
+      "config": {
+        "protocol_id": "dual5090-discovery-v1-train",
+        "manifest": "runs/dual5090-v1/train-gpu0.jsonl",
+        "teacher_bank": "runs/dual5090-v1/support.jsonl",
+        "arms": [
+          "none",
+          "early"
+        ],
+        "rollout_seeds": [
+          11,
+          23
+        ],
+        "max_steps": 40,
+        "max_new_tokens": 128,
+        "max_student_output_tokens": 5120,
+        "temperature": 0.7,
+        "history_turns": 12,
+        "support": {
+          "delayed_step": 5,
+          "random_first_step": 1,
+          "random_last_step": 8,
+          "visible_steps": 4
+        },
+        "model": {
+          "base_url_env": "LH_STUDENT_BASE_URL",
+          "model_env": "LH_STUDENT_MODEL",
+          "api_key_env": "LH_STUDENT_API_KEY"
+        }
+      },
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "created_at": "2026-11-09T08:23:59.516964+00:00",
+      "planned_episodes": 32
+    },
+    {
+      "fingerprint": "76359a1ea50992df4226356948f7e1bd55e245812906ae8f9cb426dd1bed8e55",
+      "config": {
+        "protocol_id": "dual5090-discovery-v1-train",
+        "manifest": "runs/dual5090-v1/train-gpu1.jsonl",
+        "teacher_bank": "runs/dual5090-v1/support.jsonl",
+        "arms": [
+          "none",
+          "early"
+        ],
+        "rollout_seeds": [
+          11,
+          23
+        ],
+        "max_steps": 40,
+        "max_new_tokens": 128,
+        "max_student_output_tokens": 5120,
+        "temperature": 0.7,
+        "history_turns": 12,
+        "support": {
+          "delayed_step": 5,
+          "random_first_step": 1,
+          "random_last_step": 8,
+          "visible_steps": 4
+        },
+        "model": {
+          "base_url_env": "LH_STUDENT_BASE_URL",
+          "model_env": "LH_STUDENT_MODEL",
+          "api_key_env": "LH_STUDENT_API_KEY"
+        }
+      },
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "created_at": "2026-11-09T08:24:13.762394+00:00",
+      "planned_episodes": 32
+    }
+  ]
+}

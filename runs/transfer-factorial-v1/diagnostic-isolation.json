@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checkpoint_hashes": {
+    "runs/transfer-factorial-v1/diagnostic-invariance/without-diagnostic/step-0000/B/adapter_model.safetensors": "3d14ca23204455095cb1a7ebd9204364c90f0b65213e1929f09cbd339cccd7bf",
+    "runs/transfer-factorial-v1/diagnostic-invariance/without-diagnostic/step-0008/B/adapter_model.safetensors": "58fd9076153b7daaa4cfa2eca71c2b33e044084ccaa34ab5d30fa82324bfc0e0"
+  },
+  "separate_process": true,
+  "query_used": false,
+  "validation_checkpoints": [
+    0,
+    8
+  ],
+  "training_script_restored": true,
+  "original_bitwise_comparison": "Failed, including a same-GPU no-diagnostic repeat; not attributable to diagnostic alone",
+  "interpretation": "No training process is alive while diagnostic reads its saved checkpoints"
+}

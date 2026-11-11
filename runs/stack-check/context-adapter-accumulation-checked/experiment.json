@@ -1,0 +1,42 @@
+{
+  "baseline": "context_distill",
+  "model": "runs/stack-check/random-model",
+  "revision": "random-model-validation-only",
+  "training_seed": 101,
+  "world_size": 1,
+  "config": {
+    "max_steps": 2,
+    "global_batch_size": 2,
+    "max_sequence_length": 256,
+    "learning_rate": 0.0001,
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "input_examples": 4,
+  "used_examples": 4,
+  "overlength_dropped": 0,
+  "hinted_examples": 0,
+  "teacher_model": "same frozen base with public strategy",
+  "input_tokens_rank0": 104,
+  "target_tokens_rank0": 32,
+  "teacher_input_tokens_rank0": 160,
+  "peak_cuda_allocated_bytes": 145769984,
+  "source_export_meta": {
+    "validation_only": true,
+    "research_result": false
+  }
+}

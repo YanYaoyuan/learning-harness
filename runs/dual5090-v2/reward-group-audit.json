@@ -1,0 +1,69 @@
+{
+  "sampled_rollouts_per_task": 2,
+  "rollout_seeds": [
+    11,
+    23
+  ],
+  "reward": "binary environment won",
+  "assumption_for_learning_signal": "A_i = r_i - mean(r_group), with no other reward or loss",
+  "caveat": "Two observed samples per task do not establish zero variance for larger groups or future policies.",
+  "arms": {
+    "none": {
+      "task_groups": 96,
+      "group_counts": {
+        "mixed": 6,
+        "both_failure": 82,
+        "both_success": 8
+      },
+      "empirical_nonflat_fraction": 0.0625,
+      "by_type": {
+        "pick_and_place_simple": {
+          "mixed": 3,
+          "both_failure": 16,
+          "both_success": 5
+        },
+        "pick_clean_then_place_in_recep": {
+          "both_failure": 19,
+          "mixed": 3,
+          "both_success": 2
+        },
+        "pick_cool_then_place_in_recep": {
+          "both_failure": 24
+        },
+        "pick_heat_then_place_in_recep": {
+          "both_failure": 23,
+          "both_success": 1
+        }
+      }
+    },
+    "early": {
+      "task_groups": 96,
+      "group_counts": {
+        "both_success": 25,
+        "both_failure": 64,
+        "mixed": 7
+      },
+      "empirical_nonflat_fraction": 0.07291666666666667,
+      "by_type": {
+        "pick_and_place_simple": {
+          "both_success": 17,
+          "both_failure": 4,
+          "mixed": 3
+        },
+        "pick_clean_then_place_in_recep": {
+          "mixed": 4,
+          "both_success": 5,
+          "both_failure": 15
+        },
+        "pick_cool_then_place_in_recep": {
+          "both_success": 1,
+          "both_failure": 23
+        },
+        "pick_heat_then_place_in_recep": {
+          "both_failure": 22,
+          "both_success": 2
+        }
+      }
+    }
+  }
+}

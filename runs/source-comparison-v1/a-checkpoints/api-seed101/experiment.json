@@ -1,0 +1,53 @@
+{
+  "baseline": "target_sft",
+  "model": "data/models/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "training_seed": 101,
+  "world_size": 1,
+  "config": {
+    "max_steps": 64,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5,
+    "fixed_sample_budget": true
+  },
+  "training_data_sha256": "51d237d0e65777c70c18113e683c7ffef4a18fd6b89c03a0f2749b4c4f3e4a99",
+  "input_examples": 452,
+  "used_examples": 452,
+  "overlength_dropped": 0,
+  "processed_examples_rank0": 256,
+  "scheduled_examples": 256,
+  "unique_scheduled_examples": 256,
+  "schedule_sha256": "74c9c2c31e328fe25f434b4634f5f44c237d448fe9ff635fc96d86b9c1c6d299",
+  "hinted_examples": 0,
+  "teacher_model": null,
+  "input_tokens_rank0": 152871,
+  "target_tokens_rank0": 3345,
+  "teacher_input_tokens_rank0": 0,
+  "peak_cuda_allocated_bytes": 10445248000,
+  "source_export_meta": {
+    "source": "api",
+    "examples": 452,
+    "common_task_groups": 34,
+    "source_run_fingerprint": "afd38cff4d03215c97b05c9a38534fab41028995b4a2e21d227745ee57ceb998",
+    "target_view": "canonical public JSON actions, no hints/examples/thoughts",
+    "query_used": false
+  }
+}

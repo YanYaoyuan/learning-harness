@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "training_examples": 555,
+  "training_tasks": 48,
+  "processed_examples": 512,
+  "diagnostic_examples": 62,
+  "diagnostic_tasks": 8,
+  "diagnostic_used_for_optimization": false,
+  "paid_api_calls": 0,
+  "task_balanced_training_schedule": true
+}

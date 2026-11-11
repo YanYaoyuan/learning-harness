@@ -1,0 +1,126 @@
+{
+  "method": "Static manifest audit only; no final environment instantiated",
+  "counts": {
+    "train": 2134,
+    "dev": 40,
+    "probe": 40,
+    "pilot": 40,
+    "test_seen": 140,
+    "test_unseen": 134
+  },
+  "overlaps": [
+    {
+      "left": "train",
+      "right": "dev",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "train",
+      "right": "probe",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "train",
+      "right": "pilot",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "train",
+      "right": "test_seen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "train",
+      "right": "test_unseen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "dev",
+      "right": "probe",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "dev",
+      "right": "pilot",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "dev",
+      "right": "test_seen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "dev",
+      "right": "test_unseen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "probe",
+      "right": "pilot",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "probe",
+      "right": "test_seen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "probe",
+      "right": "test_unseen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "pilot",
+      "right": "test_seen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "pilot",
+      "right": "test_unseen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    },
+    {
+      "left": "test_seen",
+      "right": "test_unseen",
+      "task_id": 0,
+      "task_group": 0,
+      "game_sha256": 0
+    }
+  ],
+  "manifest_sha256": {
+    "train": "36580a6f0fb68c35fd0517dd4e70eb78471ece0dd6de3d7667ab00649137485e",
+    "dev": "68041f3dd9b69b071cd77a391df9c5bd696f621b263185807e3304b4bd107c5a",
+    "probe": "4b5b1104dd7a7afd8e2d3bd121510cc3398601b73ec0039f4158308f8cc1c2b1",
+    "pilot": "ac1c1571a1a363db33fc46369124f87450200ba6be0ff21f1500fac040e7aa92",
+    "test_seen": "b7989b553419b8a0eccb2fbde588fb21c96fb5b60f293411c2e5170783992273",
+    "test_unseen": "619d49a2ee0604846ae9d69be09e5a9b23556d5c5dc414a86c8307e4c50e7648"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "base_model": "runs/stack-check/random-model",
+  "base_revision": "random-model-validation-only",
+  "a_adapter": "runs/stack-check/fixed-budget-adapter",
+  "b_seed": 1101,
+  "config": {
+    "max_steps": 4,
+    "global_batch_size": 2,
+    "max_sequence_length": 256,
+    "learning_rate": 0.0001,
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "fixed_sample_budget": true,
+    "checkpoints": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "data_seed": 777
+  },
+  "initialization": {
+    "a_parameter_sha256": "0606666f0610e0f8b65d71dd70281cd76b41ad9fe89ce5e68fa70b60b1187eff",
+    "b_initial_parameter_sha256": "df4ce839a796f23882aa769558f08da09a744bfc506e65c7bae6d4becac27d42",
+    "exact_zero_b_logit_check": true,
+    "exact_zero_a_logit_check": false,
+    "trainable_parameters": 3584,
+    "trainable_scope": "B adapter only"
+  },
+  "processed_examples": 8,
+  "data_sha256": "a2a62c86205f9520bb801b0b3993ea89caad28b31c13ac69adbb1a025d4728af",
+  "actual_order_sha256": "809d533fc370950a0e8c21b32c9e303611bc2ea742fe8532180a1ce64075835f",
+  "a_frozen_verified": true,
+  "b_updated_verified": true,
+  "frozen_a_dropout_disabled": true,
+  "token_accounting": {
+    "input_tokens": 208,
+    "target_tokens": 64
+  },
+  "initial_b_material_nll": {
+    "shared_examples": 8,
+    "target_tokens": 64,
+    "token_mean": 11.985254049301147,
+    "example_mean": 11.985254049301147,
+    "query_used": false
+  },
+  "peak_cuda_allocated_bytes": 157928960,
+  "complete": true
+}

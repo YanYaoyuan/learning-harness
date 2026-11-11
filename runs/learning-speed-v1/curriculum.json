@@ -1,0 +1,20 @@
+{
+  "teacher": "scripted public-observation reference",
+  "reference_successes": 48,
+  "successful_task_groups": 48,
+  "eligible_action_examples": 462,
+  "overlength_dropped": 0,
+  "scheduled_examples": 512,
+  "group_example_count_range": [
+    10,
+    11
+  ],
+  "data_seed": 777,
+  "shared_sequence_across_all_conditions": true,
+  "query_used": false,
+  "calibration_used": false,
+  "teacher_private_state_access": false,
+  "paid_api_calls": 0,
+  "model_generation_calls": 0,
+  "scheduled_cooling_actions": 66
+}

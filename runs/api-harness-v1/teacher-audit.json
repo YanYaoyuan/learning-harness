@@ -1,0 +1,12 @@
+{
+  "cards": 72,
+  "teacher_model": "qwen3.8-max-0902",
+  "public_reset_hashes_equal_to_generic": true,
+  "word_count_min": 65,
+  "word_count_max": 88,
+  "word_count_mean": 75.22222222222223,
+  "cards_over_requested_100_words": 0,
+  "input_tokens": 28253,
+  "output_tokens": 8646,
+  "source_api_calls": 72
+}

@@ -1,0 +1,21 @@
+{
+  "protocol_id": "source-comparison-v1",
+  "manifest": "runs/source-comparison-v1/cool_query.jsonl",
+  "method": "react_retry",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:520d35ebdc7aac08675e5573a5a5f3c593e117db40aea9699459bbaffc7173f9",
+  "max_turns": 40,
+  "max_calls": 40,
+  "max_trials": 1,
+  "max_new_tokens": 128,
+  "history_turns": 12,
+  "batch_size": 8,
+  "temperature": 0.0,
+  "seeds": [
+    11
+  ],
+  "model": {
+    "base_url_env": "LH_STUDENT_BASE_URL",
+    "model_env": "LH_STUDENT_MODEL",
+    "api_key_env": "LH_STUDENT_API_KEY"
+  }
+}

@@ -1,0 +1,746 @@
+{
+  "protocol": "dual5090-discovery-v1",
+  "support": "fixed handwritten public strategy",
+  "teacher_api_used": false,
+  "final_benchmarks_used": false,
+  "scientific_status": "exploratory, one model family, one training seed",
+  "pilot": {
+    "planned": 48,
+    "recorded": 48,
+    "complete": true,
+    "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+    "metrics": {
+      "delayed": {
+        "n": 12,
+        "success_rate": 0.08333333333333333,
+        "macro_task_type_success": 0.08333333333333333,
+        "success_by_type": {
+          "pick_and_place_simple": 0.3333333333333333,
+          "pick_clean_then_place_in_recep": 0,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0
+        },
+        "error_count": 0,
+        "mean_steps": 37.75,
+        "mean_input_tokens": 28853.666666666668,
+        "mean_output_tokens": 425.8333333333333,
+        "support_exposure_rate": 1
+      },
+      "early": {
+        "n": 12,
+        "success_rate": 0.25,
+        "macro_task_type_success": 0.25,
+        "success_by_type": {
+          "pick_and_place_simple": 0.6666666666666666,
+          "pick_clean_then_place_in_recep": 0.3333333333333333,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0
+        },
+        "error_count": 0,
+        "mean_steps": 34.5,
+        "mean_input_tokens": 27984.25,
+        "mean_output_tokens": 394.9166666666667,
+        "support_exposure_rate": 1
+      },
+      "none": {
+        "n": 12,
+        "success_rate": 0.08333333333333333,
+        "macro_task_type_success": 0.08333333333333333,
+        "success_by_type": {
+          "pick_and_place_simple": 0.3333333333333333,
+          "pick_clean_then_place_in_recep": 0,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0
+        },
+        "error_count": 0,
+        "mean_steps": 37.75,
+        "mean_input_tokens": 28226.5,
+        "mean_output_tokens": 422.1666666666667,
+        "support_exposure_rate": 0
+      },
+      "random_timing": {
+        "n": 12,
+        "success_rate": 0.08333333333333333,
+        "macro_task_type_success": 0.08333333333333333,
+        "success_by_type": {
+          "pick_and_place_simple": 0.3333333333333333,
+          "pick_clean_then_place_in_recep": 0,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0
+        },
+        "error_count": 0,
+        "mean_steps": 37.75,
+        "mean_input_tokens": 28975.583333333332,
+        "mean_output_tokens": 429.4166666666667,
+        "support_exposure_rate": 1
+      }
+    },
+    "paired_against_none": {
+      "random_timing": {
+        "task_group_average_delta": 0,
+        "interval_95": [
+          0,
+          0
+        ],
+        "paired_task_groups": 12
+      },
+      "early": {
+        "task_group_average_delta": 0.16666666666666666,
+        "interval_95": [
+          0,
+          0.4166666666666667
+        ],
+        "paired_task_groups": 12
+      },
+      "delayed": {
+        "task_group_average_delta": 0,
+        "interval_95": [
+          0,
+          0
+        ],
+        "paired_task_groups": 12
+      }
+    },
+    "all_attempts_token_accounting": {
+      "calls": 1773,
+      "input_tokens": 1368480,
+      "output_tokens": 20068
+    }
+  },
+  "train": {
+    "planned": 64,
+    "recorded": 64,
+    "complete": true,
+    "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+    "metrics": {
+      "early": {
+        "n": 32,
+        "success_rate": 0.28125,
+        "macro_task_type_success": 0.28125,
+        "success_by_type": {
+          "pick_and_place_simple": 0.625,
+          "pick_clean_then_place_in_recep": 0,
+          "pick_cool_then_place_in_recep": 0.25,
+          "pick_heat_then_place_in_recep": 0.25
+        },
+        "error_count": 0,
+        "mean_steps": 32.28125,
+        "mean_input_tokens": 26164.3125,
+        "mean_output_tokens": 367.09375,
+        "support_exposure_rate": 1
+      },
+      "none": {
+        "n": 32,
+        "success_rate": 0.15625,
+        "macro_task_type_success": 0.15625,
+        "success_by_type": {
+          "pick_and_place_simple": 0.375,
+          "pick_clean_then_place_in_recep": 0,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0.25
+        },
+        "error_count": 0,
+        "mean_steps": 35.375,
+        "mean_input_tokens": 26648.28125,
+        "mean_output_tokens": 402.6875,
+        "support_exposure_rate": 0
+      }
+    },
+    "paired_against_none": {
+      "early": {
+        "task_group_average_delta": 0.125,
+        "interval_95": [
+          0,
+          0.28125
+        ],
+        "paired_task_groups": 16
+      }
+    },
+    "all_attempts_token_accounting": {
+      "calls": 2165,
+      "input_tokens": 1690003,
+      "output_tokens": 24633
+    }
+  },
+  "probe-base": {
+    "planned": 12,
+    "recorded": 12,
+    "complete": true,
+    "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+    "metrics": {
+      "none": {
+        "n": 12,
+        "success_rate": 0.16666666666666666,
+        "macro_task_type_success": 0.16666666666666666,
+        "success_by_type": {
+          "pick_and_place_simple": 0.6666666666666666,
+          "pick_clean_then_place_in_recep": 0,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0
+        },
+        "error_count": 0,
+        "mean_steps": 34.666666666666664,
+        "mean_input_tokens": 26409.833333333332,
+        "mean_output_tokens": 395.0833333333333,
+        "support_exposure_rate": 0
+      }
+    },
+    "paired_against_none": {},
+    "all_attempts_token_accounting": {
+      "calls": 416,
+      "input_tokens": 316918,
+      "output_tokens": 4741
+    }
+  },
+  "trained_evaluation": [
+    {
+      "checkpoint": "early-context_distill-seed101",
+      "summary": {
+        "planned": 12,
+        "recorded": 12,
+        "complete": true,
+        "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+        "metrics": {
+          "none": {
+            "n": 12,
+            "success_rate": 0.4166666666666667,
+            "macro_task_type_success": 0.41666666666666663,
+            "success_by_type": {
+              "pick_and_place_simple": 1,
+              "pick_clean_then_place_in_recep": 0.3333333333333333,
+              "pick_cool_then_place_in_recep": 0,
+              "pick_heat_then_place_in_recep": 0.3333333333333333
+            },
+            "error_count": 0,
+            "mean_steps": 26.25,
+            "mean_input_tokens": 21784.75,
+            "mean_output_tokens": 298.0833333333333,
+            "support_exposure_rate": 0
+          }
+        },
+        "paired_against_none": {},
+        "all_attempts_token_accounting": {
+          "calls": 315,
+          "input_tokens": 261417,
+          "output_tokens": 3577
+        }
+      },
+      "training": {
+        "baseline": "context_distill",
+        "model": "data/models/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "training_seed": 101,
+        "world_size": 1,
+        "config": {
+          "max_steps": 64,
+          "global_batch_size": 4,
+          "max_sequence_length": 2048,
+          "learning_rate": 0.0001,
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.0,
+          "training_seeds": [
+            101
+          ],
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "distill_kl_weight": 0.5
+        },
+        "training_data_sha256": "4d20cc4821d159b010bf8930d23042daa24e8060de2586e6b4b44f6f10ec02cf",
+        "input_examples": 113,
+        "used_examples": 113,
+        "overlength_dropped": 0,
+        "hinted_examples": 0,
+        "teacher_model": "same frozen base with public strategy",
+        "input_tokens_rank0": 161286,
+        "target_tokens_rank0": 3162,
+        "teacher_input_tokens_rank0": 191786,
+        "peak_cuda_allocated_bytes": 16856165376,
+        "source_export_meta": {
+          "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+          "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+          "source_arm": "early",
+          "successful_episodes": 9,
+          "examples": 113,
+          "seed": 20261109
+        }
+      }
+    },
+    {
+      "checkpoint": "early-mixed_sft-seed101",
+      "summary": {
+        "planned": 12,
+        "recorded": 12,
+        "complete": true,
+        "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+        "metrics": {
+          "none": {
+            "n": 12,
+            "success_rate": 0.4166666666666667,
+            "macro_task_type_success": 0.41666666666666663,
+            "success_by_type": {
+              "pick_and_place_simple": 1,
+              "pick_clean_then_place_in_recep": 0.3333333333333333,
+              "pick_cool_then_place_in_recep": 0,
+              "pick_heat_then_place_in_recep": 0.3333333333333333
+            },
+            "error_count": 0,
+            "mean_steps": 29.166666666666668,
+            "mean_input_tokens": 24256.5,
+            "mean_output_tokens": 338.25,
+            "support_exposure_rate": 0
+          }
+        },
+        "paired_against_none": {},
+        "all_attempts_token_accounting": {
+          "calls": 350,
+          "input_tokens": 291078,
+          "output_tokens": 4059
+        }
+      },
+      "training": {
+        "baseline": "mixed_sft",
+        "model": "data/models/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "training_seed": 101,
+        "world_size": 1,
+        "config": {
+          "max_steps": 64,
+          "global_batch_size": 4,
+          "max_sequence_length": 2048,
+          "learning_rate": 0.0001,
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.0,
+          "training_seeds": [
+            101
+          ],
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "distill_kl_weight": 0.5
+        },
+        "training_data_sha256": "4d20cc4821d159b010bf8930d23042daa24e8060de2586e6b4b44f6f10ec02cf",
+        "input_examples": 113,
+        "used_examples": 113,
+        "overlength_dropped": 0,
+        "hinted_examples": 56,
+        "teacher_model": null,
+        "input_tokens_rank0": 176902,
+        "target_tokens_rank0": 3162,
+        "teacher_input_tokens_rank0": 0,
+        "peak_cuda_allocated_bytes": 10573922304,
+        "source_export_meta": {
+          "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+          "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+          "source_arm": "early",
+          "successful_episodes": 9,
+          "examples": 113,
+          "seed": 20261109
+        }
+      }
+    },
+    {
+      "checkpoint": "early-target_sft-seed101",
+      "summary": {
+        "planned": 12,
+        "recorded": 12,
+        "complete": true,
+        "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+        "metrics": {
+          "none": {
+            "n": 12,
+            "success_rate": 0.4166666666666667,
+            "macro_task_type_success": 0.41666666666666663,
+            "success_by_type": {
+              "pick_and_place_simple": 1,
+              "pick_clean_then_place_in_recep": 0.3333333333333333,
+              "pick_cool_then_place_in_recep": 0,
+              "pick_heat_then_place_in_recep": 0.3333333333333333
+            },
+            "error_count": 0,
+            "mean_steps": 27.25,
+            "mean_input_tokens": 22752.666666666668,
+            "mean_output_tokens": 313.3333333333333,
+            "support_exposure_rate": 0
+          }
+        },
+        "paired_against_none": {},
+        "all_attempts_token_accounting": {
+          "calls": 327,
+          "input_tokens": 273032,
+          "output_tokens": 3760
+        }
+      },
+      "training": {
+        "baseline": "target_sft",
+        "model": "data/models/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "training_seed": 101,
+        "world_size": 1,
+        "config": {
+          "max_steps": 64,
+          "global_batch_size": 4,
+          "max_sequence_length": 2048,
+          "learning_rate": 0.0001,
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.0,
+          "training_seeds": [
+            101
+          ],
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "distill_kl_weight": 0.5
+        },
+        "training_data_sha256": "4d20cc4821d159b010bf8930d23042daa24e8060de2586e6b4b44f6f10ec02cf",
+        "input_examples": 113,
+        "used_examples": 113,
+        "overlength_dropped": 0,
+        "hinted_examples": 0,
+        "teacher_model": null,
+        "input_tokens_rank0": 161286,
+        "target_tokens_rank0": 3162,
+        "teacher_input_tokens_rank0": 0,
+        "peak_cuda_allocated_bytes": 10328683008,
+        "source_export_meta": {
+          "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+          "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+          "source_arm": "early",
+          "successful_episodes": 9,
+          "examples": 113,
+          "seed": 20261109
+        }
+      }
+    },
+    {
+      "checkpoint": "none-context_distill-seed101",
+      "summary": {
+        "planned": 12,
+        "recorded": 12,
+        "complete": true,
+        "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+        "metrics": {
+          "none": {
+            "n": 12,
+            "success_rate": 0.25,
+            "macro_task_type_success": 0.25,
+            "success_by_type": {
+              "pick_and_place_simple": 0.6666666666666666,
+              "pick_clean_then_place_in_recep": 0,
+              "pick_cool_then_place_in_recep": 0.3333333333333333,
+              "pick_heat_then_place_in_recep": 0
+            },
+            "error_count": 0,
+            "mean_steps": 32.333333333333336,
+            "mean_input_tokens": 27084.916666666668,
+            "mean_output_tokens": 370.75,
+            "support_exposure_rate": 0
+          }
+        },
+        "paired_against_none": {},
+        "all_attempts_token_accounting": {
+          "calls": 388,
+          "input_tokens": 325019,
+          "output_tokens": 4449
+        }
+      },
+      "training": {
+        "baseline": "context_distill",
+        "model": "data/models/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "training_seed": 101,
+        "world_size": 1,
+        "config": {
+          "max_steps": 64,
+          "global_batch_size": 4,
+          "max_sequence_length": 2048,
+          "learning_rate": 0.0001,
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.0,
+          "training_seeds": [
+            101
+          ],
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "distill_kl_weight": 0.5
+        },
+        "training_data_sha256": "c8582ab007fd89eab1939a421cf3dcb4b4500eabd5e1ddc38b8608b4cab22cf4",
+        "input_examples": 52,
+        "used_examples": 52,
+        "overlength_dropped": 0,
+        "hinted_examples": 0,
+        "teacher_model": "same frozen base with public strategy",
+        "input_tokens_rank0": 150186,
+        "target_tokens_rank0": 3145,
+        "teacher_input_tokens_rank0": 181418,
+        "peak_cuda_allocated_bytes": 16813978624,
+        "source_export_meta": {
+          "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+          "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+          "source_arm": "none",
+          "successful_episodes": 5,
+          "examples": 52,
+          "seed": 20261109
+        }
+      }
+    },
+    {
+      "checkpoint": "none-mixed_sft-seed101",
+      "summary": {
+        "planned": 12,
+        "recorded": 12,
+        "complete": true,
+        "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+        "metrics": {
+          "none": {
+            "n": 12,
+            "success_rate": 0.16666666666666666,
+            "macro_task_type_success": 0.16666666666666666,
+            "success_by_type": {
+              "pick_and_place_simple": 0.3333333333333333,
+              "pick_clean_then_place_in_recep": 0.3333333333333333,
+              "pick_cool_then_place_in_recep": 0,
+              "pick_heat_then_place_in_recep": 0
+            },
+            "error_count": 0,
+            "mean_steps": 34.75,
+            "mean_input_tokens": 27464.416666666668,
+            "mean_output_tokens": 400.1666666666667,
+            "support_exposure_rate": 0
+          }
+        },
+        "paired_against_none": {},
+        "all_attempts_token_accounting": {
+          "calls": 417,
+          "input_tokens": 329573,
+          "output_tokens": 4802
+        }
+      },
+      "training": {
+        "baseline": "mixed_sft",
+        "model": "data/models/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "training_seed": 101,
+        "world_size": 1,
+        "config": {
+          "max_steps": 64,
+          "global_batch_size": 4,
+          "max_sequence_length": 2048,
+          "learning_rate": 0.0001,
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.0,
+          "training_seeds": [
+            101
+          ],
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "distill_kl_weight": 0.5
+        },
+        "training_data_sha256": "c8582ab007fd89eab1939a421cf3dcb4b4500eabd5e1ddc38b8608b4cab22cf4",
+        "input_examples": 52,
+        "used_examples": 52,
+        "overlength_dropped": 0,
+        "hinted_examples": 26,
+        "teacher_model": null,
+        "input_tokens_rank0": 165802,
+        "target_tokens_rank0": 3145,
+        "teacher_input_tokens_rank0": 0,
+        "peak_cuda_allocated_bytes": 10365840384,
+        "source_export_meta": {
+          "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+          "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+          "source_arm": "none",
+          "successful_episodes": 5,
+          "examples": 52,
+          "seed": 20261109
+        }
+      }
+    },
+    {
+      "checkpoint": "none-target_sft-seed101",
+      "summary": {
+        "planned": 12,
+        "recorded": 12,
+        "complete": true,
+        "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+        "metrics": {
+          "none": {
+            "n": 12,
+            "success_rate": 0.3333333333333333,
+            "macro_task_type_success": 0.3333333333333333,
+            "success_by_type": {
+              "pick_and_place_simple": 0.6666666666666666,
+              "pick_clean_then_place_in_recep": 0.3333333333333333,
+              "pick_cool_then_place_in_recep": 0,
+              "pick_heat_then_place_in_recep": 0.3333333333333333
+            },
+            "error_count": 0,
+            "mean_steps": 29.166666666666668,
+            "mean_input_tokens": 23853.166666666668,
+            "mean_output_tokens": 334.6666666666667,
+            "support_exposure_rate": 0
+          }
+        },
+        "paired_against_none": {},
+        "all_attempts_token_accounting": {
+          "calls": 350,
+          "input_tokens": 286238,
+          "output_tokens": 4016
+        }
+      },
+      "training": {
+        "baseline": "target_sft",
+        "model": "data/models/Qwen3-4B-Instruct-2507",
+        "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+        "training_seed": 101,
+        "world_size": 1,
+        "config": {
+          "max_steps": 64,
+          "global_batch_size": 4,
+          "max_sequence_length": 2048,
+          "learning_rate": 0.0001,
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.0,
+          "training_seeds": [
+            101
+          ],
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "distill_kl_weight": 0.5
+        },
+        "training_data_sha256": "c8582ab007fd89eab1939a421cf3dcb4b4500eabd5e1ddc38b8608b4cab22cf4",
+        "input_examples": 52,
+        "used_examples": 52,
+        "overlength_dropped": 0,
+        "hinted_examples": 0,
+        "teacher_model": null,
+        "input_tokens_rank0": 150186,
+        "target_tokens_rank0": 3145,
+        "teacher_input_tokens_rank0": 0,
+        "peak_cuda_allocated_bytes": 10119639552,
+        "source_export_meta": {
+          "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+          "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+          "source_arm": "none",
+          "successful_episodes": 5,
+          "examples": 52,
+          "seed": 20261109
+        }
+      }
+    }
+  ],
+  "grid_complete": true,
+  "training_data_coverage": {
+    "none": {
+      "successful_episodes": 5,
+      "successful_task_groups": 3,
+      "success_by_type": {
+        "pick_and_place_simple": 3,
+        "pick_heat_then_place_in_recep": 2
+      }
+    },
+    "early": {
+      "successful_episodes": 9,
+      "successful_task_groups": 5,
+      "success_by_type": {
+        "pick_and_place_simple": 5,
+        "pick_cool_then_place_in_recep": 2,
+        "pick_heat_then_place_in_recep": 2
+      }
+    }
+  },
+  "integrity": {
+    "task_groups_disjoint": true,
+    "all_tasks_from_official_training_split": true,
+    "within_source_corpus_hashes_match": true
+  },
+  "learning_comparisons": {
+    "target_sft": {
+      "source_arm_delta": 0.08333333333333333,
+      "paired_task_groups": 12,
+      "task_bootstrap_interval_95": [
+        0,
+        0.25
+      ],
+      "uncertainty": "Conditional on one training seed; excludes training variability",
+      "none_wins": 4,
+      "support_wins": 5,
+      "base_wins": 2,
+      "n": 12
+    },
+    "mixed_sft": {
+      "source_arm_delta": 0.25,
+      "paired_task_groups": 12,
+      "task_bootstrap_interval_95": [
+        0,
+        0.5
+      ],
+      "uncertainty": "Conditional on one training seed; excludes training variability",
+      "none_wins": 2,
+      "support_wins": 5,
+      "base_wins": 2,
+      "n": 12
+    },
+    "context_distill": {
+      "source_arm_delta": 0.16666666666666666,
+      "paired_task_groups": 12,
+      "task_bootstrap_interval_95": [
+        -0.16666666666666666,
+        0.5
+      ],
+      "uncertainty": "Conditional on one training seed; excludes training variability",
+      "none_wins": 3,
+      "support_wins": 5,
+      "base_wins": 2,
+      "n": 12
+    }
+  },
+  "claims_not_established": [
+    "multi-seed stability",
+    "cross-model transfer",
+    "external-environment transfer",
+    "a predictive law",
+    "frontier-teacher effectiveness",
+    "improved future-task learning speed",
+    "continual or online RL effectiveness"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "change": "Execute independent AlfWorld instances in isolated processes; preserve deterministic slot order, same model batching and public interface",
+  "validation": {
+    "passed": true,
+    "episodes": 40,
+    "steps": 1444,
+    "exact_reset_feedback_won_match": true,
+    "model_policy_changed": false,
+    "backend": "process-per-environment-v1",
+    "seconds": 19.22943385799954,
+    "reference": "evaluation/base",
+    "interpretation": "Environment-only execution equivalence; batching order and inference remain unchanged"
+  },
+  "active_subtasks_continue_original_backend": true,
+  "new_evaluations_use_process_backend": true,
+  "training_or_input_corpora_changed": false,
+  "caveat": "Orchestrator elapsed times include temporary scheduling suspension; do not use them as pure compute benchmarks"
+}

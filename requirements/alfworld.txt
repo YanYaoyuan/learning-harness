@@ -1,0 +1,8 @@
+# Isolated CPU environment. Pins match the public SkillScaffold environment.
+alfworld==0.4.2
+textworld==1.7.0
+fast-downward-textworld==20.6.4
+gymnasium==0.29.1
+PyYAML==6.0.3
+numpy==1.26.4
+

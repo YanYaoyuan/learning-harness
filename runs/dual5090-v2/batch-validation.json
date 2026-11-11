@@ -1,0 +1,12 @@
+{
+  "sampler_stream_independence": "passed20draws",
+  "EOS_accounting": "passed",
+  "real_environment_calibration_episodes": 2,
+  "calibration_steps": 18,
+  "identical_context_comparisons_to_serial": 12,
+  "different_outputs_on_identical_context": 1,
+  "caveat": "BF16 batching can alter generation; v2 recollects and evaluates every condition with its own batch protocol. Do not pool v1/v2.",
+  "protocol_tests_passed": 14,
+  "research_result": false,
+  "confirmed_same_prompt_batch1_vs_batch2_change": true
+}

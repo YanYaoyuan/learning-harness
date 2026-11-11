@@ -1,0 +1,10 @@
+{
+  "stage": "after_first_partial_development_results_before_completion",
+  "files": {
+    "scripts/baseline_benchmark_report.py": "d47174f02f709e9c0a3dfeca5cc5a6b272f4a4d4a3096ac1a5ce47d0a5686548",
+    "docs/BASELINE_EVALUATION_PROTOCOL_V1.zh-CN.md": "e385d7d61fe9a42b242a9cebd39b4cae463c9053e234662e249326c88e5866c5",
+    "scripts/track_baseline_benchmark.py": "423bf0d0337b6390ecee88b77aaa1e9ba613c55e95a3358c438e4a2a0262fb36",
+    "configs/baseline-sources.lock.json": "61602fedb4933565b50a44c60c42135f6e776f056e40f5aee1a8fc02d93ff88d"
+  },
+  "interpretation": "Exploratory only; not a prospective preregistration of the development study."
+}

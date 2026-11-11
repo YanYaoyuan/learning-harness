@@ -1,0 +1,77 @@
+{
+  "matched-generic-seed1101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1359.8058496110025
+  },
+  "full-generic-seed1101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1507.1267794010055
+  },
+  "matched-generic-seed1202": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1399.1120494070055
+  },
+  "full-generic-seed1202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1496.9439779259992
+  },
+  "matched-generic-seed1303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1325.548480522004
+  },
+  "full-generic-seed1303": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1530.1797759850015
+  },
+  "matched-api-seed1101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1410.3770647659985
+  },
+  "full-api-seed1101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1532.3328940329957
+  },
+  "matched-api-seed1202": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1395.7289812410017
+  },
+  "full-api-seed1202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1437.3840542690014
+  },
+  "matched-api-seed1303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1354.4379351990065
+  },
+  "full-api-seed1303": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1450.0998785209958
+  },
+  "base-seed1101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1166.6588543810067
+  },
+  "base-seed1202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1208.6045922869962
+  },
+  "base-seed1303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1165.5695621769992
+  }
+}

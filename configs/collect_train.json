@@ -1,0 +1,14 @@
+{
+  "protocol_id": "alfworld-learning-v1-short-training",
+  "manifest": "data/manifests/alfworld/train_pilot.jsonl",
+  "teacher_bank": "data/teacher/train_pilot.jsonl",
+  "arms": ["none", "early", "random_timing", "delayed"],
+  "rollout_seeds": [11, 23, 37, 41],
+  "max_steps": 50,
+  "max_new_tokens": 128,
+  "max_student_output_tokens": 6400,
+  "temperature": 0.7,
+  "history_turns": 12,
+  "support": {"delayed_step": 5, "random_first_step": 1, "random_last_step": 8, "visible_steps": 4},
+  "model": {"base_url_env": "LH_STUDENT_BASE_URL", "model_env": "LH_STUDENT_MODEL", "api_key_env": "LH_STUDENT_API_KEY"}
+}

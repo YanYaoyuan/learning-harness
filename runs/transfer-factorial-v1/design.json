@@ -1,0 +1,165 @@
+{
+  "protocol": "transfer-factorial-v1",
+  "status": "frozen_before_execution",
+  "families": {
+    "cool": "pick_cool_then_place_in_recep",
+    "heat": "pick_heat_then_place_in_recep"
+  },
+  "new_A_trainings": 6,
+  "reused_A_adapters": 6,
+  "B_trajectories": 30,
+  "planned_main_evaluation_episodes": 7200,
+  "calibration_episodes": 144,
+  "primary": "Equal-weight mean of family-specific source-by-selection interactions in normalized raw AUC",
+  "inference": "Paired crossed bootstrap over A/B seed indices shared across families and task groups within each family; 4000 draws",
+  "diagnostic": "Descriptive prior-knowledge versus update-gain evidence; no pure-plasticity claim",
+  "reserved_families_preserved": [
+    "pick_two_obj_and_place",
+    "look_at_obj_in_light"
+  ],
+  "full_source_coverage": {
+    "generic": {
+      "eligible_examples": 732,
+      "task_groups": 29,
+      "tasks_by_type": {
+        "pick_and_place_simple": 20,
+        "pick_heat_then_place_in_recep": 2,
+        "pick_clean_then_place_in_recep": 7
+      }
+    },
+    "api": {
+      "eligible_examples": 721,
+      "task_groups": 35,
+      "tasks_by_type": {
+        "pick_heat_then_place_in_recep": 6,
+        "pick_and_place_simple": 21,
+        "pick_clean_then_place_in_recep": 8
+      }
+    }
+  },
+  "initializations": [
+    {
+      "condition": "matched-generic",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/generic-seed101",
+      "data": "runs/api-harness-v1/corpora/matched-generic.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-generic",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed101",
+      "data": "runs/transfer-factorial-v1/corpora/full-generic.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-generic",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/generic-seed202",
+      "data": "runs/api-harness-v1/corpora/matched-generic.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-generic",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed202",
+      "data": "runs/transfer-factorial-v1/corpora/full-generic.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-generic",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/generic-seed303",
+      "data": "runs/api-harness-v1/corpora/matched-generic.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-generic",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed303",
+      "data": "runs/transfer-factorial-v1/corpora/full-generic.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-api",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/api-seed101",
+      "data": "runs/api-harness-v1/corpora/matched-api.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-api",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed101",
+      "data": "runs/transfer-factorial-v1/corpora/full-api.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-api",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/api-seed202",
+      "data": "runs/api-harness-v1/corpora/matched-api.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-api",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed202",
+      "data": "runs/transfer-factorial-v1/corpora/full-api.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-api",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/api-seed303",
+      "data": "runs/api-harness-v1/corpora/matched-api.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-api",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed303",
+      "data": "runs/transfer-factorial-v1/corpora/full-api.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "b_seed": 1101,
+      "a_adapter": null,
+      "data": null,
+      "reuse": true
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "b_seed": 1202,
+      "a_adapter": null,
+      "data": null,
+      "reuse": true
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "b_seed": 1303,
+      "a_adapter": null,
+      "data": null,
+      "reuse": true
+    }
+  ],
+  "paid_api_calls": 0,
+  "design_changes_based_on_previous_results": true,
+  "new_query_used_for_design": false
+}

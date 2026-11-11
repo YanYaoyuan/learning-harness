@@ -1,0 +1,5 @@
+method,tasks,first_successes,cumulative_successes
+json_direct,39,2,8
+act,39,25,26
+react_retry,39,31,32
+reflexion,39,32,34

@@ -1,0 +1,140 @@
+{
+  "0": {
+    "optimizer_step": 0,
+    "examples": 62,
+    "tasks": 8,
+    "task_mean_nll": 0.3143564323315848,
+    "per_task_nll": {
+      "alfworld:train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079": 0.4745919434630057,
+      "alfworld:train/pick_heat_then_place_in_recep-Cup-None-Cabinet-25/trial_T20190908_012834_411458": 0.5934832086663643,
+      "alfworld:train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132914_241547": 0.22472338060900476,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940": 0.38641401884609117,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-Shelf-20/trial_T20190907_054036_412242": 0.23814423793129233,
+      "alfworld:train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_065023_650475": 0.22219801183801646,
+      "alfworld:train/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190910_094552_154582": 0.22430610122339578,
+      "alfworld:train/pick_heat_then_place_in_recep-Tomato-None-Fridge-30/trial_T20190907_235531_894602": 0.1509905560755076
+    },
+    "data_sha256": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+    "checkpoint_sha256": "d0aa1d57a796c9cc331419a75b728658ce1466c78c99573cd8fb2e672a98438f",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:02b46230bf38f18267267c6bdb2729ad05a202235ff0dfcd7553e402bd0bfecb",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "8": {
+    "optimizer_step": 8,
+    "examples": 62,
+    "tasks": 8,
+    "task_mean_nll": 0.16363493098906742,
+    "per_task_nll": {
+      "alfworld:train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079": 0.38372094627288966,
+      "alfworld:train/pick_heat_then_place_in_recep-Cup-None-Cabinet-25/trial_T20190908_012834_411458": 0.3408000490264718,
+      "alfworld:train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132914_241547": 0.15703430267152285,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940": 0.2455641827666497,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-Shelf-20/trial_T20190907_054036_412242": 0.025786212646170474,
+      "alfworld:train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_065023_650475": 0.001716741479184325,
+      "alfworld:train/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190910_094552_154582": 0.002924272264241967,
+      "alfworld:train/pick_heat_then_place_in_recep-Tomato-None-Fridge-30/trial_T20190907_235531_894602": 0.15153274078540857
+    },
+    "data_sha256": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+    "checkpoint_sha256": "753fa84f7c65f2051dd72fede3e83495907ded8c46cfe792b06f310adbddd319",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:52d8581adaf709b06f0eb03f7005c3c800a9c8e961a7efb2363b0934bf22f841",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "16": {
+    "optimizer_step": 16,
+    "examples": 62,
+    "tasks": 8,
+    "task_mean_nll": 0.12385232757539365,
+    "per_task_nll": {
+      "alfworld:train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079": 0.1885230735138883,
+      "alfworld:train/pick_heat_then_place_in_recep-Cup-None-Cabinet-25/trial_T20190908_012834_411458": 0.20107072855298774,
+      "alfworld:train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132914_241547": 0.09931649973960077,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940": 0.30927898861139624,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-Shelf-20/trial_T20190907_054036_412242": 3.875705467797681e-05,
+      "alfworld:train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_065023_650475": 0.0001677666736501493,
+      "alfworld:train/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190910_094552_154582": 0.0004603498365529646,
+      "alfworld:train/pick_heat_then_place_in_recep-Tomato-None-Fridge-30/trial_T20190907_235531_894602": 0.19196245662039502
+    },
+    "data_sha256": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+    "checkpoint_sha256": "cf0f08b8efc6eae5f797a909524d53b6779ceaf294f189f4b4e876da91c3ec17",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:08e2776171f1283b9cb9c84399d2070ba46f07ce4f718e6a5b8e04e7cef4662d",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "32": {
+    "optimizer_step": 32,
+    "examples": 62,
+    "tasks": 8,
+    "task_mean_nll": 0.026043245359081993,
+    "per_task_nll": {
+      "alfworld:train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079": 0.022026990677909808,
+      "alfworld:train/pick_heat_then_place_in_recep-Cup-None-Cabinet-25/trial_T20190908_012834_411458": 0.10250421866735289,
+      "alfworld:train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132914_241547": 3.939783376782913e-05,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940": 0.06587548914473018,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-Shelf-20/trial_T20190907_054036_412242": 0.014639981235181463,
+      "alfworld:train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_065023_650475": 0.0006579839032063717,
+      "alfworld:train/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190910_094552_154582": 0.0017381611513869188,
+      "alfworld:train/pick_heat_then_place_in_recep-Tomato-None-Fridge-30/trial_T20190907_235531_894602": 0.0008637402591205046
+    },
+    "data_sha256": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+    "checkpoint_sha256": "42956dae6fa57689b4adb94e6f9123635777f399d087ca65f911aefe38d97529",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:08046a2790bbe492a3633de2d452aa9f1ec9573e00c8d36210983e0e864b9472",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "64": {
+    "optimizer_step": 64,
+    "examples": 62,
+    "tasks": 8,
+    "task_mean_nll": 0.008786915322838342,
+    "per_task_nll": {
+      "alfworld:train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079": 0.014589414061106254,
+      "alfworld:train/pick_heat_then_place_in_recep-Cup-None-Cabinet-25/trial_T20190908_012834_411458": 0.010518301674730017,
+      "alfworld:train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132914_241547": 0.0011555503304947479,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940": 0.031291411145502934,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-Shelf-20/trial_T20190907_054036_412242": 0.0016226190707909285,
+      "alfworld:train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_065023_650475": 0.004530517517650878,
+      "alfworld:train/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190910_094552_154582": 0.002509793475255151,
+      "alfworld:train/pick_heat_then_place_in_recep-Tomato-None-Fridge-30/trial_T20190907_235531_894602": 0.004077715307175822
+    },
+    "data_sha256": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+    "checkpoint_sha256": "565a02c60be140bc2db4b8b79f418edfa145e272547c371a02a6138173cfac74",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:7d99c6a39532e0843be93277db6fe9a3a53bad3e0c5183a4fc9db1570a91de5a",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "128": {
+    "optimizer_step": 128,
+    "examples": 62,
+    "tasks": 8,
+    "task_mean_nll": 0.0032637709681707177,
+    "per_task_nll": {
+      "alfworld:train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079": 0.008773161392156226,
+      "alfworld:train/pick_heat_then_place_in_recep-Cup-None-Cabinet-25/trial_T20190908_012834_411458": 0.0005223804170343881,
+      "alfworld:train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132914_241547": 9.045672002372385e-05,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940": 0.015384321418878244,
+      "alfworld:train/pick_heat_then_place_in_recep-Mug-None-Shelf-20/trial_T20190907_054036_412242": 9.047545234709884e-05,
+      "alfworld:train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_065023_650475": 0.00021423518921181994,
+      "alfworld:train/pick_heat_then_place_in_recep-Potato-None-Fridge-12/trial_T20190910_094552_154582": 0.00015417354943636497,
+      "alfworld:train/pick_heat_then_place_in_recep-Tomato-None-Fridge-30/trial_T20190907_235531_894602": 0.0008809636062778736
+    },
+    "data_sha256": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+    "checkpoint_sha256": "06c0b471be856f291b86a68ac6653be9927093a1a5eb6c75e6cfefb3c6a47e61",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:a80d7c70e608aba3f554248159ec25c1cfbe638615c5f80c6d629b6c76ed8d4a",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  }
+}

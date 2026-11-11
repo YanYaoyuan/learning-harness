@@ -1,0 +1,32 @@
+{
+  "none-shard0": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 358.0961660190005
+  },
+  "none-shard1": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 330.74958834699646
+  },
+  "generic-shard0": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 359.1295246929949
+  },
+  "generic-shard1": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 287.6698775209952
+  },
+  "api-shard0": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 274.7924272429955
+  },
+  "api-shard1": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 261.6310301409976
+  }
+}

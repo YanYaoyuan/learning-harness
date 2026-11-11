@@ -1,0 +1,13 @@
+{
+  "state": "finished",
+  "complete": true,
+  "completed_task_methods": 160,
+  "final_test_executed": false,
+  "artifact_version": "v1",
+  "cloud_files_match_local": {
+    "success-and-cost.png": true,
+    "task-family.png": true,
+    "excluding-demo-overlap.png": true,
+    "summary.json": true
+  }
+}

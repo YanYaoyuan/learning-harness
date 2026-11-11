@@ -1,0 +1,70 @@
+{
+  "source_sha256": {
+    "runs/dual5090-v2/results.json": "68df863ce806884539998400be81c9517a5ceca41fa45d883e9c077ab1aac937",
+    "runs/dual5090-v2-filtered/results.json": "09e7adc0ba62a9f9c342db6d26d1266d1f919e3d23de0546a5709643c00c7346",
+    "runs/dual5090-v2/reward-group-audit.json": "29e3af67b50d464d5924124eb1ddeee0668a8c2a348effdbf3311a7c98b01460",
+    "runs/dual5090-v2/fresh-probe.jsonl": "62553d5259c1714e06ecf8f43c02f9377d28c1377e0f9ef5149985c1186646d5",
+    "/home/user/work/bgyfw/harness/scripts/plot_study.py": "1b773e890287113b08ad3d27c75be423f797e94e8ed0fb0c0c7193f3ecb1d204",
+    "runs/dual5090-v2/evaluation/base/episodes.jsonl": "6437739d7218aae17821db79efa328c32c62211914e2cef2ed35df1d723593e8",
+    "runs/dual5090-v2/evaluation/raw-none-seed101/episodes.jsonl": "7437b84a68c4529a0ca10e44fbfacb6ec247b9f501afd5408b6abaede8c9457f",
+    "runs/dual5090-v2/evaluation/raw-none-seed202/episodes.jsonl": "3bfa091a3d52eb75651a36df388cd5dc1d0bb48e9f015be496070d0854086091",
+    "runs/dual5090-v2/evaluation/raw-none-seed303/episodes.jsonl": "34933daebb27a2db58ff25a15f856172b86f1a599e4dfb4ecb4f7ed845951a9f",
+    "runs/dual5090-v2/evaluation/raw-early-seed101/episodes.jsonl": "de9851c014aea663d92a96fdd3a26fa064642088ebc6d054eec64d2941d5b61b",
+    "runs/dual5090-v2/evaluation/raw-early-seed202/episodes.jsonl": "00421dfa904b0d01d2b258329ad12b2b511375cc5520299775cb63a954c26cf2",
+    "runs/dual5090-v2/evaluation/raw-early-seed303/episodes.jsonl": "c1ac639a941da7065f5abc81a90ab0cdc09b3407d5f21e4846c4e5b9090db993",
+    "runs/dual5090-v2/evaluation/matched-none-seed101/episodes.jsonl": "369338490521bd32fea234bf97bdde8ab72a84a33a4e3520700e1c9f5bea2092",
+    "runs/dual5090-v2/evaluation/matched-none-seed202/episodes.jsonl": "c864c913e0566320efd4c1a87532dd39c64747a5a6094349931c17ea7f10a85b",
+    "runs/dual5090-v2/evaluation/matched-none-seed303/episodes.jsonl": "4a7ecb91c562cbb4f23ae4216482bbdf9860d3b99494587b3c456c8af60df881",
+    "runs/dual5090-v2/evaluation/matched-early-seed101/episodes.jsonl": "fd4a30003bfc06aaebaeb204b049b12d0ff9135892946b73e9d09451327d57b7",
+    "runs/dual5090-v2/evaluation/matched-early-seed202/episodes.jsonl": "ed2f01e0a63ecbc40197911c35866e1983a654507bf5d5b4216209eef3cf366d",
+    "runs/dual5090-v2/evaluation/matched-early-seed303/episodes.jsonl": "5b1dba371b641da318a1d4249df880df0bf1202beb6b50d383e961fe092ef339",
+    "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/episodes.jsonl": "fa9069cf985a425a992512a891b49af70f0a52ac2e78219d669db135c6490230",
+    "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/episodes.jsonl": "463f11f297996a304d7a00b25d28b64f3b7b937c314a0695aa085cd731a58f7b",
+    "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/episodes.jsonl": "3a881ece0eb162b503c0c7e587a5e24e9894d41a14b30e1ca4a02797786ebf4a",
+    "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/episodes.jsonl": "b490d1749e4f3e763e742ac124c7fda5ec8c4722acc1caf1f5c74db729bf9e01",
+    "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/episodes.jsonl": "60e4d7460d1e5c87e8c63f528c627aebc62ef68a437d5fe0edb820e74b36e4a3",
+    "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/episodes.jsonl": "192fa70a0f466f6e3935446f268c2517cd244bb10802a0e4e26b442a21f3c0a7",
+    "runs/dual5090-v2/evaluation/raw-none-seed101/training.log": "6b655b7e6c6a170ed96e14114cef7af9320849c3710850b25c7b1747b42f74ab",
+    "runs/dual5090-v2/evaluation/raw-none-seed202/training.log": "0e47188306bda470780e4ae8fd6d5049b7f0196bfab3e7e4c0c7374b10ea0465",
+    "runs/dual5090-v2/evaluation/raw-none-seed303/training.log": "57ae0440f92f173cf2c33574a00f965085aa55943f5512c2e5a0d387c0fbe799",
+    "runs/dual5090-v2/evaluation/raw-early-seed101/training.log": "e93bb7014bfca8fde8d0f0a881c2773d0a4accb2a667bca4abd4a6c1bd426f0e",
+    "runs/dual5090-v2/evaluation/raw-early-seed202/training.log": "60a7d54a7a6c970615a1ffbee10236e8e35deb049551299aab020440ec2f30fe",
+    "runs/dual5090-v2/evaluation/raw-early-seed303/training.log": "7694c867ec13e5692ab3c2fdd99b1689d2365661db9ea88ab71f8c523fdfaab8",
+    "runs/dual5090-v2/evaluation/matched-none-seed101/training.log": "3bcceb0f384eac82c63c93cff43d4c42b25f3bd32ed64a4e5d0a4092b8d4a4ec",
+    "runs/dual5090-v2/evaluation/matched-none-seed202/training.log": "b91fa427d99e65566973d3c70d08c167f3b2b01a86612f218a1352c15a104e6a",
+    "runs/dual5090-v2/evaluation/matched-none-seed303/training.log": "aae50ba4fc6449624396c458cb2e6ccc3a50117864db3903339c7ce5a4caa86a",
+    "runs/dual5090-v2/evaluation/matched-early-seed101/training.log": "181b0677b6ae9fe5f57b185467f4bb4ca2ad5dbbbf0a3092219fc618f7067c03",
+    "runs/dual5090-v2/evaluation/matched-early-seed202/training.log": "a20e4451a3d9ff939b70bfef5209f64046634dc48323dbc9d3379022b2ac0355",
+    "runs/dual5090-v2/evaluation/matched-early-seed303/training.log": "bb4078af8d35ebc8e7904578abf3922b3d0109dbb656d547f1bf67c875a1a2d7",
+    "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log": "a8d32e37e19e564ee3e04bfbe98ce339214979ab453723e29a3911d27cf8bcca",
+    "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log": "c9ead86ecf5a23fa212c2bfedf8b4506da879179cc6fc2ba50a940f531701403",
+    "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log": "e4a3edf25811f76c1d0babb84d977c6798f1802e2247435b89147d440fb50f24",
+    "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log": "f6fdf982d72fd702b2d6251d3ba29b1229b38fda509abf07aad8e6205f78885c",
+    "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log": "0386de31db1368c983f86f00089a4ed2a7b73b38e889c3a72b92c688f2911566",
+    "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log": "7ad5f462bfcde3adf364b46c463c768501cd434c028dbef087b1c03f857555c7"
+  },
+  "measured_only": true,
+  "primary_unique_tasks": 28,
+  "training_seeds": [
+    101,
+    202,
+    303
+  ],
+  "output_formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "runtime_versions": {
+    "python": "3.10.12",
+    "matplotlib": "3.5.1",
+    "numpy": "1.26.4"
+  },
+  "caveats": [
+    "Endpoint comparisons are not learning curves",
+    "Three training seeds only",
+    "Matched successful-task population is selected",
+    "Feedback filtering also rematches examples",
+    "Reward audit uses exactly two rollouts per task"
+  ]
+}

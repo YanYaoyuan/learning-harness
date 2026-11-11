@@ -1,0 +1,36 @@
+{
+  "fingerprint": "74da5c17d6c1fd40a127668253bc7e03f874f9cd52554b5436686dd83c731bce",
+  "config": {
+    "protocol_id": "transfer-factorial-v1-cool-B",
+    "manifest": "runs/transfer-factorial-v1/cool/b_query.jsonl",
+    "teacher_bank": null,
+    "arms": [
+      "none"
+    ],
+    "rollout_seeds": [
+      11
+    ],
+    "max_steps": 40,
+    "max_new_tokens": 128,
+    "max_student_output_tokens": 5120,
+    "temperature": 0.0,
+    "history_turns": 12,
+    "support": {
+      "delayed_step": 5,
+      "random_first_step": 1,
+      "random_last_step": 8,
+      "visible_steps": 4
+    },
+    "model": {
+      "base_url_env": "LH_STUDENT_BASE_URL",
+      "model_env": "LH_STUDENT_MODEL",
+      "api_key_env": "LH_STUDENT_API_KEY"
+    },
+    "batch_size": 8
+  },
+  "model": "cool-full-generic-seed1101-B-128",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:70899b8ef95a0382379f18cdbb50fb6feb06afab275d80f7b81dbe86e0212e94",
+  "planned_episodes": 32,
+  "batch_protocol": "batch-independent-sampling-v1",
+  "environment_backend": "process-per-environment-v1"
+}

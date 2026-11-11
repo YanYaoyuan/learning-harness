@@ -1,0 +1,8 @@
+{
+  "source": "react",
+  "examples": 452,
+  "common_task_groups": 34,
+  "source_run_fingerprint": "af5af19a9babafd6844abe2638c3c97e326881a5caaa39165b3306738572530e",
+  "target_view": "canonical public JSON actions, no hints/examples/thoughts",
+  "query_used": false
+}

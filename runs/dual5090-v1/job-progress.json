@@ -1,0 +1,32 @@
+{
+  "early-mixed_sft-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 180.59018240500154
+  },
+  "none-context_distill-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 184.79716649200054
+  },
+  "early-context_distill-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 181.28389704499932
+  },
+  "early-target_sft-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 157.0222623180016
+  },
+  "none-target_sft-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 159.19516271799876
+  },
+  "none-mixed_sft-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 193.75113896599942
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "retrieved_on": "2026-11-09",
+  "alfworld": {
+    "package": "alfworld==0.4.2",
+    "textworld": "textworld==1.7.0",
+    "reference_repository": "https://github.com/alfworld/alfworld",
+    "reference_commit": "aaba6870f86c5be6a08a491f32a50b906227bc3e"
+  },
+  "baselines": [
+    {
+      "name": "SkillScaffold",
+      "repository": "https://github.com/Vaidurya00/SkillScaffold",
+      "commit": "10d9a155004b0951028822e028fc65cb975ee891",
+      "status": "source_pinned_not_run"
+    },
+    {
+      "name": "EvoIn",
+      "repository": "https://github.com/Fanshaoliu/EvoIn",
+      "commit": "3989df1fcda4ae07ab8953b5c4dd6fcc6a1f91c9",
+      "status": "source_pinned_not_run"
+    },
+    {
+      "name": "Harness-Zero",
+      "repository": "https://github.com/metaevo-ai/harness-zero",
+      "commit": "8697d54462e45caaa239b0a999acacd36399435b",
+      "status": "source_pinned_not_run"
+    },
+    {
+      "name": "HarnessBandit",
+      "paper": "https://arxiv.org/abs/2609.13739",
+      "status": "paper_reviewed_code_not_located"
+    }
+  ]
+}

@@ -1,0 +1,2417 @@
+{
+  "measured_only": true,
+  "source_manifest": {
+    "source_sha256": {
+      "runs/dual5090-v2/results.json": "68df863ce806884539998400be81c9517a5ceca41fa45d883e9c077ab1aac937",
+      "runs/dual5090-v2-filtered/results.json": "09e7adc0ba62a9f9c342db6d26d1266d1f919e3d23de0546a5709643c00c7346",
+      "runs/dual5090-v2/reward-group-audit.json": "29e3af67b50d464d5924124eb1ddeee0668a8c2a348effdbf3311a7c98b01460",
+      "runs/dual5090-v2/fresh-probe.jsonl": "62553d5259c1714e06ecf8f43c02f9377d28c1377e0f9ef5149985c1186646d5",
+      "/home/user/work/bgyfw/harness/scripts/plot_study.py": "1b773e890287113b08ad3d27c75be423f797e94e8ed0fb0c0c7193f3ecb1d204",
+      "runs/dual5090-v2/evaluation/base/episodes.jsonl": "6437739d7218aae17821db79efa328c32c62211914e2cef2ed35df1d723593e8",
+      "runs/dual5090-v2/evaluation/raw-none-seed101/episodes.jsonl": "7437b84a68c4529a0ca10e44fbfacb6ec247b9f501afd5408b6abaede8c9457f",
+      "runs/dual5090-v2/evaluation/raw-none-seed202/episodes.jsonl": "3bfa091a3d52eb75651a36df388cd5dc1d0bb48e9f015be496070d0854086091",
+      "runs/dual5090-v2/evaluation/raw-none-seed303/episodes.jsonl": "34933daebb27a2db58ff25a15f856172b86f1a599e4dfb4ecb4f7ed845951a9f",
+      "runs/dual5090-v2/evaluation/raw-early-seed101/episodes.jsonl": "de9851c014aea663d92a96fdd3a26fa064642088ebc6d054eec64d2941d5b61b",
+      "runs/dual5090-v2/evaluation/raw-early-seed202/episodes.jsonl": "00421dfa904b0d01d2b258329ad12b2b511375cc5520299775cb63a954c26cf2",
+      "runs/dual5090-v2/evaluation/raw-early-seed303/episodes.jsonl": "c1ac639a941da7065f5abc81a90ab0cdc09b3407d5f21e4846c4e5b9090db993",
+      "runs/dual5090-v2/evaluation/matched-none-seed101/episodes.jsonl": "369338490521bd32fea234bf97bdde8ab72a84a33a4e3520700e1c9f5bea2092",
+      "runs/dual5090-v2/evaluation/matched-none-seed202/episodes.jsonl": "c864c913e0566320efd4c1a87532dd39c64747a5a6094349931c17ea7f10a85b",
+      "runs/dual5090-v2/evaluation/matched-none-seed303/episodes.jsonl": "4a7ecb91c562cbb4f23ae4216482bbdf9860d3b99494587b3c456c8af60df881",
+      "runs/dual5090-v2/evaluation/matched-early-seed101/episodes.jsonl": "fd4a30003bfc06aaebaeb204b049b12d0ff9135892946b73e9d09451327d57b7",
+      "runs/dual5090-v2/evaluation/matched-early-seed202/episodes.jsonl": "ed2f01e0a63ecbc40197911c35866e1983a654507bf5d5b4216209eef3cf366d",
+      "runs/dual5090-v2/evaluation/matched-early-seed303/episodes.jsonl": "5b1dba371b641da318a1d4249df880df0bf1202beb6b50d383e961fe092ef339",
+      "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/episodes.jsonl": "fa9069cf985a425a992512a891b49af70f0a52ac2e78219d669db135c6490230",
+      "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/episodes.jsonl": "463f11f297996a304d7a00b25d28b64f3b7b937c314a0695aa085cd731a58f7b",
+      "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/episodes.jsonl": "3a881ece0eb162b503c0c7e587a5e24e9894d41a14b30e1ca4a02797786ebf4a",
+      "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/episodes.jsonl": "b490d1749e4f3e763e742ac124c7fda5ec8c4722acc1caf1f5c74db729bf9e01",
+      "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/episodes.jsonl": "60e4d7460d1e5c87e8c63f528c627aebc62ef68a437d5fe0edb820e74b36e4a3",
+      "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/episodes.jsonl": "192fa70a0f466f6e3935446f268c2517cd244bb10802a0e4e26b442a21f3c0a7",
+      "runs/dual5090-v2/evaluation/raw-none-seed101/training.log": "6b655b7e6c6a170ed96e14114cef7af9320849c3710850b25c7b1747b42f74ab",
+      "runs/dual5090-v2/evaluation/raw-none-seed202/training.log": "0e47188306bda470780e4ae8fd6d5049b7f0196bfab3e7e4c0c7374b10ea0465",
+      "runs/dual5090-v2/evaluation/raw-none-seed303/training.log": "57ae0440f92f173cf2c33574a00f965085aa55943f5512c2e5a0d387c0fbe799",
+      "runs/dual5090-v2/evaluation/raw-early-seed101/training.log": "e93bb7014bfca8fde8d0f0a881c2773d0a4accb2a667bca4abd4a6c1bd426f0e",
+      "runs/dual5090-v2/evaluation/raw-early-seed202/training.log": "60a7d54a7a6c970615a1ffbee10236e8e35deb049551299aab020440ec2f30fe",
+      "runs/dual5090-v2/evaluation/raw-early-seed303/training.log": "7694c867ec13e5692ab3c2fdd99b1689d2365661db9ea88ab71f8c523fdfaab8",
+      "runs/dual5090-v2/evaluation/matched-none-seed101/training.log": "3bcceb0f384eac82c63c93cff43d4c42b25f3bd32ed64a4e5d0a4092b8d4a4ec",
+      "runs/dual5090-v2/evaluation/matched-none-seed202/training.log": "b91fa427d99e65566973d3c70d08c167f3b2b01a86612f218a1352c15a104e6a",
+      "runs/dual5090-v2/evaluation/matched-none-seed303/training.log": "aae50ba4fc6449624396c458cb2e6ccc3a50117864db3903339c7ce5a4caa86a",
+      "runs/dual5090-v2/evaluation/matched-early-seed101/training.log": "181b0677b6ae9fe5f57b185467f4bb4ca2ad5dbbbf0a3092219fc618f7067c03",
+      "runs/dual5090-v2/evaluation/matched-early-seed202/training.log": "a20e4451a3d9ff939b70bfef5209f64046634dc48323dbc9d3379022b2ac0355",
+      "runs/dual5090-v2/evaluation/matched-early-seed303/training.log": "bb4078af8d35ebc8e7904578abf3922b3d0109dbb656d547f1bf67c875a1a2d7",
+      "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log": "a8d32e37e19e564ee3e04bfbe98ce339214979ab453723e29a3911d27cf8bcca",
+      "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log": "c9ead86ecf5a23fa212c2bfedf8b4506da879179cc6fc2ba50a940f531701403",
+      "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log": "e4a3edf25811f76c1d0babb84d977c6798f1802e2247435b89147d440fb50f24",
+      "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log": "f6fdf982d72fd702b2d6251d3ba29b1229b38fda509abf07aad8e6205f78885c",
+      "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log": "0386de31db1368c983f86f00089a4ed2a7b73b38e889c3a72b92c688f2911566",
+      "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log": "7ad5f462bfcde3adf364b46c463c768501cd434c028dbef087b1c03f857555c7"
+    },
+    "measured_only": true,
+    "primary_unique_tasks": 28,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "output_formats": [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "runtime_versions": {
+      "python": "3.10.12",
+      "matplotlib": "3.5.1",
+      "numpy": "1.26.4"
+    },
+    "caveats": [
+      "Endpoint comparisons are not learning curves",
+      "Three training seeds only",
+      "Matched successful-task population is selected",
+      "Feedback filtering also rematches examples",
+      "Reward audit uses exactly two rollouts per task"
+    ]
+  },
+  "main": {
+    "collection": {
+      "planned": 384,
+      "recorded": 384,
+      "complete": true,
+      "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+      "metrics": {
+        "early": {
+          "n": 192,
+          "success_rate": 0.296875,
+          "macro_task_type_success": 0.296875,
+          "success_by_type": {
+            "pick_and_place_simple": 0.7708333333333334,
+            "pick_clean_then_place_in_recep": 0.2916666666666667,
+            "pick_cool_then_place_in_recep": 0.041666666666666664,
+            "pick_heat_then_place_in_recep": 0.08333333333333333
+          },
+          "error_count": 0,
+          "mean_steps": 33.088541666666664,
+          "mean_input_tokens": 27471.161458333332,
+          "mean_output_tokens": 378.7291666666667,
+          "support_exposure_rate": 1
+        },
+        "none": {
+          "n": 192,
+          "success_rate": 0.11458333333333333,
+          "macro_task_type_success": 0.11458333333333333,
+          "success_by_type": {
+            "pick_and_place_simple": 0.2708333333333333,
+            "pick_clean_then_place_in_recep": 0.14583333333333334,
+            "pick_cool_then_place_in_recep": 0,
+            "pick_heat_then_place_in_recep": 0.041666666666666664
+          },
+          "error_count": 0,
+          "mean_steps": 37.526041666666664,
+          "mean_input_tokens": 28435.640625,
+          "mean_output_tokens": 427.7864583333333,
+          "support_exposure_rate": 0
+        }
+      },
+      "paired_against_none": {
+        "early": {
+          "task_group_average_delta": 0.1881720430107527,
+          "interval_95": [
+            0.11290322580645161,
+            0.26881720430107525
+          ],
+          "paired_task_groups": 93
+        }
+      },
+      "all_attempts_token_accounting": {
+        "calls": 13558,
+        "input_tokens": 10734106,
+        "output_tokens": 154851
+      }
+    },
+    "data_selection": {
+      "raw_examples": {
+        "none": 405,
+        "early": 953
+      },
+      "matched_examples": {
+        "none": 275,
+        "early": 275
+      },
+      "pairs": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+          "rollout_seed": 11,
+          "examples_per_arm": 30
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+          "rollout_seed": 11,
+          "examples_per_arm": 16
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+          "rollout_seed": 23,
+          "examples_per_arm": 16
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+          "rollout_seed": 11,
+          "examples_per_arm": 9
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+          "rollout_seed": 23,
+          "examples_per_arm": 9
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "rollout_seed": 11,
+          "examples_per_arm": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "rollout_seed": 23,
+          "examples_per_arm": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+          "rollout_seed": 11,
+          "examples_per_arm": 16
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+          "rollout_seed": 23,
+          "examples_per_arm": 17
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+          "rollout_seed": 11,
+          "examples_per_arm": 28
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+          "rollout_seed": 23,
+          "examples_per_arm": 7
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+          "rollout_seed": 23,
+          "examples_per_arm": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "rollout_seed": 23,
+          "examples_per_arm": 8
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+          "rollout_seed": 11,
+          "examples_per_arm": 19
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+          "rollout_seed": 23,
+          "examples_per_arm": 19
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+          "rollout_seed": 23,
+          "examples_per_arm": 33
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "rollout_seed": 11,
+          "examples_per_arm": 8
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "rollout_seed": 23,
+          "examples_per_arm": 8
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+          "rollout_seed": 11,
+          "examples_per_arm": 9
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+          "rollout_seed": 23,
+          "examples_per_arm": 9
+        }
+      ],
+      "raw_successful_tasks": {
+        "none": 14,
+        "early": 32
+      },
+      "matched_successful_tasks": 13,
+      "overlength_dropped": {
+        "none": 0,
+        "early": 0
+      },
+      "probe_results_used_for_matching": false,
+      "raw_task_type_coverage": {
+        "none": {
+          "pick_and_place_simple": 8,
+          "pick_heat_then_place_in_recep": 1,
+          "pick_clean_then_place_in_recep": 5
+        },
+        "early": {
+          "pick_and_place_simple": 20,
+          "pick_cool_then_place_in_recep": 1,
+          "pick_clean_then_place_in_recep": 9,
+          "pick_heat_then_place_in_recep": 2
+        }
+      },
+      "matched_task_type_coverage": {
+        "pick_and_place_simple": 8,
+        "pick_heat_then_place_in_recep": 1,
+        "pick_clean_then_place_in_recep": 4
+      }
+    },
+    "collection_behavior": {
+      "none": {
+        "steps": 7205,
+        "invalid_json": 0,
+        "literal_nothing_happens": 3554,
+        "repeated_action_and_feedback": 181,
+        "successful_trajectory_steps": 405,
+        "successful_trajectory_nothing_happens": 89
+      },
+      "early": {
+        "steps": 6353,
+        "invalid_json": 0,
+        "literal_nothing_happens": 1061,
+        "repeated_action_and_feedback": 70,
+        "successful_trajectory_steps": 953,
+        "successful_trajectory_nothing_happens": 73
+      }
+    }
+  },
+  "result": {
+    "fresh_primary": {
+      "n_tasks": 28,
+      "n_training_seeds": 3,
+      "cells": {
+        "raw-none": {
+          "wins_per_seed": [
+            8,
+            7,
+            4
+          ],
+          "tasks_per_seed": 28
+        },
+        "raw-early": {
+          "wins_per_seed": [
+            5,
+            10,
+            9
+          ],
+          "tasks_per_seed": 28
+        },
+        "matched-none": {
+          "wins_per_seed": [
+            8,
+            6,
+            6
+          ],
+          "tasks_per_seed": 28
+        },
+        "matched-early": {
+          "wins_per_seed": [
+            6,
+            8,
+            8
+          ],
+          "tasks_per_seed": 28
+        },
+        "filtered-none": {
+          "wins_per_seed": [
+            7,
+            4,
+            4
+          ],
+          "tasks_per_seed": 28
+        },
+        "filtered-early": {
+          "wins_per_seed": [
+            7,
+            10,
+            5
+          ],
+          "tasks_per_seed": 28
+        }
+      },
+      "contrasts": {
+        "raw": {
+          "early_minus_none": 0.05952380952380952,
+          "per_seed_delta": [
+            -0.10714285714285714,
+            0.10714285714285714,
+            0.17857142857142858
+          ],
+          "crossed_bootstrap_95": [
+            -0.10714285714285714,
+            0.2261904761904762
+          ]
+        },
+        "matched": {
+          "early_minus_none": 0.023809523809523808,
+          "per_seed_delta": [
+            -0.07142857142857142,
+            0.07142857142857142,
+            0.07142857142857142
+          ],
+          "crossed_bootstrap_95": [
+            -0.08333333333333333,
+            0.14285714285714285
+          ]
+        },
+        "filtered": {
+          "early_minus_none": 0.08333333333333333,
+          "per_seed_delta": [
+            0,
+            0.21428571428571427,
+            0.03571428571428571
+          ],
+          "crossed_bootstrap_95": [
+            -0.07142857142857142,
+            0.25
+          ]
+        }
+      },
+      "base_wins": 4,
+      "matched_gap_minus_filtered_gap": {
+        "estimate": -0.05952380952380952,
+        "crossed_bootstrap_95": [
+          -0.19047619047619047,
+          0.07142857142857142
+        ]
+      }
+    },
+    "data_selection": {
+      "dropped_from_raw": {
+        "none": 89,
+        "early": 73
+      },
+      "matched_examples": {
+        "none": 255,
+        "early": 255
+      },
+      "common_successful_tasks": 13,
+      "same_success_pairs_as_unfiltered": true,
+      "pairs": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+          "rollout_seed": 11,
+          "examples_per_arm": 28
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+          "rollout_seed": 11,
+          "examples_per_arm": 16
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+          "rollout_seed": 23,
+          "examples_per_arm": 16
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+          "rollout_seed": 11,
+          "examples_per_arm": 9
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+          "rollout_seed": 23,
+          "examples_per_arm": 9
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "rollout_seed": 11,
+          "examples_per_arm": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "rollout_seed": 23,
+          "examples_per_arm": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+          "rollout_seed": 11,
+          "examples_per_arm": 15
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+          "rollout_seed": 23,
+          "examples_per_arm": 16
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+          "rollout_seed": 11,
+          "examples_per_arm": 24
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+          "rollout_seed": 23,
+          "examples_per_arm": 7
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+          "rollout_seed": 23,
+          "examples_per_arm": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "rollout_seed": 23,
+          "examples_per_arm": 8
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+          "rollout_seed": 11,
+          "examples_per_arm": 19
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+          "rollout_seed": 23,
+          "examples_per_arm": 19
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+          "rollout_seed": 23,
+          "examples_per_arm": 21
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "rollout_seed": 11,
+          "examples_per_arm": 8
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "rollout_seed": 23,
+          "examples_per_arm": 8
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+          "rollout_seed": 11,
+          "examples_per_arm": 9
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+          "rollout_seed": 23,
+          "examples_per_arm": 9
+        }
+      ],
+      "probe_used_for_selection": false
+    }
+  },
+  "type_records": [
+    {
+      "regime": "base",
+      "source": "none",
+      "training_seed": null,
+      "task_type": "pick_and_place_simple",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "base",
+      "source": "none",
+      "training_seed": null,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "base",
+      "source": "none",
+      "training_seed": null,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "base",
+      "source": "none",
+      "training_seed": null,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_and_place_simple",
+      "wins": 4,
+      "n_unique_tasks": 7,
+      "success_percent": 57.14285714285714
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_and_place_simple",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_and_place_simple",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 2,
+      "n_unique_tasks": 7,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 4,
+      "n_unique_tasks": 7,
+      "success_percent": 57.14285714285714
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 4,
+      "n_unique_tasks": 7,
+      "success_percent": 57.14285714285714
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_and_place_simple",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 2,
+      "n_unique_tasks": 7,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_and_place_simple",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_and_place_simple",
+      "wins": 4,
+      "n_unique_tasks": 7,
+      "success_percent": 57.14285714285714
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_and_place_simple",
+      "wins": 5,
+      "n_unique_tasks": 7,
+      "success_percent": 71.42857142857143
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 2,
+      "n_unique_tasks": 7,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_and_place_simple",
+      "wins": 6,
+      "n_unique_tasks": 7,
+      "success_percent": 85.71428571428571
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 1,
+      "n_unique_tasks": 7,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_and_place_simple",
+      "wins": 3,
+      "n_unique_tasks": 7,
+      "success_percent": 42.857142857142854
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_clean_then_place_in_recep",
+      "wins": 2,
+      "n_unique_tasks": 7,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_cool_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "task_type": "pick_heat_then_place_in_recep",
+      "wins": 0,
+      "n_unique_tasks": 7,
+      "success_percent": 0.0
+    }
+  ],
+  "score_records": [
+    {
+      "regime": "base",
+      "source": "none",
+      "training_seed": null,
+      "wins": 4,
+      "n_unique_tasks": 28,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "wins": 8,
+      "n_unique_tasks": 28,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "wins": 7,
+      "n_unique_tasks": 28,
+      "success_percent": 25.0
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "wins": 4,
+      "n_unique_tasks": 28,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "wins": 5,
+      "n_unique_tasks": 28,
+      "success_percent": 17.857142857142858
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "wins": 10,
+      "n_unique_tasks": 28,
+      "success_percent": 35.714285714285715
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "wins": 9,
+      "n_unique_tasks": 28,
+      "success_percent": 32.142857142857146
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "wins": 8,
+      "n_unique_tasks": 28,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "wins": 6,
+      "n_unique_tasks": 28,
+      "success_percent": 21.428571428571427
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "wins": 6,
+      "n_unique_tasks": 28,
+      "success_percent": 21.428571428571427
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "wins": 6,
+      "n_unique_tasks": 28,
+      "success_percent": 21.428571428571427
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "wins": 8,
+      "n_unique_tasks": 28,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "wins": 8,
+      "n_unique_tasks": 28,
+      "success_percent": 28.57142857142857
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "wins": 7,
+      "n_unique_tasks": 28,
+      "success_percent": 25.0
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "wins": 4,
+      "n_unique_tasks": 28,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "wins": 4,
+      "n_unique_tasks": 28,
+      "success_percent": 14.285714285714285
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "wins": 7,
+      "n_unique_tasks": 28,
+      "success_percent": 25.0
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "wins": 10,
+      "n_unique_tasks": 28,
+      "success_percent": 35.714285714285715
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "wins": 5,
+      "n_unique_tasks": 28,
+      "success_percent": 17.857142857142858
+    }
+  ],
+  "effect_records": [
+    {
+      "regime": "raw",
+      "mean_effect_pp": 5.952380952380952,
+      "low95_pp": -10.714285714285714,
+      "high95_pp": 22.61904761904762,
+      "negative_seeds": 1,
+      "n_seeds": 3,
+      "n_unique_tasks": 28
+    },
+    {
+      "regime": "matched",
+      "mean_effect_pp": 2.380952380952381,
+      "low95_pp": -8.333333333333332,
+      "high95_pp": 14.285714285714285,
+      "negative_seeds": 1,
+      "n_seeds": 3,
+      "n_unique_tasks": 28
+    },
+    {
+      "regime": "filtered",
+      "mean_effect_pp": 8.333333333333332,
+      "low95_pp": -7.142857142857142,
+      "high95_pp": 25.0,
+      "negative_seeds": 0,
+      "n_seeds": 3,
+      "n_unique_tasks": 28
+    }
+  ],
+  "training_records": [
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0572,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0522,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0169,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0625,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0097,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0422,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0258,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0321,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0203,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0361,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0265,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0866,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0364,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0316,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0038,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0144,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0208,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0763,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/raw-none-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0758,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.1378,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0453,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0357,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0219,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0254,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed101/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0665,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0243,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0579,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.05,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0733,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0224,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed202/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0643,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0843,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0486,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0456,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0266,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed303/training.log"
+    },
+    {
+      "regime": "raw",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0251,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/raw-early-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0174,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0355,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0707,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0034,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.038,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0553,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0439,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0817,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0364,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0152,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.1224,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0548,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0385,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0802,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0134,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0113,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0187,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0034,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/matched-none-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0506,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0014,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0685,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0295,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0174,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0064,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed101/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0649,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0314,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.034,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0092,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0905,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.005,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed202/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0535,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0059,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0781,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0142,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0487,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed303/training.log"
+    },
+    {
+      "regime": "matched",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0213,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2/evaluation/matched-early-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0774,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0508,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0215,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0018,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0096,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 101,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0082,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0937,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0389,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0175,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0423,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0448,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 202,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0028,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0683,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0295,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0458,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0451,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0446,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "none",
+      "training_seed": 303,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0164,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-none-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0329,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0383,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0333,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0292,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0229,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 101,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0612,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed101/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.064,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0235,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.074,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0253,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0836,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 202,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0459,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed202/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 10,
+      "logged_window_loss": 0.0562,
+      "epoch": 0.16,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 20,
+      "logged_window_loss": 0.0264,
+      "epoch": 0.31,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 30,
+      "logged_window_loss": 0.0729,
+      "epoch": 0.47,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 40,
+      "logged_window_loss": 0.0149,
+      "epoch": 0.62,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 50,
+      "logged_window_loss": 0.0118,
+      "epoch": 0.78,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log"
+    },
+    {
+      "regime": "filtered",
+      "source": "early",
+      "training_seed": 303,
+      "optimizer_step": 60,
+      "logged_window_loss": 0.0324,
+      "epoch": 0.94,
+      "log_source": "runs/dual5090-v2-filtered/evaluation/filtered-early-seed303/training.log"
+    }
+  ],
+  "reward_audit": {
+    "sampled_rollouts_per_task": 2,
+    "rollout_seeds": [
+      11,
+      23
+    ],
+    "reward": "binary environment won",
+    "assumption_for_learning_signal": "A_i = r_i - mean(r_group), with no other reward or loss",
+    "caveat": "Two observed samples per task do not establish zero variance for larger groups or future policies.",
+    "arms": {
+      "none": {
+        "task_groups": 96,
+        "group_counts": {
+          "mixed": 6,
+          "both_failure": 82,
+          "both_success": 8
+        },
+        "empirical_nonflat_fraction": 0.0625,
+        "by_type": {
+          "pick_and_place_simple": {
+            "mixed": 3,
+            "both_failure": 16,
+            "both_success": 5
+          },
+          "pick_clean_then_place_in_recep": {
+            "both_failure": 19,
+            "mixed": 3,
+            "both_success": 2
+          },
+          "pick_cool_then_place_in_recep": {
+            "both_failure": 24
+          },
+          "pick_heat_then_place_in_recep": {
+            "both_failure": 23,
+            "both_success": 1
+          }
+        }
+      },
+      "early": {
+        "task_groups": 96,
+        "group_counts": {
+          "both_success": 25,
+          "both_failure": 64,
+          "mixed": 7
+        },
+        "empirical_nonflat_fraction": 0.07291666666666667,
+        "by_type": {
+          "pick_and_place_simple": {
+            "both_success": 17,
+            "both_failure": 4,
+            "mixed": 3
+          },
+          "pick_clean_then_place_in_recep": {
+            "mixed": 4,
+            "both_success": 5,
+            "both_failure": 15
+          },
+          "pick_cool_then_place_in_recep": {
+            "both_success": 1,
+            "both_failure": 23
+          },
+          "pick_heat_then_place_in_recep": {
+            "both_failure": 22,
+            "both_success": 2
+          }
+        }
+      }
+    }
+  }
+}

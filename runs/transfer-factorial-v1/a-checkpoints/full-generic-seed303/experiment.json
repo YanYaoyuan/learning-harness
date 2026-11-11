@@ -1,0 +1,55 @@
+{
+  "baseline": "target_sft",
+  "model": "data/models/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "training_seed": 303,
+  "world_size": 1,
+  "config": {
+    "max_steps": 64,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5,
+    "fixed_sample_budget": true
+  },
+  "training_data_sha256": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+  "input_examples": 732,
+  "used_examples": 732,
+  "overlength_dropped": 0,
+  "processed_examples_rank0": 256,
+  "scheduled_examples": 256,
+  "unique_scheduled_examples": 256,
+  "schedule_sha256": "885a1fb52ed72bddf5a57827df0b07f3558619adde85fb423b17ee5737738c1c",
+  "hinted_examples": 0,
+  "teacher_model": null,
+  "input_tokens_rank0": 171214,
+  "target_tokens_rank0": 3126,
+  "teacher_input_tokens_rank0": 0,
+  "peak_cuda_allocated_bytes": 10276699136,
+  "source_export_meta": {
+    "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+    "source_run_fingerprint": "976d1033edad774c7ff03f989abb1bffb67fb4aa672c2a628ccab04991b97b99",
+    "source_arm": "early",
+    "successful_episodes": 49,
+    "examples": 732,
+    "seed": 20261109,
+    "regime": "all eligible successful examples; fixed 256-example training budget",
+    "query_used": false
+  }
+}

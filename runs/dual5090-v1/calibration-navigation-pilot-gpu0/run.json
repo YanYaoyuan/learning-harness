@@ -1,0 +1,37 @@
+{
+  "fingerprint": "05f39f8003a9504598d38d4a9dbcc0eedd317aa5dd218a89c1086407d11a301c",
+  "config": {
+    "protocol_id": "dual5090-discovery-v1-clarified-action-contract",
+    "manifest": "runs/dual5090-v1/pilot-gpu0.jsonl",
+    "teacher_bank": "runs/dual5090-v1/support.jsonl",
+    "arms": [
+      "none",
+      "early",
+      "random_timing",
+      "delayed"
+    ],
+    "rollout_seeds": [
+      11
+    ],
+    "max_steps": 40,
+    "max_new_tokens": 128,
+    "max_student_output_tokens": 5120,
+    "temperature": 0.0,
+    "history_turns": 12,
+    "support": {
+      "delayed_step": 5,
+      "random_first_step": 1,
+      "random_last_step": 8,
+      "visible_steps": 4
+    },
+    "model": {
+      "base_url_env": "LH_STUDENT_BASE_URL",
+      "model_env": "LH_STUDENT_MODEL",
+      "api_key_env": "LH_STUDENT_API_KEY"
+    }
+  },
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "created_at": "2026-11-09T08:13:42.649330+00:00",
+  "planned_episodes": 24
+}

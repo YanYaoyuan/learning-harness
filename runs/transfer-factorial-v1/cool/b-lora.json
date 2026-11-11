@@ -1,0 +1,33 @@
+{
+  "max_steps": 128,
+  "global_batch_size": 4,
+  "max_sequence_length": 2048,
+  "learning_rate": 0.0001,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.0,
+  "training_seeds": [
+    1101,
+    1202,
+    1303
+  ],
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "distill_kl_weight": 0.5,
+  "fixed_sample_budget": true,
+  "checkpoints": [
+    0,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "data_seed": 777
+}

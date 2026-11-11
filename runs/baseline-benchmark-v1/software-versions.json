@@ -1,0 +1,27 @@
+{
+  "environment": {
+    "python": "3.10.12",
+    "packages": {
+      "alfworld": "0.4.2",
+      "textworld": "1.7.0",
+      "gym": null,
+      "gymnasium": "0.29.1",
+      "numpy": "1.26.4"
+    }
+  },
+  "model": {
+    "python": "3.10.12",
+    "packages": {
+      "torch": "2.12.0.dev20260317+cu128",
+      "transformers": "4.57.1",
+      "peft": "0.17.1",
+      "numpy": "1.26.4"
+    }
+  },
+  "tracking": {
+    "python": "3.10.12",
+    "packages": {
+      "wandb": "0.31.0"
+    }
+  }
+}

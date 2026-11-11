@@ -1,0 +1,26 @@
+{
+  "protocol": "dual5090-discovery-v1",
+  "final_benchmarks_used": false,
+  "teacher_api_used": false,
+  "support_source": "fixed_handwritten_public_strategy",
+  "partitions": {
+    "pilot": 12,
+    "train": 16,
+    "probe": 12
+  },
+  "source_arms": [
+    "none",
+    "early",
+    "random_timing",
+    "delayed"
+  ],
+  "training_methods": [
+    "target_sft",
+    "mixed_sft",
+    "context_distill"
+  ],
+  "training_seed": 101,
+  "interpretation": "exploratory single-seed local screening",
+  "optimizer_steps_per_checkpoint": 64,
+  "command_contract": "canonical move OBJECT to RECEPTACLE; lexical-only put alias"
+}

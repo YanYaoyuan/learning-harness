@@ -1,0 +1,37 @@
+{
+  "none": {
+    "file": "runs/dual5090-v2-filtered/corpora/filtered-none.jsonl",
+    "sha256": "3b583921395fa94e07c690e72a0b055bbc66224eb33db0051842ce2fa271be2d",
+    "examples": 255,
+    "action_verbs": {
+      "go": 102,
+      "take": 18,
+      "examine": 7,
+      "open": 54,
+      "move": 22,
+      "look": 45,
+      "close": 1,
+      "heat": 2,
+      "clean": 4
+    },
+    "cooling_action_targets": 0,
+    "system_prompt_mentions_cooling": 255
+  },
+  "early": {
+    "file": "runs/dual5090-v2-filtered/corpora/filtered-early.jsonl",
+    "sha256": "dbc4117d7434cbb0d497a39ba61881a38ba1fe671fd91268adf6ff7a885a959b",
+    "examples": 255,
+    "action_verbs": {
+      "go": 111,
+      "take": 20,
+      "examine": 3,
+      "heat": 2,
+      "move": 21,
+      "open": 62,
+      "look": 30,
+      "clean": 6
+    },
+    "cooling_action_targets": 0,
+    "system_prompt_mentions_cooling": 255
+  }
+}

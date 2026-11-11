@@ -1,0 +1,12 @@
+{
+  "runs/dual5090-v2-filtered/prespec.json": "8027df830b1320877ad34eb46a6c5bd503c9312e8a56d1c095bbcbf035628634",
+  "runs/dual5090-v2-filtered/lora.json": "7b05057f191918660188f1115918b1dad9b8f38c2bd65d0bfd467684e8d0b918",
+  "runs/dual5090-v2-filtered/probe.jsonl": "4b5b1104dd7a7afd8e2d3bd121510cc3398601b73ec0039f4158308f8cc1c2b1",
+  "runs/dual5090-v2-filtered/fresh-probe.jsonl": "62553d5259c1714e06ecf8f43c02f9377d28c1377e0f9ef5149985c1186646d5",
+  "runs/dual5090-v2-filtered/data-selection.json": "2058a4ced5b07962fc13cdf3e8402a2ec5c8e21da5d31c2477256124a5be83d0",
+  "runs/dual5090-v2-filtered/jobs.json": "ac47649ac86717923280db057eaf054dc1fe9c021a488b21839aca81b1a17139",
+  "runs/dual5090-v2-filtered/corpora/filtered-early.jsonl.meta.json": "7ae07cd9b204a9a8acfb217ea3f30da576885b22144a61d08c471fb5225f3b34",
+  "runs/dual5090-v2-filtered/corpora/filtered-none.jsonl.meta.json": "53a81e22d45030dff7ee5d68d862afe359d82c432b5954bca3f1348a13f9952e",
+  "runs/dual5090-v2-filtered/corpora/filtered-early.jsonl": "dbc4117d7434cbb0d497a39ba61881a38ba1fe671fd91268adf6ff7a885a959b",
+  "runs/dual5090-v2-filtered/corpora/filtered-none.jsonl": "3b583921395fa94e07c690e72a0b055bbc66224eb33db0051842ce2fa271be2d"
+}

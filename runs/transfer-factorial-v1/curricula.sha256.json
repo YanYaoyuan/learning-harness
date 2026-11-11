@@ -1,0 +1,10 @@
+{
+  "runs/transfer-factorial-v1/cool/b_examples.jsonl": "678c745cab404b6d16fa8f486443fd91b94510b87cd685d69d5c7df1fd0ec9df",
+  "runs/transfer-factorial-v1/cool/b_schedule.jsonl": "8042036fb655c0927097c7787ea7368d77386addb958c144263179583b20445c",
+  "runs/transfer-factorial-v1/cool/diagnostic.jsonl": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+  "runs/transfer-factorial-v1/cool/curriculum.json": "d776df2f1fcd14a28dbcddc9421d570dc9415da5f28f0cc13dda7c8e337edf5b",
+  "runs/transfer-factorial-v1/heat/b_examples.jsonl": "43440272e0bbbc470e51b9d356aa6b70c8916c196304400d609c058307bd644f",
+  "runs/transfer-factorial-v1/heat/b_schedule.jsonl": "6bff5f1579b3cfcc77a18d392ab9c23f3fc7b99fb76e6e7f962d95ef274f9244",
+  "runs/transfer-factorial-v1/heat/diagnostic.jsonl": "6fdd24f577612eb584d4b14389c109b5cdaf3dd2795df73474c746c6fb349c5a",
+  "runs/transfer-factorial-v1/heat/curriculum.json": "17f2883a4253740d4bf99e7faf552af075320d3c0f33b4cf406d836e8f17cbba"
+}

@@ -1,0 +1,142 @@
+{
+  "protocol": "alfworld-learning-v1",
+  "seed": 20261109,
+  "per_type": 10,
+  "core_types": [
+    "pick_and_place_simple",
+    "pick_clean_then_place_in_recep",
+    "pick_cool_then_place_in_recep",
+    "pick_heat_then_place_in_recep"
+  ],
+  "heldout_types": [
+    "look_at_obj_in_light",
+    "pick_two_obj_and_place"
+  ],
+  "official_counts": {
+    "train": 3553,
+    "valid_seen": 140,
+    "valid_unseen": 134
+  },
+  "partitions": {
+    "dev": {
+      "count": 40,
+      "sha256": "68041f3dd9b69b071cd77a391df9c5bd696f621b263185807e3304b4bd107c5a",
+      "task_types": {
+        "pick_and_place_simple": 10,
+        "pick_clean_then_place_in_recep": 10,
+        "pick_cool_then_place_in_recep": 10,
+        "pick_heat_then_place_in_recep": 10
+      }
+    },
+    "pilot": {
+      "count": 40,
+      "sha256": "ac1c1571a1a363db33fc46369124f87450200ba6be0ff21f1500fac040e7aa92",
+      "task_types": {
+        "pick_and_place_simple": 10,
+        "pick_clean_then_place_in_recep": 10,
+        "pick_cool_then_place_in_recep": 10,
+        "pick_heat_then_place_in_recep": 10
+      }
+    },
+    "pilot_smoke": {
+      "count": 4,
+      "sha256": "104bed7fcac12659eaa6e579675b0a8ba21cff8f1106f56fb0172df010939a5b",
+      "task_types": {
+        "pick_and_place_simple": 1,
+        "pick_clean_then_place_in_recep": 1,
+        "pick_cool_then_place_in_recep": 1,
+        "pick_heat_then_place_in_recep": 1
+      }
+    },
+    "probe": {
+      "count": 40,
+      "sha256": "4b5b1104dd7a7afd8e2d3bd121510cc3398601b73ec0039f4158308f8cc1c2b1",
+      "task_types": {
+        "pick_and_place_simple": 10,
+        "pick_clean_then_place_in_recep": 10,
+        "pick_cool_then_place_in_recep": 10,
+        "pick_heat_then_place_in_recep": 10
+      }
+    },
+    "test_seen": {
+      "count": 140,
+      "sha256": "b7989b553419b8a0eccb2fbde588fb21c96fb5b60f293411c2e5170783992273",
+      "task_types": {
+        "look_at_obj_in_light": 13,
+        "pick_and_place_simple": 35,
+        "pick_clean_then_place_in_recep": 27,
+        "pick_cool_then_place_in_recep": 25,
+        "pick_heat_then_place_in_recep": 16,
+        "pick_two_obj_and_place": 24
+      }
+    },
+    "test_seen_heldout_types": {
+      "count": 37,
+      "sha256": "bf5f035204d98d6351bc13a4c61ea2f0790214d56388d85bb699180ae0e1186b",
+      "task_types": {
+        "look_at_obj_in_light": 13,
+        "pick_two_obj_and_place": 24
+      }
+    },
+    "test_seen_id_types": {
+      "count": 103,
+      "sha256": "309de43470711f17e95b30b75a9a6b3cd0336dd5fa76a22617a4630d06500bc5",
+      "task_types": {
+        "pick_and_place_simple": 35,
+        "pick_clean_then_place_in_recep": 27,
+        "pick_cool_then_place_in_recep": 25,
+        "pick_heat_then_place_in_recep": 16
+      }
+    },
+    "test_unseen": {
+      "count": 134,
+      "sha256": "619d49a2ee0604846ae9d69be09e5a9b23556d5c5dc414a86c8307e4c50e7648",
+      "task_types": {
+        "look_at_obj_in_light": 18,
+        "pick_and_place_simple": 24,
+        "pick_clean_then_place_in_recep": 31,
+        "pick_cool_then_place_in_recep": 21,
+        "pick_heat_then_place_in_recep": 23,
+        "pick_two_obj_and_place": 17
+      }
+    },
+    "test_unseen_heldout_types": {
+      "count": 35,
+      "sha256": "0d8e0021c47a21b2167c4d8c36c0315b0e7855385b549414e4782270df88d3f6",
+      "task_types": {
+        "look_at_obj_in_light": 18,
+        "pick_two_obj_and_place": 17
+      }
+    },
+    "test_unseen_id_types": {
+      "count": 99,
+      "sha256": "b41e4512ca7101a3425590781d06edb4eea2a2856b3cc16f85325ba21716c2ea",
+      "task_types": {
+        "pick_and_place_simple": 24,
+        "pick_clean_then_place_in_recep": 31,
+        "pick_cool_then_place_in_recep": 21,
+        "pick_heat_then_place_in_recep": 23
+      }
+    },
+    "train": {
+      "count": 2134,
+      "sha256": "36580a6f0fb68c35fd0517dd4e70eb78471ece0dd6de3d7667ab00649137485e",
+      "task_types": {
+        "pick_and_place_simple": 716,
+        "pick_clean_then_place_in_recep": 578,
+        "pick_cool_then_place_in_recep": 459,
+        "pick_heat_then_place_in_recep": 381
+      }
+    },
+    "train_pilot": {
+      "count": 96,
+      "sha256": "37e022136c5bb1337ffa73e84a32f2e15098ccd9f686100ffef705b310813127",
+      "task_types": {
+        "pick_and_place_simple": 24,
+        "pick_clean_then_place_in_recep": 24,
+        "pick_cool_then_place_in_recep": 24,
+        "pick_heat_then_place_in_recep": 24
+      }
+    }
+  }
+}

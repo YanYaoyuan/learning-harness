@@ -1,0 +1,9 @@
+{
+  "all_six_figures_visually_inspected": true,
+  "standalone_export_reproduces_all_six_pngs_pixel_identically": true,
+  "source_values_checked_against_per_episode_logs": true,
+  "training_loss_entries": 108,
+  "png_pdf_svg_exports_each": 6,
+  "new_phase_model_calls": 0,
+  "clean_unpacked_directory_reproduction": "all6_pixel_identical"
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "episodes": 40,
+  "steps": 1444,
+  "exact_reset_feedback_won_match": true,
+  "model_policy_changed": false,
+  "backend": "process-per-environment-v1",
+  "seconds": 19.22943385799954,
+  "reference": "evaluation/base",
+  "interpretation": "Environment-only execution equivalence; batching order and inference remain unchanged"
+}

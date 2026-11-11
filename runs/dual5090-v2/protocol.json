@@ -1,0 +1,33 @@
+{
+  "protocol": "dual5090-v2",
+  "train_tasks": 96,
+  "collection_episodes": 384,
+  "eval_tasks": 40,
+  "fresh_primary_tasks": 28,
+  "previous_secondary_tasks": 12,
+  "arms": [
+    "none",
+    "early"
+  ],
+  "training_seeds": [
+    101,
+    202,
+    303
+  ],
+  "regimes": [
+    "raw",
+    "matched"
+  ],
+  "method": "target_sft",
+  "optimizer_steps": 64,
+  "matching": "Same task_id and rollout_seed successful in both arms; identical action-example count per pair; evenly spaced steps retain endpoints",
+  "matching_caveat": "Common-success conditioning is diagnostic, not an unbiased population causal effect",
+  "primary_metric": "Fresh28 H0 success; per-seed and paired training-seed/task resampling",
+  "secondary_metric": "All40 H0 and previously inspected12, reported separately",
+  "batch_protocol": "batch-independent-sampling-v1",
+  "eval_batch_size": 8,
+  "reuse_v1_rollouts": false,
+  "final_benchmarks_used": false,
+  "teacher_api_used": false,
+  "decision": "No meta-RL or predictive-law claim; first test reproducibility and selection/count explanation"
+}

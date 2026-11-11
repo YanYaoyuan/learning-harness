@@ -1,0 +1,140 @@
+{
+  "0": {
+    "optimizer_step": 0,
+    "examples": 60,
+    "tasks": 8,
+    "task_mean_nll": 0.5509156593305198,
+    "per_task_nll": {
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121503_882955": 0.6950517331952959,
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195910_686523": 0.5471877750826692,
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Shelf-1/trial_T20190907_073835_452186": 0.5861350093865698,
+      "alfworld:train/pick_cool_then_place_in_recep-Lettuce-None-DiningTable-15/trial_T20190909_040930_741345": 0.5171075835173085,
+      "alfworld:train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-20/trial_T20190906_161453_754806": 0.5260495650786765,
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-7/trial_T20190918_191742_101104": 0.4870576776393456,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-20/trial_T20190907_034714_802572": 0.4717658257357291,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195": 0.5769701050085638
+    },
+    "data_sha256": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+    "checkpoint_sha256": "d96351fee80ba6dc8e5bc21b0b03ea603e1b36adfcc2c55131abfa3ba717b2c5",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:940ff0b1937b32749dac89f0ce3f359245cbaf2ea19e33615c148f16a36ac6fc",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "8": {
+    "optimizer_step": 8,
+    "examples": 60,
+    "tasks": 8,
+    "task_mean_nll": 0.14443002595363272,
+    "per_task_nll": {
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121503_882955": 0.1859067894808888,
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195910_686523": 0.17175605997941545,
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Shelf-1/trial_T20190907_073835_452186": 0.16209510432577812,
+      "alfworld:train/pick_cool_then_place_in_recep-Lettuce-None-DiningTable-15/trial_T20190909_040930_741345": 0.10865987532089605,
+      "alfworld:train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-20/trial_T20190906_161453_754806": 0.025688856928906035,
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-7/trial_T20190918_191742_101104": 0.2262439166025647,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-20/trial_T20190907_034714_802572": 0.11392822112226408,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195": 0.16116138386834855
+    },
+    "data_sha256": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+    "checkpoint_sha256": "77f53c79c9ee4836c45feb3c2dbd6ce3883d2534d7acf0a60dd4b5610c2b9556",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:bd5c87339a8c764888933337fe18e11d17b75e756d2102c27c15f1035110fed0",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "16": {
+    "optimizer_step": 16,
+    "examples": 60,
+    "tasks": 8,
+    "task_mean_nll": 0.03244456760934144,
+    "per_task_nll": {
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121503_882955": 0.01655184199120896,
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195910_686523": 0.001555488449639597,
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Shelf-1/trial_T20190907_073835_452186": 0.055717106092487256,
+      "alfworld:train/pick_cool_then_place_in_recep-Lettuce-None-DiningTable-15/trial_T20190909_040930_741345": 0.0191097757090485,
+      "alfworld:train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-20/trial_T20190906_161453_754806": 0.011620574982441668,
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-7/trial_T20190918_191742_101104": 0.04866976737187656,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-20/trial_T20190907_034714_802572": 0.05114206418941336,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195": 0.05518992208861562
+    },
+    "data_sha256": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+    "checkpoint_sha256": "98914f2ac5dd6a5a6a3e7c28783516c2cb30c8b1a01b9b9a21a59c45807396c6",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:2aa186c90c806677a5dfd01e5629edfadd3122022c0d12d2bfea02ef024d72ea",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "32": {
+    "optimizer_step": 32,
+    "examples": 60,
+    "tasks": 8,
+    "task_mean_nll": 0.011373081959871913,
+    "per_task_nll": {
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121503_882955": 0.003202810418599711,
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195910_686523": 0.005769168345295839,
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Shelf-1/trial_T20190907_073835_452186": 0.027564359441910824,
+      "alfworld:train/pick_cool_then_place_in_recep-Lettuce-None-DiningTable-15/trial_T20190909_040930_741345": 0.008278751922814211,
+      "alfworld:train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-20/trial_T20190906_161453_754806": 0.0008580423772855284,
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-7/trial_T20190918_191742_101104": 0.013688130168702628,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-20/trial_T20190907_034714_802572": 0.017864426726191596,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195": 0.013758966278174967
+    },
+    "data_sha256": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+    "checkpoint_sha256": "5550fddb2d2096ca6910c4a08f9802db7f848438bb931931e3f87f192cc8340c",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:5fbecf74b0e3ae202cee825f661d5912807f8024189ff527688fc44b190dfb22",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "64": {
+    "optimizer_step": 64,
+    "examples": 60,
+    "tasks": 8,
+    "task_mean_nll": 0.004119907840602924,
+    "per_task_nll": {
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121503_882955": 8.806494484048244e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195910_686523": 0.0053995721599235935,
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Shelf-1/trial_T20190907_073835_452186": 3.1619934979687514e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Lettuce-None-DiningTable-15/trial_T20190909_040930_741345": 4.2014536514248645e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-20/trial_T20190906_161453_754806": 2.436490249806411e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-7/trial_T20190918_191742_101104": 0.023752520302608104,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-20/trial_T20190907_034714_802572": 0.0036024934955349863,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195": 1.861244792422667e-05
+    },
+    "data_sha256": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+    "checkpoint_sha256": "f27109dd03e1cd3b4a4a525b97d757fa5dbe018efc618337ffc9eb0a8edfa5bb",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:979f3de067d3563497808a99933023394e4cb64d484c4b2cfe5873c71163f988",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  },
+  "128": {
+    "optimizer_step": 128,
+    "examples": 60,
+    "tasks": 8,
+    "task_mean_nll": 0.0009799054196084813,
+    "per_task_nll": {
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121503_882955": 1.8733584496999356e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195910_686523": 0.00012469027294415014,
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Shelf-1/trial_T20190907_073835_452186": 1.1983091834366633e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Lettuce-None-DiningTable-15/trial_T20190909_040930_741345": 2.8169317122969266e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-20/trial_T20190906_161453_754806": 1.7088433929757228e-05,
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-7/trial_T20190918_191742_101104": 0.006998556093513741,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-20/trial_T20190907_034714_802572": 0.0006299459635634719,
+      "alfworld:train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195": 1.0076599462394142e-05
+    },
+    "data_sha256": "f248ebb25a1f63d9eee0b1b7efc6e632c700c60e5e8a6c70f3d34b9f73406570",
+    "checkpoint_sha256": "03a1758d774de2cd85e396e39fc4915b6a4f6d0885f5a99a0ab37b5575dd1a43",
+    "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:0c4a00c77754c5b479d82e898ddf8403252a601064d1c172bd9b7574e4a682fb",
+    "used_for_updates": false,
+    "used_for_selection": false,
+    "separate_process": true,
+    "checkpoint_unchanged": true
+  }
+}

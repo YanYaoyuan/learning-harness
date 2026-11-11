@@ -1,0 +1,44 @@
+[
+  {
+    "name": "filtered-early-seed303",
+    "arm": "early",
+    "seed": 303,
+    "data": "runs/dual5090-v2-filtered/corpora/filtered-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "filtered-early-seed101",
+    "arm": "early",
+    "seed": 101,
+    "data": "runs/dual5090-v2-filtered/corpora/filtered-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "filtered-none-seed101",
+    "arm": "none",
+    "seed": 101,
+    "data": "runs/dual5090-v2-filtered/corpora/filtered-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "filtered-none-seed303",
+    "arm": "none",
+    "seed": 303,
+    "data": "runs/dual5090-v2-filtered/corpora/filtered-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "filtered-none-seed202",
+    "arm": "none",
+    "seed": 202,
+    "data": "runs/dual5090-v2-filtered/corpora/filtered-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "filtered-early-seed202",
+    "arm": "early",
+    "seed": 202,
+    "data": "runs/dual5090-v2-filtered/corpora/filtered-early.jsonl",
+    "method": "target_sft"
+  }
+]

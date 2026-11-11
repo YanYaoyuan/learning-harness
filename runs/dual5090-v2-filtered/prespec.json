@@ -1,0 +1,17 @@
+{
+  "source": "runs/dual5090-v2/collect",
+  "reason": "Training-only observation: successful raw examples include 89/405 vs 73/953 public Nothing happens feedback",
+  "filter": "Drop only actions whose resulting public feedback strips to exactly Nothing happens.; then redo same task/seed and action-count matching",
+  "training_seeds": [
+    101,
+    202,
+    303
+  ],
+  "optimizer_steps": 64,
+  "processed_examples_each": 256,
+  "model": "same pinned Qwen3-4B",
+  "evaluation": "same40 development probes, fresh28 primary; auxiliary diagnostic, not a new independent confirmation set",
+  "selected_from_probe_performance": false,
+  "choice_made_before_inspecting_v2_trained_results": true,
+  "paid_API_calls": 0
+}

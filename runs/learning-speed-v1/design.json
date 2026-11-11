@@ -1,0 +1,119 @@
+{
+  "status": "prepared_not_run",
+  "protocol": "learning-speed-v1",
+  "question": "Does A-stage assistance change adaptation on identical new B data?",
+  "b_family": "pick_cool_then_place_in_recep",
+  "b_support_candidate_tasks": 48,
+  "b_calibration_tasks": 12,
+  "b_query_tasks": 24,
+  "old_retention_tasks": 21,
+  "initializations": [
+    {
+      "condition": "filtered-none",
+      "a_seed": 101,
+      "a_adapter": "runs/dual5090-v2-filtered/checkpoints/filtered-none-seed101",
+      "a_adapter_sha256": "e2f862fb226d50724a4f909fc45707a6fbec49ad5c5c1986c845798ef4e229e6",
+      "b_seed": 1101
+    },
+    {
+      "condition": "filtered-early",
+      "a_seed": 101,
+      "a_adapter": "runs/dual5090-v2-filtered/checkpoints/filtered-early-seed101",
+      "a_adapter_sha256": "d9bfb919ace9869cccb96adde02118ce05b3a189838fd58dd7bb17ec9de52efa",
+      "b_seed": 1101
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "a_adapter": null,
+      "a_adapter_sha256": null,
+      "b_seed": 1101
+    },
+    {
+      "condition": "filtered-none",
+      "a_seed": 202,
+      "a_adapter": "runs/dual5090-v2-filtered/checkpoints/filtered-none-seed202",
+      "a_adapter_sha256": "22b41d2eb39ea9f47c7f03d91a8d510acf94a752832a69405b9582f8a2893942",
+      "b_seed": 1202
+    },
+    {
+      "condition": "filtered-early",
+      "a_seed": 202,
+      "a_adapter": "runs/dual5090-v2-filtered/checkpoints/filtered-early-seed202",
+      "a_adapter_sha256": "fb0ff0204921f292364bcff6eefd61cbae76dcb6654c2593e9fea1115672d5a6",
+      "b_seed": 1202
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "a_adapter": null,
+      "a_adapter_sha256": null,
+      "b_seed": 1202
+    },
+    {
+      "condition": "filtered-none",
+      "a_seed": 303,
+      "a_adapter": "runs/dual5090-v2-filtered/checkpoints/filtered-none-seed303",
+      "a_adapter_sha256": "441e77fef2809b6fe7226e91106661c0be7cb505858daaf6e51a66b616c2812e",
+      "b_seed": 1303
+    },
+    {
+      "condition": "filtered-early",
+      "a_seed": 303,
+      "a_adapter": "runs/dual5090-v2-filtered/checkpoints/filtered-early-seed303",
+      "a_adapter_sha256": "49480e50e52ab67c8f04e49b035e506aff317fcc48240b99828fa8e7506e9820",
+      "b_seed": 1303
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "a_adapter": null,
+      "a_adapter_sha256": null,
+      "b_seed": 1303
+    }
+  ],
+  "checkpoints": [
+    0,
+    8,
+    32,
+    128
+  ],
+  "b_global_batch": 4,
+  "b_processed_samples": 512,
+  "b_data_seed": 777,
+  "b_data_identical_across_conditions": true,
+  "optimizer_reset": true,
+  "trainable_parameters": "Fresh B LoRA; freeze A adapter; verify numerical equivalence at step zero",
+  "b_update_parameterization_status": "implementation_and_equivalence_check_required_before_training",
+  "teacher_status": "local reference policy first; API deferred; no teacher requests made",
+  "teacher_input": "Public observations only; optional reusable skill demonstration from prior training trajectories",
+  "minimum_b_data": {
+    "successful_task_groups": 12,
+    "eligible_action_examples": 200
+  },
+  "positive_control": {
+    "condition": "base",
+    "calibration_only": true,
+    "seeds": 3,
+    "required_additional_calibration_wins": 2,
+    "required_seeds_meeting_gate": 2,
+    "query_not_used_for_tuning": true
+  },
+  "main_metrics": [
+    "B query success at every checkpoint",
+    "normalized B learning-curve AUC",
+    "gain AUC relative to each initialization",
+    "B initial score and action NLL",
+    "A retention"
+  ],
+  "limits": [
+    "B goal family absent from A fine-tuning examples, not necessarily absent from pretraining",
+    "Task-group disjointness is not room disjointness",
+    "One B family is a pilot, not general meta-learning",
+    "AUC differences can reflect prior knowledge as well as plasticity",
+    "3 paired A/B seed trajectories do not separate all randomness sources"
+  ],
+  "final_benchmarks_used": false,
+  "paid_api_calls": 0,
+  "model_calls_made": 0
+}

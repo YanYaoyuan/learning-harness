@@ -1,0 +1,36 @@
+{
+  "fingerprint": "6785467b08397b746e9422180ee9c0ab0fbd4a7483e269eb99c6f48bce1b55de",
+  "config": {
+    "protocol_id": "learning-speed-v1-main",
+    "manifest": "runs/learning-speed-v1/main-evaluation.jsonl",
+    "teacher_bank": null,
+    "arms": [
+      "none"
+    ],
+    "rollout_seeds": [
+      11
+    ],
+    "max_steps": 40,
+    "max_new_tokens": 128,
+    "max_student_output_tokens": 5120,
+    "temperature": 0.0,
+    "history_turns": 12,
+    "support": {
+      "delayed_step": 5,
+      "random_first_step": 1,
+      "random_last_step": 8,
+      "visible_steps": 4
+    },
+    "model": {
+      "base_url_env": "LH_STUDENT_BASE_URL",
+      "model_env": "LH_STUDENT_MODEL",
+      "api_key_env": "LH_STUDENT_API_KEY"
+    },
+    "batch_size": 8
+  },
+  "model": "base-seed1101-step8",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:04d37c002115690eaec4251a46df5a850f985e10865492ac5f812305e7e98cd7",
+  "planned_episodes": 45,
+  "batch_protocol": "batch-independent-sampling-v1",
+  "environment_backend": "process-per-environment-v1"
+}

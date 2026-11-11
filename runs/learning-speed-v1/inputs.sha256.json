@@ -1,0 +1,7 @@
+{
+  "runs/learning-speed-v1/a_retention.jsonl": "8224c73d27b4885f6e8175d93d231496d2dde7dffe997900e4df309b184c78ed",
+  "runs/learning-speed-v1/b_calibration.jsonl": "360ee4469617ee58f40af4b89a14146e6bbdb340ecb32f4f7995b5ddbe121281",
+  "runs/learning-speed-v1/b_support_candidates.jsonl": "40367b1e99714f5e9fbb0438bff1bd64423eada130cf99e16a2d500c584e5c8f",
+  "runs/learning-speed-v1/b_query.jsonl": "ddede7d1f84f06a6b6eb11386db751230a779e1f1072a090ba24f09a497a5e1b",
+  "runs/learning-speed-v1/design.json": "c58b24519648247a644bd28af4fd697ea6fd767ff77972ba95f9bbe240b44de8"
+}

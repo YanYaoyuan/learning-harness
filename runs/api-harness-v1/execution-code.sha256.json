@@ -1,0 +1,14 @@
+{
+  "scripts/run_api_harness.py": "b720a59fbf93ea1353422e8ab8d316927aa7b4256042a363085f95e16205f23a",
+  "scripts/api_harness_report.py": "de35ec7092baf5b34e2a08f4bc330efc769ff06a9093afc647c8d7137a245e51",
+  "scripts/train_adaptation.py": "8697d6f8452426ac7b16b6a6edd0c2f4575151ea167f5762db43f61a4b53a980",
+  "scripts/train_lora.py": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+  "scripts/hf_batch_server.py": "38c463d809bc37f381c75dc94ae136bbbcd9a98615340b3b8fd1e660f720fff9",
+  "src/learning_harness/adaptation.py": "61cbc1c0f11ce75d79fd07f24a31266644b51c3b248d52be1213cffcbecdc7b0",
+  "src/learning_harness/batch_runner.py": "7f72cda4f95e8fb6fcb968aa6a336cd59f4a1c22aac6642efb0c08d44a909e6f",
+  "src/learning_harness/support.py": "8524b69477a7eee6788744a2998f9f3bd16b79ca60c3e5bfa7599d8fbabcd306",
+  "src/learning_harness/api.py": "699a95b250341ce0291ebb1fe7b186cf01d63fdb05ee837cf157ad127da6a7dd",
+  "src/learning_harness/teacher.py": "35580d6776adba66fe21cd2702cc8009ef184be29bad496a756035688c576f04",
+  "scripts/generate_api_hints.py": "0b609aed0e2fc01e74a0c563bc52d3fa95532624be24377b28c3b9c2a5c352b0",
+  "scripts/prepare_api_harness.py": "7c0e564f9ae015effeebdd9598279288585ab51d4ca775084219539b9f6455e1"
+}

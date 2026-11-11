@@ -1,0 +1,17 @@
+{
+  "base-seed1101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 358.2578490359956
+  },
+  "base-seed1202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 400.8555828309982
+  },
+  "base-seed1303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 368.65379478999967
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "planned": 32,
+  "recorded": 32,
+  "complete": true,
+  "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+  "metrics": {
+    "none": {
+      "n": 32,
+      "success_rate": 0.46875,
+      "macro_task_type_success": 0.46875,
+      "success_by_type": {
+        "pick_heat_then_place_in_recep": 0.46875
+      },
+      "error_count": 0,
+      "mean_steps": 25.0625,
+      "mean_input_tokens": 20892.46875,
+      "mean_output_tokens": 309.03125,
+      "support_exposure_rate": 0
+    }
+  },
+  "paired_against_none": {},
+  "all_attempts_token_accounting": {
+    "calls": 802,
+    "input_tokens": 668559,
+    "output_tokens": 9889
+  }
+}

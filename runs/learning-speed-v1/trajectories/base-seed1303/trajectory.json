@@ -1,0 +1,64 @@
+{
+  "base_model": "data/models/Qwen3-4B-Instruct-2507",
+  "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "a_adapter": null,
+  "b_seed": 1303,
+  "config": {
+    "max_steps": 128,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      1101,
+      1202,
+      1303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5,
+    "fixed_sample_budget": true,
+    "checkpoints": [
+      0,
+      8,
+      32,
+      128
+    ],
+    "data_seed": 777
+  },
+  "initialization": {
+    "a_parameter_sha256": "21fc7c6f2cca4ca25cd356899b0869943a21eef96f4f82eceb9be8ae8f58676e",
+    "b_initial_parameter_sha256": "19dfb9a11eb9f327977cc058c0ed978994ed05d848cbd2e64a7c26953a6475c2",
+    "exact_zero_b_logit_check": true,
+    "exact_zero_a_logit_check": true,
+    "trainable_parameters": 11796480,
+    "trainable_scope": "B adapter only"
+  },
+  "processed_examples": 512,
+  "data_sha256": "0d65b08f575c388751baad21b196e93a8463633c3d5ac8cbce1626c4143b889f",
+  "actual_order_sha256": "a9d7d1b03bdb85e3d9e87431875c8e5b624e6cba5f388c72226d1ecd50cbd21e",
+  "a_frozen_verified": true,
+  "b_updated_verified": true,
+  "frozen_a_dropout_disabled": true,
+  "token_accounting": {
+    "input_tokens": 355444,
+    "target_tokens": 6933
+  },
+  "initial_b_material_nll": {
+    "shared_examples": 512,
+    "target_tokens": 6933,
+    "token_mean": 0.7592901284617858,
+    "example_mean": 0.7383112906041402,
+    "query_used": false
+  },
+  "peak_cuda_allocated_bytes": 10824765440,
+  "complete": true
+}

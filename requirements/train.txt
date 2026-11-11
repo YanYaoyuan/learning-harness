@@ -1,0 +1,7 @@
+# Install on the GPU host, separately from the CPU simulator environment.
+# Select a CUDA-compatible torch build on that host before installing this file.
+transformers==4.57.1
+peft==0.17.1
+accelerate==1.10.1
+safetensors==0.6.2
+

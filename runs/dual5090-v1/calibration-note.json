@@ -1,0 +1,5 @@
+{
+  "reason": "Current TextWorld uses move OBJECT to RECEPTACLE; legacy put aliases now translated uniformly, no state oracle",
+  "not_used_for_learning_effect_claims": true,
+  "confirmation": "Private calibration game: take candle, move to cart => won=True"
+}

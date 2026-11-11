@@ -1,0 +1,72 @@
+{
+  "base-repeat": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 283.32845007599826
+  },
+  "base": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 268.357323242999
+  },
+  "matched-early-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 366.35997598599715
+  },
+  "raw-none-seed303": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 408.404197394997
+  },
+  "raw-none-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 363.4001409499979
+  },
+  "matched-none-seed202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 373.8879624850015
+  },
+  "matched-early-seed303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 266.2127329469986
+  },
+  "raw-early-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 289.0142534660008
+  },
+  "raw-early-seed303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 260.14228027800345
+  },
+  "raw-early-seed202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 286.73408485899927
+  },
+  "matched-early-seed202": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 260.5570610670002
+  },
+  "matched-none-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 293.7143278170006
+  },
+  "matched-none-seed303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 273.7774218150007
+  },
+  "raw-none-seed202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 293.0677828689986
+  }
+}

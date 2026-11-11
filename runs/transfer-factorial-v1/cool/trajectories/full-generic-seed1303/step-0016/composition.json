@@ -1,0 +1,52 @@
+{
+  "base_model": "data/models/Qwen3-4B-Instruct-2507",
+  "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "lora_config": {
+    "max_steps": 128,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      1101,
+      1202,
+      1303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5,
+    "fixed_sample_budget": true,
+    "checkpoints": [
+      0,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "data_seed": 777
+  },
+  "a_adapter": "/home/user/work/bgyfw/harness/runs/transfer-factorial-v1/a-checkpoints/full-generic-seed303",
+  "a_adapter_sha256": "01f3614d549dae00cf3b68184687f8bfa76f93a12bd10fc1115368322086ca91",
+  "b_adapter_sha256": "56969fe3b9a10fae1641101283b677219e013f6bacf45f1a5d07c16d987a870f",
+  "optimizer_step": 16,
+  "semantics": "frozen A plus additive B; no merging",
+  "training_seed": 1303,
+  "data_sha256": "8042036fb655c0927097c7787ea7368d77386addb958c144263179583b20445c",
+  "initialization": {
+    "a_parameter_sha256": "20c084e59135817a45f611a09abeceed7bb0a48846b4cadbf73b287dd5e0dbd0",
+    "b_initial_parameter_sha256": "19dfb9a11eb9f327977cc058c0ed978994ed05d848cbd2e64a7c26953a6475c2",
+    "exact_zero_b_logit_check": true,
+    "exact_zero_a_logit_check": false,
+    "trainable_parameters": 11796480,
+    "trainable_scope": "B adapter only"
+  }
+}

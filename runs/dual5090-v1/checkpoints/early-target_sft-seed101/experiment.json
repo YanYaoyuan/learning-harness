@@ -1,0 +1,46 @@
+{
+  "baseline": "target_sft",
+  "model": "data/models/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "training_seed": 101,
+  "world_size": 1,
+  "config": {
+    "max_steps": 64,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5
+  },
+  "training_data_sha256": "4d20cc4821d159b010bf8930d23042daa24e8060de2586e6b4b44f6f10ec02cf",
+  "input_examples": 113,
+  "used_examples": 113,
+  "overlength_dropped": 0,
+  "hinted_examples": 0,
+  "teacher_model": null,
+  "input_tokens_rank0": 161286,
+  "target_tokens_rank0": 3162,
+  "teacher_input_tokens_rank0": 0,
+  "peak_cuda_allocated_bytes": 10328683008,
+  "source_export_meta": {
+    "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+    "source_run_fingerprint": "b6209b8604b325d6d00d43c2646e5c011e9b6c1284baa95eae520b5699cfcc1f",
+    "source_arm": "early",
+    "successful_episodes": 9,
+    "examples": 113,
+    "seed": 20261109
+  }
+}

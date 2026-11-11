@@ -1,0 +1,48 @@
+{
+  "baseline": "target_sft",
+  "model": "runs/stack-check/random-model",
+  "revision": "random-model-validation-only",
+  "training_seed": 101,
+  "world_size": 1,
+  "config": {
+    "max_steps": 3,
+    "global_batch_size": 2,
+    "max_sequence_length": 256,
+    "learning_rate": 0.0001,
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "fixed_sample_budget": true
+  },
+  "training_data_sha256": "f8359720dbae039e0313230cb930fb9b7ce5d7714246c550d2fe77bb4fa483c3",
+  "input_examples": 3,
+  "used_examples": 3,
+  "overlength_dropped": 0,
+  "processed_examples_rank0": 6,
+  "scheduled_examples": 6,
+  "unique_scheduled_examples": 3,
+  "schedule_sha256": "ef0925c8870c4b45049db2750b5d3ca480fcfeeb5a14966daddc90802b9b01e6",
+  "hinted_examples": 0,
+  "teacher_model": null,
+  "input_tokens_rank0": 156,
+  "target_tokens_rank0": 48,
+  "teacher_input_tokens_rank0": 0,
+  "peak_cuda_allocated_bytes": 136092160,
+  "source_export_meta": {
+    "validation_only": true,
+    "research_result": false
+  }
+}

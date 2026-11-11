@@ -1,0 +1,13 @@
+[
+  {
+    "change": "Add second identical base evaluation on the other GPU",
+    "reason": "Check outcome repeatability after observed BF16 batch-shape sensitivity in two previously inspected calibration tasks",
+    "made_before_v2_probe_results": true,
+    "training_grid_changed": false
+  },
+  {
+    "change": "Schedule exactly 256 sampled examples for 64 updates at global batch 4",
+    "reason": "Prevent partial gradient-accumulation updates at small-dataset epoch boundaries; raw and matched corpora may have different lengths",
+    "made_before_v2_probe_results": true
+  }
+]

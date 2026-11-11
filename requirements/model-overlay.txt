@@ -1,0 +1,6 @@
+# Apply with --no-deps in a --system-site-packages venv to retain the host torch.
+-r train.txt
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+scipy==1.15.3
+

@@ -1,0 +1,15 @@
+{
+  "repo": "noahshinn/reflexion",
+  "commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+  "candidate_files": [
+    "alfworld_runs/alfworld_trial.py",
+    "alfworld_runs/env_history.py",
+    "alfworld_runs/generate_reflections.py",
+    "alfworld_runs/main.py",
+    "alfworld_runs/prompts/alfworld.json",
+    "alfworld_runs/prompts/alfworld_3prompts.json",
+    "alfworld_runs/prompts/fever.json",
+    "alfworld_runs/prompts/prompts_naive.json",
+    "alfworld_runs/utils.py"
+  ]
+}

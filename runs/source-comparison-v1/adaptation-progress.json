@@ -1,0 +1,10 @@
+{
+  "cool-base-seed101": {
+    "status": "evaluating-B-react-0",
+    "gpu": 0
+  },
+  "cool-api-seed101": {
+    "status": "evaluating-B-react-0",
+    "gpu": 1
+  }
+}

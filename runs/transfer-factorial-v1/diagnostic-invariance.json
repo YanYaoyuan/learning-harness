@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "paired_seed": 9101,
+  "optimizer_steps": 8,
+  "B_parameter_file_sha256": [
+    "58fd9076153b7daaa4cfa2eca71c2b33e044084ccaa34ab5d30fa82324bfc0e0",
+    "f54b74fde243b8be9fbfcf23b4777a6a6b8745ed98d1e1eb9d0769185840f790"
+  ],
+  "query_used": false,
+  "semantics": "Diagnostic inference must leave training exactly unchanged"
+}

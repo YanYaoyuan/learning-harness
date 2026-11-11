@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-09",
+  "cpu_environment": {
+    "status": "verified",
+    "python": "3.10.12",
+    "alfworld": "0.4.2",
+    "textworld": "1.7.0",
+    "real_task_types_checked": 4,
+    "reset_and_action_replay": "identical"
+  },
+  "gpu": {
+    "status": "verified_with_host_access",
+    "devices": [
+      "NVIDIA GeForce RTX 5090",
+      "NVIDIA GeForce RTX 5090"
+    ],
+    "memory_MiB_each": 32607,
+    "cuda_tensor_check": "passed"
+  },
+  "training_stack": {
+    "status": "verified_with_real_4B_training",
+    "entrypoint": "scripts/train_lora.py",
+    "model": "Qwen3-4B-Instruct-2507",
+    "optimizer_steps": 64,
+    "adapter_updated": true,
+    "research_result": true,
+    "validation_only_example_budget_test": "runs/stack-check/fixed-budget-adapter/experiment.json"
+  },
+  "protocol_tests": {
+    "passed": 27,
+    "scope": "data isolation, support, budgets, resume, export and loss mask"
+  },
+  "main_model": {
+    "repo": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "status": "download_complete_all_LFS_sha256_verified"
+  },
+  "first_baseline": {
+    "status": "superseded_by_real_dual5090_discovery",
+    "protocol": "runs/dual5090-v1/protocol.json",
+    "pilot_completed_episodes": 48,
+    "base_probe_completed_episodes": 12,
+    "base_probe_successes": 2,
+    "final_benchmark": false,
+    "paid_API_calls": 0,
+    "results": "runs/dual5090-v1/results.json"
+  },
+  "teacher": {
+    "interface": "OpenAI-compatible",
+    "status": "enabled_by_user_bounded_api_replication",
+    "requests_made": 72,
+    "model": "qwen3.8-max-0902",
+    "estimated_list_price_cny": 0.650292,
+    "ledger": "runs/api-harness-v1/teacher-budget.json",
+    "credential_storage": "ignored .env.local; values never logged"
+  },
+  "paper_baselines": {
+    "source_checkouts": [
+      "SkillScaffold",
+      "EvoIn",
+      "Harness-Zero"
+    ],
+    "original_training_run": false
+  },
+  "local_discovery": {
+    "status": "completed_first_exploratory_grid",
+    "model": "Qwen3-4B-Instruct-2507",
+    "pilot_support_selection": "early",
+    "training_methods": [
+      "target_sft",
+      "mixed_sft",
+      "context_distill"
+    ],
+    "training_seed": 101,
+    "optimizer_steps_per_checkpoint": 64,
+    "final_test_used": false,
+    "training_episodes": 64,
+    "corpora": {
+      "none": {
+        "successful_episodes": 5,
+        "examples": 52
+      },
+      "early": {
+        "successful_episodes": 9,
+        "examples": 113
+      }
+    },
+    "completed_checkpoints": 6,
+    "total_logical_episodes": 196,
+    "results": "runs/dual5090-v1/results.json",
+    "human_report": "docs/DUAL5090_RESULTS.zh-CN.md",
+    "trained_probe_successes": {
+      "none": {
+        "target_sft": 4,
+        "mixed_sft": 2,
+        "context_distill": 3
+      },
+      "early": {
+        "target_sft": 5,
+        "mixed_sft": 5,
+        "context_distill": 5
+      }
+    },
+    "all_probe_denominators": 12,
+    "training_processes_released": true
+  },
+  "local_matched_replication": {
+    "status": "completed_with_public_feedback_control",
+    "root": "runs/dual5090-v2",
+    "train_tasks": 96,
+    "primary_fresh_probe_tasks": 28,
+    "all_probe_tasks": 40,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "regimes": [
+      "raw",
+      "matched",
+      "filtered_matched"
+    ],
+    "final_test_used": false,
+    "paid_API_calls": 0,
+    "collection_completed_episodes": 384,
+    "matched_task_groups": 13,
+    "trained_checkpoints": 18,
+    "total_logical_model_episodes": 1184,
+    "processed_examples_each": 256,
+    "matched_examples_each": 275,
+    "filtered_matched_examples_each": 255,
+    "primary_result": "runs/dual5090-v2/results.json",
+    "filtered_result": "runs/dual5090-v2-filtered/results.json",
+    "report": "docs/DUAL5090_FILTERED_RESULTS.zh-CN.md",
+    "model_processes_released": true,
+    "baseline_cross_gpu_outcome_differences": 0,
+    "negative_learning_order_seeds": {
+      "raw": 1,
+      "matched": 1,
+      "filtered": 0
+    },
+    "all_source_gap_intervals_include_zero": true,
+    "future_task_learning_speed_measured": false
+  },
+  "agentic_rl_readiness": {
+    "status": "two_rollout_training_reward_audit_only_not_RL_training",
+    "report": "docs/AGENTIC_RL_READINESS.zh-CN.md",
+    "observed_nonflat_groups": {
+      "none": 6,
+      "early": 7
+    },
+    "tasks_each": 96
+  },
+  "figures": {
+    "status": "generated_and_visually_verified",
+    "count": 6,
+    "formats": [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "root": "output/figures/harness-v2",
+    "standalone_reproduction": "pixel_identical_all6",
+    "bundle": "output/harness-v2-figure-pack.zip"
+  },
+  "learning_speed_next_phase": {
+    "status": "completed_main_comparison",
+    "design": "runs/learning-speed-v1/design.json",
+    "support_candidates": 48,
+    "calibration_tasks": 12,
+    "query_tasks": 24,
+    "old_retention_tasks": 21,
+    "reference_successes": 48,
+    "eligible_b_examples": 462,
+    "b_scheduled_samples": 512,
+    "teacher_model_calls": 0,
+    "teacher_api_calls": 0,
+    "query_opened": true,
+    "student_evaluation": "completed_9_trajectories",
+    "calibration_gate_passed": true,
+    "calibration_additional_wins": [
+      10,
+      10,
+      10
+    ]
+  },
+  "api_harness_replication": {
+    "status": "completed",
+    "root": "runs/api-harness-v1",
+    "teacher_calls": 72,
+    "max_api_cost_cny": 20,
+    "estimated_list_price_cny": 0.650292,
+    "conditions": [
+      "none",
+      "generic",
+      "api"
+    ],
+    "a_training_tasks": 72,
+    "a_training_task_groups": 71,
+    "a_query_tasks": 24,
+    "b_query_tasks": 24,
+    "b_checkpoints": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      64,
+      128
+    ],
+    "student_results_complete": true,
+    "final_tests_used": false,
+    "collection_episodes": 432,
+    "evaluation_episodes": 1944,
+    "common_success_task_groups": 13
+  },
+  "experiment_tracking": {
+    "backend": "Weights & Biases",
+    "visibility": "PRIVATE",
+    "mode": "online_read_only_observer",
+    "project_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab",
+    "studies": [
+      "learning-speed-v1",
+      "api-harness-v1"
+    ],
+    "isolated_environment": ".venv-wandb",
+    "sdk_version": "0.31.0",
+    "model_processes_restarted": false,
+    "original_experiments_still_running": false,
+    "cloud_training_and_checkpoint_readback": "verified",
+    "rerun_recorder": "stopped_after_user_platform_correction",
+    "links": "output/wandb/links.json",
+    "current_study_cloud_runs": 23,
+    "historical_summary_runs": 1,
+    "historical_figures_uploaded": 6,
+    "historical_cloud_readback": "verified",
+    "cloud_api_cost_readback": "verified",
+    "tracker_status": "completed_backfill_observer_stopped",
+    "empty_collection_regression_test": "passed",
+    "cloud_final_curves_readback": "verified_18_runs_99_B_checkpoints",
+    "current_study_figure_uploads": 15,
+    "final_cloud_readback": "output/wandb/final-cloud-readback.json"
+  },
+  "transfer_factorial_followup": {
+    "status": "completed",
+    "root": "runs/transfer-factorial-v1",
+    "new_A_trainings": 6,
+    "reused_A_adapters": 6,
+    "B_trajectories": 30,
+    "planned_main_episodes": 7200,
+    "paid_api_calls": 0,
+    "query_opened": true,
+    "reference_teaching_successes": {
+      "cool": 48,
+      "heat": 48
+    },
+    "diagnostic_tasks_each": 8,
+    "diagnostic_isolation_check": "passed",
+    "same_seed_bitwise_repeatability": false,
+    "unit_tests_passed": 33,
+    "wandb_state": "output/wandb-transfer/sync-state.json",
+    "new_A_trainings_completed": 6,
+    "cloud_new_A_loss_readback": "verified_6_points",
+    "calibration_gates": {
+      "cool": true,
+      "heat": true
+    },
+    "B_weight_training_completed": 30,
+    "main_episodes_recorded_snapshot": 7200,
+    "main_episodes_completed": 7200,
+    "main_trajectories_completed": 30,
+    "raw_interaction_pp": 1.3834635416666665,
+    "raw_interaction_95_pp": [
+      -6.185709635416666,
+      8.056640625
+    ],
+    "cloud_final_curves_readback": "verified_30_runs_180_B_checkpoints",
+    "final_cloud_readback": "output/wandb-transfer/final-cloud-readback.json",
+    "tracker_status": "completed_observer_stopped"
+  }
+}

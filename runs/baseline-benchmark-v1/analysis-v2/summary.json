@@ -1,0 +1,233 @@
+{
+  "complete": true,
+  "scope": "reused development split; not final benchmark evidence",
+  "final_test_executed": false,
+  "summaries": [
+    {
+      "method": "json_direct",
+      "completed": 40,
+      "planned": 40,
+      "first_successes": 2,
+      "cumulative_successes": 8,
+      "first_rate": 0.05,
+      "cumulative_rate": 0.2,
+      "first_ci95": [
+        0.013820377146101098,
+        0.165041708179252
+      ],
+      "cumulative_ci95": [
+        0.10499864973166874,
+        0.34757607381856676
+      ],
+      "mean_calls": 136.025,
+      "mean_input_tokens": 106446.475,
+      "mean_output_tokens": 1561.225
+    },
+    {
+      "method": "act",
+      "completed": 40,
+      "planned": 40,
+      "first_successes": 26,
+      "cumulative_successes": 27,
+      "first_rate": 0.65,
+      "cumulative_rate": 0.675,
+      "first_ci95": [
+        0.4950559699353738,
+        0.7786566682895086
+      ],
+      "cumulative_ci95": [
+        0.52017458088898,
+        0.7991568303733828
+      ],
+      "mean_calls": 57.225,
+      "mean_input_tokens": 97703.875,
+      "mean_output_tokens": 713.625
+    },
+    {
+      "method": "react_retry",
+      "completed": 40,
+      "planned": 40,
+      "first_successes": 32,
+      "cumulative_successes": 33,
+      "first_rate": 0.8,
+      "cumulative_rate": 0.825,
+      "first_ci95": [
+        0.6524239261814333,
+        0.8950013502683314
+      ],
+      "cumulative_ci95": [
+        0.6804970794560755,
+        0.9125469700311694
+      ],
+      "mean_calls": 38.075,
+      "mean_input_tokens": 76029.95,
+      "mean_output_tokens": 643.225
+    },
+    {
+      "method": "reflexion",
+      "completed": 40,
+      "planned": 40,
+      "first_successes": 33,
+      "cumulative_successes": 35,
+      "first_rate": 0.825,
+      "cumulative_rate": 0.875,
+      "first_ci95": [
+        0.6804970794560755,
+        0.9125469700311694
+      ],
+      "cumulative_ci95": [
+        0.7388757932976187,
+        0.9454058022645873
+      ],
+      "mean_calls": 31.15,
+      "mean_input_tokens": 65725.0,
+      "mean_output_tokens": 556.275
+    }
+  ],
+  "exploratory_paired_effects": {
+    "reflection_increment": {
+      "first_success": {
+        "difference_pp": 2.5,
+        "ci95_pp": [
+          0.0,
+          7.5
+        ],
+        "task_groups": 40,
+        "paired_task_seeds": 40,
+        "status": "exploratory_development_only"
+      },
+      "success": {
+        "difference_pp": 5.0,
+        "ci95_pp": [
+          0.0,
+          12.5
+        ],
+        "task_groups": 40,
+        "paired_task_seeds": 40,
+        "status": "exploratory_development_only"
+      }
+    },
+    "reasoning_increment": {
+      "first_success": {
+        "difference_pp": 15.0,
+        "ci95_pp": [
+          0.0,
+          30.0
+        ],
+        "task_groups": 40,
+        "paired_task_seeds": 40,
+        "status": "exploratory_development_only"
+      },
+      "success": {
+        "difference_pp": 15.0,
+        "ci95_pp": [
+          0.0,
+          30.0
+        ],
+        "task_groups": 40,
+        "paired_task_seeds": 40,
+        "status": "exploratory_development_only"
+      }
+    }
+  },
+  "audit": {
+    "json_direct": {
+      "committed_tasks": 40,
+      "token_accounting_matches": true,
+      "call_budget_matches": true,
+      "task_file_sha256": "94af85e9c146c54e7698332163ddd30fc20ea929e83f38234d5dbd2cca5f042c"
+    },
+    "act": {
+      "committed_tasks": 40,
+      "token_accounting_matches": true,
+      "call_budget_matches": true,
+      "task_file_sha256": "93fe5b80d893bbb88f71b0486f2d008087a3ccf30a206ce8e7fd42cbb3ba1ac2"
+    },
+    "react_retry": {
+      "committed_tasks": 40,
+      "token_accounting_matches": true,
+      "call_budget_matches": true,
+      "task_file_sha256": "2e949c1c219e3cc34173900c171ed5a39e68181428324d7a787992fe9dbcc3c1"
+    },
+    "reflexion": {
+      "committed_tasks": 40,
+      "token_accounting_matches": true,
+      "call_budget_matches": true,
+      "task_file_sha256": "b284cc5929fcc29aeaf9b58b1e35cfa270efe1853d6e492e19943b105011459d"
+    }
+  },
+  "prompt_audit": {
+    "complete": true,
+    "observed_tasks": 40,
+    "planned_tasks": 40,
+    "first_request_pairing": {
+      "paired_tasks": 40,
+      "same_prompt_and_seed": true,
+      "identical_raw_outputs": 35
+    },
+    "match_rule": "Exact public goal + multiset of visible numbered receptacles; conservative exclusion, not proof of unseen hidden-state identity",
+    "collisions": [
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Lettuce-None-DiningTable-20/trial_T20190906_191031_580163",
+        "example": "react_clean_0:0"
+      }
+    ],
+    "excluded_task_ids": [
+      "alfworld:train/pick_clean_then_place_in_recep-Lettuce-None-DiningTable-20/trial_T20190906_191031_580163"
+    ],
+    "public_replay_confirmations": [
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Lettuce-None-DiningTable-20/trial_T20190906_191031_580163",
+        "example": "react_clean_0",
+        "demo_actions_solve_task": true,
+        "observation_path_matches_after_navigation_prefix_and_put_move_normalization": true
+      }
+    ],
+    "limitations": "No guarantee against pretrained model contamination. No final games opened."
+  },
+  "excluding_demo_overlap": {
+    "json_direct": {
+      "tasks": 39,
+      "first_successes": 2,
+      "cumulative_successes": 8
+    },
+    "act": {
+      "tasks": 39,
+      "first_successes": 25,
+      "cumulative_successes": 26
+    },
+    "react_retry": {
+      "tasks": 39,
+      "first_successes": 31,
+      "cumulative_successes": 32
+    },
+    "reflexion": {
+      "tasks": 39,
+      "first_successes": 32,
+      "cumulative_successes": 34
+    }
+  },
+  "excluding_demo_overlap_effects": {
+    "first_success": {
+      "difference_pp": 2.5641025641025643,
+      "ci95_pp": [
+        0.0,
+        7.6923076923076925
+      ],
+      "task_groups": 39,
+      "paired_task_seeds": 39,
+      "status": "exploratory_development_only"
+    },
+    "success": {
+      "difference_pp": 5.128205128205129,
+      "ci95_pp": [
+        0.0,
+        12.82051282051282
+      ],
+      "task_groups": 39,
+      "paired_task_seeds": 39,
+      "status": "exploratory_development_only"
+    }
+  },
+  "analysis_source_sha256": "039d398255aca07ebda5eeb8bcb6af1fe2684a44ce67dbc11ebbf810be1c7ab3"
+}

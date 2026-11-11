@@ -1,0 +1,21 @@
+{
+  "protocol_id": "alfworld-baseline-v1",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "manifest": "data/manifests/alfworld/dev.jsonl",
+  "max_turns": 50,
+  "max_calls": 150,
+  "max_trials": 3,
+  "max_new_tokens": 128,
+  "temperature": 0.7,
+  "history_turns": 12,
+  "batch_size": 8,
+  "seeds": [
+    11
+  ],
+  "model": {
+    "base_url_env": "LH_STUDENT_BASE_URL",
+    "model_env": "LH_STUDENT_MODEL",
+    "api_key_env": "LH_STUDENT_API_KEY"
+  },
+  "method": "reflexion"
+}

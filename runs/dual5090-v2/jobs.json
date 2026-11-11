@@ -1,0 +1,104 @@
+[
+  {
+    "name": "base"
+  },
+  {
+    "name": "base-repeat"
+  },
+  {
+    "name": "matched-early-seed101",
+    "regime": "matched",
+    "arm": "early",
+    "seed": 101,
+    "data": "runs/dual5090-v2/corpora/matched-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "raw-none-seed303",
+    "regime": "raw",
+    "arm": "none",
+    "seed": 303,
+    "data": "runs/dual5090-v2/corpora/raw-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "raw-none-seed101",
+    "regime": "raw",
+    "arm": "none",
+    "seed": 101,
+    "data": "runs/dual5090-v2/corpora/raw-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "matched-none-seed202",
+    "regime": "matched",
+    "arm": "none",
+    "seed": 202,
+    "data": "runs/dual5090-v2/corpora/matched-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "matched-early-seed303",
+    "regime": "matched",
+    "arm": "early",
+    "seed": 303,
+    "data": "runs/dual5090-v2/corpora/matched-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "raw-early-seed101",
+    "regime": "raw",
+    "arm": "early",
+    "seed": 101,
+    "data": "runs/dual5090-v2/corpora/raw-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "raw-early-seed303",
+    "regime": "raw",
+    "arm": "early",
+    "seed": 303,
+    "data": "runs/dual5090-v2/corpora/raw-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "raw-early-seed202",
+    "regime": "raw",
+    "arm": "early",
+    "seed": 202,
+    "data": "runs/dual5090-v2/corpora/raw-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "matched-early-seed202",
+    "regime": "matched",
+    "arm": "early",
+    "seed": 202,
+    "data": "runs/dual5090-v2/corpora/matched-early.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "matched-none-seed101",
+    "regime": "matched",
+    "arm": "none",
+    "seed": 101,
+    "data": "runs/dual5090-v2/corpora/matched-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "matched-none-seed303",
+    "regime": "matched",
+    "arm": "none",
+    "seed": 303,
+    "data": "runs/dual5090-v2/corpora/matched-none.jsonl",
+    "method": "target_sft"
+  },
+  {
+    "name": "raw-none-seed202",
+    "regime": "raw",
+    "arm": "none",
+    "seed": 202,
+    "data": "runs/dual5090-v2/corpora/raw-none.jsonl",
+    "method": "target_sft"
+  }
+]

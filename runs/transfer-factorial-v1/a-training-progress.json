@@ -1,0 +1,32 @@
+{
+  "full-generic-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 52.19676504700328
+  },
+  "full-generic-seed202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 58.45788186400023
+  },
+  "full-generic-seed303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 51.1435663470038
+  },
+  "full-api-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 54.897619451003266
+  },
+  "full-api-seed202": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 49.08537666000484
+  },
+  "full-api-seed303": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 53.804625029006274
+  }
+}

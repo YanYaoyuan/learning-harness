@@ -1,0 +1,21 @@
+{
+  "status": "completed_main_comparison",
+  "reference_policy": "scripted public-text-only; 48/48 teaching successes",
+  "teaching_budget_max_steps": 120,
+  "student_eval_max_steps": 40,
+  "eval_batch_size": 8,
+  "a_frozen_b_fresh": true,
+  "teacher_api_calls": 0,
+  "query_opened": true,
+  "automatic_main_only_if_gate_passes": true,
+  "unit_tests_passed": 18,
+  "tiny_composition_roundtrip_and_zero_checks": "passed",
+  "calibration_gate_passed": true,
+  "calibration_additional_wins": [
+    10,
+    10,
+    10
+  ],
+  "main_result": "main-result.json",
+  "main_trajectories_completed": 9
+}

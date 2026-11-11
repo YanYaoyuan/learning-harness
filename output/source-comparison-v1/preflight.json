@@ -1,0 +1,17 @@
+{
+  "scope": "Engineering preflight on first five lexicographically selected completed successful run IDs per source; not an experiment result or selection rule.",
+  "checks": {
+    "api": {
+      "completed_successful_attempts_checked": 5,
+      "public_action_rows_checked": 54,
+      "within_2048_tokens": 54,
+      "canonical_action_only_and_hint_free": true
+    },
+    "react": {
+      "completed_successful_attempts_checked": 5,
+      "public_action_rows_checked": 69,
+      "within_2048_tokens": 69,
+      "canonical_action_only_and_hint_free": true
+    }
+  }
+}

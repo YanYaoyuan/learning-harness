@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "primary_metric": "raw source-by-selection interaction; equal weight across two families",
+  "interaction": {
+    "raw": {
+      "mean": 0.013834635416666666,
+      "bootstrap_95": [
+        -0.06185709635416666,
+        0.08056640625
+      ],
+      "per_family": [
+        0.054361979166666664,
+        -0.026692708333333332
+      ]
+    },
+    "gain": {
+      "mean": -0.02783203125,
+      "bootstrap_95": [
+        -0.19580078125,
+        0.1403076171875
+      ],
+      "per_family": [
+        -0.0185546875,
+        -0.037109375
+      ]
+    }
+  },
+  "families": [
+    "cool",
+    "heat"
+  ],
+  "paired_seeds": [
+    1101,
+    1202,
+    1303
+  ],
+  "final_tests_used": false,
+  "new_api_calls": 0,
+  "interpretation": "Coverage/selection follow-up, not a causal demonstration of plasticity"
+}

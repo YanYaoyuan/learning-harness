@@ -1,0 +1,119 @@
+{
+  "protocol": "source-comparison-v1",
+  "date": "2026-11-11",
+  "status": "frozen_before_fresh_collection",
+  "question": "Does API-assisted collection produce a better learned initialization than strong ReAct self-collection under matched training exposure?",
+  "sources": [
+    "api",
+    "react"
+  ],
+  "training_seeds": [
+    101,
+    202,
+    303
+  ],
+  "collection": {
+    "tasks": 72,
+    "seeds": [
+      11,
+      23
+    ],
+    "max_calls": 40,
+    "max_trials": 1,
+    "temperature": 0.7,
+    "same_request_rng": true,
+    "api": "Original JSON actor + cached public-reset-only strategy, first four turns",
+    "react": "Two fixed public task-family examples + think/action, no teacher card",
+    "fresh_rollouts_both_sources": true,
+    "paid_api_calls": 0
+  },
+  "target_view": "Public initial observation + last 12 non-thought action/observation pairs; canonical JSON action labels. Remove all cards, examples and thoughts.",
+  "matching": {
+    "unit": "successful task/environment-seed pair",
+    "action_count": "minimum eligible count per pair; evenly spaced",
+    "minimum_task_groups": 8,
+    "max_sequence_length": 2048,
+    "exclusions": "invalid format, thoughts, literal Nothing happens targets, overlength; retain failed physical actions in history"
+  },
+  "a_training": {
+    "new_adapters": 6,
+    "max_steps": 64,
+    "processed_examples": 256,
+    "paired_sample_keys": true
+  },
+  "b_training": {
+    "new_trajectories": 12,
+    "reused_no_A_trajectories": 6,
+    "max_steps": 128,
+    "processed_examples": 512,
+    "checkpoints": [
+      0,
+      8,
+      32,
+      128
+    ],
+    "families": [
+      "cool",
+      "heat"
+    ],
+    "parameterization": "Frozen A + fresh B LoRA. Tests additive adaptation, not unrestricted same-parameter plasticity."
+  },
+  "evaluation": {
+    "tasks": {
+      "a_query": 23,
+      "cool_query": 32,
+      "heat_query": 32
+    },
+    "seeds": [
+      11
+    ],
+    "temperature": 0.0,
+    "max_calls": 40,
+    "max_trials": 1,
+    "json_direct_B_steps": [
+      0,
+      8,
+      32,
+      128
+    ],
+    "react_B_steps": [
+      0,
+      128
+    ],
+    "A_retention": "JSON at 0 and 128; ReAct at A start only. Shared A start evaluated once on cool branch.",
+    "all_scores_fresh": true,
+    "official_final_tests_used": false
+  },
+  "primary": "API minus ReAct: equal-weight cool/heat mean normalized raw success AUC under common JSON execution",
+  "secondary": [
+    "Initial success, endpoint success, baseline-subtracted gain AUC",
+    "Per-family curves; heat within-family versus cool A-unseen family",
+    "Common ReAct execution at B start/end",
+    "A retention",
+    "Source collection yield and real input/output costs",
+    "No-A reference"
+  ],
+  "inference": "Paired crossed bootstrap of 3 training-seed indices and task groups within each family, 4000 draws; preserve seed pairing across families",
+  "demonstration_audit": {
+    "excluded": [
+      {
+        "split": "a_query",
+        "task_id": "alfworld:train/pick_heat_then_place_in_recep-Egg-None-DiningTable-11/trial_T20190907_125404_996063",
+        "demonstrations": [
+          "react_heat_0"
+        ]
+      }
+    ],
+    "rule": "Public goal plus visible numbered receptacle multiset"
+  },
+  "limitations": [
+    "Reused exploratory query tasks, not new confirmation evidence",
+    "Mutual-success selection changes the population",
+    "Equal samples/updates do not imply identical target/input token FLOPs",
+    "The two collection harnesses differ in examples and action interface; this is a pipeline comparison, not an isolated card effect",
+    "ReAct evaluation supplies cool demonstrations; label this few-shot execution, not zero-shot goal transfer",
+    "Frozen A plus B and three seeds cannot establish pure plasticity or RSI",
+    "BF16 batching can change trajectories despite paired request RNG"
+  ],
+  "planned_evaluation_task_runs": 4284
+}

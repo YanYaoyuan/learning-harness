@@ -1,0 +1,14 @@
+{
+  "protocol_id": "alfworld-learning-v1-model-smoke-not-final-evaluation",
+  "manifest": "data/manifests/alfworld/pilot_smoke.jsonl",
+  "teacher_bank": null,
+  "arms": ["none"],
+  "rollout_seeds": [11],
+  "max_steps": 30,
+  "max_new_tokens": 128,
+  "max_student_output_tokens": 3840,
+  "temperature": 0.0,
+  "history_turns": 12,
+  "support": {"delayed_step": 5, "random_first_step": 1, "random_last_step": 8, "visible_steps": 4},
+  "model": {"base_url_env": "LH_STUDENT_BASE_URL", "model_env": "LH_STUDENT_MODEL", "api_key_env": "LH_STUDENT_API_KEY"}
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "success-sft-none-seed101",
+    "path": "runs/api-harness-v1/a-checkpoints/none-seed101",
+    "sha256": "f0560da315e6d5fc20f9660512ae051677e81155450bfa241e75270878cd6311",
+    "training_seed": 101,
+    "source": "none",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-none-seed202",
+    "path": "runs/api-harness-v1/a-checkpoints/none-seed202",
+    "sha256": "e7d7031efcda6a2d394e4cbfb1f64791ddbc947c0f4ca720729975a541f1379d",
+    "training_seed": 202,
+    "source": "none",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-none-seed303",
+    "path": "runs/api-harness-v1/a-checkpoints/none-seed303",
+    "sha256": "e0fb2bfd0574bb3b9e63466de95465ed016435269913dec1b78c26726736c30d",
+    "training_seed": 303,
+    "source": "none",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-generic-seed101",
+    "path": "runs/api-harness-v1/a-checkpoints/generic-seed101",
+    "sha256": "5b6da99b5cc5bb3c0a15549963b0dc4cb0d13cd13abd3aca1348a0be2cf12339",
+    "training_seed": 101,
+    "source": "generic",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-generic-seed202",
+    "path": "runs/api-harness-v1/a-checkpoints/generic-seed202",
+    "sha256": "d58858ecb308eea8032c420015154b18c62ec9d380994eb454c62580b2e94c50",
+    "training_seed": 202,
+    "source": "generic",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-generic-seed303",
+    "path": "runs/api-harness-v1/a-checkpoints/generic-seed303",
+    "sha256": "a82647e11f1a1b231dc7ee97456d51497ea4568e80e7a6b0292ac3cd6734bdd6",
+    "training_seed": 303,
+    "source": "generic",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-api-seed101",
+    "path": "runs/api-harness-v1/a-checkpoints/api-seed101",
+    "sha256": "fdcaffa18b2068469cecaa9f456ae7f97ec7fec3d65edeabcd50bd5ea2e95247",
+    "training_seed": 101,
+    "source": "api",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-api-seed202",
+    "path": "runs/api-harness-v1/a-checkpoints/api-seed202",
+    "sha256": "fc069e7c83037c065028bb259617644327b44c87dc80fd714a79b4f86a899a06",
+    "training_seed": 202,
+    "source": "api",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  },
+  {
+    "name": "success-sft-api-seed303",
+    "path": "runs/api-harness-v1/a-checkpoints/api-seed303",
+    "sha256": "9f7b431832a2b9d03eda0482c0939f7ceea0d0ac0e3faa1cba67312048f8d0ce",
+    "training_seed": 303,
+    "source": "api",
+    "role": "existing matched-success SFT comparator; not on-policy distillation or RL",
+    "evaluation_status": "registered_not_run_in_this_suite"
+  }
+]

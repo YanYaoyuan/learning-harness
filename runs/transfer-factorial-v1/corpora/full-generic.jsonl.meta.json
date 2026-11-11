@@ -1,0 +1,10 @@
+{
+  "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+  "source_run_fingerprint": "976d1033edad774c7ff03f989abb1bffb67fb4aa672c2a628ccab04991b97b99",
+  "source_arm": "early",
+  "successful_episodes": 49,
+  "examples": 732,
+  "seed": 20261109,
+  "regime": "all eligible successful examples; fixed 256-example training budget",
+  "query_used": false
+}

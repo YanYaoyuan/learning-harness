@@ -1,0 +1,11 @@
+{
+  "reason": "Demonstration-overlap audit discovered during incomplete development run; preserve all original results and add uniformly excluded sensitivity analysis.",
+  "original_report_archive": "runs/baseline-benchmark-v1/analysis-v1/baseline_benchmark_report.py",
+  "files": {
+    "scripts/baseline_benchmark_report.py": "039d398255aca07ebda5eeb8bcb6af1fe2684a44ce67dbc11ebbf810be1c7ab3",
+    "scripts/audit_baseline_prompts.py": "10c1be0628bc8f2493cc2b67b9b6cc6894a33423eec7dfdd533cb02d9b9aa235",
+    "docs/BASELINE_PROTOCOL_V1_AMENDMENT_01.zh-CN.md": "184fa1ad74f607cd8f74e37b07b495d2d43b6f947500309153637c3247b93faa",
+    "scripts/replay_baseline_demo.py": "118a9d84bad81f53d0907132348a7834dd998784f5585b3ae68ffc443d942c6c"
+  },
+  "additional_validation": "Verify paired initial prompts and request seeds for ReAct versus Reflexion; count raw-output reproducibility without forcing it."
+}

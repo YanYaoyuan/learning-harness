@@ -1,0 +1,18 @@
+{
+  "none": {
+    "steps": 7205,
+    "invalid_json": 0,
+    "literal_nothing_happens": 3554,
+    "repeated_action_and_feedback": 181,
+    "successful_trajectory_steps": 405,
+    "successful_trajectory_nothing_happens": 89
+  },
+  "early": {
+    "steps": 6353,
+    "invalid_json": 0,
+    "literal_nothing_happens": 1061,
+    "repeated_action_and_feedback": 70,
+    "successful_trajectory_steps": 953,
+    "successful_trajectory_nothing_happens": 73
+  }
+}

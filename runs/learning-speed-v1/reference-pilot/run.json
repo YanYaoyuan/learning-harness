@@ -1,0 +1,21 @@
+{
+  "fingerprint": "1a6d4dc26cf306de0a2772578198f21fa49fd2da886a8c22a37335e14c7a5b74",
+  "planned_episodes": 4,
+  "config": {
+    "manifest_sha256": "40367b1e99714f5e9fbb0438bff1bd64423eada130cf99e16a2d500c584e5c8f",
+    "tasks": [
+      "alfworld:train/pick_cool_then_place_in_recep-Bowl-None-Microwave-19/trial_T20190909_041309_452416",
+      "alfworld:train/pick_cool_then_place_in_recep-Pan-None-CounterTop-12/trial_T20190908_062417_287639",
+      "alfworld:train/pick_cool_then_place_in_recep-WineBottle-None-GarbageCan-16/trial_T20190907_015045_510934",
+      "alfworld:train/pick_cool_then_place_in_recep-Tomato-None-Microwave-18/trial_T20190909_012450_473555"
+    ],
+    "seed": 11,
+    "max_steps": 120,
+    "reference_policy_sha256": "72a99adfea708601e7de7a2333c941dfb3101eda3d4f990cbc9b762d3daf3a04",
+    "system_prompt_hash": "343f7ee9d12a4bd6c2cb7228bc40ad3b43cb7c2932a99d9188a38ea037f7f656",
+    "interface": "public-text-only"
+  },
+  "paid_api_calls": 0,
+  "model_generation_calls": 0,
+  "teacher": "scripted_public_observation_reference"
+}

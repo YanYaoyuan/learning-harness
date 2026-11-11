@@ -1,0 +1,218 @@
+{
+  "protocol": "transfer-factorial-v1",
+  "family": "pick_heat_then_place_in_recep",
+  "study_name": "transfer-factorial-v1-heat",
+  "status": "frozen_before_new_reference_collection_and_query",
+  "initializations": [
+    {
+      "condition": "matched-generic",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/generic-seed101",
+      "data": "runs/api-harness-v1/corpora/matched-generic.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-generic",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed101",
+      "data": "runs/transfer-factorial-v1/corpora/full-generic.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-generic",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/generic-seed202",
+      "data": "runs/api-harness-v1/corpora/matched-generic.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-generic",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed202",
+      "data": "runs/transfer-factorial-v1/corpora/full-generic.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-generic",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/generic-seed303",
+      "data": "runs/api-harness-v1/corpora/matched-generic.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-generic",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed303",
+      "data": "runs/transfer-factorial-v1/corpora/full-generic.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-api",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/api-seed101",
+      "data": "runs/api-harness-v1/corpora/matched-api.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-api",
+      "a_seed": 101,
+      "b_seed": 1101,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed101",
+      "data": "runs/transfer-factorial-v1/corpora/full-api.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-api",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/api-seed202",
+      "data": "runs/api-harness-v1/corpora/matched-api.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-api",
+      "a_seed": 202,
+      "b_seed": 1202,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed202",
+      "data": "runs/transfer-factorial-v1/corpora/full-api.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "matched-api",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/api-harness-v1/a-checkpoints/api-seed303",
+      "data": "runs/api-harness-v1/corpora/matched-api.jsonl",
+      "reuse": true
+    },
+    {
+      "condition": "full-api",
+      "a_seed": 303,
+      "b_seed": 1303,
+      "a_adapter": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed303",
+      "data": "runs/transfer-factorial-v1/corpora/full-api.jsonl",
+      "reuse": false
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "b_seed": 1101,
+      "a_adapter": null,
+      "data": null,
+      "reuse": true
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "b_seed": 1202,
+      "a_adapter": null,
+      "data": null,
+      "reuse": true
+    },
+    {
+      "condition": "base",
+      "a_seed": null,
+      "b_seed": 1303,
+      "a_adapter": null,
+      "data": null,
+      "reuse": true
+    }
+  ],
+  "conditions": [
+    "base",
+    "matched-generic",
+    "matched-api",
+    "full-generic",
+    "full-api"
+  ],
+  "b_training": {
+    "max_steps": 128,
+    "processed_examples": 512,
+    "checkpoints": [
+      0,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "shared_schedule": "runs/transfer-factorial-v1/heat/b_schedule.jsonl",
+    "diagnostic": "runs/transfer-factorial-v1/heat/diagnostic.jsonl"
+  },
+  "evaluation": {
+    "b_query_tasks": 32,
+    "a_query_tasks": 24,
+    "a_retention_at": [
+      0,
+      128
+    ],
+    "batch_size": 8,
+    "max_steps": 40
+  },
+  "diagnostic": {
+    "tasks": 8,
+    "max_examples_per_task": 8,
+    "min_successful_groups": 6,
+    "partition": "dev",
+    "optimizer_use": false,
+    "selection_use": false,
+    "checkpoints": [
+      0,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "metric": "per-task mean target-token NLL"
+  },
+  "minimum_b_data": {
+    "successful_task_groups": 24,
+    "eligible_action_examples": 200
+  },
+  "calibration_gate": {
+    "tasks": 12,
+    "base_seeds": 3,
+    "steps": [
+      0,
+      128
+    ],
+    "minimum_additional_wins": 2,
+    "minimum_passing_seeds": 2,
+    "query_closed_until_both_family_gates_pass": true
+  },
+  "a_training": {
+    "processed_examples": 256,
+    "max_steps": 64,
+    "config": "runs/transfer-factorial-v1/a-lora.json",
+    "matched": "Reuse the exact three-way common-success 13-group adapters; no A retraining",
+    "full": "All eligible success-only A examples, same uniform-example sampling rule and optimizer budget"
+  },
+  "primary_contrast": "(full-api minus full-generic) minus (matched-api minus matched-generic): raw normalized AUC",
+  "secondary": [
+    "Source effects within each selection regime",
+    "gain AUC and initial success",
+    "Held-out action NLL at each checkpoint; initial NLL and within-trajectory reduction",
+    "A retention endpoints",
+    "B raw and gain AUC versus no-A base"
+  ],
+  "interpretation": "Heat is within-A-family instance transfer; cool is an A-unseen goal family. Neither establishes pure plasticity.",
+  "limitations": [
+    "A data and seeds are reused; this is a fresh-query follow-up, not an independent A-data replication",
+    "Cooling teaching tasks are reused because only 52 unused train-derived cooling groups remain",
+    "Full versus matched changes coverage, action mix, corpus size and sample repetition together",
+    "Equal processed examples do not imply equal token compute; report token budgets",
+    "Three seeds; fixed-B sequence; two families; diagnostic reference is success-conditioned",
+    "Gain AUC and NLL adjustment do not causally equalize prior knowledge",
+    "Task-group disjointness does not imply room or pretraining disjointness"
+  ],
+  "official_final_tests_used": false,
+  "paid_api_calls": 0
+}

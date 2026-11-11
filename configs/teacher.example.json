@@ -1,0 +1,11 @@
+{
+  "base_url_env": "LH_TEACHER_BASE_URL",
+  "model_env": "LH_TEACHER_MODEL",
+  "api_key_env": "LH_TEACHER_API_KEY",
+  "max_calls": 200,
+  "max_output_tokens": 256,
+  "max_cost_cny": 100.0,
+  "input_cny_per_million": null,
+  "output_cny_per_million": null
+}
+

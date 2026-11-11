@@ -1,0 +1,6 @@
+{
+  "reason": "Visual QA: exact token thresholds on observed cost range; shorter task labels; explicit sensitivity sample size. All numerical results unchanged.",
+  "numeric_results_unchanged": true,
+  "previous_source_archive": "runs/baseline-benchmark-v1/analysis-v2/baseline_benchmark_report.py",
+  "new_source_sha256": "0544eb8ab9a93b6e31ccf270fb05c0ca6224e01ea559091efc8426d6824b49c7"
+}

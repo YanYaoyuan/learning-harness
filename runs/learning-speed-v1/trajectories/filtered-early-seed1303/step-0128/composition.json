@@ -1,0 +1,50 @@
+{
+  "base_model": "data/models/Qwen3-4B-Instruct-2507",
+  "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "lora_config": {
+    "max_steps": 128,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      1101,
+      1202,
+      1303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5,
+    "fixed_sample_budget": true,
+    "checkpoints": [
+      0,
+      8,
+      32,
+      128
+    ],
+    "data_seed": 777
+  },
+  "a_adapter": "/home/user/work/bgyfw/harness/runs/dual5090-v2-filtered/checkpoints/filtered-early-seed303",
+  "a_adapter_sha256": "49480e50e52ab67c8f04e49b035e506aff317fcc48240b99828fa8e7506e9820",
+  "b_adapter_sha256": "fe2bdca1321f9da59316aea421e179344ad6bdf260369eac10c0e13185be32bb",
+  "optimizer_step": 128,
+  "semantics": "frozen A plus additive B; no merging",
+  "training_seed": 1303,
+  "data_sha256": "0d65b08f575c388751baad21b196e93a8463633c3d5ac8cbce1626c4143b889f",
+  "initialization": {
+    "a_parameter_sha256": "d0132817f5a1847cdb1e99a0ebfe33be22cbc9b218b9f4ed3bb803158e8dd8c3",
+    "b_initial_parameter_sha256": "19dfb9a11eb9f327977cc058c0ed978994ed05d848cbd2e64a7c26953a6475c2",
+    "exact_zero_b_logit_check": true,
+    "exact_zero_a_logit_check": false,
+    "trainable_parameters": 11796480,
+    "trainable_scope": "B adapter only"
+  }
+}

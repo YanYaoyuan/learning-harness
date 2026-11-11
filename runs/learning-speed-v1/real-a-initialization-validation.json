@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "none": {
+      "a_parameter_sha256": "fa2cfe94ef82e9c4a67fef3b3f16a3cb666776042dc64b9010e639a12bc8829d",
+      "b_initial_parameter_sha256": "14d558d93443ac536526bba450ecde730f031f7a1abefd1ba5b3635dccdd19a8",
+      "exact_zero_b_logit_check": true,
+      "exact_zero_a_logit_check": false,
+      "trainable_parameters": 11796480,
+      "trainable_scope": "B adapter only"
+    },
+    "early": {
+      "a_parameter_sha256": "93d973f39dc097113e6763ceeae9fe11030c6adc63912cafc019a713a8b6fc01",
+      "b_initial_parameter_sha256": "14d558d93443ac536526bba450ecde730f031f7a1abefd1ba5b3635dccdd19a8",
+      "exact_zero_b_logit_check": true,
+      "exact_zero_a_logit_check": false,
+      "trainable_parameters": 11796480,
+      "trainable_scope": "B adapter only"
+    }
+  },
+  "base_b_init_identical": true,
+  "trainable_parameter_count_identical": true,
+  "query_used": false
+}

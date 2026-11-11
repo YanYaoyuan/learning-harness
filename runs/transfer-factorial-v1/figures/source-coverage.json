@@ -1,0 +1,30 @@
+[
+  {
+    "regime": "matched",
+    "source": "generic",
+    "eligible_examples": 182,
+    "task_groups": 13,
+    "fixed_processed_examples": 256
+  },
+  {
+    "regime": "matched",
+    "source": "api",
+    "eligible_examples": 182,
+    "task_groups": 13,
+    "fixed_processed_examples": 256
+  },
+  {
+    "regime": "full",
+    "source": "generic",
+    "eligible_examples": 732,
+    "task_groups": 29,
+    "fixed_processed_examples": 256
+  },
+  {
+    "regime": "full",
+    "source": "api",
+    "eligible_examples": 721,
+    "task_groups": 35,
+    "fixed_processed_examples": 256
+  }
+]

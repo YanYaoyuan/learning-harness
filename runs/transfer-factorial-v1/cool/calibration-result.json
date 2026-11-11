@@ -1,0 +1,10 @@
+{
+  "gate_passed": true,
+  "additional_wins": [
+    8,
+    9,
+    10
+  ],
+  "query_opened": false,
+  "rule": "At least 2 extra wins out of 12 in at least 2 of 3 base seeds"
+}

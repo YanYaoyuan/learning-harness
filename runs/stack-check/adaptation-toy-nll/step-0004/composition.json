@@ -1,0 +1,49 @@
+{
+  "base_model": "runs/stack-check/random-model",
+  "base_revision": "random-model-validation-only",
+  "lora_config": {
+    "max_steps": 4,
+    "global_batch_size": 2,
+    "max_sequence_length": 256,
+    "learning_rate": 0.0001,
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "fixed_sample_budget": true,
+    "checkpoints": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "data_seed": 777
+  },
+  "a_adapter": "/home/user/work/bgyfw/harness/runs/stack-check/fixed-budget-adapter",
+  "a_adapter_sha256": "d74c0874bdbd26fcc8156378ec567c5c512343c430f3d37de9a9cb8a3eed5120",
+  "b_adapter_sha256": "58a14acd65be6e7748ccf28638c7da846490b262618b85df95e695934be62027",
+  "optimizer_step": 4,
+  "semantics": "frozen A plus additive B; no merging",
+  "training_seed": 1101,
+  "data_sha256": "a2a62c86205f9520bb801b0b3993ea89caad28b31c13ac69adbb1a025d4728af",
+  "initialization": {
+    "a_parameter_sha256": "0606666f0610e0f8b65d71dd70281cd76b41ad9fe89ce5e68fa70b60b1187eff",
+    "b_initial_parameter_sha256": "df4ce839a796f23882aa769558f08da09a744bfc506e65c7bae6d4becac27d42",
+    "exact_zero_b_logit_check": true,
+    "exact_zero_a_logit_check": false,
+    "trainable_parameters": 3584,
+    "trainable_scope": "B adapter only"
+  }
+}

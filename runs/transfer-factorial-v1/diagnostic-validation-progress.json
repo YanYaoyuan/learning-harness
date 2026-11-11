@@ -1,0 +1,12 @@
+{
+  "without-diagnostic": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 15.439446018004674
+  },
+  "with-diagnostic": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 25.75561431000824
+  }
+}

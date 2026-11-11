@@ -1,0 +1,21 @@
+{
+  "base_url_env": "LH_TEACHER_BASE_URL",
+  "model_env": "LH_TEACHER_MODEL",
+  "api_key_env": "LH_TEACHER_API_KEY",
+  "max_calls": 80,
+  "max_output_tokens": 512,
+  "max_cost_cny": 20.0,
+  "input_cny_per_million": 12.0,
+  "output_cny_per_million": 36.0,
+  "extra_body": {
+    "enable_thinking": false,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "price_source": "https://help.aliyun.com/zh/model-studio/model-pricing",
+  "price_region": "China Beijing",
+  "price_checked_on": "2026-11-09",
+  "cost_interpretation": "Undiscounted list-price estimate; invoice may reflect cache/promotions. Failed requests retain reservation.",
+  "system_prompt": "Write a concise reusable strategy for the household task below. Use only this public observation. Do not claim hidden object locations. Give planning/verification guidance, not a numbered oracle action trace. The same advice will be reused after several actions; avoid assuming no action has occurred. Return JSON {\"hint\": \"at most 100 words\"}. The student uses ALFWorld commands: go to RECEPTACLE to inspect it; open/close RECEPTACLE; take OBJECT from RECEPTACLE; move OBJECT to RECEPTACLE; clean OBJECT with sinkbasin; heat OBJECT with microwave. Use exact observed object/receptacle names with numbers. Adapt the strategy to the stated goal, emphasize operation dependencies, exploration and verification, and recovery from Nothing happens. Do not assume hidden locations or invent completed operations. Do not include cooled-object tasks absent from the stated goal."
+}

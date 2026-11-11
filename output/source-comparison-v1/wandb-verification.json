@@ -1,0 +1,12 @@
+{
+  "state": "running",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/557cc84a609d",
+  "metrics": {
+    "collection/api/completed": 144,
+    "collection/react/completed": 64,
+    "training/A_completed": 0,
+    "training/B_completed": 0,
+    "evaluation/completed_task_runs": 0,
+    "pipeline/status": "running"
+  }
+}

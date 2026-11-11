@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "episodes": 48,
+  "successes": 48,
+  "successful_task_groups": 48,
+  "reference": "scripted_public_observation_only",
+  "paid_api_calls": 0,
+  "model_generation_calls": 0
+}

@@ -1,0 +1,19 @@
+{
+  "status": "authenticated",
+  "model_count": 182,
+  "preferred_model": "qwen3.8-max-0902",
+  "preferred_listed": true,
+  "qwen_max_models": [
+    "qwen-max",
+    "qwen-max-0107",
+    "qwen-max-1201",
+    "qwen-max-longcontext",
+    "qwen3.7-max",
+    "qwen3.7-max-2026-05-17",
+    "qwen3.7-max-2026-05-20",
+    "qwen3.7-max-2026-06-08",
+    "qwen3.7-max-preview",
+    "qwen3.8-max",
+    "qwen3.8-max-0902"
+  ]
+}

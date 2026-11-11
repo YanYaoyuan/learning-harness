@@ -1,0 +1,38 @@
+{
+  "early-mixed_sft-seed101": {
+    "status": "failed",
+    "gpu": 1,
+    "error_type": "CalledProcessError",
+    "elapsed_seconds": 0.8651923729994451
+  },
+  "none-context_distill-seed101": {
+    "status": "failed",
+    "gpu": 0,
+    "error_type": "CalledProcessError",
+    "elapsed_seconds": 0.9160170180002751
+  },
+  "early-context_distill-seed101": {
+    "status": "failed",
+    "gpu": 1,
+    "error_type": "CalledProcessError",
+    "elapsed_seconds": 0.9150198969982739
+  },
+  "early-target_sft-seed101": {
+    "status": "failed",
+    "gpu": 0,
+    "error_type": "CalledProcessError",
+    "elapsed_seconds": 0.9152854870008014
+  },
+  "none-target_sft-seed101": {
+    "status": "failed",
+    "gpu": 1,
+    "error_type": "CalledProcessError",
+    "elapsed_seconds": 0.9150925670001016
+  },
+  "none-mixed_sft-seed101": {
+    "status": "failed",
+    "gpu": 0,
+    "error_type": "CalledProcessError",
+    "elapsed_seconds": 0.915403441998933
+  }
+}

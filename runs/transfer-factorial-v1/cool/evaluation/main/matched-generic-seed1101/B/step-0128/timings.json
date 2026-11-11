@@ -1,0 +1,6 @@
+{
+  "environment_initialization_seconds": 26.18391989497468,
+  "model_requests_seconds": 90.55651663907338,
+  "environment_and_logging_seconds": 7.729563286964549,
+  "total_seconds": 124.47421533599845
+}

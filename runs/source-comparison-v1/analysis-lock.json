@@ -1,0 +1,13 @@
+{
+  "stage": "collection in progress; before matched selection and any new training/evaluation outcomes",
+  "date": "2026-11-11",
+  "files": {
+    "scripts/source_comparison_report.py": "2026650142f575abc34780019b039e63b502e21feee40bec06ca73426456c5a8",
+    "scripts/track_source_comparison.py": "8c69a0c3b47ead5e92bd8b3b3c8ebeb65c23113783208028c1e437de846fc48f",
+    "docs/SOURCE_COMPARISON_V1.zh-CN.md": "d38bd018cdac3a69e71c0b11930caca42380010e76ffdc07dadd809d878cd923",
+    "scripts/finalize_source_comparison.py": "71cf15dffd7231000128fc114643168802417f1ced193556d9d165129fbe34c4"
+  },
+  "revision": 3,
+  "revision_reason": "Before any new SFT outcome: add independent local finalization and report locking so cloud failures cannot block local figures.",
+  "legend_note": "Figures explicitly label candidate versus baseline; no numerical analysis change."
+}

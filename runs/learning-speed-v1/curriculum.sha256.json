@@ -1,0 +1,7 @@
+{
+  "runs/learning-speed-v1/b_examples.jsonl": "f51bb2da1f47824ec34900b61edd30146a2ab40578eb3b92320fff4397278456",
+  "runs/learning-speed-v1/b_examples.jsonl.meta.json": "b533ca4f1844da3d65888812d1eb0c89a8cbecf351e3e168717335f7456ca29c",
+  "runs/learning-speed-v1/b_schedule.jsonl": "0d65b08f575c388751baad21b196e93a8463633c3d5ac8cbce1626c4143b889f",
+  "runs/learning-speed-v1/adaptation-config.json": "5d731e145dd4a1e62cf1ac297457d4078e7d9c61144eafa072ae4db250ddff9c",
+  "runs/learning-speed-v1/curriculum.json": "ac1ea0d99ed52bd47182d4aa21ba98dbca674eef34978bad888d240ef24e4956"
+}

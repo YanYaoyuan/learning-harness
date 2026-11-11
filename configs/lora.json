@@ -1,0 +1,13 @@
+{
+  "max_steps": 100,
+  "global_batch_size": 16,
+  "max_sequence_length": 4096,
+  "learning_rate": 0.0001,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.0,
+  "training_seeds": [101, 202, 303],
+  "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"]
+}

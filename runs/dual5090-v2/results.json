@@ -1,0 +1,1907 @@
+{
+  "protocol": "dual5090-v2",
+  "complete": true,
+  "protocol_tests_passed": 15,
+  "environment_execution_validation": {
+    "passed": true,
+    "episodes": 40,
+    "steps": 1444,
+    "exact_reset_feedback_won_match": true,
+    "model_policy_changed": false,
+    "backend": "process-per-environment-v1",
+    "seconds": 19.22943385799954,
+    "reference": "evaluation/base",
+    "interpretation": "Environment-only execution equivalence; batching order and inference remain unchanged"
+  },
+  "processed_examples_each": 256,
+  "matched_sampling_schedules_aligned": true,
+  "baseline_repeat_outcome_differences": [],
+  "fresh_primary": {
+    "n_tasks": 28,
+    "n_training_seeds": 3,
+    "base_wins": 4,
+    "cells": {
+      "raw-none": {
+        "wins_per_seed": [
+          8,
+          7,
+          4
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 28,
+        "mean_success": 0.2261904761904762
+      },
+      "raw-early": {
+        "wins_per_seed": [
+          5,
+          10,
+          9
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 28,
+        "mean_success": 0.2857142857142857
+      },
+      "matched-none": {
+        "wins_per_seed": [
+          8,
+          6,
+          6
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 28,
+        "mean_success": 0.23809523809523808
+      },
+      "matched-early": {
+        "wins_per_seed": [
+          6,
+          8,
+          8
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 28,
+        "mean_success": 0.26190476190476186
+      }
+    },
+    "contrasts": {
+      "raw": {
+        "early_minus_none": 0.05952380952380952,
+        "per_seed_delta": [
+          -0.10714285714285714,
+          0.10714285714285714,
+          0.17857142857142858
+        ],
+        "crossed_bootstrap_95": [
+          -0.10714285714285714,
+          0.2261904761904762
+        ]
+      },
+      "matched": {
+        "early_minus_none": 0.023809523809523808,
+        "per_seed_delta": [
+          -0.07142857142857142,
+          0.07142857142857142,
+          0.07142857142857142
+        ],
+        "crossed_bootstrap_95": [
+          -0.08333333333333333,
+          0.14285714285714285
+        ]
+      }
+    },
+    "raw_gap_minus_matched_gap": {
+      "estimate": 0.03571428571428571,
+      "crossed_bootstrap_95": [
+        -0.09523809523809523,
+        0.17857142857142858
+      ]
+    }
+  },
+  "all40_secondary": {
+    "n_tasks": 40,
+    "n_training_seeds": 3,
+    "base_wins": 6,
+    "cells": {
+      "raw-none": {
+        "wins_per_seed": [
+          12,
+          10,
+          6
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 40,
+        "mean_success": 0.23333333333333334
+      },
+      "raw-early": {
+        "wins_per_seed": [
+          10,
+          17,
+          14
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 40,
+        "mean_success": 0.3416666666666667
+      },
+      "matched-none": {
+        "wins_per_seed": [
+          13,
+          9,
+          12
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 40,
+        "mean_success": 0.2833333333333333
+      },
+      "matched-early": {
+        "wins_per_seed": [
+          11,
+          14,
+          13
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 40,
+        "mean_success": 0.31666666666666665
+      }
+    },
+    "contrasts": {
+      "raw": {
+        "early_minus_none": 0.10833333333333334,
+        "per_seed_delta": [
+          -0.05,
+          0.175,
+          0.2
+        ],
+        "crossed_bootstrap_95": [
+          -0.05,
+          0.26666666666666666
+        ]
+      },
+      "matched": {
+        "early_minus_none": 0.03333333333333333,
+        "per_seed_delta": [
+          -0.05,
+          0.125,
+          0.025
+        ],
+        "crossed_bootstrap_95": [
+          -0.075,
+          0.16666666666666666
+        ]
+      }
+    },
+    "raw_gap_minus_matched_gap": {
+      "estimate": 0.075,
+      "crossed_bootstrap_95": [
+        -0.058333333333333334,
+        0.225
+      ]
+    }
+  },
+  "old12_secondary": {
+    "n_tasks": 12,
+    "n_training_seeds": 3,
+    "base_wins": 2,
+    "cells": {
+      "raw-none": {
+        "wins_per_seed": [
+          4,
+          3,
+          2
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 12,
+        "mean_success": 0.25
+      },
+      "raw-early": {
+        "wins_per_seed": [
+          5,
+          7,
+          5
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 12,
+        "mean_success": 0.47222222222222227
+      },
+      "matched-none": {
+        "wins_per_seed": [
+          5,
+          3,
+          6
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 12,
+        "mean_success": 0.3888888888888889
+      },
+      "matched-early": {
+        "wins_per_seed": [
+          5,
+          6,
+          5
+        ],
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "tasks_per_seed": 12,
+        "mean_success": 0.4444444444444445
+      }
+    },
+    "contrasts": {
+      "raw": {
+        "early_minus_none": 0.2222222222222222,
+        "per_seed_delta": [
+          0.08333333333333333,
+          0.3333333333333333,
+          0.25
+        ],
+        "crossed_bootstrap_95": [
+          0,
+          0.4722222222222222
+        ]
+      },
+      "matched": {
+        "early_minus_none": 0.05555555555555555,
+        "per_seed_delta": [
+          0,
+          0.25,
+          -0.08333333333333333
+        ],
+        "crossed_bootstrap_95": [
+          -0.16666666666666666,
+          0.3333333333333333
+        ]
+      }
+    },
+    "raw_gap_minus_matched_gap": {
+      "estimate": 0.16666666666666666,
+      "crossed_bootstrap_95": [
+        -0.1111111111111111,
+        0.5
+      ]
+    }
+  },
+  "data_selection": {
+    "raw_examples": {
+      "none": 405,
+      "early": 953
+    },
+    "matched_examples": {
+      "none": 275,
+      "early": 275
+    },
+    "pairs": [
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+        "rollout_seed": 11,
+        "examples_per_arm": 30
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+        "rollout_seed": 11,
+        "examples_per_arm": 16
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+        "rollout_seed": 23,
+        "examples_per_arm": 16
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+        "rollout_seed": 11,
+        "examples_per_arm": 9
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+        "rollout_seed": 23,
+        "examples_per_arm": 9
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+        "rollout_seed": 11,
+        "examples_per_arm": 4
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+        "rollout_seed": 23,
+        "examples_per_arm": 4
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+        "rollout_seed": 11,
+        "examples_per_arm": 16
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+        "rollout_seed": 23,
+        "examples_per_arm": 17
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+        "rollout_seed": 11,
+        "examples_per_arm": 28
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+        "rollout_seed": 23,
+        "examples_per_arm": 7
+      },
+      {
+        "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+        "rollout_seed": 23,
+        "examples_per_arm": 6
+      },
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+        "rollout_seed": 23,
+        "examples_per_arm": 8
+      },
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+        "rollout_seed": 11,
+        "examples_per_arm": 19
+      },
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+        "rollout_seed": 23,
+        "examples_per_arm": 19
+      },
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+        "rollout_seed": 23,
+        "examples_per_arm": 33
+      },
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+        "rollout_seed": 11,
+        "examples_per_arm": 8
+      },
+      {
+        "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+        "rollout_seed": 23,
+        "examples_per_arm": 8
+      },
+      {
+        "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+        "rollout_seed": 11,
+        "examples_per_arm": 9
+      },
+      {
+        "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+        "rollout_seed": 23,
+        "examples_per_arm": 9
+      }
+    ],
+    "raw_successful_tasks": {
+      "none": 14,
+      "early": 32
+    },
+    "matched_successful_tasks": 13,
+    "overlength_dropped": {
+      "none": 0,
+      "early": 0
+    },
+    "probe_results_used_for_matching": false,
+    "raw_task_type_coverage": {
+      "none": {
+        "pick_and_place_simple": 8,
+        "pick_heat_then_place_in_recep": 1,
+        "pick_clean_then_place_in_recep": 5
+      },
+      "early": {
+        "pick_and_place_simple": 20,
+        "pick_cool_then_place_in_recep": 1,
+        "pick_clean_then_place_in_recep": 9,
+        "pick_heat_then_place_in_recep": 2
+      }
+    },
+    "matched_task_type_coverage": {
+      "pick_and_place_simple": 8,
+      "pick_heat_then_place_in_recep": 1,
+      "pick_clean_then_place_in_recep": 4
+    }
+  },
+  "training": {
+    "matched-early-seed101": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 101,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "b944fd9939a7bddcf8608da89624dc700a2680951ef6717a06201527b8cd72be",
+      "input_examples": 275,
+      "used_examples": 275,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "9bdf1bb9e71fb58efa3f6d0428a3b383090c4d5bffcf7d77193e792d30b9aa82",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 166317,
+      "target_tokens_rank0": 3206,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10275174400,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "early",
+        "successful_episodes": 20,
+        "examples": 275,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "matched",
+        "matching_counts": [
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+            "rollout_seed": 11,
+            "examples_per_arm": 30
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 23,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 11,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 23,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 23,
+            "examples_per_arm": 17
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+            "rollout_seed": 11,
+            "examples_per_arm": 28
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+            "rollout_seed": 23,
+            "examples_per_arm": 7
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+            "rollout_seed": 23,
+            "examples_per_arm": 6
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 11,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 23,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+            "rollout_seed": 23,
+            "examples_per_arm": 33
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 11,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          }
+        ],
+        "matching": "Common successful task/seed pairs; equal action-example counts per pair; deterministic quantiles"
+      }
+    },
+    "raw-none-seed303": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 303,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "cbfc06badaea9c4984c79e0aedff8a5311b5a01ed2d58057ab79ccf8ec3e7a3f",
+      "input_examples": 405,
+      "used_examples": 405,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "2d4fc644bc0afc96653ecdb201108aeee5dba003c7015fb1a65cdc18431a9beb",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 173411,
+      "target_tokens_rank0": 3144,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10307648000,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "none",
+        "successful_episodes": 22,
+        "examples": 405,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "raw"
+      }
+    },
+    "raw-none-seed101": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 101,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "cbfc06badaea9c4984c79e0aedff8a5311b5a01ed2d58057ab79ccf8ec3e7a3f",
+      "input_examples": 405,
+      "used_examples": 405,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "a69ece101b2159d342c88acf2ba57771c34060da06a2abcf95d3ca848878e8d9",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 170306,
+      "target_tokens_rank0": 3204,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10307646464,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "none",
+        "successful_episodes": 22,
+        "examples": 405,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "raw"
+      }
+    },
+    "matched-none-seed202": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 202,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "dffa6e5934526d68dcd7df18a0293c832c2af842a5cf8fe0d0d35ba24bc759d1",
+      "input_examples": 275,
+      "used_examples": 275,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "b1f68dafc283755f3c8ab0b8e088cf3b424844755c97f795d75f33cca61feaff",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 169472,
+      "target_tokens_rank0": 3170,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10307655680,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "none",
+        "successful_episodes": 20,
+        "examples": 275,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "matched",
+        "matching_counts": [
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+            "rollout_seed": 11,
+            "examples_per_arm": 30
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 23,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 11,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 23,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 23,
+            "examples_per_arm": 17
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+            "rollout_seed": 11,
+            "examples_per_arm": 28
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+            "rollout_seed": 23,
+            "examples_per_arm": 7
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+            "rollout_seed": 23,
+            "examples_per_arm": 6
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 11,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 23,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+            "rollout_seed": 23,
+            "examples_per_arm": 33
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 11,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          }
+        ],
+        "matching": "Common successful task/seed pairs; equal action-example counts per pair; deterministic quantiles"
+      }
+    },
+    "matched-early-seed303": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 303,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "b944fd9939a7bddcf8608da89624dc700a2680951ef6717a06201527b8cd72be",
+      "input_examples": 275,
+      "used_examples": 275,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "853b8f9b57f23d885801a3012e89b171810e8cff3ac19167a65c96592ced0c11",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 167581,
+      "target_tokens_rank0": 3194,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10275186688,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "early",
+        "successful_episodes": 20,
+        "examples": 275,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "matched",
+        "matching_counts": [
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+            "rollout_seed": 11,
+            "examples_per_arm": 30
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 23,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 11,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 23,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 23,
+            "examples_per_arm": 17
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+            "rollout_seed": 11,
+            "examples_per_arm": 28
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+            "rollout_seed": 23,
+            "examples_per_arm": 7
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+            "rollout_seed": 23,
+            "examples_per_arm": 6
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 11,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 23,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+            "rollout_seed": 23,
+            "examples_per_arm": 33
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 11,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          }
+        ],
+        "matching": "Common successful task/seed pairs; equal action-example counts per pair; deterministic quantiles"
+      }
+    },
+    "raw-early-seed101": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 101,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "9a2cf5a2b19828cf5c1f2e44b57f015d53a75adf2063903ee6b760d6f36e2317",
+      "input_examples": 953,
+      "used_examples": 953,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "1fb071fe591ffd55218e069cca8af19dc8e54ab648b2edb99fd99349f011bab9",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 176985,
+      "target_tokens_rank0": 3194,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10358356480,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "early",
+        "successful_episodes": 57,
+        "examples": 953,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "raw"
+      }
+    },
+    "raw-early-seed303": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 303,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "9a2cf5a2b19828cf5c1f2e44b57f015d53a75adf2063903ee6b760d6f36e2317",
+      "input_examples": 953,
+      "used_examples": 953,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "bbed510cdffbe0aa6fb4ac63627265c5871b21fa10d628c5050eaab58fd8f219",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 173559,
+      "target_tokens_rank0": 3173,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10358358016,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "early",
+        "successful_episodes": 57,
+        "examples": 953,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "raw"
+      }
+    },
+    "raw-early-seed202": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 202,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "9a2cf5a2b19828cf5c1f2e44b57f015d53a75adf2063903ee6b760d6f36e2317",
+      "input_examples": 953,
+      "used_examples": 953,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "7c582fcc63c70cc984a1686f744d7e490831a23a8e58c3e23d1ad17a9e158f01",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 177158,
+      "target_tokens_rank0": 3159,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10275660800,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "early",
+        "successful_episodes": 57,
+        "examples": 953,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "raw"
+      }
+    },
+    "matched-early-seed202": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 202,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "b944fd9939a7bddcf8608da89624dc700a2680951ef6717a06201527b8cd72be",
+      "input_examples": 275,
+      "used_examples": 275,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "b1f68dafc283755f3c8ab0b8e088cf3b424844755c97f795d75f33cca61feaff",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 167732,
+      "target_tokens_rank0": 3220,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10269681152,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "early",
+        "successful_episodes": 20,
+        "examples": 275,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "matched",
+        "matching_counts": [
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+            "rollout_seed": 11,
+            "examples_per_arm": 30
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 23,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 11,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 23,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 23,
+            "examples_per_arm": 17
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+            "rollout_seed": 11,
+            "examples_per_arm": 28
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+            "rollout_seed": 23,
+            "examples_per_arm": 7
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+            "rollout_seed": 23,
+            "examples_per_arm": 6
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 11,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 23,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+            "rollout_seed": 23,
+            "examples_per_arm": 33
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 11,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          }
+        ],
+        "matching": "Common successful task/seed pairs; equal action-example counts per pair; deterministic quantiles"
+      }
+    },
+    "matched-none-seed101": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 101,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "dffa6e5934526d68dcd7df18a0293c832c2af842a5cf8fe0d0d35ba24bc759d1",
+      "input_examples": 275,
+      "used_examples": 275,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "9bdf1bb9e71fb58efa3f6d0428a3b383090c4d5bffcf7d77193e792d30b9aa82",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 168273,
+      "target_tokens_rank0": 3181,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10307657216,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "none",
+        "successful_episodes": 20,
+        "examples": 275,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "matched",
+        "matching_counts": [
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+            "rollout_seed": 11,
+            "examples_per_arm": 30
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 23,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 11,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 23,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 23,
+            "examples_per_arm": 17
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+            "rollout_seed": 11,
+            "examples_per_arm": 28
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+            "rollout_seed": 23,
+            "examples_per_arm": 7
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+            "rollout_seed": 23,
+            "examples_per_arm": 6
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 11,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 23,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+            "rollout_seed": 23,
+            "examples_per_arm": 33
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 11,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          }
+        ],
+        "matching": "Common successful task/seed pairs; equal action-example counts per pair; deterministic quantiles"
+      }
+    },
+    "matched-none-seed303": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 303,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "dffa6e5934526d68dcd7df18a0293c832c2af842a5cf8fe0d0d35ba24bc759d1",
+      "input_examples": 275,
+      "used_examples": 275,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "853b8f9b57f23d885801a3012e89b171810e8cff3ac19167a65c96592ced0c11",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 168665,
+      "target_tokens_rank0": 3169,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10307648000,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "none",
+        "successful_episodes": 20,
+        "examples": 275,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "matched",
+        "matching_counts": [
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437",
+            "rollout_seed": 11,
+            "examples_per_arm": 30
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728",
+            "rollout_seed": 23,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 11,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+            "rollout_seed": 23,
+            "examples_per_arm": 4
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 11,
+            "examples_per_arm": 16
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710",
+            "rollout_seed": 23,
+            "examples_per_arm": 17
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693",
+            "rollout_seed": 11,
+            "examples_per_arm": 28
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+            "rollout_seed": 23,
+            "examples_per_arm": 7
+          },
+          {
+            "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+            "rollout_seed": 23,
+            "examples_per_arm": 6
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 11,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Pot-None-Shelf-1/trial_T20190908_001818_534745",
+            "rollout_seed": 23,
+            "examples_per_arm": 19
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-428/trial_T20190908_014606_560501",
+            "rollout_seed": 23,
+            "examples_per_arm": 33
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 11,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+            "rollout_seed": 23,
+            "examples_per_arm": 8
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 11,
+            "examples_per_arm": 9
+          },
+          {
+            "task_id": "alfworld:train/pick_heat_then_place_in_recep-Potato-None-SideTable-3/trial_T20190909_025547_305753",
+            "rollout_seed": 23,
+            "examples_per_arm": 9
+          }
+        ],
+        "matching": "Common successful task/seed pairs; equal action-example counts per pair; deterministic quantiles"
+      }
+    },
+    "raw-none-seed202": {
+      "baseline": "target_sft",
+      "model": "data/models/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "training_seed": 202,
+      "world_size": 1,
+      "config": {
+        "max_steps": 64,
+        "global_batch_size": 4,
+        "max_sequence_length": 2048,
+        "learning_rate": 0.0001,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "warmup_ratio": 0.05,
+        "weight_decay": 0.0,
+        "training_seeds": [
+          101,
+          202,
+          303
+        ],
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ],
+        "distill_kl_weight": 0.5,
+        "fixed_sample_budget": true
+      },
+      "training_data_sha256": "cbfc06badaea9c4984c79e0aedff8a5311b5a01ed2d58057ab79ccf8ec3e7a3f",
+      "input_examples": 405,
+      "used_examples": 405,
+      "overlength_dropped": 0,
+      "processed_examples_rank0": 256,
+      "scheduled_examples": 256,
+      "unique_scheduled_examples": 256,
+      "schedule_sha256": "5f51dcdd4676b09c107494bbc138b03c5aa811557b72448185627f053c0c451e",
+      "hinted_examples": 0,
+      "teacher_model": null,
+      "input_tokens_rank0": 169707,
+      "target_tokens_rank0": 3174,
+      "teacher_input_tokens_rank0": 0,
+      "peak_cuda_allocated_bytes": 10269113856,
+      "source_export_meta": {
+        "baseline": "target-view rejection fine-tuning; not a reproduction of EvoIn/Harness-Zero",
+        "source_run_fingerprint": "b5214f26ebdbd58feda6e8ff365bf2346d17a1ff75c8ea0fbf8a8b218af064f0",
+        "source_arm": "none",
+        "successful_episodes": 22,
+        "examples": 405,
+        "seed": 20261109,
+        "overlength_dropped_before_matching": 0,
+        "regime": "raw"
+      }
+    }
+  },
+  "collection_behavior": {
+    "none": {
+      "steps": 7205,
+      "invalid_json": 0,
+      "literal_nothing_happens": 3554,
+      "repeated_action_and_feedback": 181,
+      "successful_trajectory_steps": 405,
+      "successful_trajectory_nothing_happens": 89
+    },
+    "early": {
+      "steps": 6353,
+      "invalid_json": 0,
+      "literal_nothing_happens": 1061,
+      "repeated_action_and_feedback": 70,
+      "successful_trajectory_steps": 953,
+      "successful_trajectory_nothing_happens": 73
+    }
+  },
+  "collection": {
+    "planned": 384,
+    "recorded": 384,
+    "complete": true,
+    "uncertainty": "Paired task-group bootstrap at one model checkpoint; not independent training seeds",
+    "metrics": {
+      "early": {
+        "n": 192,
+        "success_rate": 0.296875,
+        "macro_task_type_success": 0.296875,
+        "success_by_type": {
+          "pick_and_place_simple": 0.7708333333333334,
+          "pick_clean_then_place_in_recep": 0.2916666666666667,
+          "pick_cool_then_place_in_recep": 0.041666666666666664,
+          "pick_heat_then_place_in_recep": 0.08333333333333333
+        },
+        "error_count": 0,
+        "mean_steps": 33.088541666666664,
+        "mean_input_tokens": 27471.161458333332,
+        "mean_output_tokens": 378.7291666666667,
+        "support_exposure_rate": 1
+      },
+      "none": {
+        "n": 192,
+        "success_rate": 0.11458333333333333,
+        "macro_task_type_success": 0.11458333333333333,
+        "success_by_type": {
+          "pick_and_place_simple": 0.2708333333333333,
+          "pick_clean_then_place_in_recep": 0.14583333333333334,
+          "pick_cool_then_place_in_recep": 0,
+          "pick_heat_then_place_in_recep": 0.041666666666666664
+        },
+        "error_count": 0,
+        "mean_steps": 37.526041666666664,
+        "mean_input_tokens": 28435.640625,
+        "mean_output_tokens": 427.7864583333333,
+        "support_exposure_rate": 0
+      }
+    },
+    "paired_against_none": {
+      "early": {
+        "task_group_average_delta": 0.1881720430107527,
+        "interval_95": [
+          0.11290322580645161,
+          0.26881720430107525
+        ],
+        "paired_task_groups": 93
+      }
+    },
+    "all_attempts_token_accounting": {
+      "calls": 13558,
+      "input_tokens": 10734106,
+      "output_tokens": 154851
+    }
+  },
+  "uncertainty": "Crossed paired bootstrap over 3 training seeds and held-out task groups; three seeds still give limited precision",
+  "final_benchmarks_used": false,
+  "teacher_api_used": false,
+  "limitations": [
+    "One model family and weak generic support",
+    "Common-success conditioning is a diagnostic selected population",
+    "Matching count and coverage does not match exact input/target tokens or trajectory quality",
+    "No future-task learning-speed or online-RL result"
+  ],
+  "fresh_by_type_descriptive": {
+    "pick_and_place_simple": {
+      "n_tasks": 7,
+      "base_wins": 3,
+      "raw-none": [
+        5,
+        4,
+        3
+      ],
+      "raw-early": [
+        3,
+        5,
+        5
+      ],
+      "matched-none": [
+        5,
+        5,
+        5
+      ],
+      "matched-early": [
+        3,
+        5,
+        5
+      ]
+    },
+    "pick_clean_then_place_in_recep": {
+      "n_tasks": 7,
+      "base_wins": 1,
+      "raw-none": [
+        3,
+        3,
+        1
+      ],
+      "raw-early": [
+        2,
+        4,
+        4
+      ],
+      "matched-none": [
+        3,
+        1,
+        1
+      ],
+      "matched-early": [
+        3,
+        3,
+        3
+      ]
+    },
+    "pick_cool_then_place_in_recep": {
+      "n_tasks": 7,
+      "base_wins": 0,
+      "raw-none": [
+        0,
+        0,
+        0
+      ],
+      "raw-early": [
+        0,
+        1,
+        0
+      ],
+      "matched-none": [
+        0,
+        0,
+        0
+      ],
+      "matched-early": [
+        0,
+        0,
+        0
+      ]
+    },
+    "pick_heat_then_place_in_recep": {
+      "n_tasks": 7,
+      "base_wins": 0,
+      "raw-none": [
+        0,
+        0,
+        0
+      ],
+      "raw-early": [
+        0,
+        0,
+        0
+      ],
+      "matched-none": [
+        0,
+        0,
+        0
+      ],
+      "matched-early": [
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

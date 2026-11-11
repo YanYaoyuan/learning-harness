@@ -1,0 +1,47 @@
+{
+  "filtered-none-seed1101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1070.8061845620032
+  },
+  "filtered-early-seed1101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1183.240152338003
+  },
+  "base-seed1101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 913.372524665996
+  },
+  "filtered-none-seed1202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1207.8646456370043
+  },
+  "filtered-early-seed1202": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1011.2957599450019
+  },
+  "base-seed1202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 989.5697043799955
+  },
+  "filtered-none-seed1303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 1147.355738667
+  },
+  "filtered-early-seed1303": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 1276.687329788001
+  },
+  "base-seed1303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 943.1937295590033
+  }
+}

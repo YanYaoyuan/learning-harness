@@ -1,0 +1,15 @@
+{
+  "fingerprint": "518b8a1d2529a023b39baf3a5f6647e82fef7d6761ff123eff10a039880dcf87",
+  "planned_episodes": 48,
+  "config": {
+    "manifest_sha256": "92a327fd168dff331e4605408fa03bdbd68b4bcfd6c68cb9386d0037f3fdfec6",
+    "max_steps": 120,
+    "policy_hashes": {
+      "src/learning_harness/reference_cooling.py": "72a99adfea708601e7de7a2333c941dfb3101eda3d4f990cbc9b762d3daf3a04",
+      "src/learning_harness/reference_heating.py": "7cd1440b4e3d8a66dbe93d23b19e6176f4941b12f9ba7ff7447616de15ea9691",
+      "scripts/collect_transfer_reference.py": "a274528d72fa9c7054127cc2ab71a7089b20e0aaca9e9f3fc8f2d45a259c7464"
+    }
+  },
+  "paid_api_calls": 0,
+  "teacher": "scripted public-observation reference"
+}

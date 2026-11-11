@@ -1,0 +1,32 @@
+{
+  "api-seed101": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 47.59505428199191
+  },
+  "react-seed101": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 52.00218783400487
+  },
+  "api-seed202": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 47.74203344300622
+  },
+  "react-seed202": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 51.29924887800007
+  },
+  "api-seed303": {
+    "status": "completed",
+    "gpu": 0,
+    "elapsed_seconds": 47.69569336299901
+  },
+  "react-seed303": {
+    "status": "completed",
+    "gpu": 1,
+    "elapsed_seconds": 50.89891208498739
+  }
+}

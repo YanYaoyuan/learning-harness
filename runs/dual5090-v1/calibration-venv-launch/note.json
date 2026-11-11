@@ -1,0 +1,4 @@
+{
+  "issue": "Path.resolve followed the virtualenv interpreter symlink, bypassing its package overlay. Use absolute without resolving symlinks.",
+  "training_steps_completed": 0
+}

@@ -1,0 +1,8 @@
+{
+  "source": "api",
+  "examples": 452,
+  "common_task_groups": 34,
+  "source_run_fingerprint": "afd38cff4d03215c97b05c9a38534fab41028995b4a2e21d227745ee57ceb998",
+  "target_view": "canonical public JSON actions, no hints/examples/thoughts",
+  "query_used": false
+}
