@@ -2,9 +2,9 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前状态（2026-11-11）**：强基线对照已完成全部4,284次评测并通过核账。教师辅助来源相对ReAct来源的主AUC差为−3.56个百分点，当前没有显示候选优势；三个种子的差值为−9.77、−3.42、+2.49。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) · [执行方式检查](output/source-comparison-v1/execution-robustness.png)。旧结果保留各自适用范围，不把增益AUC较高解读为学习能力更强。
+**当前状态（2026-11-12）**：强基线对照已完成全部4,284次评测并通过核账。教师辅助来源相对ReAct来源的主AUC差为−3.56个百分点，当前没有显示候选优势；三个种子的差值为−9.77、−3.42、+2.49。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) · [执行方式检查](output/source-comparison-v1/execution-robustness.png)。旧结果保留各自适用范围，不把增益AUC较高解读为学习能力更强。
 
-Stage 0已通过真实GPU smoke并冻结，正在测量旧API−generic模型的批布局敏感性；预算四GPU小时，历史重复仅作补充。[Stage 0协议](docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md) · [验收与执行](docs/STAGE0_LOCAL_VALIDATION_2026-11-11.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
+Stage 0已全部完成，用时2.03 GPU小时。旧API−generic配对分数中，批布局重复方差占比约0.46%，训练侧差异更大；初始化/dropout与样本抽取尚未拆开。[完整结果](docs/VARIANCE_DIAGNOSTIC_STAGE0_RESULTS_2026-11-12.zh-CN.md) · [冻结协议](docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
@@ -16,7 +16,7 @@ python3 -m venv .venv-dev
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv-dev/bin/python -m pytest -q
 ```
 
-独立开发环境已通过90项CPU测试；GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
+独立开发环境已通过90项CPU测试；新种子控制入口另有3项测试通过。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
 
 [实验协议：环境、baseline、benchmark 与统计口径](docs/EXPERIMENT_PLAN.zh-CN.md) · [前期调研](output/pdf/agent-research/README.md)
 

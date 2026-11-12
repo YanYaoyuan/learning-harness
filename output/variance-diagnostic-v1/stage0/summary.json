@@ -1,0 +1,87 @@
+{
+  "complete": true,
+  "exploratory": true,
+  "population": "Legacy full-experience API versus generic; not API versus ReAct",
+  "perturbation": "Fixed task-order permutations at temperature zero; batching/numerical sensitivity only",
+  "independent_training_seeds": 3,
+  "new_replicates": [
+    1,
+    2,
+    3
+  ],
+  "primary": {
+    "seeds": 3,
+    "replicates": 3,
+    "msw": 0.0001627604166666667,
+    "msb": 0.10549587673611113,
+    "df_within": 6,
+    "df_between": 2,
+    "replicate_variance": 0.0001627604166666667,
+    "seed_variance": 0.035111038773148154,
+    "single_evaluation_total": 0.03527379918981482,
+    "replicate_sd_pp": 1.275775907699572,
+    "seed_sd_pp": 18.73793979421114,
+    "seed_variance_truncated_at_zero": false,
+    "share": 0.004614201486798258,
+    "share_interval": [
+      0.0002399406416542238,
+      0.023455567250346254
+    ],
+    "interval_level": 0.9,
+    "interval_method": "one-way random-effects F interval; normal-theory, approximate"
+  },
+  "decision": "Stage 1 in full",
+  "task_flip_rates": [
+    {
+      "family": "cool",
+      "source": "api",
+      "flipped": 5,
+      "total": 96,
+      "flip_rate": 0.052083333333333336
+    },
+    {
+      "family": "cool",
+      "source": "generic",
+      "flipped": 4,
+      "total": 96,
+      "flip_rate": 0.041666666666666664
+    },
+    {
+      "family": "heat",
+      "source": "api",
+      "flipped": 4,
+      "total": 96,
+      "flip_rate": 0.041666666666666664
+    },
+    {
+      "family": "heat",
+      "source": "generic",
+      "flipped": 3,
+      "total": 96,
+      "flip_rate": 0.03125
+    }
+  ],
+  "determinism_checks": [
+    {
+      "source": "api",
+      "complete": true,
+      "tasks": 32,
+      "success_matches": 32,
+      "action_observation_trace_matches": 32,
+      "historical_environment_identity_attested": false
+    },
+    {
+      "source": "generic",
+      "complete": true,
+      "tasks": 32,
+      "success_matches": 32,
+      "action_observation_trace_matches": 32,
+      "historical_environment_identity_attested": false
+    }
+  ],
+  "gpu_hours": 2.0309949921237096,
+  "ledger_status": "completed",
+  "include_historical_primary": false,
+  "teacher_calls": 0,
+  "official_tests_used": false
+}

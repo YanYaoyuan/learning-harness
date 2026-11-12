@@ -99,11 +99,12 @@ def main():
         axes[0].set_xticks(x, result["primary_replicates"])
         axes[0].set_ylabel("API − generic success (pp)")
         axes[0].set_title("Same checkpoints, changed batch membership", loc="left")
-        axes[0].legend(frameon=False, fontsize=8)
+        axes[0].legend(frameon=False, fontsize=8, loc="center right", bbox_to_anchor=(1, .65))
         axes[1].bar([0, 1], [primary["replicate_sd_pp"], primary["seed_sd_pp"]],
                     color=["#dc7945", "#2878a6"])
         axes[1].set_xticks([0, 1], ["Batching repeat", "Training seed"])
         axes[1].set_ylabel("Estimated SD (pp)")
+        axes[1].set_ylim(0, max(1.0, 1.3 * max(primary["replicate_sd_pp"], primary["seed_sd_pp"])))
         share = primary["share"]
         title = "Share undefined" if share is None else f"Repeat share: {100 * share:.1f}%"
         axes[1].set_title(title, loc="left")

@@ -54,8 +54,8 @@ def main():
                      "progress/queue_state": queue.get("status", "unknown")})
             status = queue.get("status")
             if status in ("completed", "failed", "blocked_source_failed", "wait_timeout_no_stage0_started", "inconclusive_at_cap"):
-                run.summary.update(progress_only=True, termination_state=status,
-                                   measured_result_run_id=identity)
+                run.summary.update(dict(progress_only=True, termination_state=status,
+                                        measured_result_run_id=identity))
                 receipt.write_text(json.dumps(dict(status=status, run_id=run.id, run_url=run.url,
                     measured_result_run_id=identity, progress_only=True), indent=2) + "\n")
                 return

@@ -1,0 +1,210 @@
+{
+  "gpu_seconds": 7311.581971645355,
+  "attempts": [
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/smoke/heat/full-api-seed1101",
+      "seconds": 197.6244866847992,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/cool/full-api-seed1101",
+      "seconds": 196.8038055896759,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/cool/full-generic-seed1101",
+      "seconds": 194.17505311965942,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/cool/full-api-seed1202",
+      "seconds": 199.52728080749512,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/cool/full-generic-seed1202",
+      "seconds": 184.8836808204651,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/cool/full-api-seed1303",
+      "seconds": 195.76210570335388,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/cool/full-generic-seed1303",
+      "seconds": 190.051011800766,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/heat/full-api-seed1101",
+      "seconds": 192.77938055992126,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/heat/full-generic-seed1101",
+      "seconds": 198.4994556903839,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/heat/full-api-seed1202",
+      "seconds": 156.2383210659027,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/heat/full-generic-seed1202",
+      "seconds": 189.64105606079102,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/heat/full-api-seed1303",
+      "seconds": 196.94076800346375,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep1/heat/full-generic-seed1303",
+      "seconds": 172.86122751235962,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/cool/full-api-seed1101",
+      "seconds": 198.64735960960388,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/cool/full-generic-seed1101",
+      "seconds": 192.38249802589417,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/cool/full-api-seed1202",
+      "seconds": 197.29538130760193,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/cool/full-generic-seed1202",
+      "seconds": 185.02208590507507,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/cool/full-api-seed1303",
+      "seconds": 197.76956129074097,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/cool/full-generic-seed1303",
+      "seconds": 184.06394982337952,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/heat/full-api-seed1101",
+      "seconds": 189.5356318950653,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/heat/full-generic-seed1101",
+      "seconds": 187.62968826293945,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/heat/full-api-seed1202",
+      "seconds": 158.19189977645874,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/heat/full-generic-seed1202",
+      "seconds": 191.72137570381165,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/heat/full-api-seed1303",
+      "seconds": 200.47140622138977,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep2/heat/full-generic-seed1303",
+      "seconds": 162.50566935539246,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/cool/full-api-seed1101",
+      "seconds": 191.6528036594391,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/cool/full-generic-seed1101",
+      "seconds": 188.04525685310364,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/cool/full-api-seed1202",
+      "seconds": 193.46068382263184,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/cool/full-generic-seed1202",
+      "seconds": 184.94969487190247,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/cool/full-api-seed1303",
+      "seconds": 190.09389877319336,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/cool/full-generic-seed1303",
+      "seconds": 180.74198579788208,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/heat/full-api-seed1101",
+      "seconds": 181.24627017974854,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/heat/full-generic-seed1101",
+      "seconds": 194.6067886352539,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/heat/full-api-seed1202",
+      "seconds": 157.11177563667297,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/heat/full-generic-seed1202",
+      "seconds": 188.09574604034424,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/heat/full-api-seed1303",
+      "seconds": 200.96379923820496,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/rep3/heat/full-generic-seed1303",
+      "seconds": 165.62291955947876,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/determinism/heat/full-api-seed1101",
+      "seconds": 193.4116940498352,
+      "outcome": "completed"
+    },
+    {
+      "directory": "runs/variance-diagnostic-v1/stage0/determinism/heat/full-generic-seed1101",
+      "seconds": 190.5545139312744,
+      "outcome": "completed"
+    }
+  ],
+  "open": null,
+  "status": "completed",
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "undocumented_reporting_script_mismatches": [
+    "scripts/transfer_factorial_report.py"
+  ],
+  "gpu": 0,
+  "cap_gpu_hours": 4.0,
+  "freeze_sha256": "667b7438cb90ec4ffd4014a8e770c328364c287fc06694c8febe82e0c03c50b1"
+}
