@@ -1,0 +1,59 @@
+{
+  "interim": true,
+  "final_study_complete": false,
+  "cutoff_unix": 1794486392.6077707,
+  "completed_models": 8,
+  "planned_models": 70,
+  "matched_seed_cells": [
+    [
+      101,
+      101
+    ]
+  ],
+  "paired_rows": [
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "source": "api",
+      "random_success": 0.296875,
+      "random_nll": 0.17724277162689872,
+      "min_nll_success": 0.171875,
+      "min_nll_nll": 0.3960709349770217,
+      "success_difference_pp": -12.5,
+      "nll_difference": 0.218828163350123
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "source": "generic",
+      "random_success": 0.234375,
+      "random_nll": 0.4815388965134636,
+      "min_nll_success": 0.03125,
+      "min_nll_nll": 0.5227304524190977,
+      "success_difference_pp": -20.3125,
+      "nll_difference": 0.04119155590563406
+    }
+  ],
+  "freeze_sha256": "262c0863d930a940b1fb63beba36c64f4db2f5e8b13fe2b0616f90d34ea93f10",
+  "note": "Descriptive peek requested by user; no inference or outcome-based scheduling",
+  "effects": {
+    "api": {
+      "random_success_pct": 29.6875,
+      "min_nll_success_pct": 17.1875,
+      "nll_minus_random_pp": -12.5,
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "diagnostic_nll_difference": 0.218828163350123
+    },
+    "generic": {
+      "random_success_pct": 23.4375,
+      "min_nll_success_pct": 3.125,
+      "nll_minus_random_pp": -20.3125,
+      "wins": 0,
+      "ties": 0,
+      "losses": 1,
+      "diagnostic_nll_difference": 0.04119155590563406
+    }
+  }
+}

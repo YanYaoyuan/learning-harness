@@ -1,0 +1,11 @@
+{
+  "pid": 3710085,
+  "argv": [
+    "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+    "scripts/stage3_interim_report.py",
+    "--watch"
+  ],
+  "started_unix": 1794486461.8230057,
+  "read_only": true,
+  "automatic_gpu_restart": false
+}
