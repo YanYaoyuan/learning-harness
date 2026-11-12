@@ -1,0 +1,30 @@
+{
+  "status": "cpu_preparation_verified",
+  "cpu_tests": 190,
+  "new_freeze_and_interim_tests": 12,
+  "ruff_check": "passed",
+  "wandb_environment_import_help": "passed",
+  "actual_plot_component_check": {
+    "models": 32,
+    "episodes": 2048,
+    "source": "Existing Stage 3 task-matched interim snapshot; not a new action-matched result"
+  },
+  "live_parent_guard": "refused before creating next study root",
+  "formal_protocol_frozen": false,
+  "new_gpu_training_started": false,
+  "new_cloud_interim_pipeline_tested": false,
+  "stage3_frozen_files_unchanged": 188,
+  "new_model_calls": 0,
+  "raw_records_uploaded": false,
+  "checked_unix": 1794496316.9864306,
+  "code_sha256": {
+    "scripts/freeze_action_controls.py": "7bf93b93f4a5703069315bf487253551163d6f7524b6bafc28e2037af23aeb06",
+    "scripts/action_control_interim.py": "9f0cb6fb1490fdb7e197429dd0f8ea30798a7741c5205cc724bf8fddcdeeec91",
+    "scripts/action_control_report.py": "158878d5ac39a3a153a9fa60fe5c80f2c7dfba64dba069e77c2af3ecb9e1b503",
+    "scripts/track_action_controls.py": "128efb5b99d7a2940a51cdd12669799e603e0329dcc79bb456f1d6a185464964",
+    "src/learning_harness/controlled_study.py": "e3fb02ceb1319ba6a2317f00fd79d5395fb9adf98dac7a442b68f45f25d6cda6",
+    "tests/test_action_control_freeze.py": "4c9bd26e1c335e785c77ec320ba06a575cd1b4a0d2acdf3fbd475494cbfd7ee6",
+    "tests/test_completed_policy_pairs.py": "1b0817ddcde50722600cad2c088cf0f1004138083b64e37a35e034521a34f6ec",
+    "tests/test_action_control_interim.py": "7f770992f07629e0f700d331a6703a421ae17b79a6376b63145d1c073aa81504"
+  }
+}

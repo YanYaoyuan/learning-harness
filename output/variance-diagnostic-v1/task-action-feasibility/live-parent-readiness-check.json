@@ -1,0 +1,19 @@
+{
+  "status": "refused_as_expected_before_output_creation",
+  "parent_status": "running",
+  "followup_directory_exists": false,
+  "formal_protocol_frozen": false,
+  "new_gpu_training_started": false,
+  "teacher_calls": 0,
+  "command": [
+    ".venv-model/bin/python",
+    "scripts/freeze_action_controls.py",
+    "--root",
+    "runs/variance-diagnostic-v1/stage4",
+    "--proposal",
+    "output/variance-diagnostic-v1/task-action-feasibility/study-proposal.json",
+    "--review",
+    "output/variance-diagnostic-v1/task-action-feasibility/parent-review.example.json"
+  ],
+  "checked_unix": 1794496272.1347833
+}

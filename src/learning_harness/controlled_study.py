@@ -163,6 +163,46 @@ def paired_effects(rows):
     return result
 
 
+def completed_policy_pairs(frozen, records):
+    """Only fully completed primary cells enter descriptive interim summaries."""
+    plan = {c["name"]: c for c in frozen["cases"]}
+    indexed = {}
+    for record in records:
+        case = record["case"]
+        if (
+            plan.get(case["name"]) != case
+            or record["complete"] is not True
+            or record["smoke"]
+            or case["name"] in indexed
+        ):
+            raise ValueError(
+                "Completed result is duplicated or differs from the frozen plan"
+            )
+        indexed[case["name"]] = record
+    available = {
+        (c["initialization_seed"], c["sampling_seed"], c["source"], c["policy"])
+        for c in plan.values()
+        if c["name"] in indexed and c["repeat"] == 0
+    }
+    keys = sorted(
+        {
+            (i, s)
+            for i, s, _, _ in available
+            if all(
+                (i, s, source, policy) in available
+                for source in SOURCES
+                for policy in POLICIES
+            )
+        }
+    )
+    selected = [
+        c
+        for c in frozen["cases"]
+        if c["repeat"] == 0 and (c["initialization_seed"], c["sampling_seed"]) in keys
+    ]
+    return keys, selected
+
+
 def audit_episodes(episodes, manifest):
     expected = {row["task_id"]: row for row in manifest}
     if (

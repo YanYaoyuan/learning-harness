@@ -8,6 +8,7 @@ import subprocess
 import time
 
 from action_control_report import load_study, output_path
+from action_control_interim import observe_interim
 from learning_harness.bounded_queue import save
 from learning_harness.common import file_sha
 from learning_harness.research_aggregates import aggregate_report
@@ -44,7 +45,7 @@ def main():
         entity=target["entity"],
         project=target["project"],
         id=freeze_sha[:12] + "-progress",
-        name=frozen["name"] + " / progress only",
+        name=frozen["name"] + " / progress and descriptive interim",
         group="task-action-controls-v1",
         job_type="progress",
         resume="allow",
@@ -59,7 +60,8 @@ def main():
             status="watching",
             run_id=progress.id,
             run_url=progress.url,
-            progress_only=True,
+            progress_only=False,
+            progress_and_interim=True,
             raw_records_uploaded=False,
         ),
     )
@@ -85,6 +87,7 @@ def main():
                     "progress/state": state,
                 }
             )
+            observe_interim(args.root, out, frozen, progress, wandb)
             if state == "evaluation_completed":
                 pipeline = read(args.root / "job.json").get("pipeline", {})
                 pid = pipeline.get("pid")
@@ -133,7 +136,8 @@ def main():
                 run_id=progress.id,
                 run_url=progress.url,
                 completed_adapters=completed,
-                progress_only=True,
+                progress_only=False,
+                progress_and_interim=True,
                 raw_records_uploaded=False,
             ),
         )

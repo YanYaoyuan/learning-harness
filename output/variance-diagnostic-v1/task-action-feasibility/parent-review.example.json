@@ -1,0 +1,8 @@
+{
+  "decision": "pending_parent_review",
+  "complete_parent_results_reviewed": false,
+  "parent_report_sha256": null,
+  "proposal_sha256": "269cc6ce0c57ac056915e8088b8718c1ddbac872cccee1dcede1810e259aa4d3",
+  "parent_freeze_sha256": "262c0863d930a940b1fb63beba36c64f4db2f5e8b13fe2b0616f90d34ea93f10",
+  "note": "Template only. A separate actual review is written by the experiment operator after inspecting the complete parent report; not an additional user permission request."
+}

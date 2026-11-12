@@ -25,6 +25,7 @@ REQUIRED_CODE = {
     "scripts/run_action_controls.py",
     "scripts/track_action_controls.py",
     "scripts/supervise_research.py",
+    "scripts/action_control_interim.py",
     "src/learning_harness/action_control_audit.py",
     "src/learning_harness/action_matched_sampling.py",
     "src/learning_harness/controlled_study.py",
@@ -206,38 +207,8 @@ def collect(root, frozen):
     return rows, exposure, task_rows
 
 
-def generate(root):
-    frozen = load_study(root)
-    ledger = json.loads((root / "execution.json").read_text())
-    if ledger["freeze_sha256"] != file_sha(root / "freeze.json") or ledger[
-        "status"
-    ] not in ("evaluation_completed", "completed"):
-        raise ValueError(
-            "Durable execution ledger does not identify this completed study"
-        )
-    rows, exposure, task_rows = collect(root, frozen)
+def render_policies(rows, out, title, labels=None):
     effects = paired_effects(rows)
-    out = output_path(root)
-    out.mkdir(parents=True, exist_ok=True)
-    for name, values in (
-        ("cell-scores.csv", rows),
-        ("task-outcomes.csv", task_rows),
-        ("training-exposure.csv", exposure),
-    ):
-        with (out / name).open("w") as handle:
-            writer = csv.DictWriter(handle, fieldnames=list(values[0]))
-            writer.writeheader()
-            writer.writerows(
-                [
-                    {
-                        k: json.dumps(v, sort_keys=True)
-                        if isinstance(v, (dict, list))
-                        else v
-                        for k, v in row.items()
-                    }
-                    for row in values
-                ]
-            )
     import matplotlib
 
     matplotlib.use("Agg")
@@ -285,17 +256,53 @@ def generate(root):
             ylim=(0, 100),
             xlim=(-0.5, 1.5),
             xticks=[0, 1],
-            xticklabels=["Action-matched random", "Action-matched low NLL"],
+            xticklabels=labels or ["Action-matched random", "Action-matched low NLL"],
         )
         ax.grid(axis="y", alpha=0.2)
-    fig.suptitle(
-        "Same task/action positions and within-stratum distinct-content quotas",
-        fontsize=11,
-    )
+    fig.suptitle(title, fontsize=11)
     fig.tight_layout()
     for extension in ("png", "pdf"):
         fig.savefig(out / ("action-matched-policies." + extension), dpi=180)
     plt.close(fig)
+
+
+def generate(root):
+    frozen = load_study(root)
+    ledger = json.loads((root / "execution.json").read_text())
+    if ledger["freeze_sha256"] != file_sha(root / "freeze.json") or ledger[
+        "status"
+    ] not in ("evaluation_completed", "completed"):
+        raise ValueError(
+            "Durable execution ledger does not identify this completed study"
+        )
+    rows, exposure, task_rows = collect(root, frozen)
+    effects = paired_effects(rows)
+    out = output_path(root)
+    out.mkdir(parents=True, exist_ok=True)
+    for name, values in (
+        ("cell-scores.csv", rows),
+        ("task-outcomes.csv", task_rows),
+        ("training-exposure.csv", exposure),
+    ):
+        with (out / name).open("w") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(values[0]))
+            writer.writeheader()
+            writer.writerows(
+                [
+                    {
+                        k: json.dumps(v, sort_keys=True)
+                        if isinstance(v, (dict, list))
+                        else v
+                        for k, v in row.items()
+                    }
+                    for row in values
+                ]
+            )
+    render_policies(
+        rows,
+        out,
+        "Same task/action positions and within-stratum distinct-content quotas",
+    )
     result = dict(
         complete=True,
         cases=len(rows),
