@@ -117,3 +117,26 @@ API低NLL组提高13.281pp、随机提高3.906pp；generic低NLL仅提高0.391pp
 ![四个完整初始化的预设中途图](../output/variance-diagnostic-v1/stage4/interim/node-16/action-matched-policies.png)
 
 完整研究仍有初始化505/606及条件重复待完成。当前是固定开发任务上的中途描述，不给未经校准的显著性或等效结论，不改队列、训练预算或停止规则。[不可变汇总](../output/variance-diagnostic-v1/stage4/interim/node-16/aggregate-summary.json) · [逐初始化及胜平负核对](../output/research-operations/20261113/stage4-node16-local-check.json) · [云端核验](../output/research-operations/20261113/stage4-cloud-node16-check.json)。
+
+## node-20：五个完整初始化（2026-11-13）
+
+主观察器已生成第20个预设配对快照：初始化101/202/303/404/505各四份采样配方，共80个模型、5,120回合。创建时全队列完成82/100，额外两个未配对模型不进入均值。独立重新核对80份worker结果哈希、全部5,120个逐任务结果和初始化/配方覆盖；PNG与PDF重渲染通过目视检查，W&B三个汇总文件下载后与本地逐字节一致。
+
+| 来源 | 动作匹配随机 | 动作匹配低NLL | 低NLL−随机 | 配对胜/平/负 |
+|---|---:|---:|---:|---:|
+| API | 31.406% | 27.422% | −3.984pp | 8/0/12 |
+| Generic | 6.641% | 3.906% | −2.734pp | 3/4/13 |
+
+| 初始化 | API低NLL−随机 | Generic低NLL−随机 |
+|---|---:|---:|
+| 101 | −5.8594pp | −1.5625pp |
+| 202 | −10.1562pp | −3.1250pp |
+| 303 | −2.3438pp | −2.7344pp |
+| 404 | 0.0000pp | −4.2969pp |
+| 505 | −1.5625pp | −1.9531pp |
+
+新增初始化505的API四配方为两胜两负，平均差为−1.5625pp；Generic为一胜一平两负，平均差为−1.953125pp。API五个初始化平均差异为四负一零，Generic五个均负；全部正向单元和初始化404的持平结果继续保留。20个配对单元不作为20个独立初始化。
+
+![五个完整初始化的预设中途图](../output/variance-diagnostic-v1/stage4/interim/node-20/action-matched-policies.png)
+
+初始化606及条件重复仍在原队列中。本快照是固定开发任务上的描述性结果，不给未经校准的显著性或等效结论，不据此调整队列、预算或停止规则。动作匹配同时影响内容支持和选择强度，差距缩小仍不能直接解释为动作构成的因果中介作用。初稿v0.1及其证据快照保持原版本，完整六初始化与后续验证完成后再修订正文。[不可变汇总](../output/variance-diagnostic-v1/stage4/interim/node-20/aggregate-summary.json) · [逐回合和逐初始化核对](../output/research-operations/20261113/stage4-node20-local-check.json) · [云端三个文件核验](../output/research-operations/20261113/stage4-cloud-node20-check.json)。
