@@ -1,0 +1,86 @@
+{
+  "status": "actual_tensor_differences_verified",
+  "results": [
+    {
+      "policy": "random",
+      "success": [
+        0.296875,
+        0.375
+      ],
+      "nll": [
+        0.17724277162689872,
+        0.19508402830501473
+      ],
+      "trained_weights_sha256": [
+        "799bddd56ed7e3f77bdf5635a82bb27db63027700f64a314f66ea9cbadf5bb7b",
+        "5beb00a6d15cd692e6acc89d0084dcc51fbfee317a0bcdf59b3f238d2ffed605"
+      ],
+      "control_fields_equal": {
+        "initial_parameter_sha256": true,
+        "schedule_sha256": true,
+        "external_schedule_sha256": true,
+        "initialization_seed": true,
+        "sampling_seed": true,
+        "trainer_sha256": true,
+        "wrapper_sha256": true
+      },
+      "metadata_equal": {
+        "config": true,
+        "training_data_sha256": true,
+        "processed_examples_rank0": true,
+        "input_tokens_rank0": true,
+        "target_tokens_rank0": true
+      },
+      "parameters": 11796480,
+      "changed": 11796474,
+      "relative_l2": 0.07514510143971158,
+      "max_abs_difference": 0.005464746616780758,
+      "source_result_sha256": {
+        "runs/variance-diagnostic-v1/stage3/cases/task_matched_random-api-i101-s101-r0/worker-result.json": "a22a67ca60373578565d3748cc0fa651cf9625f24d169c0e5e016bdff9ccdebd",
+        "runs/variance-diagnostic-v1/stage3/cases/task_matched_random-api-i101-s101-r1/worker-result.json": "a34eaea93012e28cd10f8f26c6ecc12ed59b4c201e09e42134d3b67b9da06998"
+      }
+    },
+    {
+      "policy": "min_nll",
+      "success": [
+        0.171875,
+        0.078125
+      ],
+      "nll": [
+        0.3960709349770217,
+        0.27272576027163814
+      ],
+      "trained_weights_sha256": [
+        "6003d2c160e67b3aa75c23fa61c7fe7865e4c5cac4a6a3debe356023e83d6e05",
+        "5fc818f3e48f1dd35cd913c087e70d674268b1083d06346e0850136a2bafc8ca"
+      ],
+      "control_fields_equal": {
+        "initial_parameter_sha256": true,
+        "schedule_sha256": true,
+        "external_schedule_sha256": true,
+        "initialization_seed": true,
+        "sampling_seed": true,
+        "trainer_sha256": true,
+        "wrapper_sha256": true
+      },
+      "metadata_equal": {
+        "config": true,
+        "training_data_sha256": true,
+        "processed_examples_rank0": true,
+        "input_tokens_rank0": true,
+        "target_tokens_rank0": true
+      },
+      "parameters": 11796480,
+      "changed": 11796477,
+      "relative_l2": 0.10471612069339532,
+      "max_abs_difference": 0.006199820898473263,
+      "source_result_sha256": {
+        "runs/variance-diagnostic-v1/stage3/cases/task_matched_min_nll-api-i101-s101-r0/worker-result.json": "094f323f01b649366fa29df3c9ba6181071442a0854b2a6d66d4c02febe655a4",
+        "runs/variance-diagnostic-v1/stage3/cases/task_matched_min_nll-api-i101-s101-r1/worker-result.json": "9fe265bbb22b4ea1012835c26635c6f907c5900f796f78667b401ca5b65fe01d"
+      }
+    }
+  ],
+  "new_training": false,
+  "new_model_calls": 0,
+  "checked_unix": 1794503394.9906619
+}

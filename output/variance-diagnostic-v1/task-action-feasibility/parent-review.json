@@ -1,0 +1,139 @@
+{
+  "decision": "run_task_action_controls",
+  "complete_parent_results_reviewed": true,
+  "parent_report_sha256": "e03827f681d57f1014bcdc986dbd9dd861f5b667f14e069b5836118662c0812d",
+  "proposal_sha256": "f84c10deb11ca9233a86ddc8c206cea09a7269c1760f00e42ec72c0ae1fd1d4f",
+  "parent_freeze_sha256": "262c0863d930a940b1fb63beba36c64f4db2f5e8b13fe2b0616f90d34ea93f10",
+  "reviewed_unix": 1794504485.0189245,
+  "parent_models": 70,
+  "parent_evaluation_episodes": 4480,
+  "primary_success_difference_pp": {
+    "api": -17.7734375,
+    "generic": -7.8125
+  },
+  "all_four_initialization_mean_directions_negative": true,
+  "positive_cells_retained": {
+    "api": 1,
+    "generic": 5
+  },
+  "conditional_training_repeats_reviewed": true,
+  "fresh_full_pool_checks_retained": true,
+  "reliability_diagnostic_aggregate_sha256": "094a2d4472e2e2b172731e27ef506be9d4fd356fdbdfa98b7cf0b5d2bf36fcd7",
+  "reliability_new_episodes": 128,
+  "reliability_outcome_disagreements": 0,
+  "reliability_scope": "Two outcome-selected stored low-NLL models, one as-is repeat each; not a population noise estimate.",
+  "scientific_protocol_document_sha256": "5cdead986f8ed25c332b06bcdd032d44c633a6c65a926edbc3d6b31ccc2f347a",
+  "reason": "Task/action composition remains uncontrolled after the complete task-matched result. Test remaining within-stratum content-selection effect using existing audited recipes and unchanged optimizer; six initialization levels expose training variability better, without claiming calibrated statistical power.",
+  "limitations": [
+    "Same 64 reused development tasks, not official unseen benchmark results.",
+    "Action matching also weakens NLL contrast; attenuation is not a mediation estimate.",
+    "Old API/generic pools are two sources, not two independent environments.",
+    "Retain the negative API-versus-ReAct matched source comparison.",
+    "All initialization values and conditional repeats remain visible; no uncalibrated confidence intervals or outcome-dependent queue changes."
+  ],
+  "design": {
+    "primary_seed_cells": [
+      [
+        101,
+        101
+      ],
+      [
+        101,
+        202
+      ],
+      [
+        101,
+        303
+      ],
+      [
+        101,
+        404
+      ],
+      [
+        202,
+        101
+      ],
+      [
+        202,
+        202
+      ],
+      [
+        202,
+        303
+      ],
+      [
+        202,
+        404
+      ],
+      [
+        303,
+        101
+      ],
+      [
+        303,
+        202
+      ],
+      [
+        303,
+        303
+      ],
+      [
+        303,
+        404
+      ],
+      [
+        404,
+        101
+      ],
+      [
+        404,
+        202
+      ],
+      [
+        404,
+        303
+      ],
+      [
+        404,
+        404
+      ],
+      [
+        505,
+        101
+      ],
+      [
+        505,
+        202
+      ],
+      [
+        505,
+        303
+      ],
+      [
+        505,
+        404
+      ],
+      [
+        606,
+        101
+      ],
+      [
+        606,
+        202
+      ],
+      [
+        606,
+        303
+      ],
+      [
+        606,
+        404
+      ]
+    ],
+    "planned_models": 100,
+    "repeated_models": 4
+  },
+  "new_teacher_calls": 0,
+  "official_tests_used": false,
+  "user_reapproval_required": false
+}

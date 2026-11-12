@@ -1,0 +1,71 @@
+{
+  "status": "frozen_validated_and_gpu_queue_running",
+  "checked_unix": 1794504732.3374119,
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "frozen_files": 237,
+  "models": 100,
+  "planned_evaluation_episodes": 6400,
+  "primary_models": 96,
+  "conditional_repeated_models": 4,
+  "initialization_levels": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "sampling_levels": [
+    101,
+    202,
+    303,
+    404
+  ],
+  "cap_gpu_hours": 18,
+  "optimizer": {
+    "max_steps": 192,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "training_seeds": [
+      101,
+      202,
+      303
+    ],
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "distill_kl_weight": 0.5,
+    "fixed_sample_budget": true
+  },
+  "schedule_sha256": {
+    "min_nll-api-s101.json": "47bb84381992c5ea2e7597615a1927884c954be8b15e2eca5af5ad918857349f",
+    "min_nll-api-s202.json": "af8d22896a76e1497a7fe0665f67e58e53bedc26f30ccdd8b37c8779a5d281d7",
+    "min_nll-api-s303.json": "a1e1a1bd1b1bb75e17e5b58b26d7ddbd58f17aba7011a6315d272d86466cdd4f",
+    "min_nll-api-s404.json": "5e31fe7933d2d5f9df06fcbbf226a54b30151abc69ba6ca8eb1fd1212d7a3c8b",
+    "min_nll-generic-s101.json": "55a6c802c4f6a27decb43c334302a06c8e89a2c6b2527a7b64a65dab2a55ea4f",
+    "min_nll-generic-s202.json": "28f546e1df34b48775b5843b6aef512ab666291a5799eb7afaf7452683844979",
+    "min_nll-generic-s303.json": "e258ac8c1a1dec9728086704ecbba2aee3eef782eb8ab4093763ac6c16019c59",
+    "min_nll-generic-s404.json": "e01629d442f90c52fb80ea0b9a6a0e5d32cda9b0ac3b4cfbcac54e27b29e4863",
+    "random-api-s101.json": "4ee55854fcf22889ca481505f6af058a23894d67545db8c5c9fe86a3da65e7c5",
+    "random-api-s202.json": "8fff527497a345e95f92b370a9465eebbe957739fd0cce314233bf06f2282dd8",
+    "random-api-s303.json": "2c5e7be237a46eff83b67377651af693972cd35aee6fe887cc284e16a92ba79c",
+    "random-api-s404.json": "af4525aaa62886d7149f0979a7e2ca301091b04079356e964a3c93daaf364129",
+    "random-generic-s101.json": "ba7f3759dbfd2036396472c41c9af2458bcda0f45b0b7ffafd801c57a6b62feb",
+    "random-generic-s202.json": "2f672bc61c11317c87d3f12cc2fd33c554f7ae2a2875050e47484e3f2fd46b23",
+    "random-generic-s303.json": "a9e5edb128fe08e532d045fba4dcc0bb91a65c99d6ec96e18e2d9a780e66b3c9",
+    "random-generic-s404.json": "f4786f44c01d2b768ddfe17c4cd72a77e3dc88f3075c22fd0fd0bba7e51544d7"
+  },
+  "scientific_protocol_document_sha256": "5cdead986f8ed25c332b06bcdd032d44c633a6c65a926edbc3d6b31ccc2f347a",
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "scientific_results_available": false
+}

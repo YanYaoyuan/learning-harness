@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "planned_files": 149,
+  "planned_bytes": 7058978829,
+  "started_unix": 1794504397.6348252,
+  "raw_json_records_retained_locally": true,
+  "active_checkpoint_readers_excluded": true,
+  "finished_unix": 1794504411.0054889,
+  "verified_bytes": 7058978829,
+  "working_disk_available_bytes": 26712539136,
+  "frozen_hashes_verified_after_relocation": true,
+  "original_paths_preserved": true,
+  "all_files_verified": true
+}

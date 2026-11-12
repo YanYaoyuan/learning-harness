@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "freeze_sha256": "4c91c0a5cd178a0aa0d614a59be762072fa24a536dd6774b02d4c8cc99c05611",
+  "source_summary_sha256": "5abda65b4b4b00036d2879cb180999574aed10e75c0d7f89c331cd4ac5542f7f",
+  "models": 2,
+  "new_evaluation_episodes": 128,
+  "gpu_hours": 0.2029273956410988,
+  "new_training": false,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "selected_after_observing_results": true,
+  "results": [
+    {
+      "training_repeat": 0,
+      "historical_mean_success": 0.171875,
+      "fresh_mean_success": 0.171875,
+      "difference_pp": 0.0,
+      "historical_success": {
+        "cool": 0,
+        "heat": 0.34375
+      },
+      "fresh_success": {
+        "cool": 0.0,
+        "heat": 0.34375
+      },
+      "checkpoint_unchanged": true,
+      "paired_task_comparison": {
+        "cool": {
+          "tasks": 32,
+          "outcome_disagreements": 0,
+          "step_count_disagreements": 0
+        },
+        "heat": {
+          "tasks": 32,
+          "outcome_disagreements": 0,
+          "step_count_disagreements": 0
+        }
+      }
+    },
+    {
+      "training_repeat": 1,
+      "historical_mean_success": 0.078125,
+      "fresh_mean_success": 0.078125,
+      "difference_pp": 0.0,
+      "historical_success": {
+        "cool": 0.0625,
+        "heat": 0.09375
+      },
+      "fresh_success": {
+        "cool": 0.0625,
+        "heat": 0.09375
+      },
+      "checkpoint_unchanged": true,
+      "paired_task_comparison": {
+        "cool": {
+          "tasks": 32,
+          "outcome_disagreements": 0,
+          "step_count_disagreements": 0
+        },
+        "heat": {
+          "tasks": 32,
+          "outcome_disagreements": 0,
+          "step_count_disagreements": 0
+        }
+      }
+    }
+  ],
+  "raw_task_records_included": false,
+  "scope": "One as-is repeat of two stored models, not a population noise estimate; original study means unchanged"
+}
