@@ -10,6 +10,8 @@ Stage 1已完成34个模型、2,176个开发集回合，耗时4.33 GPU小时：�
 
 Stage 2已于北京时间2026-11-12 14:11启动：两个新组均训练192步、呈现768次示范，比较全池遍历与原256子集复用；共68个模型、4,352个任务回合，累计上限14 GPU小时。[冻结设计](docs/VARIANCE_DIAGNOSTIC_STAGE2_SPEC.md) · [W&B进度](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/762860f6c45b-progress)。历史256组只作剂量参照，采样策略主比较在两个768组间进行。
 
+[Stage 2中途效果观察](docs/STAGE2_INTERIM_OBSERVATION_2026-11-12.zh-CN.md)：北京时间16:03快照中的6组完整配对单元显示，全池遍历相对子集复用的成功率平均差为API +3.39pp、generic +3.91pp。独立观察器将在8/12/16组时自动更新图表，主训练计划保持冻结。
+
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
 ## CPU 开发检查
@@ -20,7 +22,7 @@ python3 -m venv .venv-dev
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv-dev/bin/python -m pytest -q
 ```
 
-独立开发环境已通过114项CPU测试，包含种子控制、采样干预、预算预留、失败记账、方差分解与存储迁移检查。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
+独立开发环境已通过116项CPU测试，包含种子控制、采样干预、预算预留、失败记账、方差分解与存储迁移检查。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
 
 [实验协议：环境、baseline、benchmark 与统计口径](docs/EXPERIMENT_PLAN.zh-CN.md) · [前期调研](output/pdf/agent-research/README.md)
 

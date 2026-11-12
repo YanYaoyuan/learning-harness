@@ -1,0 +1,12 @@
+{
+  "milestones": [
+    8,
+    12,
+    16
+  ],
+  "initial_manual_look": "20261112T080354Z",
+  "read_only": true,
+  "no_outcome_dependent_scheduling": true,
+  "teacher_calls": 0,
+  "script_sha256": "881b6ce621e25d5cf3d4e1d97b324f8efdfe3f6157ea96a882d49de23abda478"
+}
