@@ -1,0 +1,32 @@
+[
+  {
+    "name": "less-icml2024",
+    "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xia24c/xia24c.pdf",
+    "final_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xia24c/xia24c.pdf",
+    "path": "data/papers/2026-11-selection-controls/less-icml2024.pdf",
+    "bytes": 880116,
+    "sha256": "50576484289729e541e472e713ffc81943e0929436f49a5e975a5af03f57b32b",
+    "downloaded_unix": 1794516168.3911352,
+    "status": "method_sections_reviewed_not_full_text"
+  },
+  {
+    "name": "rho1-neurips2024",
+    "url": "https://papers.neurips.cc/paper_files/paper/2024/file/3322a9a72a1707de14badd5e552ff466-Paper-Conference.pdf",
+    "final_url": "https://papers.neurips.cc/paper_files/paper/2024/file/3322a9a72a1707de14badd5e552ff466-Paper-Conference.pdf",
+    "path": "data/papers/2026-11-selection-controls/rho1-neurips2024.pdf",
+    "bytes": 778470,
+    "sha256": "7b29297863a772b5179dba316cd539362cd4dbe82268ab8f021e8c23cd42e42d",
+    "downloaded_unix": 1794516170.169762,
+    "status": "method_sections_reviewed_not_full_text"
+  },
+  {
+    "name": "form-over-content-2609.19589v1",
+    "url": "https://arxiv.org/pdf/2609.19589v1",
+    "final_url": "https://arxiv.org/pdf/2609.19589v1",
+    "path": "data/papers/2026-11-selection-controls/form-over-content-2609.19589v1.pdf",
+    "bytes": 420505,
+    "sha256": "42db2a679aeee54ca255bb65d13d0b4c746b99db96c0705da3d1dc0101fcaf0b",
+    "downloaded_unix": 1794516170.6565895,
+    "status": "method_sections_reviewed_not_full_text"
+  }
+]
