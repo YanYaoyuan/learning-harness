@@ -1,0 +1,3133 @@
+{
+  "status": "completed",
+  "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab",
+  "planned_files": 390,
+  "planned_bytes": 25025834532,
+  "started_unix": 1794452419.9020407,
+  "files": [
+    {
+      "source": "data/models/Qwen3-4B-Instruct-2507/model-00002-of-00003.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/models/Qwen3-4B-Instruct-2507/model-00002-of-00003.safetensors",
+      "bytes": 3987450520,
+      "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "data/models/Qwen3-4B-Instruct-2507/model-00001-of-00003.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/models/Qwen3-4B-Instruct-2507/model-00001-of-00003.safetensors",
+      "bytes": 3957900840,
+      "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "data/models/Qwen3-4B-Instruct-2507/model-00003-of-00003.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/models/Qwen3-4B-Instruct-2507/model-00003-of-00003.safetensors",
+      "bytes": 99630640,
+      "sha256": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "data/downloads/json_2.1.1_json.zip",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/downloads/json_2.1.1_json.zip",
+      "bytes": 72018818,
+      "sha256": "25171f16e20ad7b048c47275c45b0babf3aa1cbab29cec97387922350a9844bc",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/collect/steps.jsonl",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/collect/steps.jsonl",
+      "bytes": 51664533,
+      "sha256": "83d3242465b88256408cba9999912cb69505f90b65a515831408f738f3c06043",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/a-checkpoints/full-api-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e1cb6ec5743dc505ef1c92bf5f2085d87e1302bd316cbd753507b53163e4c43e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/a-checkpoints/full-generic-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a526eeb2f481b39c5c10b400f144a6ac2c7e05b38945f9cb9291bd0589ec3fa5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/a-checkpoints/full-generic-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "01f3614d549dae00cf3b68184687f8bfa76f93a12bd10fc1115368322086ca91",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/a-checkpoints/full-generic-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/a-checkpoints/full-generic-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a351c3e6f75e0ad3172e058c7f66d0d64792ec012088cf1bc7c88325df0e92d6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/a-checkpoints/full-api-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4a02e47eee2f89c1813799f86a697ac7074975cbde4bd1d7d040efe16402db09",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/a-checkpoints/full-api-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/a-checkpoints/full-api-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a02ba518c959839cb253451c369b311f8a8027478f8d3514305d600745ca0144",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/api-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/api-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "fdcaffa18b2068469cecaa9f456ae7f97ec7fec3d65edeabcd50bd5ea2e95247",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/api-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/api-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "9f7b431832a2b9d03eda0482c0939f7ceea0d0ac0e3faa1cba67312048f8d0ce",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/none-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/none-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e0fb2bfd0574bb3b9e63466de95465ed016435269913dec1b78c26726736c30d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/generic-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/generic-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5b6da99b5cc5bb3c0a15549963b0dc4cb0d13cd13abd3aca1348a0be2cf12339",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/generic-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/generic-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d58858ecb308eea8032c420015154b18c62ec9d380994eb454c62580b2e94c50",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/none-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/none-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f0560da315e6d5fc20f9660512ae051677e81155450bfa241e75270878cd6311",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/none-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/none-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e7d7031efcda6a2d394e4cbfb1f64791ddbc947c0f4ca720729975a541f1379d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/generic-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/generic-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a82647e11f1a1b231dc7ee97456d51497ea4568e80e7a6b0292ac3cd6734bdd6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/a-checkpoints/api-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/a-checkpoints/api-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "fc069e7c83037c065028bb259617644327b44c87dc80fd714a79b4f86a899a06",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/a-checkpoints/api-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/a-checkpoints/api-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "810de2d2d003d0c201696cb94d40014d98fe844e4511cf468735463dcb68ae92",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/a-checkpoints/api-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/a-checkpoints/api-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "236f6b844fc7b42972ad8feed54bfb4e4e29c0f9639308389cb890893e006f13",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/a-checkpoints/react-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/a-checkpoints/react-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "740181aaf0b54f1d750fd2a953dbf8cc785d886bb01cd66e41f2f8bab10d347a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/a-checkpoints/react-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/a-checkpoints/react-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "56045b20ccd88717ed17917e72238d52e2326a0a71f644502fd2fa900bc7873f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/a-checkpoints/react-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/a-checkpoints/react-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f7894a882340d4f796df29f08c28407fe4ad354e15c0d2590a1d1632e977acaf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/a-checkpoints/api-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/a-checkpoints/api-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5c14a317db4081663476719ed7ec1061319392329af7520cb9dd96f7cdba246f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v1/checkpoints/none-mixed_sft-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v1/checkpoints/none-mixed_sft-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "c2a27ef4a6ef8b8e15520d5235258d675281fbac5f9eddead24e3e7c79411cff",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v1/checkpoints/early-target_sft-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v1/checkpoints/early-target_sft-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "8da5e975f3415532924fba6f5c4e0c417575bb87318dd2884b6f6786cf4182f1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v1/checkpoints/early-context_distill-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v1/checkpoints/early-context_distill-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "40b00fd9b79e2b253365d64292eadde5665697b43356d9f82ac8c5a46e3df73a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v1/checkpoints/none-target_sft-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v1/checkpoints/none-target_sft-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "2d847a78207291618197bf0a585e5f967422b1c9f9e29c19d955ff9c07734b0d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v1/checkpoints/early-mixed_sft-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v1/checkpoints/early-mixed_sft-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "8e552453a20217d188c0295a29de7302b37ca721208ad9797d863bb08bab3aca",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v1/checkpoints/none-context_distill-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v1/checkpoints/none-context_distill-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4e48593a562656a2411ac094025423c7d219712d875a71960b7f6311fdcf577c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/raw-none-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/raw-none-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "87b1943fff6363beaaef325b74ce25af0d23bd7daf97fdefa014336d70343c1b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/raw-early-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/raw-early-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "1888ce7211a0b19d30b7db78075205b221c9b913ab0d4179d994ea1ac2d475f3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/matched-early-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/matched-early-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "186e93c61864d884c42b6d092ce321b44eb46ecd26912701cc5264bcad1aa66d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/raw-none-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/raw-none-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "fd986bfcb3459a7fc7c8840d33ca04bbc8dd3da16ef840850d9cd51d252b04c0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/raw-none-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/raw-none-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ecefa91d4956c7222b1576b596cecdc41187255b86507b96da2945f15e0b6586",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/matched-none-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/matched-none-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5070162ad79602832de27c4bc7048b7a62b6d1c7977e7d57e8a64e8ea3af5343",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/matched-early-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/matched-early-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "c6ba0c6a410a520c2d3bb7a6460dbd9d05f9786de652d3093862931e9a6f0524",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/raw-early-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/raw-early-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "fd195d89157f51c9d0b545cb1f4af8ccb472d04bc308b20f3b09aa08de7a3936",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/matched-none-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/matched-none-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "b8816ec9c6fd8c5b32b07b6700e5cceb063e30136c7bb3ab9f0f4098875e8410",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/raw-early-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/raw-early-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "414ff4c12aa39df09132a5eaf71b15567cd10a9e981d34b183a2d597242fe3ea",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/matched-early-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/matched-early-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "0caae060fbec1acaa7c4bca29a037455dd9b8c154826cc3126281ca4351bf228",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/checkpoints/matched-none-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/checkpoints/matched-none-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "9bf90b63c653c66b48ec747aef12fdd62538630d5cf01e34ab8fe9d700517868",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2-filtered/checkpoints/filtered-none-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2-filtered/checkpoints/filtered-none-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "441e77fef2809b6fe7226e91106661c0be7cb505858daaf6e51a66b616c2812e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2-filtered/checkpoints/filtered-early-seed303/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2-filtered/checkpoints/filtered-early-seed303/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "49480e50e52ab67c8f04e49b035e506aff317fcc48240b99828fa8e7506e9820",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2-filtered/checkpoints/filtered-none-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2-filtered/checkpoints/filtered-none-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "22b41d2eb39ea9f47c7f03d91a8d510acf94a752832a69405b9582f8a2893942",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2-filtered/checkpoints/filtered-early-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2-filtered/checkpoints/filtered-early-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d9bfb919ace9869cccb96adde02118ce05b3a189838fd58dd7bb17ec9de52efa",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2-filtered/checkpoints/filtered-none-seed101/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2-filtered/checkpoints/filtered-none-seed101/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e2f862fb226d50724a4f909fc45707a6fbec49ad5c5c1986c845798ef4e229e6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2-filtered/checkpoints/filtered-early-seed202/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2-filtered/checkpoints/filtered-early-seed202/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "fb0ff0204921f292364bcff6eefd61cbae76dcb6654c2593e9fea1115672d5a6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a4bb1e05755278b54db96c9ce320bd900912b309cc30c82a0a04295bc8c10493",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d0aa1d57a796c9cc331419a75b728658ce1466c78c99573cd8fb2e672a98438f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "bd22c47e39a3484b9689801b3497a33c00b829d680e52f8c251c0649c7281bfd",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4bc8cc6543ced2e890d8c6d58c4d72e40a4aa54de9d5e6dbfa60951631377d7e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e8520bd8248dcb23e6f5a3b8424243b4991601827908fe419a71e3499b5288ee",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a7e90b73af07935422886b4ce97bd7edaf62b5c7d3488bdd7a0c415ac2ea2b5d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8c7f2ad3c0e40d6e575c74a40004b8e7602b2e8150b3d5b3555b4c8ec511a1ba",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f4939eeb5f1db45f6c441491897440633313c2bd005d667f455ec0cd0246cdf7",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "92b7b1801833aea90a4417fe2331c813c2f01ffc5d77dae8d04d4bd67f2c0e69",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0f2696a036225dad674251680e0310f2e654ec9cba71b84d55772bcf32f73a37",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2da5210d29d9bc22da7100314d449b8906feb1ac84a7ceaab87939d11180109d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a25e635875144e2ce0c0af1ff938a926a6188ed32fb614e0b2ce982afc053294",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ae485cbd8520ecb9d85dac76315afa9ee17f6885abb6a8c3a915a398f274e19b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "37950b3ea54ee88b02d7955a75d567899ecfb4726fced8953a0ce8c8fa24375b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1cfd9f2965e63fbb5640ce7f144675b819f7858d01084e5f56d338709d31fc39",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "dbd6b6beca48d3d1c03249751efa8e0932fea55e081bc095adee34479681b881",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4c0b0cdef32fb579bfe1dc5d00e426b5e78047cb26559a3c3e881bfe48d2b202",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "85b23410fcda97c3358a91bcff10f28fa49870b482814fcdadc356f6a1539085",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "140b319cc3e002b6676f247b78d0f0af4b4bdd54ebbfaf42504c54adafcef4b2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f57be91eb380f58446577e73e2929e21a1f7e11929e511b7a5b1349aee1beb63",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f9762c47d504e3bf908ce8a9cf410e4652f0733e0e54bb031940b8aec625c31c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "52fd6a1d8f3c82bb27944d4ec280945433104aa8f4fc449f8a207f23e93cf864",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ac6bbbd7a76ddff322d8ef8ab0eef83ac7a3d796c16ddbfc5839caff4dd713ce",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7e71bcf4f9a3f7290d62575dd94903125c90aac3a6d088f267dd85fe96b52391",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ff72a928c50eae1b80f7f686b8e74e2adc5a51500f651a0431336689c6f09df8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "cdd0b9193a104734a1a74ababa8d3ab6554d3cc6ab4fa52a75c0a0d95e48a4be",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "888912a34e1a58ce2acc87639b0dd0a1a580199b5e4a0f434c21ec1b9373e2c6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "bc3a7a7afc7c4f5fce56a313a671e598be2243478c0b0986f579296054b9a2c0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4ee2f761e8c0250e3f41997130d3484a2a2d1d298e0257460ba50146c5501cb7",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "805111d448e074910f05953eb86db9da4bf80756a034a855ad6ab12154d8f063",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ce75fbde015953009c6d3cabf56366e4cf083c54dee07ce2906e15a3058f26f3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "94669781cb09e8cc54e3da845591721a6157d34957f514c628bda77b78a13151",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "dedba12f318be7b4fe7b90426b3f099cf14a3109f934ab961e44f74f169bdd9e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d9275020001232f0c929472d8c35f6cf44127b33187a913fefe60ba8b8d80003",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ecfa241246aee0d0a0bb3a96279e42102a43976a22962cc7bcef8f2aae256b3a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "54ce076adca582d7d3fb953131e3240185da578d11d408e7d54dc698bfb2b804",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5550fddb2d2096ca6910c4a08f9802db7f848438bb931931e3f87f192cc8340c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d96351fee80ba6dc8e5bc21b0b03ea603e1b36adfcc2c55131abfa3ba717b2c5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f27109dd03e1cd3b4a4a525b97d757fa5dbe018efc618337ffc9eb0a8edfa5bb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "77f53c79c9ee4836c45feb3c2dbd6ce3883d2534d7acf0a60dd4b5610c2b9556",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "03a1758d774de2cd85e396e39fc4915b6a4f6d0885f5a99a0ab37b5575dd1a43",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "98914f2ac5dd6a5a6a3e7c28783516c2cb30c8b1a01b9b9a21a59c45807396c6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e2c86b3c9155284180a48a322de702ada8044b4b9479445d7532f3fd1d9dbbf2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "93eb36a3036ccb346b11c7bf01aa9e19e01ef62283f6f942f03acbd235f9d69d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0022238931df69a63528b23080101b69a0a9bbdb79e34e074e96436675a52312",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "dfe4654b2e48bd0e3bfb79a80bf98fd2d19e93e42c5d20a936e36433e41cd9b5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "205a6299860d84eed9c498ae00edaa8b1046bb86509f06355869114e4256c69a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0cbf098467d87b254e5043efdcdad7c169540b17aa67a7ea2584d36875e36c30",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "52629ef05a77f2c67f19c862d5a382e37f7ee21191db570e632bac89d63ddf9a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7ff5fb832e202643d1c5da3bfb4223ae1f2a21115408450f921ea32787ab92df",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8f0c1b1183973c0704cf34e95353ee28de8151492504d66085f441f3b4a029c5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "de15a2830a49de0f05e358945c8301601b0d8ab736b6ee522bc87f91994e2ce0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "19e7cd38c38a42d589a008c2c562bf1565ee0d7bcab3d8e08e71151d04c641d2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "756b6800c47549baa0d5ce1e988e6f84196b1c8f96798469c54660b48c69d5f1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ebac42ee028880ac96cbc707be17ebe8f5209ff72da067d65c57b4347755364a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9891b5aa06a3412ab5d53f2ef73c788d9c1af2827d8c33b68addf4eb4f89256b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d45255290a935e4f86c9e23e58431cfdf6b53f582546f513b966baa20e5d1e96",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8ac7fad8772cffe8efebf49ea823b835d7a75a072decd744833dc363e21a7987",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3175d377638351b7b4651ca55b52f562bba3a5c496ae894aca80d4346fb6962b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f5d550e7e49db5e35bd8f941f304d6c546dbac8fde213a6b4953ad02394dadaa",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e88338e7f0dc5d8d2a37b8d9dd1b38c01e4116b3431b720f1599b9e3728f1700",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "97337ae1589c1563f0ffc9c9a3b3b569fc7d62e051c2e9f84b2c1148138aef90",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "b9c157182698a8aa86b87a22d2ca4c41e1d7e6f4560d06b2e5117bb795f19dfd",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1b43541d9c8fa08ac90502e7d6226e970a2da142ff013c6585c98339e9c9d11b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/matched-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "21b82aacc8a74d5a5585a150908d15087999bfb1d1c0a4f3f1c9958b011809de",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c84c3f1f5d48fc787fb0179e253ee2f9afb25e77ae7aa6593f2346fa946f7f6f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9875b4c439fa27a4a93022bd718ea9fb5e96fe59e39982ebd3311b25ebe521f4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "bb471ede736178a96d0675b69c827c606293f91cc586b20c1ff0ad34c8f33112",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "959174c87196416287b1fb2126b91fea9e4fdeffa148125ae49e4a037dba440e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3dbd1c7eae1120eb0237c16f1df8c07add85953b43e8adfabf24226b3c1724c1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9d12758d86e8d0aaae2b54db451525031507d823f65ee42e0dc7285418ee1f15",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0676f1727c8bcaf1b7a519e5327c8d78b69110231ce30bfe4a39d7c4038eb3b5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "38d264feec1a99bb0ebe6e0b07f4d629235fbb441a462b99ba736af17d607a15",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ea405415fc179f8c4f0db7efd4c283f3f48861983dafb3d0d7cff82c74658285",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "76e03334fd95cc3f3756e71be8d418778d2715f3dd8ce9b25203253da3d03202",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8c4db319652197dc54b6ceeffcf70a63400c0cd1f6421a155016e9ce408dd9a0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/base-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "26b4d48bfb0884535e1a0e1a2c8030d125a9ead2458fda3b751a7468312c6fd6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2f5538140e3039e7ace17535adaca6b2d7803658ddd10a9e28f5ba7614301a7f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1667104ab63e1d5fc22d1f3fc225309fc1603cf032dd9d3b892472c03ba5bbdf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0daef9ef651674084d3923811815efcad583b6e2f9c1c11173f90702c1d9d8fd",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "340af52e537679086452326b6ffa0009fa6f3fb1c9bd55874fca6db175dbad22",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "42d162c89b6486a9e9a2ce78660d23c09d492904952f328b9b51386ed85b50c4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "56969fe3b9a10fae1641101283b677219e013f6bacf45f1a5d07c16d987a870f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ca42e3fb0c4e25b555656e7fa038402400c6e50332f4a5804af84c72259eb9d8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "668106b833d63310a0c2304af575b96ff2e3ebe07af050ae07a76815755a7f38",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "061058dd918a97152d56e3acaf53f77ae0633496584790fae5b681f0e2d2ecd8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7774e52f2244042f1456254d9212ebd24cc9da2ec55a10a7297cf3e7edfe86d1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "296b8b59a383f55f9a67fc5107bfe204c82d3dbaa43e09e30b0f6e0ae27ab406",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/cool/trajectories/full-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "b77e10fb50b5107f5201e9ea6a1d5d0d832f214be154c5777ab2f0790fa16278",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "42956dae6fa57689b4adb94e6f9123635777f399d087ca65f911aefe38d97529",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d0aa1d57a796c9cc331419a75b728658ce1466c78c99573cd8fb2e672a98438f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "565a02c60be140bc2db4b8b79f418edfa145e272547c371a02a6138173cfac74",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "753fa84f7c65f2051dd72fede3e83495907ded8c46cfe792b06f310adbddd319",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "06c0b471be856f291b86a68ac6653be9927093a1a5eb6c75e6cfefb3c6a47e61",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "cf0f08b8efc6eae5f797a909524d53b6779ceaf294f189f4b4e876da91c3ec17",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "b233e602f821b5a06024165817ba840575407e4781178898349a7bbe9da30516",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f4939eeb5f1db45f6c441491897440633313c2bd005d667f455ec0cd0246cdf7",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e0d999b46888247af88d57b657ad773abb0f9a5c8078a1a9d76edf992857a0cc",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "89e61e9cf94f06319a7a842dfdd01244ffed1d44e538b75e520c45e9319c9294",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6209e068bb512ce810fca1bf343a2e1dd519452dcde54e79509ca9f64b844954",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6430cf159ad1a7e01967895e95ba468c4b8f0aab7a89df4732420e8793fc1e97",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "fed12969f1604db80e5d2fd9500a46c6424e2a37ad94fc70e664c293f926ae83",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "37950b3ea54ee88b02d7955a75d567899ecfb4726fced8953a0ce8c8fa24375b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a40517653a9f22e0b1504c74c63e2f76a330d47fb9681c31f3f14009742fdb17",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "202ff0dae46e23e7f9d710f4bd38318a491065e4ee3789ff8e20761331e6cf3a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "29cc06895fdcd85acec880608f6f7fdd1a1e41526a2e3a15e03ed3f7941dec86",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4adf7230b12790635ccd3b8b775bc2d3897249c39604e0344aeebbbe18a4b89c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "47c3cc35168c04d163b12352df0fdcb2491925697801bb3f558d3f1815ca3662",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f57be91eb380f58446577e73e2929e21a1f7e11929e511b7a5b1349aee1beb63",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ac50d635819edb58670ae2daddb93b66cea032cc894b8242ee4941beb37885ae",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5b02b500fdbee85b8e02e01a048439f70f7046edb9e9bf2a84e05c61ab9e6a27",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "20d2452470993ca50aef9c268996e723d641ee7d18921995883f796e07cdb507",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5afe27a03610a59fbcc1880bdeca985d37a4c767ce229990de318083c7e56edf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c198d9704a83575c0561b18eac95a7d84d3f371dd38509290c4fcc7d11247c68",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "cdd0b9193a104734a1a74ababa8d3ab6554d3cc6ab4fa52a75c0a0d95e48a4be",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c2be90fc53000977b4a8d8cae7270cc3b277d2c2fb6e17f1130e81422e6744de",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "20521e6397f50ce30b9329e20b3db882656f52539019dd43c8f04cad5e228db3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ec478afa6dfada677edac09dd00732512e1afc7e1174983e1fbb05bb8df3783a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4e7938457cb6e8bdb15eccb32c43663623d9b4301c4129c148edbf1645c76978",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "22c8d0dc5ea90d1ca9f06cc83e50054d913b37caa08ddff776e24b7c1f4491b9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "94669781cb09e8cc54e3da845591721a6157d34957f514c628bda77b78a13151",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ef1e0c1f0777272fae894c3c13e31417593d6a6b2651452e2ef53d65e2e8f3da",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d5d27ff726822ad8cace39a8158c7ab8f1b0650aa500aef6da76495575f19a06",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "97f80a6c9163fa9659bb4512e8be40508329ce4287d78cd6e82c9e1443e642ce",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5612c2a2e8ad36f01b1b92198838cbeb48be9bd166192e3ef61ed64482b18ccb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3957e73689d5a522c4c88ac3b9baca1e6b26242f144b6c3f0203244205fbbf83",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d96351fee80ba6dc8e5bc21b0b03ea603e1b36adfcc2c55131abfa3ba717b2c5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e6c2071fda475ec802085187bd81943833652fcde362ce10855c1d8fff46509f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "369a649a5f9485781fbb1ed26684b9ce30eee00ed3533827838f68b2685fe241",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "fb39a6fe07ce77b74e73c167d992d0202b0907601acf16be4eab1118e4f6d01c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0f1458faaf6afa0d462bb7de48abb6b752c09d206d1170497cb61ee98dd78170",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "baaaa9104e3e321e81ddbc94f20bbda31d1e0fb187384615ac925c2d9eeab0ff",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "93eb36a3036ccb346b11c7bf01aa9e19e01ef62283f6f942f03acbd235f9d69d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "985341ab76709bba6edc9c231c3f107f98ff385237ea1120f4faded002735973",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2f4cb4bf7f96b58a530a82f1ff6d9720170a3d0aa83dc5e552561c1a60a9506c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "bb7ed622231f423ceaddd074c3982ad4b30ca6e8ec02c5083af10c6fb3201575",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "eed718f4289b7051853d83329b23870f05b5c086257ab4e17c5b468899fd6ff2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "21dec5dd528c190430558d2a62fb0be72cd9acc396afa992a1f6ed556040d811",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2ab6da6862b9d50eeac7b5ba953e40be7af1b31d507a7b79e7dbd9db6b6fb2b8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "17838bf639bdc133cecaee187ce7bf5dc1085eb376fcb843b8ce32e2729edb4f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "76cfd647c234f957afe68f1e5da26f87d7b8092664a7ba24fd0caa5b6fd0ae18",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6fe4ded1382282b1ec1346f42ee0674107c182e7f5be0ca35324b33bcd56c3eb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "25b6052c7b317b9868274ff6189866893dbd9743927698d1efc5b55218bda55b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ebac42ee028880ac96cbc707be17ebe8f5209ff72da067d65c57b4347755364a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0441bea72abc1c19761cd5f4e1adeee20fa66a434c2609a8c97f828bcbf51a3d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8685f1f94edd8e7375870a985470ce38f1c3c78bad53f577f72ec17d2bf931dd",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "54362242f1c12d0d471c4bb29da1ad66607e598e9b18caeddcf66207305ad12c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ab5e491fb2c693d69b3a1e12d1bffad3a91a8ea49d45471a8936f4cc097f24cf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1faeb95d4e98d8fa89a8a078adb770bf50f7218cf5417628c171c94532783893",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e88338e7f0dc5d8d2a37b8d9dd1b38c01e4116b3431b720f1599b9e3728f1700",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "33def952c4847a7b6ec8f5713942879a1435b6c7ceec1833294f77792a403274",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "adba012df6b2ef774b150482f8df2e08a2c7180f412195d53efb127386d8c126",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e51f05c5a9ef891fb3ac14ca401a249cd4230b9f7a56038298ee6e347e354f38",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/matched-generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d86f40284e966629d020f5d77fb52ad24c38fe5c8020621e86d6870f44cc61c4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8efae2f6d86e71fa1e77c260ccc6ccd4b6c1ddc943195f65694fe82546a76d3d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9875b4c439fa27a4a93022bd718ea9fb5e96fe59e39982ebd3311b25ebe521f4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5cb912b688697ab882c6e07bbfd6ac364dcde41520ac93a64e3071a0b0d11cb0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7a0f82dc60c10c0e6f7f838efc98f36ef86f10925c79e689ba62568aedbefc63",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9403216f63bb88ebbdcf5779211f62e97b6d0b4b0dcdda440b4460862310a34b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "bb4322db71d6ea9e055458b534b147b4bf89210820a1af58526e2ad2d6b5e19b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "54fc4e9c36e8087c654a32b0e244c7348082368f85aa86541357de99205a5af8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "38d264feec1a99bb0ebe6e0b07f4d629235fbb441a462b99ba736af17d607a15",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "de02161db2d91883d0deb1c1e40c7b5f0ec302be1a7ffc0f461032d37a21bbbb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "692e9b72e5110111cf8c4b8555ff5a07e0a5ec2d6ac0262d9d8315e30c98113b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d4fac5fcf2e853325fa1dfdf877a9a7a328d3d6907fa625fe115bfdfe25bd0ac",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/base-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6d34b6b2c734ea50ba2ef53d0fde47a69390f37150e929f04f9bac1cc103f45e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "095fd531038b220cbc902edd28cb99167be7b1949671e47a6c496c7036161853",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1667104ab63e1d5fc22d1f3fc225309fc1603cf032dd9d3b892472c03ba5bbdf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2d572d8e56b1ac795975d7a9f740570f7ab962474b2a5171ae46dac1fa15eab5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "01bb5718c5a1d0572d53e696e70e3d6e9747fdcbecb7c70bb884dd0201cdba17",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f1e85cbe1f3d347a137db7950d0d6824bbe75b5ca14e3a0447d1a55f272d3ea5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9a9ffef4667fc75aff9f96e24778ba696f30387c9a8c80bc6266f3df459ea123",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1c102bf28cc6eda8aa7f1762bc35740bc86c247bbfd9f8123d9db8993cfc7d55",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "668106b833d63310a0c2304af575b96ff2e3ebe07af050ae07a76815755a7f38",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a359174caf443212cdfafdd35493ed86caf3399e53355caa4e05d248479046ae",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a55ef5f6593aeb116fecfb50d9aefed6359e2be0b6553230ecf90734efca10a9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "164fb7ce76c3794fd147ca68bb1135a18d22a772b7d2356edd2cebcb377edf76",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/heat/trajectories/full-api-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "169803d87b224eba73e8dcd39bea3c0ede9f91156b0dc2b83c0bd3b2c424126c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/diagnostic-invariance/repeat-gpu0/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/diagnostic-invariance/repeat-gpu0/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3d14ca23204455095cb1a7ebd9204364c90f0b65213e1929f09cbd339cccd7bf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/diagnostic-invariance/repeat-gpu0/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/diagnostic-invariance/repeat-gpu0/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "91a53f4c722c2172ae985fac3da6f5e5eca81b2523e6a9a44324d0394cce7d30",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/diagnostic-invariance/with-diagnostic/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/diagnostic-invariance/with-diagnostic/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3d14ca23204455095cb1a7ebd9204364c90f0b65213e1929f09cbd339cccd7bf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/diagnostic-invariance/with-diagnostic/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/diagnostic-invariance/with-diagnostic/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f54b74fde243b8be9fbfcf23b4777a6a6b8745ed98d1e1eb9d0769185840f790",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/diagnostic-invariance/without-diagnostic/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/diagnostic-invariance/without-diagnostic/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3d14ca23204455095cb1a7ebd9204364c90f0b65213e1929f09cbd339cccd7bf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/transfer-factorial-v1/diagnostic-invariance/without-diagnostic/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/transfer-factorial-v1/diagnostic-invariance/without-diagnostic/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "58fd9076153b7daaa4cfa2eca71c2b33e044084ccaa34ab5d30fa82324bfc0e0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "38b42f45b2f793c23cd7b074fd07d1f040334a0e410ca2038b16492fabb8aa8b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f4939eeb5f1db45f6c441491897440633313c2bd005d667f455ec0cd0246cdf7",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "b457e278a5cf10d6ce9aa7b3e44e85df847a905ae12afb3642d84c3df5e74968",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "156bc028bda45187766e1201acdc6cbfdd5b4b3b8d01d1df0c81ba2a314f5d7c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "751e58c503436dd595c18335192b3c4e0950b77ca52597e97c6d8702953a241d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "920c4a352b996e6692c5b63d4770a1b1fb9782d8e9a6d1ae56f560c3eabba29f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0fcf6b6659a178f22942c865583c5dca7a6e1228fc88f1c3868ccd75fca17a34",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "be0028f3f50612d1bf0f22e4570485b9eeb2f647b76383b6dec962838cde2c4f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f57be91eb380f58446577e73e2929e21a1f7e11929e511b7a5b1349aee1beb63",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ebcb1eca25ef40124a9c693966b69b4378fb48d03974c6df2dd87b493c4a444e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "576c636e5d460423f7135e30dd79da58d2972d946e6f5f1e76b08f4f8de217ff",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c1ca52aafedde4daa25cfaa7d245f1bfa35bc7eecc9449600d15cc6112f082d6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8c69263740446fa5a2d71c72b3e99c5826616728b832def33f7989821944a33e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2349add17dda9446a55733d7529ef66f4d7660322d864223f9c02408481a55f0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6f74b05f43d93d6f88d388969b8dabd0aa8d66979470263aad1d84f4ba62a445",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "93eb36a3036ccb346b11c7bf01aa9e19e01ef62283f6f942f03acbd235f9d69d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "db470f7e541546fca1e1db740e47a93d6ab237a3982ff859398f2f818d72e3d7",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6f63a7bd72eb6c500bc34eabc696ee47d8bee1c779392f951adddec7fd0437df",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "853f02ce505e78294f98617ff975a758a1ef9e70a646890a93c9b36af7b05f8e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d21a4e4d6472d14961876f244e236270548b8a1881d0a4a1f49f413f870ba61b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "004500d051b1ec4692ad82a5f25fc25bc98591acb2b464e5a72a690c4e2ce997",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "eab84d9edd13511affa52f2b2cf137b83fa7d28c204f226ce11917d91be0bb58",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "cdd0b9193a104734a1a74ababa8d3ab6554d3cc6ab4fa52a75c0a0d95e48a4be",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f89b63b13a488d1d5562b525e5a8ba15323b6da66f85e4913ea8f6cbaf59c50f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "74353d61b1db50ee010aea0c3d9873bf85e6c749cb99f16d6f82e0eacf3c5356",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "aeb4588c490e561d6a3bbd072143ac9cdd846cbb1517304fc41a492a73a3985b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7ecf27bbaf696b57afe254e88b0ac89440cad5f7ea45ba05a7554a14fa4b69d2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/api-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/api-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "cdd74b91efc0ca5813844231c1a9d44756bec22aeb37aa05fb41d40007a4b534",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "dffc2e22ab20761540dc65d3c21d2c030ee96b4e36ea72d50473e90fe173f27a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0db85c470da15592c0de05a263e66c7191d729bb8b7873803f45c0532d6032c0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c79414028c7776c4724eca4eaa292bf8e9250b9183047f6e6abc200a30a2167c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "34798e6fdaee161b8a80df58eb75a6749828e37e1251b70ab7e165318b98fa28",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8503ce9c88d4686afda6640c0435c6858eecdcabd1cb9ccb971b72247353fd1b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6175caefba192e29ee37a1241c4a0033a6423dbfc52867862c68d665ad45b816",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "32c87c5387ee329e9dae474cbbcd73a76e92e784e35f8e3ca36bfa9c70192601",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "44e8d8ed8cf61b36c9519f989ef556d6f6c4dba7565f4a11342195b63e9c6b48",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e88338e7f0dc5d8d2a37b8d9dd1b38c01e4116b3431b720f1599b9e3728f1700",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5aed0839fecf03b35eea56606cb75848f74cad0338879b4a9928b928d410c233",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "fb23984b70d1ef53ced581f2a57266626b44c96d58ab08aa0d729d644e64f911",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "b0c60d702b69f03c94b065277af77b93933cbfe778699c3cffe824615e72e443",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "79896e192b2ba44b85af5404c0f5ecbcbca4b22c4d17884cc77dcd468a2c9273",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a2b06ba734971ddd50f5d5974a07c569ab11189a7f8e996e615fce06a14687cc",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c08ffe7b7f175ef2490a653308ae318f9107a8b3392fae5db863dafa2e073951",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "37950b3ea54ee88b02d7955a75d567899ecfb4726fced8953a0ce8c8fa24375b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "713645f289604df003c57c33872e6e266f0c623625fd979cccce9cb10afbfe71",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8de9b386a92ceb941d3d7434d65f78541275020882104068e99e45f3c09f87da",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ec7aa00cefe02e41e7f51c36e6467dc6b308ce885572de44a8a01f252873ff62",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5109256fef2f62a89f10a34653f5d18405203e27a0953112c4efbe302ffe8eff",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/generic-seed1101/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a970afa276ebc401bd8e771f8bcf6f41ce5fa8ceb2c48e92badf979a62def48f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "404f74a95b6439fc025b505a9f9f5016f1fde4077688122e908691b1ab6afc9e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "402f36c61decb4da58a14d74921f20c53fa57de6a6a6339c4a49629af2845394",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "022612c8ac5cd4f1e1e01f5c34ad8728de9d70919441781f7e1c6b62820dc95b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a99bf0aff98a9ebccf297b3fafd74c25b421eefa8f1d7f3aff0a31ad4ea3b323",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d60746c9953357ef5a0d8c725400b93c743c26b37f961211625007487f53125b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "632c26b730fafa512da742b7667d4803da73f6ee8399f5b99fc38ae838e38e77",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1303/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1303/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9f7f3660936d5b3560e3859423f64a7a40f5aee2da4541ce43338f1620df28b2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3172bf0e31fe0ac929513e741f012cb4edfb2fe9dcb71d16ea36357c60b3cafb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a08dd364a4cb6c4008338b9fecd2630ba4d178fc3a42209064aaafafd0be72d9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0024/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0024/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "893ae17fb6eabaf1499806ee07dca112ebb504a5e81ef227155390281c466047",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0064/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0064/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "429da7cc37d055d54e407edee0f474b970a1116377700b8723b25ebeae9f8aa0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "cd9fdb8eb297749a03a65f2be3c4a37501a1c0eda36975e826804e957830ba88",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3cf7443284a962919a601135b4381611ed1a98f01bd207403d78bf1436309b14",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/trajectories/none-seed1202/step-0016/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/trajectories/none-seed1202/step-0016/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "241dff17a25d351fbfd42c71e9d3b7711c906c5ffafc1c6a4061e49fc2b895b0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "66db8e7caa15941afc0ff61c3de1971afdf56f6172da0c72d56be5ec20214811",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2e6bf453efae0d70c8bb9b25e5ab1c4b65e1da797aefef380cda69d5e0adf357",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "81ec99f4e8b06126214f3c01b8c53d1d20c46b3afafc3886836813c46c87dd43",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "b004aace737c1e19ae8bccc3f8f12cc437cc69ca02ba88577773929faa5e0e72",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "13720877b0335c0b68a0e31ecbe3006ffa3e1c34dfe82b0c8554fb1be68e776f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "68d906b416043087c543efa80aab376541bb34130b67e0fd4d25a5fd86063fdf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9dc0c2d3f04d22320d5379e2a4c1a552eccde1867af37cfd52734b43c7239ba9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0d7fa698987c02d5bcd1c818be1626c9d32c031a573f46dfab174c97f882d318",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "bfbc884ae7eba7f6e09224ea177a8088dd5b7fce06146511496b0a4dc3456dbf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c4f294117ee348287acb23fdfec6bb6483e30272b3f464df34e286c43577620f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7f26f90392e0868d6555ca0ddd74b89f9fab07a235e9bc2595c74de79809f973",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1f3c76adfddf2c65eb3fd90a6b0387045d9b28786af733270c2dcaa102ca89bb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ecb5c81a1eb4ab8b28a1bd5300d34bf3a820e8ffe5cebab279f85d5d0963c9b0",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3352109b3c092fb9ed94509f2e241e4fa213732541740b212ba3aa45ba549484",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d06af527e4f9968f2305ae04f7c06b654b32909eba99546d7935f18fba823615",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "af80628965f0111ca20d5d90acb1bdf5607783671ed78cd957c7c76bb6bc5ef9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ab6e90977f70e7383dddac09739a992ea797cabf0b3275d30facfc99cd83b74b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9e42a62a6f5b4cb6b3be40d75fa1c9f087a53ae0ef5b45438820dbde05251f70",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ef954db8844f36a00be8afd22ca93b1a6d085e94f250810ff372a186479f4b54",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/react-seed303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/react-seed303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4d689b219af8025f94d547b210c5bd550c7d51f5012b1f783aeaa5c7bad10179",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3b5f70080b849a488faad933666bd58bb7fb5bfd44885068c53ccfddb469e2a6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "644d911d5c73af7f1d7e7c782094c2926ea700c411e3ecf1559d5aac37af94e2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3a6bc1024e65244316bf0da1cbcc975963f111659f31af2b06387e423ffda8cf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/cool/api-seed202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/cool/api-seed202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "24bf15a75c3f24487454d6e9bc18692509e50b7864da02b01b62c1f6dbf8c6e6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f94d1486f6cb117a9772778a616797928095e894f3c3bec0d99893823359119b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2e6bf453efae0d70c8bb9b25e5ab1c4b65e1da797aefef380cda69d5e0adf357",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5b40f58d9051ddd1b2683de2fe745c978d17157025ec8683e5340397bed9a331",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4df9e7b5833ef2f71ed47af60ea470fa71efd9b735cbf431715328b93b7c344c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "260827fe2711ee58e5d72a884e450c7708bf83bac4349c8bdf443f7a62bf1986",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "68d906b416043087c543efa80aab376541bb34130b67e0fd4d25a5fd86063fdf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d12f01c8d253c9dc8e1e4f3908cbdb32dbd2aa9c3258c5a5b7718fa04b72ec8e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e3316c07683a23a7c205f5935a7748c334eefcab1a1f6499c27ff7c9086861ff",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "74bf67756fc96f1e630f855fa03b6bbc0692b5529b8280843434271773f5755e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c4f294117ee348287acb23fdfec6bb6483e30272b3f464df34e286c43577620f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "8e2bfab85f834f946e8bc31e3f3a6cca710cd28ce9bef08e209998d9aa4f6326",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2cbbbae66ab3a6a3a8e16ea239d3e944553f7a7bf3c99b7deffb2adbf246b4b4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ed13a78f82fb817b25d9e694f33b616399f8d8b422b072eaa6f847c955d932c6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3352109b3c092fb9ed94509f2e241e4fa213732541740b212ba3aa45ba549484",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "307d90b8922e2bc70e3ec6c23b00a10c3f0eacecd4a88b5307b522a013804493",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "3f11ca0680499810df763d16e233dcc46480c2128eaab6cdc1b2232bbf9fd3e8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "571f2015f144b70e65397045cc2e3b9aca9dbea3f5f01d4734fac964b88877d5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9e42a62a6f5b4cb6b3be40d75fa1c9f087a53ae0ef5b45438820dbde05251f70",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a7f93dc190f87ab0d9e9df32ce04bc133d40e7566318ede206265f4ee6e65bbf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/react-seed303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/react-seed303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7833db15244473d62c3e4b5651b7ab6d414a6b8897b22f21346f399052657149",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "c62f7ab9edd25cf3b1c121f9148f36b2ecb921ea4f4fe6539583be604d086559",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "644d911d5c73af7f1d7e7c782094c2926ea700c411e3ecf1559d5aac37af94e2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "150b7f223e2465b31fdd5606381ef0f4a0a768c6b2dad099aca09ecfbba24316",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/trajectories/heat/api-seed202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/trajectories/heat/api-seed202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0a49e9738e3c77356fced0ccf84c14309db2a8b0201bb01f5fb10f47019b977c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6a895fe9380269839646c78a3722abf1baa5efe6da661708ad35e6b4cbf652f9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "73cab0e5dbe721c9166aa00e587992c353d181fafea2c1b93397bba0570d6057",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9649f5b5d6d467f8c6f5d1570d5767657121cf55ca48b4ea7c5d7e23b136b6f9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1a921918c22116c9fd3995a9fd55c6e95f0d7a61f6d66a9009c6fcd698886234",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "35dacd8ecd1b32b076e18cf7f0d22684cd72655532ac8e628134bb7e15b060e2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "db84daab26a85b33b97160b479a565d590817da33d5e7020f82627cf777c6dcb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7992d147a99d599762af780efaecfeb8e9ac2b8d225454f0036e15b21001d27d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "d729e913f199648d89b5b64d67ec2f14e8e8e112141f4d59d84b18478ac77f5d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5f4676a0056af7fc9fc40a2269d4294d37d677a6dc5c7057f75ede80380035c3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "a5561ede1ffb19355443400a7f0c0eeeeefefa4cd4b1ec5e6c9fb923795acbde",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e7e96f92b50a5928ebed9c303916aa4d8ab9114c7cf7b47353d7fa948a4fbb09",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "fe2bdca1321f9da59316aea421e179344ad6bdf260369eac10c0e13185be32bb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ce9804ce8486ce4646a6b8a5d6f82b6b370664a3ca78da6b41ff8b5a4230d9b7",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "7c4b497e56cd646ff2a7f56ed2926fae3ebffa8b77687c1707e3e9db70a89dcc",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "f14b5ba6582a82047cfc71d3e3210badf614503fe8a8af594c45b8f2c031827f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "aeee0e4df697ad383ec1710317a1c7a4ebc5f7924f5ab1548db3633850251147",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1705541282985b9b0f95a5b4725d1958c560c15a95ecf59e8d1b7b7488385bfe",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "e828a34e3012960245584ae9217ad72eb0dd1471609d5a2947287335a9ef866b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "acaac63edfb6ea655fc1226ce21d80a91dabc4c05b8d0f44fc8022475f03f1ce",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-early-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "2c71a18d553d277effd4bef9076aee65f9d699ae393e1e654257a1cb4becbefb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1303/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1303/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "96025360bf80862db2de9671b40a3683ab6124c3a8e5f00bbba3989a2a331513",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1303/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1303/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "ebac42ee028880ac96cbc707be17ebe8f5209ff72da067d65c57b4347755364a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1303/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1303/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "4251e9b46b20f58ab248d1479b0fa8dca99d7fd816cfcb755c82ee32ffe0e616",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1303/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1303/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "5e3ddb977d44a0f5aabc57c30ba874605f48417716fa89637d2f91f4b34fcc5a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "77f9f5362fffe1c89e8ef087c6e4b372fdc379b0963e0ee9941ae5a644a9bbf3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "fe302167160e721dbd372b38ccb23a8112a050480ee9e2802c688e0cbebf518f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "1941ba93add940a24f4bfda295cc9e6ea1ac8dc5da782012666197faea5aab5f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/filtered-none-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0a3b5d4716569c72f5809cc0443a1cd9d6b2db0d03bb029b27a41308233b89bd",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1202/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1202/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6b12e58dd8298650ceffffdf27c48bb7e83f75e78302282b8555b4ae590aff65",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1202/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1202/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "9875b4c439fa27a4a93022bd718ea9fb5e96fe59e39982ebd3311b25ebe521f4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1202/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1202/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6096628c3fc6d033df3b3fbacaedfecc893d93e6846e144387e7f7a249d626b1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1202/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1202/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "53de24411d65cf7d870d7b8222b213182a3eafc4e5178a5604c0406517f75c97",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1101/step-0032/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1101/step-0032/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "826fe7e82e97f0a21a743b3d974ab5296af708fe9c519d99bcebfc3c43ca1617",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1101/step-0000/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1101/step-0000/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "38d264feec1a99bb0ebe6e0b07f4d629235fbb441a462b99ba736af17d607a15",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1101/step-0008/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1101/step-0008/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "63baa6d4ead4c8ecb241826ff2022f5acc1176678422198e3e71801ac9b2290f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/learning-speed-v1/trajectories/base-seed1101/step-0128/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/learning-speed-v1/trajectories/base-seed1101/step-0128/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "0adb10766b02bc60164e0555d5666293b57f85a2755f93975a68fdbdc69e061c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "data/downloads/json_2.1.3_tw-pddl.zip",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/downloads/json_2.1.3_tw-pddl.zip",
+      "bytes": 36507267,
+      "sha256": "5df77ea759f2211a4106082839ddbbb790f1ba4e7d097ed732cf453f72aa36cf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "data/downloads/json_2.1.1_pddl.zip",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/downloads/json_2.1.1_pddl.zip",
+      "bytes": 34881784,
+      "sha256": "913942ebed06659ea0da2f8122512d98bc6add30d84961ca803132d8fbcad585",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/collect-gpu0/steps.jsonl",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/collect-gpu0/steps.jsonl",
+      "bytes": 26550243,
+      "sha256": "177fdff521ee030c26c084f1b0c29d485abbb776bbc22a48b74a15acbb47d592",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/dual5090-v2/collect-gpu1/steps.jsonl",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/dual5090-v2/collect-gpu1/steps.jsonl",
+      "bytes": 25114290,
+      "sha256": "c6e10c4ac37635ed7d1762222eedc9d6b1c01afbbaeeec1d1fc405a6e954b6a3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/collection/none/steps.jsonl",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/collection/none/steps.jsonl",
+      "bytes": 19034464,
+      "sha256": "6ecc3228ffb7455bcdb79d38ec216964ccdd3e1f4cc145c9dfc0df7d9faa4f11",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/source-comparison-v1/collection/react/events.jsonl",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/source-comparison-v1/collection/react/events.jsonl",
+      "bytes": 18190834,
+      "sha256": "727c7488e3fd16505416bda7a8467bddef2e462ab310d2e5fe1bd6e13496a0ee",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/api-harness-v1/collection/generic/steps.jsonl",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/api-harness-v1/collection/generic/steps.jsonl",
+      "bytes": 17806763,
+      "sha256": "652adb58ca6932c7bf2b0ab322db771c55913a2ac4a802a65de759a76ab4444a",
+      "verified": true,
+      "original_path_preserved": true
+    }
+  ],
+  "active_stage1_excluded": true,
+  "verified_bytes": 25025834532,
+  "finished_unix": 1794452556.3146114,
+  "source_available_bytes": 38567137280
+}

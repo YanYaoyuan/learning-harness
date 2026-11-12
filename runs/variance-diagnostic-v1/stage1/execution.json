@@ -1,0 +1,54 @@
+{
+  "status": "running",
+  "gpu_seconds": 2990.7053942258644,
+  "preparatory_seconds": 135.13289220395382,
+  "cases": {
+    "api-i101-s101-r0": {
+      "status": "completed",
+      "seconds": 466.44195616897196,
+      "gpu": 0
+    },
+    "generic-i101-s101-r0": {
+      "status": "completed",
+      "seconds": 510.0614011060097,
+      "gpu": 1
+    },
+    "generic-i101-s202-r0": {
+      "status": "completed",
+      "seconds": 437.88949865999166,
+      "gpu": 0
+    },
+    "api-i101-s202-r0": {
+      "status": "completed",
+      "seconds": 504.9452121339855,
+      "gpu": 1
+    },
+    "api-i101-s303-r0": {
+      "status": "completed",
+      "seconds": 471.0943617989542,
+      "gpu": 0
+    },
+    "generic-i101-s303-r0": {
+      "status": "completed",
+      "seconds": 465.1400721539976,
+      "gpu": 1
+    }
+  },
+  "open": {
+    "generic-i101-s404-r0": {
+      "pid": 378375,
+      "gpu": 0,
+      "allocation": 1200,
+      "started_unix": 1794452617.074102
+    },
+    "api-i101-s404-r0": {
+      "pid": 387924,
+      "gpu": 1,
+      "allocation": 1200,
+      "started_unix": 1794452721.796893
+    }
+  },
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "freeze_sha256": "dc1dca75927cc3f362c26ac319b0b5222acf9673218221906685b71efa34fabd"
+}

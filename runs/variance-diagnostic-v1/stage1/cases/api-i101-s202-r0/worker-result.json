@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "case": {
+    "name": "api-i101-s202-r0",
+    "source": "api",
+    "initialization_seed": 101,
+    "sampling_seed": 202,
+    "repeat": 0,
+    "gpu": 1
+  },
+  "success": {
+    "cool": 0.15625,
+    "heat": 0.125
+  },
+  "mean_success": 0.140625,
+  "mean_nll": 0.21494370669149476,
+  "control": {
+    "initialization_seed": 101,
+    "sampling_seed": 202,
+    "initialization_factor": "LoRA initialization plus dropout stream",
+    "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+    "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+    "completed": true,
+    "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+    "initial_parameter_count": 11796480,
+    "schedule_sha256": "fc4382de214130f6b9206efd533e09d2c2bdc4cb1c2518da098af958cbea16ea",
+    "trained_adapter_sha256": "c063f8ed18284d006333c2fe43ef57fecf0378ce0472822366befd3aef1f2daf"
+  },
+  "exposure": {
+    "processed_examples": 256,
+    "unique_examples": 256,
+    "unique_tasks": 35,
+    "task_type_presentations": {
+      "pick_and_place_simple": 170,
+      "pick_heat_then_place_in_recep": 40,
+      "pick_clean_then_place_in_recep": 46
+    },
+    "input_tokens": 159534,
+    "target_tokens": 3244
+  },
+  "smoke": false,
+  "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:1ed18c69c2d6fb3487090b0e503d0c664e0895ac136dd85427ef5da3cabd7ca0"
+}
