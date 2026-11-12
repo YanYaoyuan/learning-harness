@@ -74,3 +74,24 @@ API低NLL组提高13.281pp、随机提高3.906pp；generic低NLL仅提高0.391pp
 补充仅复用新旧各32份记录，新增模型/环境/教师调用均为0。它仍是事后跨轮描述，不是新的预设主要比较或因果中介估计；原node-08及完整六初始化队列保持原样。
 
 [独立均值及逐初始化核对](../output/research-operations/20261113/stage4-history-node8-local-check.json)保留全部四个来源×初始化组合；Generic初始化202的策略差值从−2.734pp到−3.125pp，不能把总体差距缩小表述为每个初始化都改善。[补充W&B图表](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b-history-node08)的4个汇总文件已下载逐字节核验。
+
+## node-12：三个完整初始化（2026-11-13）
+
+主观察器在第12个预设配对节点生成快照，包含初始化101/202/303，各四份采样配方，共48个模型、3,072回合。创建时全队列完成49/100，多出的未配对模型不进入均值。48份worker记录和三个图表/汇总文件哈希核对通过；PNG及PDF重渲染均已检查，云端三个文件下载后与本地逐字节一致。
+
+| 来源 | 动作匹配随机 | 动作匹配低NLL | 低NLL−随机 | 配对胜/平/负 |
+|---|---:|---:|---:|---:|
+| API | 31.641% | 25.521% | −6.120pp | 3/0/9 |
+| Generic | 6.510% | 4.036% | −2.474pp | 2/2/8 |
+
+| 初始化 | API低NLL−随机 | Generic低NLL−随机 |
+|---|---:|---:|
+| 101 | −5.859pp | −1.563pp |
+| 202 | −10.156pp | −3.125pp |
+| 303 | −2.344pp | −2.734pp |
+
+第三个初始化的API平均差异较前两个小，三个初始化的平均方向仍一致；同时保留所有正向配对单元。这里的12个配对单元不是12个独立初始化。完整研究仍有三个初始化和条件重复待完成，不给未经校准的显著性结论，不据此更改预算、队列或停止规则。
+
+![第三个完整初始化后的预设配对图](../output/variance-diagnostic-v1/stage4/interim/node-12/action-matched-policies.png)
+
+[不可变汇总](../output/variance-diagnostic-v1/stage4/interim/node-12/aggregate-summary.json) · [独立逐初始化核对](../output/research-operations/20261113/stage4-node12-local-check.json) · [云端三个文件核验](../output/research-operations/20261113/stage4-cloud-node12-check.json)。本节点由原冻结观察器生成，不涉及新增模型调用或临时评测。
