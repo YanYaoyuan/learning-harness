@@ -1,0 +1,23 @@
+{
+  "gpu_seconds": 17.566947616986,
+  "preparatory_seconds": 17.566947616986,
+  "cases": {},
+  "open": {
+    "full_pass-api-i101-s101-r0": {
+      "pid": 1485739,
+      "gpu": 0,
+      "allocation": 1800,
+      "started_unix": 1794463865.4015212
+    },
+    "full_pass-generic-i101-s101-r0": {
+      "pid": 1485740,
+      "gpu": 1,
+      "allocation": 1800,
+      "started_unix": 1794463865.4021575
+    }
+  },
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "status": "running",
+  "freeze_sha256": "762860f6c45bc166b1fff6ef8783cd015299d7e4c93b83c5227f4b5715894b72"
+}

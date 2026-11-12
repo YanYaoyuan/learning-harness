@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "teacher_calls": 0,
+  "task_evaluations": 0,
+  "controls": [
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "initialization_factor": "LoRA initialization plus dropout stream",
+      "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+      "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+      "completed": true,
+      "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+      "initial_parameter_count": 11796480,
+      "schedule_sha256": "935bc9fdcbb3fafb5ea1b5007630fddb4caf38f8ce09716e2b612d31c7ed6e97",
+      "trained_adapter_sha256": "ca667e8beb50fc6a0a1266243a96df545bf21232e39fcd7989900828e4cf11a9",
+      "sampling_arm": "full_pass",
+      "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "initialization_factor": "LoRA initialization plus dropout stream",
+      "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+      "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+      "completed": true,
+      "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+      "initial_parameter_count": 11796480,
+      "schedule_sha256": "935bc9fdcbb3fafb5ea1b5007630fddb4caf38f8ce09716e2b612d31c7ed6e97",
+      "trained_adapter_sha256": "ca667e8beb50fc6a0a1266243a96df545bf21232e39fcd7989900828e4cf11a9",
+      "sampling_arm": "subset_replay",
+      "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+    }
+  ],
+  "schedule_audits": [
+    {
+      "length": 721,
+      "seed": 101,
+      "full_unique": 721,
+      "replay_unique": 256,
+      "full_sha256": "9ce8546d3873767d341f13d5f0084fcc9dd5dadfc596498bf1a2429e9b27e9d1",
+      "replay_sha256": "f8a8bb2c3a2697b40f4b23b8b3b37c5801a724f09b74fcd57557d5facb8a0465"
+    },
+    {
+      "length": 721,
+      "seed": 202,
+      "full_unique": 721,
+      "replay_unique": 256,
+      "full_sha256": "0e3abf5a2e35bc4ee813da2e79af9f05709b916dbb204beda753e0a8c6fb4295",
+      "replay_sha256": "542f3167e8d973d55fb5cc66f0d2359144352373f5d7d96c694a7be876e80c62"
+    },
+    {
+      "length": 721,
+      "seed": 303,
+      "full_unique": 721,
+      "replay_unique": 256,
+      "full_sha256": "389c2cf7809452531cc60b196433ef2f8b93061ff3d6394ad3d652cbc11345d2",
+      "replay_sha256": "60aa8f7c28ab7c61573c4a4a79684ade97eef08e518ba21949ad9634361d2428"
+    },
+    {
+      "length": 721,
+      "seed": 404,
+      "full_unique": 721,
+      "replay_unique": 256,
+      "full_sha256": "23de5df001ebd7b04a79839d9aa0bd68c919c94f20825a6e49015e1701027de7",
+      "replay_sha256": "a634bac0978f6548e4b71b4970b3da434116751c285b36b3a06ac0d7e7448dd5"
+    },
+    {
+      "length": 732,
+      "seed": 101,
+      "full_unique": 732,
+      "replay_unique": 256,
+      "full_sha256": "2f3e94cc090a2fa09a13b87424285494864ddae36cf06477f6d400792789db3b",
+      "replay_sha256": "b27a48f4d776fe6f2328b924117fcf7ce694c21810c2b04291ea9dfec22bef44"
+    },
+    {
+      "length": 732,
+      "seed": 202,
+      "full_unique": 732,
+      "replay_unique": 256,
+      "full_sha256": "1ad55b71d24626a1ad2e3db92cc2ebfe4663eb600757270b54114189d76ee30b",
+      "replay_sha256": "4cb0eca80a777eeaff5c517420c6fec2e52405b09bd791b32d108342461c99ae"
+    },
+    {
+      "length": 732,
+      "seed": 303,
+      "full_unique": 732,
+      "replay_unique": 256,
+      "full_sha256": "1dec743f35eac896ff90e232044e35396edc28ed0c629cd91ccf258af8f9a8ee",
+      "replay_sha256": "bc9242701126e207cfe924792bd78f2bf58f343eccccb0e5b87020de7ca924c4"
+    },
+    {
+      "length": 732,
+      "seed": 404,
+      "full_unique": 732,
+      "replay_unique": 256,
+      "full_sha256": "077c6144b42522ad8369636bf5b153374c95018024cc4a96a2ab11c054378dce",
+      "replay_sha256": "b831389b521df0caceeb0df2122bbc1b538f83dc8da0b813edcfe66a031d8174"
+    }
+  ],
+  "gpu_seconds": 17.566947616986
+}

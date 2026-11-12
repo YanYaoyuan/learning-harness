@@ -1,0 +1,18 @@
+{
+  "pipeline": {
+    "pid": 1485688,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+      "scripts/run_stage2_sampling.py"
+    ],
+    "started_unix": 1794463865.0945241
+  },
+  "observer": {
+    "pid": 1485689,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-wandb/bin/python",
+      "scripts/track_stage2.py"
+    ],
+    "started_unix": 1794463865.0948696
+  }
+}

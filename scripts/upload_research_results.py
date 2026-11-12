@@ -35,7 +35,7 @@ def package(root, output):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--study", choices=("source", "stage0", "stage1"), required=True)
+    parser.add_argument("--study", choices=("source", "stage0", "stage1", "stage2"), required=True)
     args = parser.parse_args()
     if args.study == "source":
         root = Path("runs/source-comparison-v1")
@@ -54,13 +54,15 @@ def main():
         identity = hashlib.sha256((root / "freeze.json").read_bytes()).hexdigest()[:12]
         group, title = "variance-diagnostic-v1", "Stage 0 / legacy API-generic batching sensitivity"
     else:
-        root = Path("runs/variance-diagnostic-v1/stage1")
-        output = Path("output/variance-diagnostic-v1/stage1")
+        root = Path("runs/variance-diagnostic-v1") / args.study
+        output = Path("output/variance-diagnostic-v1") / args.study
         measured = json.loads((output / "summary.json").read_text())
-        if not measured.get("complete") or measured.get("actual_evaluation_episodes") != 2176:
-            raise ValueError("Stage 1 local report is incomplete")
+        if not measured.get("complete") or measured.get("actual_evaluation_episodes") != (2176 if args.study == "stage1" else 4352):
+            raise ValueError("Local sampling diagnostic report is incomplete")
         identity = hashlib.sha256((root / "freeze.json").read_bytes()).hexdigest()[:12]
-        group, title = "variance-diagnostic-v1", "Stage 1 / crossed initialization and sampling seeds"
+        group = "variance-diagnostic-v1"
+        title = ("Stage 1 / crossed initialization and sampling seeds" if args.study == "stage1" else
+                 "Stage 2 / full-pass versus subset-replay at matched compute")
     archive, manifest = package(root, output)
     connection = json.loads(Path("output/wandb/connection.json").read_text())
     base = connection.get("base_url", connection.get("host"))
@@ -81,11 +83,11 @@ def main():
         if args.study == "stage0":
             run.summary.update(dict(complete=True, stage0_measured_result=measured,
                                     official_tests_used=False, teacher_calls=0))
-        elif args.study == "stage1":
-            run.summary.update(dict(complete=True, stage1_measured_result=measured,
-                                    official_tests_used=False, teacher_calls=0))
+        elif args.study in ("stage1", "stage2"):
+            run.summary.update({"complete": True, args.study + "_measured_result": measured,
+                                "official_tests_used": False, "teacher_calls": 0})
         run.summary.update(dict(raw_records_archived=True, archived_json_files=len(manifest)))
-        artifact_name = group + ("-stage1" if args.study == "stage1" else "") + "-raw-records"
+        artifact_name = group + ("-" + args.study if args.study in ("stage1", "stage2") else "") + "-raw-records"
         artifact = wandb.Artifact(artifact_name, type="research-results")
         artifact.add_file(str(archive))
         artifact.add_file(str(output / "archive-manifest.json"))

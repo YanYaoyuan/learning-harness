@@ -1,6 +1,6 @@
 {
-  "status": "running",
-  "gpu_seconds": 2990.7053942258644,
+  "status": "completed",
+  "gpu_seconds": 15603.23217815187,
   "preparatory_seconds": 135.13289220395382,
   "cases": {
     "api-i101-s101-r0": {
@@ -32,22 +32,149 @@
       "status": "completed",
       "seconds": 465.1400721539976,
       "gpu": 1
-    }
-  },
-  "open": {
+    },
     "generic-i101-s404-r0": {
-      "pid": 378375,
-      "gpu": 0,
-      "allocation": 1200,
-      "started_unix": 1794452617.074102
+      "status": "completed",
+      "seconds": 453.77780903101666,
+      "gpu": 0
     },
     "api-i101-s404-r0": {
-      "pid": 387924,
-      "gpu": 1,
-      "allocation": 1200,
-      "started_unix": 1794452721.796893
+      "status": "completed",
+      "seconds": 458.55646082304884,
+      "gpu": 1
+    },
+    "generic-i202-s101-r0": {
+      "status": "completed",
+      "seconds": 413.3569138009916,
+      "gpu": 0
+    },
+    "api-i202-s101-r0": {
+      "status": "completed",
+      "seconds": 470.66874916799134,
+      "gpu": 1
+    },
+    "api-i202-s202-r0": {
+      "status": "completed",
+      "seconds": 422.07580110197887,
+      "gpu": 0
+    },
+    "generic-i202-s202-r0": {
+      "status": "completed",
+      "seconds": 494.8638456580229,
+      "gpu": 1
+    },
+    "generic-i202-s303-r0": {
+      "status": "completed",
+      "seconds": 434.83572184399236,
+      "gpu": 0
+    },
+    "api-i202-s303-r0": {
+      "status": "completed",
+      "seconds": 465.1398369919625,
+      "gpu": 1
+    },
+    "api-i202-s404-r0": {
+      "status": "completed",
+      "seconds": 441.0365525780362,
+      "gpu": 0
+    },
+    "generic-i202-s404-r0": {
+      "status": "completed",
+      "seconds": 493.18989209801657,
+      "gpu": 1
+    },
+    "api-i303-s101-r0": {
+      "status": "completed",
+      "seconds": 450.97003786597634,
+      "gpu": 0
+    },
+    "generic-i303-s101-r0": {
+      "status": "completed",
+      "seconds": 463.4407851130236,
+      "gpu": 1
+    },
+    "generic-i303-s202-r0": {
+      "status": "completed",
+      "seconds": 443.306702661037,
+      "gpu": 0
+    },
+    "api-i303-s202-r0": {
+      "status": "completed",
+      "seconds": 461.56430122000165,
+      "gpu": 1
+    },
+    "api-i303-s303-r0": {
+      "status": "completed",
+      "seconds": 456.3100650740089,
+      "gpu": 0
+    },
+    "generic-i303-s303-r0": {
+      "status": "completed",
+      "seconds": 451.8266203950043,
+      "gpu": 1
+    },
+    "generic-i303-s404-r0": {
+      "status": "completed",
+      "seconds": 437.58403442800045,
+      "gpu": 0
+    },
+    "api-i303-s404-r0": {
+      "status": "completed",
+      "seconds": 446.47043113497784,
+      "gpu": 1
+    },
+    "generic-i404-s101-r0": {
+      "status": "completed",
+      "seconds": 443.17924617999233,
+      "gpu": 0
+    },
+    "api-i404-s101-r0": {
+      "status": "completed",
+      "seconds": 467.3407948130043,
+      "gpu": 1
+    },
+    "api-i404-s202-r0": {
+      "status": "completed",
+      "seconds": 431.9853699509986,
+      "gpu": 0
+    },
+    "generic-i404-s202-r0": {
+      "status": "completed",
+      "seconds": 460.7721384349861,
+      "gpu": 1
+    },
+    "generic-i404-s303-r0": {
+      "status": "completed",
+      "seconds": 449.1615278859972,
+      "gpu": 0
+    },
+    "api-i404-s303-r0": {
+      "status": "completed",
+      "seconds": 438.4314176309854,
+      "gpu": 1
+    },
+    "api-i404-s404-r0": {
+      "status": "completed",
+      "seconds": 404.3157988449675,
+      "gpu": 0
+    },
+    "api-i101-s101-r1": {
+      "status": "completed",
+      "seconds": 447.99377658200683,
+      "gpu": 0
+    },
+    "generic-i404-s404-r0": {
+      "status": "completed",
+      "seconds": 457.00795073999325,
+      "gpu": 1
+    },
+    "generic-i101-s101-r1": {
+      "status": "completed",
+      "seconds": 453.3642018759856,
+      "gpu": 1
     }
   },
+  "open": {},
   "teacher_calls": 0,
   "official_tests_used": false,
   "freeze_sha256": "dc1dca75927cc3f362c26ac319b0b5222acf9673218221906685b71efa34fabd"
