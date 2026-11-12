@@ -1,0 +1,339 @@
+{
+  "version": "0.1",
+  "created_unix": 1794518812.157439,
+  "manuscript_sha256": "b0c95212736faf11e8503301254c3abaeec05f4c4bf5818fd4c6fe7858194cf7",
+  "status": "Exploratory draft; Stage4 interim and second-environment validation pending",
+  "sources": {
+    "output/source-comparison-v1/summary.json": "02c3a8d2de648362785ae2ab26a319b9793b7ee18c9547a3268924f8f947de57",
+    "docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md": "70e17fe3b65c90ca3ba9605d3a840d9f9cf09973f0fa57ba0b9c2144178ed283",
+    "output/variance-diagnostic-v1/stage2/summary.json": "fedd4eac6eb8439a91e3d0c0c48102a49ec329a7a92fdddbe99fb64bf6083a6e",
+    "output/variance-diagnostic-v1/stage3/summary.json": "e03827f681d57f1014bcdc986dbd9dd861f5b667f14e069b5836118662c0812d",
+    "output/variance-diagnostic-v1/stage3/aggregate-summary.json": "6c2c259fffa23d68d10c9ee42f80f65bbe4f5c8f653c363bc575b82265a49226",
+    "output/variance-diagnostic-v1/stage4/interim/node-12/aggregate-summary.json": "fc689ad8808f3f44ab329b671617a932649562f143c7cc9777cb7b851ea713fa",
+    "output/variance-diagnostic-v1/stage4/interim/node-12/local-manifest.json": "93f6a7ac486227f87e3d210b051a8d3c02a30bd39c2f0546c01e9f1287ffa195",
+    "output/research-operations/20261113/stage4-node12-local-check.json": "ebe5f4ed0bb36d17e1fa7975124c1349b1cf5e94ea443a162ebfd019e6e1c64e",
+    "output/variance-diagnostic-v1/stage4/historical-reference-audit/node-08/aggregate-summary.json": "2ab9ab616cbeaceb0f481422fcbe4e05e4723838ebbaf843db0b59944b697d51",
+    "output/variance-diagnostic-v1/stage3-reliability-check/aggregate-summary.json": "094a2d4472e2e2b172731e27ef506be9d4fd356fdbdfa98b7cf0b5d2bf36fcd7",
+    "output/nll-cache-layout-audit/20261113/aggregate-summary.json": "06b0daec9ca42f2957d41663ddabf56ea75a3f1e7a0b98ba3bb97c9f849c0ba8",
+    "output/trajectory-baseline-feasibility/20261113/aggregate-summary.json": "9c90ee9a9bd01db050808b65c0e13b62c345affb78282823de11137f18816820",
+    "output/power-review/2026-11-11/d083d9f/review.zh-CN.md": "fde1ed5520e3897053700f3836427521f984f29de0a4aed243a61d087f58f905",
+    "docs/VARIANCE_DIAGNOSTIC_STAGE2_SPEC.md": "906994725a9126996e1ea38ee71b9e83ba47826278a92198d0034e2b683341b5",
+    "docs/VARIANCE_DIAGNOSTIC_STAGE3_SPEC.md": "f7e273dd8358aa3224f2bb457c1a281fb0b251290a68481b89dcc14940daa0d5",
+    "docs/STAGE4_ACTION_CONTROL_SPEC_2026-11-13.zh-CN.md": "5cdead986f8ed25c332b06bcdd032d44c633a6c65a926edbc3d6b31ccc2f347a",
+    "docs/BASELINE_METHOD_AUDIT_2026-11-13.zh-CN.md": "301fae057c46df76211db3c528b207858257414488b38c05562a7dda5a44852f",
+    "docs/EXPERIENCE_SELECTION_POSITIONING_2026-11-13.zh-CN.md": "3a832776c643691e829d759f6b9a984e16fb13707f75856847d8badf364f5dea",
+    "data/models/Qwen3-4B-Instruct-2507/download-manifest.json": "aa37165ddf53819ffe167a7b9c99b0be4b0104d958f68c11a3b7eacdab7b7da7",
+    "runs/transfer-factorial-v1/corpora/full-api.jsonl": "c773ed8eaac5d4c4c4bde513702f5eaa009d0be57c2dca6d8b4caddb369405e4",
+    "runs/transfer-factorial-v1/corpora/full-generic.jsonl": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+    "runs/variance-diagnostic-v1/stage3/cases/task_matched_random-api-i101-s101-r0/A/experiment.json": "0f9fad06fd994540d78de6a6b57f74ac054953bfd84c2f0cdb7bbea8162fe879"
+  },
+  "figures": {
+    "output/variance-diagnostic-v1/stage3/task-matched-policy-scores.png": "a5efff4698e52253aec161b41d81bc7ddc6088e005e4f55c7e37fb2bb6d1452e",
+    "output/variance-diagnostic-v1/stage4/interim/node-12/action-matched-policies.png": "879fa770314aaffbc4d882dd8cb0773427792ca574cdd7a88893a80e0807bcfa"
+  },
+  "corpus_counts": {
+    "api": {
+      "rows": 721,
+      "tasks": 35,
+      "distinct_messages": 418,
+      "source_path": "runs/transfer-factorial-v1/corpora/full-api.jsonl"
+    },
+    "generic": {
+      "rows": 732,
+      "tasks": 29,
+      "distinct_messages": 508,
+      "source_path": "runs/transfer-factorial-v1/corpora/full-generic.jsonl"
+    }
+  },
+  "training_configuration": {
+    "max_steps": 192,
+    "global_batch_size": 4,
+    "max_sequence_length": 2048,
+    "learning_rate": 0.0001,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "warmup_ratio": 0.05,
+    "weight_decay": 0.0,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "stage2_sampling_sd_pp": {
+    "subset_replay": [
+      8.873294290312927,
+      13.463818702823504,
+      18.54817594075403,
+      19.363866088563856
+    ],
+    "full_pass": [
+      3.8273277230987155,
+      6.314768569261532,
+      5.898308152555273,
+      2.34375
+    ]
+  },
+  "source_comparison_seed_raw_auc_pp": [
+    -9.765625,
+    -3.41796875,
+    2.490234375
+  ],
+  "numeric_values_checked": [
+    {
+      "quantity": "source raw AUC pp",
+      "value": -3.564453125,
+      "decimals": 2,
+      "rendered": "-3.56"
+    },
+    {
+      "quantity": "source raw AUC pp seed101",
+      "value": -9.765625,
+      "decimals": 2,
+      "rendered": "-9.77"
+    },
+    {
+      "quantity": "source raw AUC pp seed202",
+      "value": -3.41796875,
+      "decimals": 2,
+      "rendered": "-3.42"
+    },
+    {
+      "quantity": "source raw AUC pp seed303",
+      "value": 2.490234375,
+      "decimals": 2,
+      "rendered": "2.49"
+    },
+    {
+      "quantity": "stage2 full pass minus replay pp api",
+      "value": 5.17578125,
+      "decimals": 3,
+      "rendered": "5.176"
+    },
+    {
+      "quantity": "stage3 api random percent",
+      "value": 27.9296875,
+      "decimals": 3,
+      "rendered": "27.930"
+    },
+    {
+      "quantity": "stage3 api min_nll percent",
+      "value": 10.15625,
+      "decimals": 3,
+      "rendered": "10.156"
+    },
+    {
+      "quantity": "stage3 api contrast pp",
+      "value": -17.7734375,
+      "decimals": 3,
+      "rendered": "-17.773"
+    },
+    {
+      "quantity": "stage4node12 api random percent",
+      "value": 31.640625,
+      "decimals": 3,
+      "rendered": "31.641"
+    },
+    {
+      "quantity": "stage4node12 api min_nll percent",
+      "value": 25.520833333333332,
+      "decimals": 3,
+      "rendered": "25.521"
+    },
+    {
+      "quantity": "stage4node12 api contrast pp",
+      "value": -6.119791666666666,
+      "decimals": 3,
+      "rendered": "-6.120"
+    },
+    {
+      "quantity": "stage3 api seed101 pp",
+      "value": -15.234375,
+      "decimals": 3,
+      "rendered": "-15.234"
+    },
+    {
+      "quantity": "stage3 api seed202 pp",
+      "value": -19.140625,
+      "decimals": 3,
+      "rendered": "-19.141"
+    },
+    {
+      "quantity": "stage3 api seed303 pp",
+      "value": -15.625,
+      "decimals": 3,
+      "rendered": "-15.625"
+    },
+    {
+      "quantity": "stage3 api seed404 pp",
+      "value": -21.09375,
+      "decimals": 3,
+      "rendered": "-21.094"
+    },
+    {
+      "quantity": "stage2 full pass minus replay pp generic",
+      "value": 1.26953125,
+      "decimals": 3,
+      "rendered": "1.270"
+    },
+    {
+      "quantity": "stage3 generic random percent",
+      "value": 12.6953125,
+      "decimals": 3,
+      "rendered": "12.695"
+    },
+    {
+      "quantity": "stage3 generic min_nll percent",
+      "value": 4.8828125,
+      "decimals": 3,
+      "rendered": "4.883"
+    },
+    {
+      "quantity": "stage3 generic contrast pp",
+      "value": -7.8125,
+      "decimals": 3,
+      "rendered": "-7.812"
+    },
+    {
+      "quantity": "stage4node12 generic random percent",
+      "value": 6.510416666666667,
+      "decimals": 3,
+      "rendered": "6.510"
+    },
+    {
+      "quantity": "stage4node12 generic min_nll percent",
+      "value": 4.036458333333334,
+      "decimals": 3,
+      "rendered": "4.036"
+    },
+    {
+      "quantity": "stage4node12 generic contrast pp",
+      "value": -2.473958333333333,
+      "decimals": 3,
+      "rendered": "-2.474"
+    },
+    {
+      "quantity": "stage3 generic seed101 pp",
+      "value": -8.59375,
+      "decimals": 3,
+      "rendered": "-8.594"
+    },
+    {
+      "quantity": "stage3 generic seed202 pp",
+      "value": -2.734375,
+      "decimals": 3,
+      "rendered": "-2.734"
+    },
+    {
+      "quantity": "stage3 generic seed303 pp",
+      "value": -10.546875,
+      "decimals": 3,
+      "rendered": "-10.547"
+    },
+    {
+      "quantity": "stage3 generic seed404 pp",
+      "value": -9.375,
+      "decimals": 3,
+      "rendered": "-9.375"
+    },
+    {
+      "quantity": "stage4 api seed101 pp",
+      "value": -5.859375,
+      "decimals": 3,
+      "rendered": "-5.859"
+    },
+    {
+      "quantity": "stage4 api seed202 pp",
+      "value": -10.15625,
+      "decimals": 3,
+      "rendered": "-10.156"
+    },
+    {
+      "quantity": "stage4 api seed303 pp",
+      "value": -2.34375,
+      "decimals": 3,
+      "rendered": "-2.344"
+    },
+    {
+      "quantity": "stage4 generic seed101 pp",
+      "value": -1.5625,
+      "decimals": 3,
+      "rendered": "-1.562"
+    },
+    {
+      "quantity": "stage4 generic seed202 pp",
+      "value": -3.125,
+      "decimals": 3,
+      "rendered": "-3.125"
+    },
+    {
+      "quantity": "stage4 generic seed303 pp",
+      "value": -2.734375,
+      "decimals": 3,
+      "rendered": "-2.734"
+    },
+    {
+      "quantity": "subset_replay sampling SD pp init101",
+      "value": 8.873294290312927,
+      "decimals": 2,
+      "rendered": "8.87"
+    },
+    {
+      "quantity": "subset_replay sampling SD pp init202",
+      "value": 13.463818702823504,
+      "decimals": 2,
+      "rendered": "13.46"
+    },
+    {
+      "quantity": "subset_replay sampling SD pp init303",
+      "value": 18.54817594075403,
+      "decimals": 2,
+      "rendered": "18.55"
+    },
+    {
+      "quantity": "subset_replay sampling SD pp init404",
+      "value": 19.363866088563856,
+      "decimals": 2,
+      "rendered": "19.36"
+    },
+    {
+      "quantity": "full_pass sampling SD pp init101",
+      "value": 3.8273277230987155,
+      "decimals": 2,
+      "rendered": "3.83"
+    },
+    {
+      "quantity": "full_pass sampling SD pp init202",
+      "value": 6.314768569261532,
+      "decimals": 2,
+      "rendered": "6.31"
+    },
+    {
+      "quantity": "full_pass sampling SD pp init303",
+      "value": 5.898308152555273,
+      "decimals": 2,
+      "rendered": "5.90"
+    },
+    {
+      "quantity": "full_pass sampling SD pp init404",
+      "value": 2.34375,
+      "decimals": 2,
+      "rendered": "2.34"
+    }
+  ],
+  "stage4_snapshot": {
+    "milestone": 12,
+    "models": 48,
+    "episodes": 3072,
+    "initializations": 3,
+    "global_completed_at_creation": 49,
+    "complete": false
+  },
+  "rounding": "Python fixed-point half-even display; unrounded values retained here",
+  "raw_task_records_included": false,
+  "new_model_calls": 0,
+  "new_teacher_calls": 0,
+  "derivation_note": "Aggregate report rates and seed means; paired family raw-AUC seed averages; sample SD across four paired source differences per initialization; exact message-content digests. No new inference."
+}

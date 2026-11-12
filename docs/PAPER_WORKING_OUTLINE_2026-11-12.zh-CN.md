@@ -4,6 +4,8 @@
 
 暂定英文题目：**How Experience Sampling Shapes Agent Internalization and Evaluation Reliability**。
 
+已有一版[英文正文初稿v0.1](paper/MANUSCRIPT_DRAFT_v0.1.md)，工作标题为“Controlling Experience Composition in Language-Agent Fine-Tuning”。它写入完成的Stage 2/3及不可变node-12中途结果，另列原API/ReAct对照、统计与执行边界和投稿前待补证据；不是完成版或提交稿。
+
 ## 科学问题
 
 在固定的小模型、公开动作视图与优化预算下，采集得到的经验如何影响撤除辅助后的自主能力？哪些经验组织方式能稳定评测结论，哪些学生可学性代理真正具有训练价值？

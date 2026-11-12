@@ -20,6 +20,8 @@ Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CAND
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
+[英文论文正文初稿v0.1](docs/paper/MANUSCRIPT_DRAFT_v0.1.md)已包含方法、配对终点、完整Stage 2/3结果、原API/ReAct对照及node-12中途表。证据快照绑定原报告与图表SHA；完整六初始化、评分诊断、第二环境与正式统计验证仍单列为待补部分。
+
 [独立NLL评分诊断](docs/NLL_SCORING_DIAGNOSTIC_READINESS_2026-11-13.zh-CN.md)已完成853条不同输入的CPU编码、原16份选样配方精确再生及16项CPU测试，首次GPU评分前冻结67份输入。600秒GPU1方案检查填充、position IDs、精度和logits窗口；真实运行入口已验证会在Stage 4仍运行时拒绝启动。尚未加载GPU模型或产生新评分，不改旧缓存、训练配方和主实验队列。
 
 [后续实验只读观察器](docs/FOLLOWUP_MONITORING_2026-11-13.zh-CN.md)已在真实主机启动，统一跟踪评分诊断与WebShop校准，每30秒更新汇总进度、每半小时追加进程检查；目前两项仍为未启动。它使用独立W&B进度run，不启动或重启任何GPU任务，不更改主实验监控。

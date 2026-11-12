@@ -1,0 +1,25 @@
+{
+  "status": "manuscript_numeric_configuration_and_local_links_checked",
+  "checked_unix": 1794518812.161297,
+  "manuscript_sha256": "b0c95212736faf11e8503301254c3abaeec05f4c4bf5818fd4c6fe7858194cf7",
+  "evidence_snapshot_sha256": "9ca0873ed031dd196943752194fffd172d97a9e362d0f7f31e4842be4d3bcaa0",
+  "source_files_hashed": 22,
+  "figures_hashed": 2,
+  "numeric_checks": 40,
+  "relative_file_links_checked": [
+    "../../output/variance-diagnostic-v1/stage3/task-matched-policy-scores.png",
+    "../../output/variance-diagnostic-v1/stage4/interim/node-12/action-matched-policies.png",
+    "EVIDENCE_SNAPSHOT_v0.1.json",
+    "../PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md",
+    "../BASELINE_METHOD_AUDIT_2026-11-13.zh-CN.md",
+    "../EXPERIENCE_SELECTION_POSITIONING_2026-11-13.zh-CN.md"
+  ],
+  "training_configuration_checked": true,
+  "corpus_counts_checked": true,
+  "stage4_interim_label_checked": true,
+  "source_comparison_negative_result_retained": true,
+  "new_model_calls": 0,
+  "new_teacher_calls": 0,
+  "raw_task_records_uploaded": false,
+  "initial_check_note": "The first numeric check identified a rounding-tie mismatch: -1.5625pp had been displayed as -1.563. Draft now consistently uses half-even fixed-point display (-1.562); underlying outcome data unchanged."
+}
