@@ -1,0 +1,30 @@
+{
+  "status": "cpu_preparation_verified",
+  "cpu_tests": 178,
+  "observer_and_aggregate_tests": 9,
+  "ruff_check": "passed",
+  "wandb_runtime_import": "help_command_passed",
+  "new_gpu_pipeline_tested": false,
+  "new_cloud_pipeline_tested": false,
+  "observer_tests_use_local_substitutes": true,
+  "actual_input_component_models": 32,
+  "actual_input_component_episodes": 2048,
+  "formal_protocol_frozen": false,
+  "formal_training_started": false,
+  "gpu_used": false,
+  "new_model_calls": 0,
+  "raw_records_uploaded": false,
+  "stage3_frozen_files_unchanged": 188,
+  "checked_unix": 1794495684.6054122,
+  "code_sha256": {
+    "scripts/track_action_controls.py": "6d64a33ef3fdfabe3452e8634a81037a7311f222c8c41f55d0a81c35413a75e8",
+    "scripts/run_action_controls.py": "6eecd4c8698d64200703c8f9896877472184c6279369a33b2da0b8b3b65a2b1c",
+    "scripts/action_control_report.py": "fcd3d69bbf18b9bc47d4ada3dcc0f4e1cd3846ce189a54371fe12a9fd723c6ad",
+    "scripts/audit_action_control_strength.py": "07f73fa72cd9ce1707c54505b9cc1eaeadf34ac5bd12966aaab4ef57c3c00773",
+    "src/learning_harness/research_aggregates.py": "a52a1d8ef0419fa6ca4b9fa9da27a89a4a5d3b3c25320a9a763b928b8b17df27",
+    "tests/test_research_aggregates.py": "c609ffa5c6b5aca55e95eb09390529911d158fabdf9abaddacea188310d17c19",
+    "tests/test_action_control_observer.py": "d3fd87f8b87f5e2304e0a7638382d91ef1d2835efa223710b402dc84ffb784ac",
+    "src/learning_harness/action_control_audit.py": "56e148545b641332f1a6cac92f7f1e68453b3b4f15d4e877e1e105c947ab1708",
+    "src/learning_harness/action_matched_sampling.py": "8f7b17785271d6bc36f153e3eee8d1962636f8f22ae700bb4cfa638344a3030d"
+  }
+}

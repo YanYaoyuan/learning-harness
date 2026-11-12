@@ -23,9 +23,12 @@ REQUIRED_CODE = {
     "scripts/action_control_worker.py",
     "scripts/action_control_report.py",
     "scripts/run_action_controls.py",
+    "scripts/track_action_controls.py",
+    "scripts/supervise_research.py",
     "src/learning_harness/action_control_audit.py",
     "src/learning_harness/action_matched_sampling.py",
     "src/learning_harness/controlled_study.py",
+    "src/learning_harness/research_aggregates.py",
 }
 
 

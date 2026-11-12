@@ -96,7 +96,7 @@ def start_observer(root, out):
             argv = []
         if argv:
             if (
-                not any(v.endswith("track_bounded_study.py") for v in argv)
+                not any(v.endswith("track_action_controls.py") for v in argv)
                 or "--root" not in argv
                 or Path(argv[argv.index("--root") + 1]).resolve() != root.resolve()
             ):
@@ -114,7 +114,7 @@ def start_observer(root, out):
                 env.pop(key)
         argv = [
             str(Path(".venv-wandb/bin/python").absolute()),
-            "scripts/track_bounded_study.py",
+            "scripts/track_action_controls.py",
             "--root",
             str(root),
             "--out",
