@@ -37,3 +37,17 @@
 若差异缩小，可支持“动作构成解释部分差异”的假设；若仍存在，则继续检查上下文、轨迹进度与选择难度。两种情况都不能只凭这一个匹配实验宣布识别了完整因果中介。
 
 下一次GPU实验的初始化种子数、采样种子数、预算、重复与主要终点，将在完整Stage 3结果审计后固定。此处只完成可行性和可审核的调度准备，不预写效果或显著性。
+
+## 执行入口的CPU准备
+
+新增`scripts/action_control_worker.py`与共享的`action_control_audit.py`。训练前不仅检查数量，还从冻结经验、参考随机调度与基础NLL重新生成选择结果，核对每个任务×动作类型的位置、呈现次数与不同内容配额。现有16份真实候选调度全部通过入口校验。
+
+```bash
+PYTHONPATH=src CUDA_VISIBLE_DEVICES='' .venv-model/bin/python \
+  scripts/action_control_worker.py --validate-only \
+  output/variance-diagnostic-v1/task-action-feasibility/candidate-schedules/*.json
+```
+
+校验模式不加载学生模型、不使用GPU、不训练。训练模式要求Stage 3执行与本地报告完成、正式冻结文件存在、配方已去除候选状态、代码/配置/调度全部被哈希锁定，且物理GPU与可见设备一致。未来训练继续复用同一split-seed训练器、原JSON评测内核、零B分支及只读NLL诊断。
+
+新增7项审计检查与先前12项相关检查均通过；独立开发环境全套145项CPU测试通过。真实配方重校验与原输出逐字节相同，证据位于`worker-validation.json`和`worker-verification.json`。这不表示新worker的GPU训练链路已实测；正式研究控制器、最终报告入口与预算尚未创建或冻结。

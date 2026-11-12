@@ -1,0 +1,18 @@
+{
+  "status": "candidate_cpu_worker_verified",
+  "recorded_unix": 1794489413.6911871,
+  "validated_recipes": 16,
+  "training_started": false,
+  "gpu_execution_verified": false,
+  "full_repository_cpu_tests": 145,
+  "full_test_seconds": 1.0,
+  "frozen_study_controller_created": false,
+  "formal_followup_protocol_frozen": false,
+  "validation_output_sha256": "88a2047059e593acb3cfa2ee69257c9197020c957f2e7b8e26f08aeae1ca2b30",
+  "code_sha256": {
+    "scripts/action_control_worker.py": "409a02e7d86a94f6965b1a0be9b7300c8000985f57c97d062fcfd2ef30b970eb",
+    "src/learning_harness/action_control_audit.py": "5f7f03080b63c9aa861968a81a32cfc6a5ca8e7ac1bd5e38cbf7da10e3697bb6",
+    "src/learning_harness/action_matched_sampling.py": "8f7b17785271d6bc36f153e3eee8d1962636f8f22ae700bb4cfa638344a3030d",
+    "tests/test_action_control_audit.py": "2bda63e63fda228f16bf69c159bec1a7224205ee0d5f4335b7974f1e35b37e36"
+  }
+}
