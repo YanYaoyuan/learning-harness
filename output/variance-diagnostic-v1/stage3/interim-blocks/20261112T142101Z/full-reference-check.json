@@ -1,0 +1,205 @@
+{
+  "interim": true,
+  "complete": false,
+  "source_snapshot": "output/variance-diagnostic-v1/stage3/interim/20261112T142101Z",
+  "source_summary_sha256": "e4602799d202ea2d686a1b44389f4882a6fb82e29d99e2d6a08926357dd817d5",
+  "historical_result_sha256": {
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r0/worker-result.json": "d763cd8401665b8f084419e6d245fa017f15073de783e55e09388dfdb923e790",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r0/worker-result.json": "c2499dc45b69a458b19103e3a85061854ccd04fa0ab93b1a8ca784314f2b3c54",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s202-r0/worker-result.json": "c4c4f952d25fe5dd5b675e485150d9811c14f202f2b5dc1b46d9df821e253a5e",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s202-r0/worker-result.json": "5c7d227b881731d95699cee4c4b7c12a7b20eecae068fba4a5425a37a62f857f",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s303-r0/worker-result.json": "ddc89fb2021f57367fd46db4b77be8752228b25a7b0786dbf6a58bde65ba6307",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s303-r0/worker-result.json": "a43f054f5822315cedd5d20a3134e39a6ef789297281d6d1b3bc9fa33875d33d",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s404-r0/worker-result.json": "0031953d12dd850ad0c612181697265a5efe405cd15fa014b91e6528be38ccca",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s404-r0/worker-result.json": "8629bff9dd039958233b14ca61a5275e34aead9857d033193ddc8bdb49fe0a04",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s101-r0/worker-result.json": "963f46b7470926f537c4032e6814433f3e7c78d1255ff77c081f0199791b6062",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s101-r0/worker-result.json": "42233725bffc1a276722e9231e0889a6fbe9dd3022df520acf25422e4d07135a",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s202-r0/worker-result.json": "dc2385eb4e59979fa6a5ac49d4ccebc738f61e44cc0e224c14d0cfdbce03d84b",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s202-r0/worker-result.json": "c32ef10705ba1ce615d4afdf5a1129209e2875c0aa35d64ac602e468a7ff8a7e",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s303-r0/worker-result.json": "44282e19a399f2112903ddd17198450e61bd7ed005f4caf20f717f69b07f5dba",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s303-r0/worker-result.json": "f39d7ed3e9d6abcde69a52e4087d4a87049dc183e691f9da87521ca238c8e511",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s404-r0/worker-result.json": "4ab93df16302385877e10fc8a980ff6b8dffb6c404728a3f945489f2ad9126e8",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s404-r0/worker-result.json": "d2ed940c9c3134265247931ce7470d112d81e563dd99f0f02aedc956c31481b9",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r1/worker-result.json": "f4b47d4d1fd8f1c6df54ed3333d039af93d5ec525a41db2f50de8e5b2648a348",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r1/worker-result.json": "ebc6eded1af0cd0fc2e86a72b813de5e458a29b57b2994a7addfee379115299f"
+  },
+  "random_minus_historical_full": {
+    "api": {
+      "full_success_pct": 32.03125,
+      "random_success_pct": 28.125,
+      "random_minus_full_pp": -3.90625
+    },
+    "generic": {
+      "full_success_pct": 16.796875,
+      "random_success_pct": 11.1328125,
+      "random_minus_full_pp": -5.6640625
+    }
+  },
+  "paired_cells": [
+    {
+      "source": "api",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "historical_full_success": 0.34375,
+      "random_success": 0.296875,
+      "random_minus_full_pp": -4.6875
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "historical_full_success": 0.25,
+      "random_success": 0.234375,
+      "random_minus_full_pp": -1.5625
+    },
+    {
+      "source": "api",
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "historical_full_success": 0.296875,
+      "random_success": 0.328125,
+      "random_minus_full_pp": 3.125
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "historical_full_success": 0.171875,
+      "random_success": 0.015625,
+      "random_minus_full_pp": -15.625
+    },
+    {
+      "source": "api",
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "historical_full_success": 0.3125,
+      "random_success": 0.3125,
+      "random_minus_full_pp": 0.0
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "historical_full_success": 0.140625,
+      "random_success": 0.1875,
+      "random_minus_full_pp": 4.6875
+    },
+    {
+      "source": "api",
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "historical_full_success": 0.3125,
+      "random_success": 0.140625,
+      "random_minus_full_pp": -17.1875
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "historical_full_success": 0.140625,
+      "random_success": 0.03125,
+      "random_minus_full_pp": -10.9375
+    },
+    {
+      "source": "api",
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "historical_full_success": 0.390625,
+      "random_success": 0.328125,
+      "random_minus_full_pp": -6.25
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "historical_full_success": 0.140625,
+      "random_success": 0.15625,
+      "random_minus_full_pp": 1.5625
+    },
+    {
+      "source": "api",
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "historical_full_success": 0.328125,
+      "random_success": 0.328125,
+      "random_minus_full_pp": 0.0
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "historical_full_success": 0.21875,
+      "random_success": 0.03125,
+      "random_minus_full_pp": -18.75
+    },
+    {
+      "source": "api",
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "historical_full_success": 0.296875,
+      "random_success": 0.265625,
+      "random_minus_full_pp": -3.125
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "historical_full_success": 0.171875,
+      "random_success": 0.203125,
+      "random_minus_full_pp": 3.125
+    },
+    {
+      "source": "api",
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "historical_full_success": 0.28125,
+      "random_success": 0.25,
+      "random_minus_full_pp": -3.125
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "historical_full_success": 0.109375,
+      "random_success": 0.03125,
+      "random_minus_full_pp": -7.8125
+    }
+  ],
+  "conditional_full_pool_repeats": {
+    "api": [
+      {
+        "study": "stage2",
+        "repeat": 0,
+        "success": 0.34375
+      },
+      {
+        "study": "stage2",
+        "repeat": 1,
+        "success": 0.328125
+      },
+      {
+        "study": "stage3",
+        "repeat": 2,
+        "success": 0.328125
+      }
+    ],
+    "generic": [
+      {
+        "study": "stage2",
+        "repeat": 0,
+        "success": 0.25
+      },
+      {
+        "study": "stage2",
+        "repeat": 1,
+        "success": 0.234375
+      },
+      {
+        "study": "stage3",
+        "repeat": 2,
+        "success": 0.1875
+      }
+    ]
+  },
+  "note": "Historical full references retained as frozen; three conditional repeats do not isolate systematic drift. Contemporary low-NLL/random comparison is separate."
+}

@@ -10,6 +10,11 @@
       "directory": "output/variance-diagnostic-v1/stage3/interim/20261112T130713Z",
       "actual_paired_cells": 4,
       "cloud_status": "uploaded"
+    },
+    "8": {
+      "directory": "output/variance-diagnostic-v1/stage3/interim/20261112T142101Z",
+      "actual_paired_cells": 8,
+      "cloud_status": "uploaded"
     }
   }
 }
