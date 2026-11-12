@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "recorded_unix": 1794509401.6536486,
+  "tests": 216,
+  "failures": 0,
+  "execution_output": "216 passed in 0.92s",
+  "scope": "Entire clean CPU suite after injected-client native chat runner; five new thought/action/budget/format tests",
+  "actual_new_language_model_calls": 0
+}

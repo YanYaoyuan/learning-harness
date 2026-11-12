@@ -25,3 +25,29 @@
 ![首个完整配对](../output/variance-diagnostic-v1/stage4/interim/node-01/action-matched-policies.png)
 
 [汇总数据](../output/variance-diagnostic-v1/stage4/interim/node-01/aggregate-summary.json) · [W&B进度与中途图](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b-progress)。仅汇总JSON和PNG/PDF进入云端，逐任务记录保留本地。观察器首次完整GPU→审计→绘图→云端链路已实际执行；这不代表100模型全队列已完成。
+
+## 节点4：首个初始化的四个采样配方齐全
+
+node-04固定快照包含16模型/1024回合、4个主配对单元，均为初始化101；不是四个初始化。原观察器已经完成检查点/调度/逐任务结果审计和PNG/PDF生成、汇总云端上传。
+
+| 来源 | 新随机成功率 | 新低NLL成功率 | 低NLL−随机 |
+|---|---:|---:|---:|
+| API | 30.859% | 25.000% | −5.859pp |
+| Generic | 5.078% | 3.516% | −1.563pp |
+
+API四配方胜/平/负为1/0/3，generic为2/1/1；仍是单初始化的描述性观察。节点1保留，其单元API正向不被删除；随后三个单元配齐后均值变为负向。
+
+![四个完整配对](../output/variance-diagnostic-v1/stage4/interim/node-04/action-matched-policies.png)
+
+### 事后历史参照审计
+
+新结果中generic随机组较低，因此增加了固定旧随机参照的描述性核对，而不只比较差值。与**同一初始化101**的Stage 3相比：
+
+| 来源 | 旧随机 | 旧低NLL | 新随机 | 新低NLL |
+|---|---:|---:|---:|---:|
+| API | 26.953% | 11.719% | 30.859% | 25.000% |
+| Generic | 11.719% | 3.125% | 5.078% | 3.516% |
+
+API低NLL组提高13.281pp、随机提高3.906pp；generic低NLL仅提高0.391pp、随机下降6.641pp。因此差距缩小对应不同的绝对表现变化。对固定旧随机，新低NLL仍分别低1.953pp和8.203pp。完整[补充图表与控制核对](../output/variance-diagnostic-v1/stage4/historical-reference-audit/node-04/RESULTS.zh-CN.md)保留全部四配方，不给未经校准区间。
+
+这是观察结果后增加的历史跨轮比较，明确标为post hoc。检查了初始参数、训练器、优化器、源数据、呈现次数和GPU，并验证新配额来自对应旧随机调度；它仍不能把内容支持/NLL强度变化分离成纯动作构成的因果效应。原新随机/低NLL主要比较和六初始化完整队列继续，不按此观察改种子、预算或提前停止。

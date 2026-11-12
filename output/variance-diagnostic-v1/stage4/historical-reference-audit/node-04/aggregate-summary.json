@@ -1,0 +1,53 @@
+{
+  "post_hoc": true,
+  "interim": true,
+  "source_snapshot": "output/variance-diagnostic-v1/stage4/interim/node-04",
+  "snapshot_summary_sha256": "609ca8ce179ec94e8ac827bb844beb1f68ee6d78592f9575c1f935e3352d27ea",
+  "historical_report_sha256": "e03827f681d57f1014bcdc986dbd9dd861f5b667f14e069b5836118662c0812d",
+  "script_sha256": "3322d8d9c0c585ae55ddad0d1d13f09a2ea51072d8321a934959fa0876a1d49d",
+  "snapshot_completed_models": 16,
+  "paired_cells": 4,
+  "initializations": [
+    101
+  ],
+  "excluded_cells_without_historical_reference": 0,
+  "means": {
+    "api": {
+      "task_only": {
+        "random": 0.26953125,
+        "min_nll": 0.1171875
+      },
+      "task_action": {
+        "random": 0.30859375,
+        "min_nll": 0.25
+      }
+    },
+    "generic": {
+      "task_only": {
+        "random": 0.1171875,
+        "min_nll": 0.03125
+      },
+      "task_action": {
+        "random": 0.05078125,
+        "min_nll": 0.03515625
+      }
+    }
+  },
+  "absolute_changes": {
+    "api": {
+      "random_change_pp": 3.90625,
+      "min_nll_change_pp": 13.28125,
+      "contrast_change_pp": 9.375,
+      "new_min_nll_minus_historical_random_pp": -1.953125
+    },
+    "generic": {
+      "random_change_pp": -6.640625,
+      "min_nll_change_pp": 0.390625,
+      "contrast_change_pp": 7.03125,
+      "new_min_nll_minus_historical_random_pp": -8.203125
+    }
+  },
+  "all_controls_verified": true,
+  "new_model_calls": 0,
+  "scope": "Historical cross-run descriptive comparison; content support and NLL intervention strength both change. No causal mediation or calibrated inference; original primary study remains unchanged."
+}
