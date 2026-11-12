@@ -50,6 +50,7 @@ def run_episode(
     max_context_characters=6400,
     seed=11,
     on_event=None,
+    on_request=None,
 ):
     """Only returned aggregate fields are suitable for cloud publication.
 
@@ -79,9 +80,26 @@ def run_episode(
                 dict(role="system", content=SYSTEM),
                 dict(role="user", content=body),
             ]
-            response = client.complete(
-                messages, max_tokens=max_new_tokens, temperature=0.0, seed=seed + turn
-            )
+            # Persist the attempt before the HTTP request. A lost response is an
+            # unknown-cost attempt, never an unbilled zero or an automatic retry.
+            if on_request:
+                on_request(dict(kind="attempt", turn=turn, messages=messages))
+            calls += 1
+            try:
+                response = client.complete(
+                    messages,
+                    max_tokens=max_new_tokens,
+                    temperature=0.0,
+                    seed=seed + turn,
+                )
+            except BaseException as error:
+                if on_request:
+                    on_request(
+                        dict(kind="error", turn=turn, error_type=type(error).__name__)
+                    )
+                raise
+            if on_request:
+                on_request(dict(kind="response", turn=turn, response=response))
             if (
                 any(
                     type(response.get(k)) is not int or response[k] < 0
@@ -90,7 +108,6 @@ def run_episode(
                 or response["output_tokens"] > max_new_tokens
             ):
                 raise ValueError("Endpoint usage missing or output budget exceeded")
-            calls += 1
             input_tokens += response["input_tokens"]
             output_tokens += response["output_tokens"]
             decision = parse_decision(response["text"])

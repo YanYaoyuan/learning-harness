@@ -61,7 +61,7 @@
   "proposed_gpu_cap_hours": 1.0,
   "requires_parent_stage4_completed": true,
   "requires_dedicated_base_model_server": true,
-  "rendering_and_chat_bridge": "Native public text/controls and budgeted chat core implemented; real-model server/launcher calibration and freeze pending",
+  "rendering_and_chat_bridge": "Native public text/controls, durable request accounting and dedicated base-only newline-stop server/launcher implemented and CPU tested; real-model calibration pending",
   "existing_model_servers_may_be_queried": false,
   "calibration_only": true,
   "methods_or_test_protocol_frozen": false

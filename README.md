@@ -2,7 +2,7 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前状态（2026-11-12）**：Stage 3按冻结方案训练，独立监督器每30分钟核对真实进程/GPU，每30秒监听结束事件；中途成对图在固定完成数量节点上传。训练进度以[W&B实时记录](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/262c0863d930-progress)为准。
+**当前状态（2026-11-13）**：Stage 3完整结果及检查点复测已归档，Stage 4按冻结方案训练。独立监督器每30分钟核对真实进程/GPU，每30秒监听结束事件；中途成对图在固定完成数量节点上传。训练进度以[W&B实时记录](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b-progress)为准。
 
 | 实验 | 状态 | 结果与入口 |
 |---|---|---|
@@ -16,7 +16,7 @@
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 
-Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [共用队列、报告与汇总云端记录](docs/CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。半小时监督器已覆盖Stage 2/3、固定检查点复测与Stage 4；不按观察到的效果提前停止。其余准备：[API/ReAct全合格成功经验预算审计](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md) · [WebShop独立CPU环境与协议检查](docs/WEBSHOP_PREPARATION_2026-11-12.zh-CN.md)。WebShop现有可运行流程仍为1000商品预览；完整118万商品库、索引和12,087个目标身份已固定，公开接口与目标池隔离已通过完整目录train机械检查；模型校准和正式效果实验尚未启动。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
+Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [共用队列、报告与汇总云端记录](docs/CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。半小时监督器已覆盖Stage 2/3、固定检查点复测与Stage 4；不按观察到的效果提前停止。其余准备：[API/ReAct全合格成功经验预算审计](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md) · [WebShop独立CPU环境与协议检查](docs/WEBSHOP_PREPARATION_2026-11-12.zh-CN.md)。WebShop完整118万商品库、索引和12,087个目标身份已固定，公开接口与目标池隔离已通过完整目录train机械检查。[32任务×两公开提示的校准入口](docs/WEBSHOP_DEVELOPMENT_PILOT_PROTOCOL_2026-11-13.zh-CN.md)已实现并通过CPU/本机HTTP/替身进程生命周期测试；真实模型校准等待Stage 4完成，正式效果实验尚未启动。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
