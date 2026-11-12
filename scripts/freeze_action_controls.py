@@ -108,7 +108,7 @@ def freeze(root, proposal_path, review_path):
     new_plan = {
         k: v
         for k, v in proposal.items()
-        if k not in ("proposal_state", "cases", "files")
+        if k not in ("proposal_state", "status", "cases", "files")
     }
     new_plan.update(
         cases=cases,
