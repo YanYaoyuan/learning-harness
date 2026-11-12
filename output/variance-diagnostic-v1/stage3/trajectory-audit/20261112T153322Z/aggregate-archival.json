@@ -1,0 +1,22 @@
+{
+  "status": "uploaded",
+  "run_id": "262c0863d930-interim-20261112T153322Z",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/262c0863d930-interim-20261112T153322Z",
+  "exploratory": true,
+  "interim": true,
+  "aggregate_only": true,
+  "raw_records_uploaded": false,
+  "source_code_uploaded": false,
+  "primary_interim_effects_unchanged": true,
+  "uploaded_sha256": {
+    "aggregate-summary.json": "65b8fc91b160532bb1f0b7ba88a511a291d2ab85d0036dfb200c708171344483",
+    "RESULTS.zh-CN.md": "0943cefa0cd57aa7330cf3109b92e177b54741aae43a66e3476fad3e77152942",
+    "trajectory-behavior.png": "0f89e700f25baa3e3c19b2e29b1b9dab2ba7d84dcd29d244ad4850e9d639742e",
+    "trajectory-behavior.pdf": "e13ca47ef95957047f91d34908eb96b7f1a9ee17cc6492f12349c1b8c4741cc9",
+    "post-hoc-counterexample/summary.json": "bb998e1d07beb669a18f49e3957b21208e53398b9c35bafd554584f86a61d6e8",
+    "post-hoc-counterexample/RESULTS.zh-CN.md": "d6ada442561bf6c090c7d702cc298f9326e12a03c82d36d034d94448e7d6297c",
+    "post-hoc-counterexample/paired-task-outcomes.png": "e2a9e260633a0005946477bd8c7b9c88a5fd1c26b40c8d3c3347440fec854656",
+    "post-hoc-counterexample/paired-task-outcomes.pdf": "8943996b2d67f9721ff62768a7c678909ee3283f0dba7a9312a2b2b835f0bb15"
+  },
+  "uploaded_unix": 1794498368.5107136
+}
