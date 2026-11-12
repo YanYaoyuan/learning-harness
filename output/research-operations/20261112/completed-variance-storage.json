@@ -1,0 +1,1669 @@
+{
+  "status": "completed",
+  "files": [
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "92911e06e76ad699db0b0edebf3fbe1d5c9e564ee95ea7e9c4b22c6eaad8ee56",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r1/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r1/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5275dabb334cf461c93f9677af5ece4a4cf1813a558e696eb4b21e711daedc8c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "c063f8ed18284d006333c2fe43ef57fecf0378ce0472822366befd3aef1f2daf",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ef8db7ac8b484ebb52669b55ce36de22e77618f74cf3b9d5868108ff28bdb524",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "01f9a06e78ba5667a9af664644a16a5910f2b7508a0e0d082688d729be8ff855",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a3bb2957969da84a969f4444041af8b3bd70e385cf6b419f16de465f55ec36c4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "629ea2fee51088e22369d9bb009d66d7db9745bc0198c2c841409c4648d00314",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "aa64372fb981a84996523f04f903d10f9295de9d34bd68a3f5748f795c270e4e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a3c63cb7439804fc6606efe599b895cbded52deea03dd45d314f76d781e16c6d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a8b8523b94ce19ccabb96c7b95ab32d43f180f0b90dd59ad4fbdbbac7885c0e1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ea3cfd6a94c8d21cdc36283b76cea27384b891756031ffb03f0e65151b434ef8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "04df0dc52fd58dd9620ebcaf9c1cf1ec23d9eec744caa378cdba16c2d4c4db82",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "b485bc2647c5f3b8150592867672bd9d3e4accf5570b476907fdad0a1ea74e50",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ea13fadb4d3eb022f476c94f51583761390fc113e5c40887df28d60214ed8794",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5a6aec0cc79fa9f2cd10179b3edc175b7d6c3620518750d1efaeb6a224f85aec",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "941f802999862a96123f89d926cc8db644b97f4ffea5a105571054755586c6f1",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "453e88126be7bcd94ae4e58ff0b2f7de700eb19bb3be83cf054378757c7f10cd",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/api-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/api-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7aba537d4eee06cd06c04b2d8532a72c68d221cbb121b6d03c2a9fa3022309ea",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r1/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r1/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7bc277469aa5caf685ef2ead8c86a20aa0019ba4456f2ff807eabc5461970b0e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "cb1bcc24d4efe18c0cfa754a0b31b99a4d26a16b425baff4a0646a460ab5b801",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "46355d239a5a682691210ea83edc1463169d9999b57a143bcbd1a45d8831759f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f57526be40221c4a8ac982767ec5038adc0b9a0921306ac5bdb9279d504b6b47",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "2838499815b84be43e5893e9d73d54d60df76a8ee9f8656b1e6b5fee75d711e5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e1c3507f3b5c417dc2400b0f096e7ce905395aac8417d9dad05157d0ca3bb2da",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "479cd963d6fe3619cae9866ded3510d66fe40c524055879170a1b83f4ae035a2",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "98aac43d8c70cded333c849e1e5841b406754e9b2dc59a4f8da1c3b1f9d75f6f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "1b142d20a6d2b5d9127f0043fc9d99f448b274bffb1a8ffdf137177e4ad9a370",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d918313a5145b2b00d097a11ad097fd1283a16fb2711b927fcf9ee1afd338175",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "eaedce3bf1ce818e34664d1a1e371dd85ccbf1877090609d2f797761e5f7bd52",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "857da58e39b54fe66783b56777314c12e99e23f2f78249ac7f72dc3439353db4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "47376a288bba55a6edc87f25109c3c18c3444219807767876df2cca4d081144c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "03b5f12ca0de5dea50b0c4ac3b88202411cfc231d468763b6e6943b2476139d4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4d2cf648256b1f8f43a9f0b2c1ebe51e299e91d8f0ed0a24e14de2f3fab536bb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a0c7047813b19650bd0f7ba1e91661aa4a7adfaa155380ec6c4937e853be104c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/cases/generic-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/cases/generic-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage1/pipeline-smoke/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage1/pipeline-smoke/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "30f0f1bfe6e8ba98921b05a101d03ab868c95c8a920f5ac66900b8f46bebe259",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r1/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r1/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f261433610068d95d2ff3abe6a809833996b76c34a857cbffcd80ad107f2866f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7e523eee842f0341fcda7a870ad65a99619493508f191f10f8ebeaedd034b42a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4e398216b888b01c92c821c775e4d33cf513f9702931510eeca65269d64caaca",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a59a944cf66f4377689986087f8962828301164943002046a3268114d380d8e5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4191156a4c19d97b10f6df939b7565c1a9e45e6dada99d3039edcc5ba65b66ef",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "48e0363f5e88aaf0c3aed235202e5d0da7a6a5d99b2070e5c61ab669754d5102",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e4b8d926e855b0538d36dc931f946c9867260d263dd29949f23a11c6e4be87ad",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "9e72511674e00145dc5199dafad89e6c61bdf5ca78738c31388148000a82ef17",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "bbb995d67668fc8446208dd4aee6cae430c9fd584907ed3762e85314754323a3",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "c7c076f927f7cf280c0fb0c64d5545120588e0a07a84f32244908268f45bda3c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e8b9ea21c4f702e8ca54b77fba654c984fef9a325a7202ab503cda5127e16ca8",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "2581b45fd4fff43faa6679efa67b5d6b60c3c5b79502707c340d344323da1870",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "354ac8d9b27c0d7e5e83dc8c5c4697ad1236a79fa2bb6e52b04e788073ff8647",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "cbdd76c06718de1521a2d146d5ae34e2e62b5f529e12b47f0b31785445d5a06d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f64368d28b240e465295f35b5a737f6760b5a5ffeacfaa4d33968c7271ed3529",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "0831ba26bde7af2d053016787f131c6816a212e372ba5bb33c6c32b063e1e6b9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4a30ece434a27da101939813d714c7eabd1a32411596e2c4973d7fc44404e9ae",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r1/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r1/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "a87fd04c60e5f45927029811a1d708abe25a4af9bec1396f910dc09e2936d72a",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ffc99012314ebbcb210ba812e834727db0fa4c1d637aabc4337782b8982d8aac",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "01f8ad4372bde027b39655b574dfbbf6a9a1cc08fbfca7eb9b9bf707b6f19b0c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d2405bc3b60e6fa59aa8a232cb1311ded0407bf27a2e2d5416862ecd116aa27d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "821cc9da897da50f7197c2445f43e7303aae5fa2029a1724212c00dc3c72a9db",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7f98e21612cbc3b82213564f8eb0812fc908e42ebff7296a37db4718c570d625",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "e60cbe5b4a43d18314a4afcbf89462b2c51be93e038972c034a24c75db5e3f56",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "805b81877bc81accb4c5a251d9bdb3cdf6ca73263ce70bf9899b7359aeef3e29",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7a0262ea546e94920824e2f188f1653bc12b106f5eed7895725586665cfd8d0d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "2217b59352efea697b81daf0d0fc14a51da71514395e393eba99c49c0d2fe8c5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f3c4caf33ec3b52169debd6cde2e93e8ef0706b052e0d188c2fcc853d2a4c398",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7601e1dcbae202c550a266e239ade9744babd8dd97bf921da256c46f061ec24b",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5bb609b347e23882055fe0a7796556012913d5ba685eedd0df2dbbbf62e38368",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "6628e4f9ba27e3dc4cf8bb154cf69b5e2313bc74303f086e35a2558b0f752f77",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "14dfb248bdfd188a58dc29155564cf0c59d402e199a00661aba5ea41d7c17226",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "2fd3caec672900abd2bdf482a502d91fb2c2f363f8e5604e64c606639961fe15",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5c9f63f22ce41ca8ff4e55242f057aa7a25b55501f81341f2828d235e2810820",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r1/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r1/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4e1201ff60e62364d78c46d2e67a65545b7f073ae0f76bb67b72a9d5ce85141c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7d7535bf85aaf07853d6e2d7f893e02be8f4c491dff00d5fe629b11d7d76e129",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "71221237152b1417abc1eaf4e37377633f10a89fc8c4e0a466db8bfb83ecdded",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "c4166ddabba5fdb9c5201578e3ee5b4124bb2cb80f96846d6d6170b944125f92",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "b6a4749313df11ac8e4671e127002bf81c7fcee36c31403a5964ffaf634ea306",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "29f99001848e29157c7fc900b817e29627556f8b8be8112d7079dd9f567ceb74",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "5a1a5872f28eaceafe4a0298937a26c114aa4e25580016ad4e3b613230172b74",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "1b72b1232bc79429bf117a802ffc1c15dd6198685a4426e5834513c502cdfc22",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ba5bef841c0fa593b31af03f6143e49f53bc64f760668cec5065df43e5d85791",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4dc63abd54c417ec906b1d4fd53688c4e8481c53fdaf22383d06b1052f241469",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d3d3d038437a83856860962c50558cf274bb773c3b4ce7fda794a3190e88b422",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "37e76fbe0720a4d538c80a449bd5c0181869e643670fe7dc9a176cb04b8ee3ee",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "32ed3bf4b64bd3260e8b58f3090df78a9c7e4519b10631a4048ec2584faeafc5",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d3636d9a71535ed470562ce9b956c0c2353c07a7b4fd3cf8ffb88c5f88c5977d",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f0d2a4fad1d38a6e89a1d897392a16d2de549600c6f95a21a473b508054e3c40",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "f85ab2f4955799a5d7f02064b721ad8bb2e8c2cfb78fb4f9966de85b7e62185c",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ea390e3f706df4da5c4d82d71ab9712355fdc3c4aefbbfe76172a147f8a1ceda",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r1/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r1/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d5c358184e0438abd6174d468df0679dcce4223c8ef2c5c84976d9af18a99efe",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r1/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "b39e0ea3816733c38a87d7014bee18316ae6d66ebda35c40ce902c04d530e5ed",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7522bda6e2d0e462922d6f3e48d257bd2bf9a79439e2d10e4a087cc54c7b1c4f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "c4664b27fd73cc7bbaeae853b11374defb947a057ba16b8f9c11a779190b0bb9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "3daa29504907e45b79ca4c9513f107bf1f5e073875afded119cd5b7a6da2b1e4",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "0b846b8c966da376a1ad62f63a92e81b01b733617e1e622c19fcd69d0b0eb1dc",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "d5b6b0615fd4f291063d94c9df273150953b3e4be0d1f8fcc77c88f338dc23da",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "7f6d3563438647397134b682a8a92d4d7b447ffc84e4540cacbc74a1e9049218",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "91186d35d5388ee2bd57aa5a2be5034239c00c9ae7d966b676d0109aa4cca943",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "4463e9e22c5c379b115dbeb91e13c52c8542d6bb108e85684cb76948161cf6ec",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "bc6cc5cafdbfb602a6118dfbeab1850bccd4384eb46f52fa8f5623cd5bc15c12",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "aea7a0cf29e16e57fa3a0e8a7e5cb987905d3571094bbc183fed12c3dace69e6",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i303-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s101-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s101-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "63c65405caea041735142e3cb7dfe41e456df233539d8fe83fa2069392d1fc3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s101-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s202-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s202-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "1ec23cce0bcf1482ff3ee0c7e1773175f4f4dd09f8e5297016c41573b9cee706",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s202-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s303-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s303-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "0644956b3666e359d9fbd06ed26914f7f710487798b9d087732eafd444e6ba8f",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s303-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s404-r0/A/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s404-r0/A/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "0f1af1056914832713c8d790ff9a683d57fe550d9356708e149ffdd1e3520dcb",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i404-s404-r0/checkpoint/B/adapter_model.safetensors",
+      "bytes": 43705632,
+      "sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/smoke/full_pass/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/smoke/full_pass/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ca667e8beb50fc6a0a1266243a96df545bf21232e39fcd7989900828e4cf11a9",
+      "verified": true,
+      "original_path_preserved": true
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage2/smoke/subset_replay/adapter_model.safetensors",
+      "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/runs/variance-diagnostic-v1/stage2/smoke/subset_replay/adapter_model.safetensors",
+      "bytes": 47224624,
+      "sha256": "ca667e8beb50fc6a0a1266243a96df545bf21232e39fcd7989900828e4cf11a9",
+      "verified": true,
+      "original_path_preserved": true
+    }
+  ],
+  "planned_files": 207,
+  "planned_bytes": 9413040992,
+  "started_unix": 1794483373.3140118,
+  "json_records_retained_locally": true,
+  "active_stage3_excluded": true,
+  "finished_unix": 1794483390.75664,
+  "verified_bytes": 9413040992,
+  "working_disk_available_bytes": 30885527552
+}

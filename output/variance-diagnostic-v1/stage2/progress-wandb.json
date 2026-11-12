@@ -1,7 +1,8 @@
 {
-  "status": "watching",
+  "status": "completed",
   "run_id": "762860f6c45b-progress",
   "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/762860f6c45b-progress",
   "measured_result_run_id": "762860f6c45b",
-  "progress_only": true
+  "progress_only": true,
+  "completed_adapters": 68
 }

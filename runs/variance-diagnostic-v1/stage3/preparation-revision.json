@@ -1,0 +1,24 @@
+{
+  "time_unix": 1794483605.8348331,
+  "reason": "Equalize content-distinct within-task support before main training",
+  "old_preparation_preserved": [
+    {
+      "source": "runs/variance-diagnostic-v1/stage3/smoke",
+      "archive": "runs/variance-diagnostic-v1/stage3/preparation-v0-row-support/smoke"
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage3/smoke-optimized",
+      "archive": "runs/variance-diagnostic-v1/stage3/preparation-v0-row-support/smoke-optimized"
+    },
+    {
+      "source": "runs/variance-diagnostic-v1/stage3/inputs/schedules",
+      "archive": "runs/variance-diagnostic-v1/stage3/preparation-v0-row-support/schedules"
+    },
+    {
+      "source": "output/variance-diagnostic-v1/stage2/mechanism-audit",
+      "archive": "output/variance-diagnostic-v1/stage2/mechanism-audit-v0-row-support"
+    }
+  ],
+  "main_models_trained": 0,
+  "stage3_frozen": false
+}

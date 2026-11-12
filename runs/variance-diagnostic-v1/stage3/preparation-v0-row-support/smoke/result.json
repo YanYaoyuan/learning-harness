@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "task_evaluations": 0,
+  "teacher_calls": 0,
+  "controls": [
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "initialization_factor": "LoRA initialization plus dropout stream",
+      "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+      "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+      "completed": true,
+      "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+      "initial_parameter_count": 11796480,
+      "schedule_sha256": "2852bdb523835b45c79a259bf7d07d2b88d8c7f839fd460464c83b43a597c236",
+      "trained_adapter_sha256": "ca667e8beb50fc6a0a1266243a96df545bf21232e39fcd7989900828e4cf11a9",
+      "external_schedule_sha256": "7b70449d282230ea493ee8453485b0f99dddb0c9cc16517f306355a9220a2f1e",
+      "selection_policy": "random",
+      "scheduled_prefix_length": 4,
+      "external_wrapper_sha256": "0afd4b10587f0248152c89f022da1522b74689742d07c8caa33f4af894e3f461"
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "initialization_factor": "LoRA initialization plus dropout stream",
+      "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+      "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+      "completed": true,
+      "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+      "initial_parameter_count": 11796480,
+      "schedule_sha256": "1ce9cbe6ffd9920c6236d34b51eb39f098c87a848ec36879e1d358263555050b",
+      "trained_adapter_sha256": "ca667e8beb50fc6a0a1266243a96df545bf21232e39fcd7989900828e4cf11a9",
+      "external_schedule_sha256": "8b5624bc1a27391299b3ef0c3520c1b1001067d794f061ac9c604a22909157a0",
+      "selection_policy": "min_nll",
+      "scheduled_prefix_length": 4,
+      "external_wrapper_sha256": "0afd4b10587f0248152c89f022da1522b74689742d07c8caa33f4af894e3f461"
+    }
+  ],
+  "gpu_seconds": 12.90921387198614
+}

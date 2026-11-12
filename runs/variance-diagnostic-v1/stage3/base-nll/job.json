@@ -1,0 +1,9 @@
+{
+  "pid": 3345343,
+  "argv": [
+    "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+    "scripts/score_training_nll.py"
+  ],
+  "started_unix": 1794482373.6586921,
+  "gpu": 0
+}

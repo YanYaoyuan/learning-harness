@@ -1,23 +1,352 @@
 {
-  "gpu_seconds": 17.566947616986,
+  "gpu_seconds": 36515.22643072903,
   "preparatory_seconds": 17.566947616986,
-  "cases": {},
-  "open": {
+  "cases": {
     "full_pass-api-i101-s101-r0": {
-      "pid": 1485739,
-      "gpu": 0,
-      "allocation": 1800,
-      "started_unix": 1794463865.4015212
+      "status": "completed",
+      "seconds": 510.5721136169741,
+      "gpu": 0
     },
     "full_pass-generic-i101-s101-r0": {
-      "pid": 1485740,
-      "gpu": 1,
-      "allocation": 1800,
-      "started_unix": 1794463865.4021575
+      "status": "completed",
+      "seconds": 544.987831705017,
+      "gpu": 1
+    },
+    "subset_replay-api-i101-s101-r0": {
+      "status": "completed",
+      "seconds": 502.4344504009932,
+      "gpu": 0
+    },
+    "subset_replay-generic-i101-s101-r0": {
+      "status": "completed",
+      "seconds": 559.8754423410282,
+      "gpu": 1
+    },
+    "subset_replay-generic-i101-s202-r0": {
+      "status": "completed",
+      "seconds": 537.9522092930274,
+      "gpu": 0
+    },
+    "subset_replay-api-i101-s202-r0": {
+      "status": "completed",
+      "seconds": 550.9039286689949,
+      "gpu": 1
+    },
+    "full_pass-generic-i101-s202-r0": {
+      "status": "completed",
+      "seconds": 517.6358214929933,
+      "gpu": 0
+    },
+    "full_pass-api-i101-s202-r0": {
+      "status": "completed",
+      "seconds": 509.8450166459661,
+      "gpu": 1
+    },
+    "full_pass-api-i101-s303-r0": {
+      "status": "completed",
+      "seconds": 500.3744364150334,
+      "gpu": 0
+    },
+    "full_pass-generic-i101-s303-r0": {
+      "status": "completed",
+      "seconds": 549.3440271199797,
+      "gpu": 1
+    },
+    "subset_replay-api-i101-s303-r0": {
+      "status": "completed",
+      "seconds": 501.289366676996,
+      "gpu": 0
+    },
+    "subset_replay-generic-i101-s303-r0": {
+      "status": "completed",
+      "seconds": 539.6589049979812,
+      "gpu": 1
+    },
+    "subset_replay-generic-i101-s404-r0": {
+      "status": "completed",
+      "seconds": 521.4341039780411,
+      "gpu": 0
+    },
+    "subset_replay-api-i101-s404-r0": {
+      "status": "completed",
+      "seconds": 575.2387664150447,
+      "gpu": 1
+    },
+    "full_pass-generic-i101-s404-r0": {
+      "status": "completed",
+      "seconds": 523.0213338040048,
+      "gpu": 0
+    },
+    "full_pass-api-i101-s404-r0": {
+      "status": "completed",
+      "seconds": 571.4559184059617,
+      "gpu": 1
+    },
+    "subset_replay-generic-i202-s101-r0": {
+      "status": "completed",
+      "seconds": 531.6909993169829,
+      "gpu": 0
+    },
+    "subset_replay-api-i202-s101-r0": {
+      "status": "completed",
+      "seconds": 602.2910943049937,
+      "gpu": 1
+    },
+    "full_pass-generic-i202-s101-r0": {
+      "status": "completed",
+      "seconds": 562.869927385007,
+      "gpu": 0
+    },
+    "full_pass-api-i202-s101-r0": {
+      "status": "completed",
+      "seconds": 571.6264720250037,
+      "gpu": 1
+    },
+    "full_pass-api-i202-s202-r0": {
+      "status": "completed",
+      "seconds": 528.2453053210047,
+      "gpu": 0
+    },
+    "full_pass-generic-i202-s202-r0": {
+      "status": "completed",
+      "seconds": 554.8843572770129,
+      "gpu": 1
+    },
+    "subset_replay-api-i202-s202-r0": {
+      "status": "completed",
+      "seconds": 525.059336920036,
+      "gpu": 0
+    },
+    "subset_replay-generic-i202-s202-r0": {
+      "status": "completed",
+      "seconds": 573.3903634480084,
+      "gpu": 1
+    },
+    "subset_replay-generic-i202-s303-r0": {
+      "status": "completed",
+      "seconds": 490.9150538290269,
+      "gpu": 0
+    },
+    "subset_replay-api-i202-s303-r0": {
+      "status": "completed",
+      "seconds": 572.3158260560012,
+      "gpu": 1
+    },
+    "full_pass-generic-i202-s303-r0": {
+      "status": "completed",
+      "seconds": 522.625019286992,
+      "gpu": 0
+    },
+    "full_pass-api-i202-s404-r0": {
+      "status": "completed",
+      "seconds": 532.8056178779807,
+      "gpu": 0
+    },
+    "full_pass-api-i202-s303-r0": {
+      "status": "completed",
+      "seconds": 596.2798718470149,
+      "gpu": 1
+    },
+    "subset_replay-api-i202-s404-r0": {
+      "status": "completed",
+      "seconds": 484.4537744100089,
+      "gpu": 0
+    },
+    "full_pass-generic-i202-s404-r0": {
+      "status": "completed",
+      "seconds": 553.1898578879773,
+      "gpu": 1
+    },
+    "full_pass-api-i303-s101-r0": {
+      "status": "completed",
+      "seconds": 502.16253158595646,
+      "gpu": 0
+    },
+    "subset_replay-generic-i202-s404-r0": {
+      "status": "completed",
+      "seconds": 587.4796153740026,
+      "gpu": 1
+    },
+    "subset_replay-api-i303-s101-r0": {
+      "status": "completed",
+      "seconds": 517.6344703920186,
+      "gpu": 0
+    },
+    "full_pass-generic-i303-s101-r0": {
+      "status": "completed",
+      "seconds": 538.9994551240234,
+      "gpu": 1
+    },
+    "subset_replay-generic-i303-s202-r0": {
+      "status": "completed",
+      "seconds": 521.3249727689545,
+      "gpu": 0
+    },
+    "subset_replay-generic-i303-s101-r0": {
+      "status": "completed",
+      "seconds": 556.6189745509764,
+      "gpu": 1
+    },
+    "full_pass-generic-i303-s202-r0": {
+      "status": "completed",
+      "seconds": 523.1377119320096,
+      "gpu": 0
+    },
+    "subset_replay-api-i303-s202-r0": {
+      "status": "completed",
+      "seconds": 513.9113423170056,
+      "gpu": 1
+    },
+    "full_pass-api-i303-s303-r0": {
+      "status": "completed",
+      "seconds": 503.0678384079947,
+      "gpu": 0
+    },
+    "full_pass-api-i303-s202-r0": {
+      "status": "completed",
+      "seconds": 568.3488867359702,
+      "gpu": 1
+    },
+    "subset_replay-api-i303-s303-r0": {
+      "status": "completed",
+      "seconds": 533.6847532130196,
+      "gpu": 0
+    },
+    "full_pass-generic-i303-s303-r0": {
+      "status": "completed",
+      "seconds": 565.9324010120472,
+      "gpu": 1
+    },
+    "subset_replay-generic-i303-s404-r0": {
+      "status": "completed",
+      "seconds": 524.4067824860103,
+      "gpu": 0
+    },
+    "subset_replay-generic-i303-s303-r0": {
+      "status": "completed",
+      "seconds": 546.7889745890279,
+      "gpu": 1
+    },
+    "full_pass-generic-i303-s404-r0": {
+      "status": "completed",
+      "seconds": 510.028973301989,
+      "gpu": 0
+    },
+    "subset_replay-api-i303-s404-r0": {
+      "status": "completed",
+      "seconds": 539.0190822400036,
+      "gpu": 1
+    },
+    "subset_replay-generic-i404-s101-r0": {
+      "status": "completed",
+      "seconds": 513.6183935989975,
+      "gpu": 0
+    },
+    "full_pass-api-i303-s404-r0": {
+      "status": "completed",
+      "seconds": 563.9780153139727,
+      "gpu": 1
+    },
+    "full_pass-generic-i404-s101-r0": {
+      "status": "completed",
+      "seconds": 547.8129577150103,
+      "gpu": 0
+    },
+    "subset_replay-api-i404-s101-r0": {
+      "status": "completed",
+      "seconds": 577.1030299220001,
+      "gpu": 1
+    },
+    "full_pass-api-i404-s202-r0": {
+      "status": "completed",
+      "seconds": 549.399816399964,
+      "gpu": 0
+    },
+    "full_pass-api-i404-s101-r0": {
+      "status": "completed",
+      "seconds": 541.2003647310194,
+      "gpu": 1
+    },
+    "subset_replay-api-i404-s202-r0": {
+      "status": "completed",
+      "seconds": 544.7374262919766,
+      "gpu": 0
+    },
+    "full_pass-generic-i404-s202-r0": {
+      "status": "completed",
+      "seconds": 571.9543292300077,
+      "gpu": 1
+    },
+    "subset_replay-generic-i404-s303-r0": {
+      "status": "completed",
+      "seconds": 543.6774160159985,
+      "gpu": 0
+    },
+    "full_pass-generic-i404-s303-r0": {
+      "status": "completed",
+      "seconds": 513.2479251230252,
+      "gpu": 0
+    },
+    "subset_replay-generic-i404-s202-r0": {
+      "status": "completed",
+      "seconds": 555.9156211130321,
+      "gpu": 1
+    },
+    "full_pass-api-i404-s404-r0": {
+      "status": "completed",
+      "seconds": 500.832944476977,
+      "gpu": 0
+    },
+    "subset_replay-api-i404-s303-r0": {
+      "status": "completed",
+      "seconds": 560.6784702260047,
+      "gpu": 1
+    },
+    "subset_replay-api-i404-s404-r0": {
+      "status": "completed",
+      "seconds": 487.33995567599777,
+      "gpu": 0
+    },
+    "full_pass-api-i404-s303-r0": {
+      "status": "completed",
+      "seconds": 513.5251474149991,
+      "gpu": 1
+    },
+    "full_pass-api-i101-s101-r1": {
+      "status": "completed",
+      "seconds": 501.0174923799932,
+      "gpu": 0
+    },
+    "full_pass-generic-i404-s404-r0": {
+      "status": "completed",
+      "seconds": 541.0301041360362,
+      "gpu": 1
+    },
+    "subset_replay-api-i101-s101-r1": {
+      "status": "completed",
+      "seconds": 518.8015666199499,
+      "gpu": 0
+    },
+    "subset_replay-generic-i404-s404-r0": {
+      "status": "completed",
+      "seconds": 542.6800791340065,
+      "gpu": 1
+    },
+    "full_pass-generic-i101-s101-r1": {
+      "status": "completed",
+      "seconds": 503.44654724700376,
+      "gpu": 1
+    },
+    "subset_replay-generic-i101-s101-r1": {
+      "status": "completed",
+      "seconds": 534.4485651439754,
+      "gpu": 1
     }
   },
+  "open": {},
   "teacher_calls": 0,
   "official_tests_used": false,
-  "status": "running",
-  "freeze_sha256": "762860f6c45bc166b1fff6ef8783cd015299d7e4c93b83c5227f4b5715894b72"
+  "status": "completed",
+  "freeze_sha256": "762860f6c45bc166b1fff6ef8783cd015299d7e4c93b83c5227f4b5715894b72",
+  "completed_cases": 68
 }

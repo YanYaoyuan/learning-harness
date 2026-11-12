@@ -1,0 +1,22 @@
+{
+  "pipeline": {
+    "pid": 3478673,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+      "scripts/run_stage3_task_controls.py"
+    ],
+    "started_unix": 1794483941.4761884
+  },
+  "observer": {
+    "pid": 3478674,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-wandb/bin/python",
+      "scripts/track_bounded_study.py",
+      "--root",
+      "runs/variance-diagnostic-v1/stage3",
+      "--out",
+      "output/variance-diagnostic-v1/stage3"
+    ],
+    "started_unix": 1794483941.4764218
+  }
+}

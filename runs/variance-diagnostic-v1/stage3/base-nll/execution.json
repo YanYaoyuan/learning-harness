@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "gpu": 0,
+  "cap_gpu_hours": 0.25,
+  "teacher_calls": 0,
+  "optimizer_updates": 0,
+  "base_model": "data/models/Qwen3-4B-Instruct-2507",
+  "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "script_sha256": "31b0fd387c812be2c8b33df1c673c407c1b77c7cabda3f1cf06e2f963d05fb4f",
+  "sources": {
+    "api": {
+      "examples": 721,
+      "data_sha256": "c773ed8eaac5d4c4c4bde513702f5eaa009d0be57c2dca6d8b4caddb369405e4",
+      "score_sha256": "9bcd0c477d4d30c7370f765a4cdbefdccbc02fbe94ae5f848cb732c6366b5b43"
+    },
+    "generic": {
+      "examples": 732,
+      "data_sha256": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+      "score_sha256": "02f6ef4b0d4549aaa4ae2fb740ad3c3d5a58a3034f7d1fee2473ac7ef7f30de3"
+    }
+  },
+  "nll_validation": {
+    "direct_loss": 2.0590677252130263e-07,
+    "batched_loss": 2.2758116813292872e-07,
+    "tolerance": 0.03,
+    "passed": true
+  },
+  "gpu_seconds": 71.84332126600202
+}

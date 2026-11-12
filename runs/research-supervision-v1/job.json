@@ -1,0 +1,16 @@
+{
+  "pid": 3359988,
+  "argv": [
+    "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+    "scripts/supervise_research.py",
+    "--roots",
+    "runs/variance-diagnostic-v1/stage2",
+    "runs/variance-diagnostic-v1/stage3",
+    "--interval",
+    "1800",
+    "--poll",
+    "30",
+    "--on-stage2-complete"
+  ],
+  "started_unix": 1794482535.7381608
+}

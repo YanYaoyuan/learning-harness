@@ -1,0 +1,9 @@
+{
+  "status": "uploaded",
+  "run_id": "762860f6c45b",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/762860f6c45b",
+  "archived_json_files": 1926,
+  "archive": "output/variance-diagnostic-v1/stage2/raw-records.tar.gz",
+  "archive_bytes": 284361805,
+  "archive_sha256": "2c025322ca394d38a3bb5c991a509a174d6b668d0210d7cd35877ef98922ea2a"
+}
