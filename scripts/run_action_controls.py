@@ -15,9 +15,10 @@ import time
 import action_control_worker as worker
 from action_control_report import load_study, output_path
 from learning_harness.bounded_queue import run, save
+from learning_harness.idle_gpu_contexts import validate_idle_context
 
 
-def gpu_preflight(gpus):
+def gpu_preflight(gpus, background_contexts=()):
     inventory = subprocess.check_output(
         ["nvidia-smi", "--query-gpu=index,uuid", "--format=csv,noheader"],
         text=True,
@@ -31,23 +32,34 @@ def gpu_preflight(gpus):
     if any(g not in known for g in gpus):
         raise ValueError("Frozen GPU index is unavailable")
     processes = subprocess.check_output(
-        ["nvidia-smi", "--query-compute-apps=gpu_uuid,pid", "--format=csv,noheader"],
+        [
+            "nvidia-smi",
+            "--query-compute-apps=gpu_uuid,pid,used_gpu_memory",
+            "--format=csv,noheader",
+        ],
         text=True,
         timeout=15,
     )
     selected = {known[g] for g in gpus}
-    if any(
-        row[0].strip() in selected
-        for row in csv.reader(processes.splitlines())
-        if len(row) >= 2
-    ):
-        raise ValueError(
-            "A selected GPU already has a compute process; inspect before starting"
-        )
+    allowed = {r["pid"]: r for r in background_contexts}
+    checked = []
+    for row in csv.reader(processes.splitlines()):
+        if len(row) < 2 or row[0].strip() not in selected:
+            continue
+        pid = int(row[1].strip())
+        if pid not in allowed:
+            raise ValueError(
+                "A selected GPU already has a compute process; inspect before starting"
+            )
+        if len(row) < 3:
+            raise ValueError("Cannot verify recorded background GPU residency")
+        used = float(row[2].strip().split()[0])
+        checked.append(validate_idle_context(allowed[pid], used))
     from run_stage0_repeat_eval import port_is_free
 
     if not all(port_is_free(g) for g in gpus):
         raise ValueError("A selected model-server port is occupied")
+    return checked
 
 
 def disk_preflight(root, frozen):
@@ -178,10 +190,13 @@ def main():
     lock = (args.root / "controller.lock").open("a")
     fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
     storage = disk_preflight(args.root, frozen)
-    gpu_preflight(frozen["gpus"])
+    background = gpu_preflight(
+        frozen["gpus"], frozen.get("allowed_background_contexts", [])
+    )
     out = output_path(args.root)
     out.mkdir(parents=True, exist_ok=True)
     save(args.root / "storage-preflight.json", storage)
+    save(args.root / "background-context-preflight.json", background)
     start_observer(args.root, out)
 
     def command(case, gpu, seconds):

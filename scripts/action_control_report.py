@@ -30,6 +30,7 @@ REQUIRED_CODE = {
     "src/learning_harness/action_matched_sampling.py",
     "src/learning_harness/controlled_study.py",
     "src/learning_harness/research_aggregates.py",
+    "src/learning_harness/idle_gpu_contexts.py",
 }
 
 

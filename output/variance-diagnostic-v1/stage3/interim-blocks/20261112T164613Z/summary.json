@@ -1,0 +1,122 @@
+{
+  "interim": true,
+  "complete": false,
+  "source_snapshot": "output/variance-diagnostic-v1/stage3/interim/20261112T164613Z",
+  "source_summary_sha256": "fc4b210394f13d8f1c54d8e9b29289964e07a08d223bdebfe083799da0168387",
+  "plot_script_sha256": "cdba3275034b542223d7645130394776bab4dbe3c71920772162e29f6dde4cff",
+  "initialization_blocks": [
+    {
+      "source": "api",
+      "initialization_seed": 101,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -15.234375,
+      "wins": 0,
+      "ties": 0,
+      "losses": 4
+    },
+    {
+      "source": "api",
+      "initialization_seed": 202,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -19.140625,
+      "wins": 0,
+      "ties": 0,
+      "losses": 4
+    },
+    {
+      "source": "api",
+      "initialization_seed": 303,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -15.625,
+      "wins": 1,
+      "ties": 0,
+      "losses": 3
+    },
+    {
+      "source": "api",
+      "initialization_seed": 404,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -21.09375,
+      "wins": 0,
+      "ties": 0,
+      "losses": 4
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 101,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -8.59375,
+      "wins": 1,
+      "ties": 0,
+      "losses": 3
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 202,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -2.734375,
+      "wins": 2,
+      "ties": 0,
+      "losses": 2
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 303,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -10.546875,
+      "wins": 1,
+      "ties": 0,
+      "losses": 3
+    },
+    {
+      "source": "generic",
+      "initialization_seed": 404,
+      "sampling_seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "mean_difference_pp": -9.375,
+      "wins": 1,
+      "ties": 0,
+      "losses": 3
+    }
+  ],
+  "no_outcome_dependent_scheduling": true
+}

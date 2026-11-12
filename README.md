@@ -10,7 +10,7 @@
 | Stage 0：重复评测诊断 | 完成1,248回合 | 旧来源比较中，批布局重复分量占比约0.46%。[结果](docs/VARIANCE_DIAGNOSTIC_STAGE0_RESULTS_2026-11-12.zh-CN.md) |
 | Stage 1：初始化×采样 | 完成34模型/2,176回合 | 抽样分量占比估计50.8%；逐单元与敏感性见[结果](output/variance-diagnostic-v1/stage1/RESULTS.zh-CN.md)。 |
 | Stage 2：同预算采样干预 | 完成68模型/4,352回合 | 全池相对子集复用：API +5.18pp、generic +1.27pp。[最终结果与图](output/variance-diagnostic-v1/stage2/RESULTS.zh-CN.md) |
-| Stage 3：任务与不同内容预算控制 | 运行中，计划70模型/4,480回合 | 随机与低NLL各256条不同内容；同任务位置/次数、192步/768次呈现。[冻结协议](docs/VARIANCE_DIAGNOSTIC_STAGE3_SPEC.md) · [中途观察与图](docs/STAGE3_INTERIM_MONITORING_2026-11-12.zh-CN.md) |
+| Stage 3：任务与不同内容预算控制 | 完成70模型/4,480回合，云端归档完成 | 低NLL−随机：API −17.77pp、generic −7.81pp；四初始化平均差异方向一致。同任务位置/次数、192步/768次呈现及256条不同内容。[最终结果与图](output/variance-diagnostic-v1/stage3/RESULTS.zh-CN.md) · [汇总数据](output/variance-diagnostic-v1/stage3/aggregate-summary.json) |
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 
@@ -26,7 +26,7 @@ python3 -m venv .venv-dev
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv-dev/bin/python -m pytest -q
 ```
 
-独立开发环境已通过191项CPU测试，包含种子控制、采样干预、预算预留、失败记账、方差分解、存储迁移、轨迹日志一致性及后续研究的冻结/中途观察检查。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
+独立开发环境已通过197项CPU测试，包含种子控制、采样干预、预算预留、失败记账、方差分解、存储迁移、轨迹日志一致性、后续研究的冻结/中途观察及空闲GPU上下文核验。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
 
 [实验协议：环境、baseline、benchmark 与统计口径](docs/EXPERIMENT_PLAN.zh-CN.md) · [前期调研](output/pdf/agent-research/README.md)
 

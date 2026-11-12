@@ -10,10 +10,10 @@
     0,
     1
   ],
-  "cap_gpu_hours": 14,
+  "cap_gpu_hours": 18,
   "allocation_seconds": 1800,
   "minimum_allocation_seconds": 900,
-  "planned_episodes": 4352,
+  "planned_episodes": 6400,
   "cases": [
     {
       "name": "task_action_random-api-i101-s101-r0",
@@ -656,6 +656,326 @@
       "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
     },
     {
+      "name": "task_action_random-api-i505-s101-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i505-s101-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i505-s101-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i505-s101-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i505-s202-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json"
+    },
+    {
+      "name": "task_action_random-api-i505-s202-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i505-s202-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json"
+    },
+    {
+      "name": "task_action_random-generic-i505-s202-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s202.json"
+    },
+    {
+      "name": "task_action_random-api-i505-s303-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i505-s303-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json"
+    },
+    {
+      "name": "task_action_random-generic-i505-s303-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i505-s303-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i505-s404-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json"
+    },
+    {
+      "name": "task_action_random-api-i505-s404-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i505-s404-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 505,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
+    },
+    {
+      "name": "task_action_random-generic-i505-s404-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 505,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i606-s101-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-api-i606-s101-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i606-s101-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i606-s101-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_random-api-i606-s202-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i606-s202-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json"
+    },
+    {
+      "name": "task_action_random-generic-i606-s202-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i606-s202-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i606-s303-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json"
+    },
+    {
+      "name": "task_action_random-api-i606-s303-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i606-s303-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json"
+    },
+    {
+      "name": "task_action_random-generic-i606-s303-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s303.json"
+    },
+    {
+      "name": "task_action_random-api-i606-s404-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i606-s404-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json"
+    },
+    {
+      "name": "task_action_random-generic-i606-s404-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 606,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i606-s404-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 606,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
+    },
+    {
       "name": "task_action_random-api-i101-s101-r1",
       "source": "api",
       "policy": "random",
@@ -704,11 +1024,65 @@
     4,
     8,
     12,
-    16
+    16,
+    20,
+    24
   ],
   "monitoring_interval_seconds": 1800,
   "event_poll_seconds": 30,
   "monitoring_rule": "All fully paired cells available at first observation of each node; descriptive only, no early stopping or outcome-based scheduling.",
   "claim": "Remaining effect of low-NLL content selection conditional on the same task/action coverage and distinct-content quotas; not a full causal-mediation estimate.",
-  "status": "Proposal only; finalize after complete Stage 3 review. No freeze or GPU launch."
+  "status": "Revised proposal after completed parent, pending fixed-checkpoint reliability diagnostic and exact parent review; no freeze or GPU training.",
+  "allowed_background_contexts": [
+    {
+      "pid": 1677,
+      "start_ticks": 1213,
+      "uid": 1000,
+      "executable": "/home/user/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/bin/python3.13",
+      "scripts": [
+        "/home/user/work/omni/video-studio/tools/ComfyUI/main.py"
+      ],
+      "role": "idle_comfyui",
+      "max_memory_mib": 1024,
+      "queue_port": 8188
+    },
+    {
+      "pid": 1678,
+      "start_ticks": 1213,
+      "uid": 1000,
+      "executable": "/home/user/.local/share/uv/python/cpython-3.13.11-linux-x86_64-gnu/bin/python3.13",
+      "scripts": [
+        "/home/user/work/omni/video-studio/tools/ComfyUI/main.py"
+      ],
+      "role": "idle_comfyui",
+      "max_memory_mib": 1024,
+      "queue_port": 8191
+    },
+    {
+      "pid": 2500330,
+      "start_ticks": 8372040,
+      "uid": 1000,
+      "executable": "/home/user/work/omni/omniTerm/dist/local-native/omniterm-app",
+      "scripts": [],
+      "role": "desktop_terminal",
+      "max_memory_mib": 1024
+    }
+  ],
+  "initialization_levels": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "sampling_levels": [
+    101,
+    202,
+    303,
+    404
+  ],
+  "revision_reason": "Six initialization levels improve visibility of conditional training variability observed in the completed parent; not a calibrated power claim. Four sampling recipes and all per-model optimizer budgets remain unchanged. No Stage 4 outcomes have been observed.",
+  "prior_draft_sha256": "269cc6ce0c57ac056915e8088b8718c1ddbac872cccee1dcede1810e259aa4d3",
+  "inference_scope": "Descriptive contrasts conditional on the fixed 64 development tasks and source pools; primary paired-cell means exclude conditional repeats; report all six initialization means separately. No calibrated confidence intervals or significance claims."
 }
