@@ -20,6 +20,8 @@ Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CAND
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
+[独立NLL评分诊断](docs/NLL_SCORING_DIAGNOSTIC_READINESS_2026-11-13.zh-CN.md)已完成853条不同输入的CPU编码、原16份选样配方精确再生及16项CPU测试，首次GPU评分前冻结67份输入。600秒GPU1方案检查填充、position IDs、精度和logits窗口；真实运行入口已验证会在Stage 4仍运行时拒绝启动。尚未加载GPU模型或产生新评分，不改旧缓存、训练配方和主实验队列。
+
 ## CPU 开发检查
 
 ```bash
