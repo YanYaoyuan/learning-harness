@@ -1,0 +1,17 @@
+{
+  "status": "uploaded",
+  "run_id": "262c0863d930-interim-20261112T142101Z",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/262c0863d930-interim-20261112T142101Z",
+  "exploratory": true,
+  "interim": true,
+  "raw_records_uploaded": false,
+  "source_code_uploaded": false,
+  "primary_interim_effects_unchanged": true,
+  "uploaded_sha256": {
+    "aggregate-summary.json": "d5e384b381af370a5eef38ae9839f5c1203faddf194335bdb1b7cdb3da6bdc19",
+    "trajectory-behavior.png": "ccfb5eca6ac33a06b74ad99492c334a8ab44725bae642608ecd930292e7e05e8",
+    "trajectory-behavior.pdf": "9b7df5cbe83c997d196a98929a6391e53e638e14a5b8e7a5c5f0d6c3dba880e7",
+    "RESULTS.zh-CN.md": "d59d763038af0326fe1bf4731671229dc12e20b42bd92f153b0676394b8adf54"
+  },
+  "uploaded_unix": 1794495022.805974
+}

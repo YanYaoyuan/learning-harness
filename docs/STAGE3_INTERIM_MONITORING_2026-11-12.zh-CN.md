@@ -58,3 +58,18 @@ API来源的初始化101/202内平均差分别为−15.23/−19.14pp；generic�
 `plot_stage3_initialization_blocks.py`和`check_stage3_interim_references.py`提供独立复现入口。源快照、旧参照SHA、CSV、PNG/PDF和全部条件重复见`output/variance-diagnostic-v1/stage3/interim-blocks/20261112T142101Z/`。图形初稿的布局另行保留；最终布局移开文字以显示全部散点，统计数值和源数据SHA未变。
 
 当前结果给出继续检验动作构成的具体动机，未新增显著性检验或改变正式方案。下一次自动效果图节点为12组完整配对。
+
+## 八单元快照的已有轨迹行为诊断
+
+新增只读脚本`audit_stage3_trajectories.py`，固定读取上述8单元的32个模型、2048个已有回合，逐回合检查任务身份、步骤连续性、协议解析器、成功状态与token聚合。只分析原始轨迹，不调用模型，不改动训练。6项新增检查通过，全套CPU检查169项通过。JSON、回合/模型CSV、PNG/PDF保存在`output/variance-diagnostic-v1/stage3/trajectory-audit/20261112T142101Z/`。
+
+| 来源/策略 | 尝试放置的回合 | 回合内Nothing happens.比例均值 | 含格式错误的回合 |
+|---|---:|---:|---:|
+| API/random | 71.68% | 14.15% | 0% |
+| API/min_nll | 61.91% | 20.80% | 0% |
+| generic/random | 50.00% | 13.88% | 0% |
+| generic/min_nll | 49.02% | 26.77% | 0% |
+
+`invalid_action`日志字段只表示JSON/action解析失败，不能当作物理动作错误。放置统计canonical `move`（包括公开`put`别名）是否曾被尝试，不判断是否成功放置。无效果反馈是去掉首尾空白后恰为`Nothing happens.`的比例，先在每回合归一化后平均；它是字面反馈代理，不是隐状态动作合法性判断。
+
+在这批记录中，格式解析失败不能解释组间成功率差；两来源低NLL组的无效果反馈比例均上升。API的放置尝试比例下降9.77pp，generic仅下降0.98pp，因此“放置示范减少→放置尝试减少”不足以统一解释全部表现。行为与成功率来自同一批轨迹，没有识别训练动作构成的因果作用。下一步仍先做训练动作族匹配，同时保留公开动作语义、上下文和失败恢复等更细解释的可能性，不凭本诊断添加多臂GPU搜索。

@@ -1,0 +1,74 @@
+{
+  "exploratory": true,
+  "interim": true,
+  "final_study_complete": false,
+  "models": 32,
+  "episodes": 2048,
+  "teacher_calls": 0,
+  "new_model_calls": 0,
+  "official_tests_used": false,
+  "groups": {
+    "api": {
+      "random": {
+        "success": 0.28125,
+        "steps": 32.50390625,
+        "take_attempt": 0.85546875,
+        "move_attempt": 0.716796875,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.1415435005061619,
+        "hit_call_limit": 0.71875,
+        "exact_command_repetition_fraction": 0.29641965721770736
+      },
+      "min_nll": {
+        "success": 0.109375,
+        "steps": 37.01953125,
+        "take_attempt": 0.837890625,
+        "move_attempt": 0.619140625,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.20799610784818734,
+        "hit_call_limit": 0.890625,
+        "exact_command_repetition_fraction": 0.3337121997644212
+      }
+    },
+    "generic": {
+      "random": {
+        "success": 0.111328125,
+        "steps": 36.953125,
+        "take_attempt": 0.759765625,
+        "move_attempt": 0.5,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.13882342413764748,
+        "hit_call_limit": 0.888671875,
+        "exact_command_repetition_fraction": 0.2898552044818865
+      },
+      "min_nll": {
+        "success": 0.0546875,
+        "steps": 38.798828125,
+        "take_attempt": 0.68359375,
+        "move_attempt": 0.490234375,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.26773942937463674,
+        "hit_call_limit": 0.9453125,
+        "exact_command_repetition_fraction": 0.3402569513117556
+      }
+    }
+  },
+  "definitions": {
+    "aggregation": "Fractions normalized within each episode; 32 episodes per family, 64 per model; equal weights across models and paired seed cells. Shared tasks and sampling cells are not independent initialization seeds.",
+    "take_attempt": "At least one parsed canonical action beginning with take; attempt only, not verified acquisition.",
+    "move_attempt": "At least one canonical move action, including public put aliases; attempt only, not verified placement.",
+    "any_format_error": "JSON/action parser failure; does not measure hidden physical action validity.",
+    "literal_no_effect_fraction": "Fraction of steps with observation exactly Nothing happens. after stripping outer whitespace; observable proxy, not an oracle of invalid actions.",
+    "hit_call_limit": "Episode has exactly config.max_steps actions, including any success at the cap.",
+    "exact_command_repetition_fraction": "1 - number of distinct canonical commands / step count; repeated navigation may be legitimate.",
+    "scope": "Post hoc behavior description of existing outcomes; no causal attribution, inference, early stopping, or change to frozen training/evaluation."
+  },
+  "initialization_levels": 2,
+  "paired_seed_cells": 8,
+  "raw_records_uploaded": false,
+  "local_analysis_sha256": "c7726d6ca390b7391cb3c96deb013cc2e7028f30e509d8968e0cb6ce568f0d23"
+}

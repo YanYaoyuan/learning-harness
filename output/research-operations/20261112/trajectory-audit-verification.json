@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "tests": 169,
+  "test_command": "PYTHONPATH=src PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 MPLCONFIGDIR=/tmp/lh-clean-mpl CUDA_VISIBLE_DEVICES='' /tmp/learning-harness-clean-dev-20261111/bin/python -m pytest -q",
+  "targeted_trajectory_tests": 6,
+  "ruff_check": "passed",
+  "raw_episode_audit": {
+    "models": 32,
+    "episodes": 2048,
+    "steps": 74381,
+    "format_error_episodes": 0
+  },
+  "gpu_training_modified": false,
+  "teacher_calls": 0,
+  "new_model_calls": 0,
+  "checked_unix": 1794495016.3762052,
+  "code_sha256": {
+    "scripts/audit_stage3_trajectories.py": "469da868cab432c4befb9773caa6c934a5f07c8aae19ef22c55edef3ae1b8dae",
+    "src/learning_harness/trajectory_audit.py": "6c2ded42b6aa6ce36f227610cee10f616abaa102c90832eeddd5d3115a2465e7",
+    "tests/test_trajectory_audit.py": "58feecb737110e4c27ebc5dd045c9f49ce170d50c4762d9a36a26c7186156d8a"
+  }
+}
