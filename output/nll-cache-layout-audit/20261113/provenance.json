@@ -1,0 +1,23 @@
+{
+  "status": "source_and_artifact_hashes_recorded",
+  "checked_unix": 1794512600.6910927,
+  "sha256": {
+    "scripts/audit_nll_cache_layout.py": "32d02f902b72539e7a4e668fe81fec44eac4bb2e1413dc3577ba6540ee10710c",
+    "scripts/score_training_nll.py": "31b0fd387c812be2c8b33df1c673c407c1b77c7cabda3f1cf06e2f963d05fb4f",
+    "scripts/train_lora.py": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+    "src/learning_harness/action_matched_sampling.py": "8f7b17785271d6bc36f153e3eee8d1962636f8f22ae700bb4cfa638344a3030d",
+    "src/learning_harness/task_matched_sampling.py": "e7e329f1f5d08d87fd9a99dd0bdb99704e124cd08f03457de0c179736341fc9f",
+    "src/learning_harness/common.py": "dbcf1ad4f602f65ce63642a4741263066efe8224e3890fa442b3598ed94c6d3c",
+    "output/nll-cache-layout-audit/20261113/aggregate-summary.json": "06b0daec9ca42f2957d41663ddabf56ea75a3f1e7a0b98ba3bb97c9f849c0ba8",
+    "output/nll-cache-layout-audit/20261113/cache-consistency.png": "4512ab3c0748d2b0fc0dec18ece112409f8068fdc0402444b4e4af8517d902ae",
+    "output/nll-cache-layout-audit/20261113/cache-consistency.pdf": "10b1524015933fe6b711d031fa8280387fba037fd1e6546e7027c66ae39aea5b",
+    "output/trajectory-baseline-feasibility/20261113/aggregate-summary.json": "9c90ee9a9bd01db050808b65c0e13b62c345affb78282823de11137f18816820",
+    "output/nll-cache-layout-audit/20261113/distinct-pair-check.py": "41a906349bb384f26c92199eb56306ad95737b0c95a13becda416ab5b3eb8439",
+    "output/nll-cache-layout-audit/20261113/distinct-pair-check.json": "7f75b94ec71c945df532eba6735918fec65836585f47bd86ef0d910916a1d124"
+  },
+  "cpu_only": true,
+  "actual_new_model_calls": 0,
+  "figure_png_and_pdf_rendering_inspected": true,
+  "original_frozen_files_modified": false,
+  "supplement_scope": "All distinct duplicate-row pairs checked separately; extreme-pair group counts are not independent same-layout controls."
+}

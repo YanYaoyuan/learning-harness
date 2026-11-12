@@ -1,0 +1,49 @@
+{
+  "repository": "ChenChiShui/FutureBridge-OPD",
+  "commit": "e73603a9acbe5174cdf37f37187e6af7cc4a3f2c",
+  "scope": "Six source/config/license files for read-only method audit; not an installed or executed method",
+  "fetched_unix": 1794511682.4279928,
+  "code_executed": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "6efdaef75ca9908f69aabb9bcd0fbccd1b2910fe",
+      "sha256": "1232e64e6854e473bfac06dff029dd59397b6b3124b85a165e24311d3dc24611",
+      "bytes": 3125
+    },
+    {
+      "path": "configs/alfworld/ftb.yaml",
+      "git_blob_sha": "575adbef73067a0f625744039aa55735f73a489c",
+      "sha256": "299a13d64c9e962165fe1383f5788724bb1283918cebe18fd39a6fb330e37c2e",
+      "bytes": 2908
+    },
+    {
+      "path": "trinity/common/workflows/envs/TCOD/alfworld/futurebridge_workflow.py",
+      "git_blob_sha": "10939065332f70993488738994770f1065d2050b",
+      "sha256": "e2c13b8142b53c60a8b889f9b9925c5a9e17b8559d88835391fbbd726a9f9574",
+      "bytes": 43566
+    },
+    {
+      "path": "trinity/common/workflows/envs/TCOD/webshop/futurebridge_base.py",
+      "git_blob_sha": "2d1775d36a6eeba2f5d4f7753152714e87cc291f",
+      "sha256": "6c807c7984a2b69d50836f57c5fb9025242b3c2f557a77b437e25b0124e74899",
+      "bytes": 28660
+    },
+    {
+      "path": "trinity/algorithm/advantage_fn/on_policy_distill_advantage.py",
+      "git_blob_sha": "87a813b4bb2b68ff3d9e4f4bbd0ab89b10026e83",
+      "sha256": "d2f94f3ad9fc4bac6425675f78de7971583be8a8df5cc6d12521d36f1201570e",
+      "bytes": 7050
+    }
+  ],
+  "local_source_directory": "third_party/FutureBridge-OPD-reference",
+  "author_code_installed": false,
+  "author_code_executed": false,
+  "publication_scope": "This provenance receipt only; original source available at the fixed official commit"
+}

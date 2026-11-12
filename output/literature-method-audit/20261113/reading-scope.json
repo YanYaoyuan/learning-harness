@@ -1,0 +1,83 @@
+{
+  "checked_unix": 1794512600.690647,
+  "papers": [
+    {
+      "name": "frontier-opd-2610.32802v1",
+      "url": "https://arxiv.org/pdf/2610.32802v1",
+      "path": "data/papers/2026-11-agent-learning/frontier-opd-2610.32802v1.pdf",
+      "bytes": 2714332,
+      "sha256": "26c59513e72cc8064b8a031e4a6b63aa3d5aa7ba725ec7e2fde7781734616fd9",
+      "status": "downloaded",
+      "reviewed_scope": {
+        "sections": [
+          "3.2-3.4",
+          "Appendix A-C"
+        ],
+        "visual_method_page": 6
+      },
+      "method_page_rendered_and_inspected": true
+    },
+    {
+      "name": "skillscaffold-2610.18807v1",
+      "url": "https://arxiv.org/pdf/2610.18807v1",
+      "path": "data/papers/2026-11-agent-learning/skillscaffold-2610.18807v1.pdf",
+      "bytes": 8218207,
+      "sha256": "57ddeb71de682dcce133de1001a1750171d38df8bc0ac9ed13ada899214a857b",
+      "status": "downloaded",
+      "reviewed_scope": {
+        "sections": [
+          "4.2-5.6",
+          "A.1/A.2"
+        ],
+        "visual_method_page": 6
+      },
+      "method_page_rendered_and_inspected": true
+    },
+    {
+      "name": "futurebridge-opd-2608.01953v2",
+      "url": "https://arxiv.org/pdf/2608.01953v2",
+      "path": "data/papers/2026-11-agent-learning/futurebridge-opd-2608.01953v2.pdf",
+      "bytes": 2448876,
+      "sha256": "dc53a845bb723b33fb2f5970ba8f2ffb7c29311e52983396dfab1c11afb60c81",
+      "status": "downloaded",
+      "reviewed_scope": {
+        "sections": [
+          "3",
+          "C.2/C.3"
+        ],
+        "visual_method_page": 4
+      },
+      "method_page_rendered_and_inspected": true
+    },
+    {
+      "name": "smartad-acl2026",
+      "url": "https://aclanthology.org/2026.findings-acl.1349.pdf",
+      "path": "data/papers/2026-11-agent-learning/smartad-acl2026.pdf",
+      "bytes": 872369,
+      "sha256": "853f35be7297d52cc3e37d6ab1cc9a0c0330da598cc72cf6c2ced14a0da78893",
+      "status": "downloaded",
+      "reviewed_scope": {
+        "sections": [
+          "3.2-4.4",
+          "Appendix A/B"
+        ],
+        "visual_method_page": 4
+      },
+      "method_page_rendered_and_inspected": true
+    }
+  ],
+  "full_all_appendix_read_claim": false,
+  "author_code_executed": false,
+  "skillscaffold_subset_reference": "output/literature-method-audit/20261113/skillscaffold-reference.json",
+  "futurebridge_subset_reference": "output/literature-method-audit/20261113/futurebridge-reference.json",
+  "frontier_repository": {
+    "repository": "jiangz20/FrontierOPD",
+    "browser_status": 404,
+    "github_api_status": 404,
+    "interpretation": "Not accessible in this inspection; not proof it has never been public"
+  },
+  "smartad_author_implementation": {
+    "status": "not_verified",
+    "scope": "Paper, ACL landing page and limited GitHub-domain searches; unrelated antigenic-distance namesake excluded"
+  }
+}
