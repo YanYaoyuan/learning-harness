@@ -1,6 +1,6 @@
 {
-  "status": "full_index_and_public_preview_ready",
-  "checked_unix": 1794506807.455095,
+  "status": "full_index_public_preview_and_goal_identity_ready",
+  "checked_unix": 1794507274.3162117,
   "full_catalog_raw_products": 1181436,
   "full_catalog_usable_products": 1181430,
   "search_documents": 1181370,
@@ -15,8 +15,35 @@
   "gpu_used": false,
   "full_benchmark_ready": false,
   "remaining": [
-    "Freeze full-catalog human-goal identity, seed and standard index-based split protocol",
-    "Integrate public adapter with a full environment factory restricted to permitted goal pool before first reset",
-    "Freeze actual experiment collection/training/evaluation budgets and methods before official test episodes"
-  ]
+    "Integrate public adapter with a full environment factory restricted to the requested split before constructor auto-reset; verify all goal fingerprints",
+    "Freeze actual experiment collection/training/evaluation budgets, methods and statistical protocol before official test episodes"
+  ],
+  "goal_identity_protocol_frozen": true,
+  "goal_identity_freeze_sha256": "ce3818cf416e775fb031cd99a066e2eff017e16333b30d3125c6d2ef38891233",
+  "goals": 12087,
+  "split_counts": {
+    "test": 500,
+    "eval": 1000,
+    "train": 10587
+  },
+  "split_content_overlap_counts": {
+    "train_test": {
+      "full_goal_fingerprints": 13,
+      "visible_instruction_fingerprints": 13,
+      "products": 108
+    },
+    "train_eval": {
+      "full_goal_fingerprints": 25,
+      "visible_instruction_fingerprints": 25,
+      "products": 252
+    },
+    "eval_test": {
+      "full_goal_fingerprints": 2,
+      "visible_instruction_fingerprints": 2,
+      "products": 23
+    }
+  },
+  "goal_identity_manifest_sha256": "b5d66a5bd3440f9a4cfdc04e23b3c8004e672bdfd54300ba75e3ad187b8e46e3",
+  "human_goal_text_exposed_to_student": false,
+  "goal_episode_resets": 0
 }
