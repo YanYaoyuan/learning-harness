@@ -1,0 +1,13 @@
+{
+  "status": "all_search_document_texts_audited",
+  "checked_unix": 1794506403.7511072,
+  "source_document_sha256": "d52d6041c7b85fcc25e35b7129397a93462bb425df67f3f929b8a4ae3eec7baf",
+  "counts": {
+    "documents": 1181430,
+    "blank_contents": 60
+  },
+  "expected_index_documents": 1181370,
+  "id_and_text_digest": "00c7edfcbd0d7c0bf460277f783f920fa774fe9185d83fd0931c0db92a97c9f6",
+  "human_goals_opened": false,
+  "official_test_evaluations": 0
+}

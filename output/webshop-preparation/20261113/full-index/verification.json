@@ -1,0 +1,206 @@
+{
+  "status": "full_index_verified",
+  "verified_unix": 1794506510.9036143,
+  "original_attempt_sha256": "aa23ccbb293e0030ef7bb7092e6949ffe5e744e7045251d3c86b4b1674c185a2",
+  "original_attempt_retained": true,
+  "original_attempt_source_sha256": "89eb2b30bcfae30a04a41f51046760dded9c04c2d10ce9144b905b3603effbd3",
+  "verifier_sha256": "de55eaf9d8a68929759929a56d33ece4e24f16b44562875db4cb59a1817fba88",
+  "original_guard_correction": "Catalog products and searchable documents differ when the original generator skips blank text.",
+  "index_rebuilt": false,
+  "index": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/full-index-2022-v1/full/index",
+  "documents": 1181430,
+  "blank_text_documents": 60,
+  "index_counters": {
+    "indexed": 1181370,
+    "unindexable": 0,
+    "empty": 60,
+    "skipped": 0,
+    "errors": 0
+  },
+  "all_blank_ids_absent": true,
+  "nonblank_prefix_sample_verified": 64,
+  "reference_documents": {
+    "documents": 1000,
+    "ids_and_contents_identical": true,
+    "reference_sha256": "353cfab6bb6673ac2b8a39cf23e11499d2e345550a65cea4ed6b909b09844af0",
+    "candidate_sha256": "6daac27955910290b7dbec0a7b13ddbc0126c4658ab00012d3d06993f0608b18"
+  },
+  "reference_search": {
+    "documents": 1000,
+    "queries": [
+      {
+        "query": "shirt",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "e35e15ee6236cff81dcc6baaed2e155dfc7ddeb9bab94fc5d57b55b45211d8b9"
+      },
+      {
+        "query": "red shoes",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "7d4dcef2afcf04c58217788cc8ac1ac01b2a9ce6569dd1d01b4c85e437ebbef9"
+      },
+      {
+        "query": "stainless steel",
+        "hits": 39,
+        "ordered_ids_and_scores_sha256": "b41c1bed7155b25df695fbbc33a36e31cd85145cfa35c50a3f34eb25f2ed152e"
+      },
+      {
+        "query": "coffee maker",
+        "hits": 39,
+        "ordered_ids_and_scores_sha256": "ec849d8b886f20abeb3f6e4d093e215a9e1860341cdf3044775e627310c4621f"
+      },
+      {
+        "query": "wireless",
+        "hits": 43,
+        "ordered_ids_and_scores_sha256": "7c7f8f8fd72c358663e701093a76d717b844bcd6c8cdf915305e9be0afda9a20"
+      },
+      {
+        "query": "blue cotton shirt",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "f97cd11056ddd2e5630e2840c4271b78a9ad908b08861febd95aa032c51b677b"
+      },
+      {
+        "query": "nonexistentwordabcdefgh",
+        "hits": 0,
+        "ordered_ids_and_scores_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "reference_rank_and_score_equality": true,
+    "raw_fields": [
+      "id",
+      "contents"
+    ]
+  },
+  "full_search": {
+    "documents": 1181370,
+    "queries": [
+      {
+        "query": "shirt",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "c8126c8b1171a51b43e82ce9cb48bbf38397a7038fe5e97bceab194939b64cac"
+      },
+      {
+        "query": "red shoes",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "2517b7ad6d80df2b3f8a127d59494f4903df4ea0dacb4a83fd785aa6be1ec276"
+      },
+      {
+        "query": "stainless steel",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "20baffdbc92855c9c9980d808b726a635d2e52d487c495adae1290a9c44391ee"
+      },
+      {
+        "query": "coffee maker",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "d8f517af7a1fc8920aaf19f484e19b4301f0841e82b18e8b5a9cc62c570eaae2"
+      },
+      {
+        "query": "wireless",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "98f14622345b63d53a2e0ae01de6818b653025a6f25fb74cdbb656f630a8a42f"
+      },
+      {
+        "query": "blue cotton shirt",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "8125cc8bde315fddc23153352bd79e87036d9fb658a004623eb2aefebf3649a9"
+      },
+      {
+        "query": "nonexistentwordabcdefgh",
+        "hits": 0,
+        "ordered_ids_and_scores_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "reference_rank_and_score_equality": false,
+    "raw_fields": [
+      "id",
+      "contents"
+    ]
+  },
+  "index_files": {
+    "_0.fdm": {
+      "bytes": 663,
+      "sha256": "0fbbe0f4e3b935b3103f20e18518770b69f7c227d00d55f4122e9b72cb5bd339"
+    },
+    "_0.fdt": {
+      "bytes": 675523560,
+      "sha256": "d0a2fa572d01fb8f932359f0f17d68c2ba060d11b6a2994a4cd01aa0148c2cc3"
+    },
+    "_0.fdx": {
+      "bytes": 42782,
+      "sha256": "68ee9d9862114e867141433619f8f6fc3005084c95b5cccd112dbce230ade0d1"
+    },
+    "_0.fnm": {
+      "bytes": 334,
+      "sha256": "2afbebbea8430868ea5c3cee82e927d6cd858976103b1db1e13aa4a3916b35ad"
+    },
+    "_0.nvd": {
+      "bytes": 1181429,
+      "sha256": "7bda5f9369fd7a970ffb23540a678d8aa1af0f6c4d358f6fad570c2b4e2cc539"
+    },
+    "_0.nvm": {
+      "bytes": 103,
+      "sha256": "c9566f122a8f8ecaffe7577f4ef1fb968d40fae5bd72af7f9bf6adce7547afc9"
+    },
+    "_0.si": {
+      "bytes": 593,
+      "sha256": "c31b073c62a7fd773752ad98575a90791923bcc5d91a266fd4fa7b2262c3c238"
+    },
+    "_0.tvd": {
+      "bytes": 538516300,
+      "sha256": "da5ddef62a1be66654a8677aa20931f6f8cb583753cb40939a8bcf377d05bdb7"
+    },
+    "_0.tvm": {
+      "bytes": 3272,
+      "sha256": "77e8dfa6356962d62f4b715c6e102702455a5504e0f5e88d222b09a026c4e0a1"
+    },
+    "_0.tvx": {
+      "bytes": 228027,
+      "sha256": "3389719b7a91b7020c7c5821779611800ccf3bd60e0c917e86b02c889cd5e575"
+    },
+    "_0_Lucene80_0.dvd": {
+      "bytes": 9770544,
+      "sha256": "2b6907b3dbed17500b27d1a4ecb7a351d6dc40d717044daaee2e02d523fcb791"
+    },
+    "_0_Lucene80_0.dvm": {
+      "bytes": 272,
+      "sha256": "93788c113316c1e7fce7c6ec5b602b93b32f06b4a97b4da2e07ecdd7e63c1c4e"
+    },
+    "_0_Lucene84_0.doc": {
+      "bytes": 133193644,
+      "sha256": "168e516605cb48c9cfb193a56788a69ee6d3e490c9705a090e4415548c37a1d9"
+    },
+    "_0_Lucene84_0.pos": {
+      "bytes": 141375938,
+      "sha256": "f3b3696e544e871ec47d769f1e8bd91b504dbe7cc15cdcf55a96aa6530600f7a"
+    },
+    "_0_Lucene84_0.tim": {
+      "bytes": 21731449,
+      "sha256": "717b51c339d6057110182f00a33ccb9e1833189b72f3119c7fad8a978668f3dd"
+    },
+    "_0_Lucene84_0.tip": {
+      "bytes": 577296,
+      "sha256": "f4c2c0645a94a20ea1d60092ca76411c20275e0630a2b7c286fd6f5367765ac4"
+    },
+    "_0_Lucene84_0.tmd": {
+      "bytes": 318,
+      "sha256": "8f3c6555c24960f8053e0a84b050657178d58311a1970ec51b50637273a2bf89"
+    },
+    "segments_1": {
+      "bytes": 154,
+      "sha256": "91124a9638c9249f5880a7c5fe5db34542d3c5789d7f363703862af742412e69"
+    },
+    "write.lock": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "human_annotation_file_opened": false,
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "full_benchmark_ready": false,
+  "remaining": [
+    "Goal identity and disjoint split protocol",
+    "Public-only student interface integration",
+    "Formal training and evaluation protocol"
+  ]
+}

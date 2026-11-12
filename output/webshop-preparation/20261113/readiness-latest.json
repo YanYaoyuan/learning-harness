@@ -1,0 +1,22 @@
+{
+  "status": "full_index_and_public_preview_ready",
+  "checked_unix": 1794506807.455095,
+  "full_catalog_raw_products": 1181436,
+  "full_catalog_usable_products": 1181430,
+  "search_documents": 1181370,
+  "blank_text_documents": 60,
+  "full_index_verified": true,
+  "full_index_verification_sha256": "04981a4bd293219615d9386b08e2771a85e2f572e86f5c5f5c844090949e43d2",
+  "public_boundary_preview_passed": true,
+  "public_boundary_verification_sha256": "d88f6474984ae198d55801f0bca93367d2b4e6a131b821ba8e786872370836c8",
+  "original_reward_profile": "2022 LG; six original reward tests passed in preserved CPU environment",
+  "model_calls": 0,
+  "official_test_evaluations": 0,
+  "gpu_used": false,
+  "full_benchmark_ready": false,
+  "remaining": [
+    "Freeze full-catalog human-goal identity, seed and standard index-based split protocol",
+    "Integrate public adapter with a full environment factory restricted to permitted goal pool before first reset",
+    "Freeze actual experiment collection/training/evaluation budgets and methods before official test episodes"
+  ]
+}

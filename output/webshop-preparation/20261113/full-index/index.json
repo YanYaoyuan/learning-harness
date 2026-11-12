@@ -1,0 +1,83 @@
+{
+  "status": "failed",
+  "started_unix": 1794506176.139327,
+  "pid": 1309879,
+  "source_revision": "61e56dbba107ae13ff49e6058d7d2aad23326929",
+  "code_sha256": {
+    "/home/user/work/bgyfw/harness/scripts/prepare_webshop_full_index.py": "89eb2b30bcfae30a04a41f51046760dded9c04c2d10ce9144b905b3603effbd3",
+    "src/learning_harness/webshop_index.py": "d4f4befd839241deb44a0de55d344ee814a349ff660a95444560f5d6875b50b0",
+    "third_party/WebShop-2022-reference/search_engine/convert_product_file_format.py": "1fb0759fb07fd2646da2cf038b0253ea72a265323da09da4d558b70b7dc2798d",
+    "third_party/WebShop-2022-reference/web_agent_site/engine/engine.py": "9b86ffc82951124f5c4a7eb8103de14100dbee11ba8869951ed6fb8feaeef804"
+  },
+  "acquisition_sha256": "3b43c59acfa0d4fcdef122d28cf2c48e982a0658f1a8ed29f4968b418423c577",
+  "schema_audit_sha256": "162c88e3592676aff38c1bb20e21da4349a68b33c14819d716901c377bc5e805",
+  "catalog_sha256": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+  "gpu_used": false,
+  "model_calls": 0,
+  "human_annotation_file_opened": false,
+  "official_test_evaluations": 0,
+  "full_benchmark_ready": false,
+  "original_environment_paths_modified": false,
+  "reference_documents": {
+    "documents": 1000,
+    "ids_and_contents_identical": true,
+    "reference_sha256": "353cfab6bb6673ac2b8a39cf23e11499d2e345550a65cea4ed6b909b09844af0",
+    "candidate_sha256": "6daac27955910290b7dbec0a7b13ddbc0126c4658ab00012d3d06993f0608b18"
+  },
+  "reference_search": {
+    "documents": 1000,
+    "queries": [
+      {
+        "query": "shirt",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "e35e15ee6236cff81dcc6baaed2e155dfc7ddeb9bab94fc5d57b55b45211d8b9"
+      },
+      {
+        "query": "red shoes",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "7d4dcef2afcf04c58217788cc8ac1ac01b2a9ce6569dd1d01b4c85e437ebbef9"
+      },
+      {
+        "query": "stainless steel",
+        "hits": 39,
+        "ordered_ids_and_scores_sha256": "b41c1bed7155b25df695fbbc33a36e31cd85145cfa35c50a3f34eb25f2ed152e"
+      },
+      {
+        "query": "coffee maker",
+        "hits": 39,
+        "ordered_ids_and_scores_sha256": "ec849d8b886f20abeb3f6e4d093e215a9e1860341cdf3044775e627310c4621f"
+      },
+      {
+        "query": "wireless",
+        "hits": 43,
+        "ordered_ids_and_scores_sha256": "7c7f8f8fd72c358663e701093a76d717b844bcd6c8cdf915305e9be0afda9a20"
+      },
+      {
+        "query": "blue cotton shirt",
+        "hits": 50,
+        "ordered_ids_and_scores_sha256": "f97cd11056ddd2e5630e2840c4271b78a9ad908b08861febd95aa032c51b677b"
+      },
+      {
+        "query": "nonexistentwordabcdefgh",
+        "hits": 0,
+        "ordered_ids_and_scores_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "reference_rank_and_score_equality": true,
+    "raw_fields": [
+      "id",
+      "contents"
+    ]
+  },
+  "full_documents": {
+    "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/full-index-2022-v1/full/resources/documents.jsonl",
+    "raw_products": 1181436,
+    "documents": 1181430,
+    "filtered": 6,
+    "duplicates": 0,
+    "sha256": "d52d6041c7b85fcc25e35b7129397a93462bb425df67f3f929b8a4ae3eec7baf",
+    "bytes": 1049462696
+  },
+  "error_type": "ValueError",
+  "stopped_unix": 1794506273.3977673
+}
