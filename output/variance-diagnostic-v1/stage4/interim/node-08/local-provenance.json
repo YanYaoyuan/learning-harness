@@ -1,0 +1,71 @@
+{
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "worker_results": {
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i101-s101-r0/worker-result.json": "a07f54d434adfbb8cfddc0b78cb18eb58a175a6bebce94c959231b5a626f7940",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i101-s101-r0/worker-result.json": "3781b73c129ee6e9b3eb39d3ccc75c9bff6557222da162f1d38311df1d493a38",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i101-s101-r0/worker-result.json": "aabbefdca976978a36ffc7c10fdd7596fc353050f92cab75888389e482f90c3e",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i101-s101-r0/worker-result.json": "16051de24f5649d21613b68783dba8d141491a4745f7a5e3feb6f8fc69803a73",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i101-s202-r0/worker-result.json": "c4d9a721b8c67887d32b21721467ed70be975cbfa896bb32bcd5ef621b0324fa",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i101-s202-r0/worker-result.json": "464194c41f406656ed3e9d76e7b230425714b834fa321769730e1131fc6f3926",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i101-s202-r0/worker-result.json": "e51bceebae2f353b4bc64d98dfe5af859197ea316c710cdaaad02f2d2878ccb9",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i101-s202-r0/worker-result.json": "ea60aae3e14c77528be3d65d236b52b2eb01c8014155dee66b0741fae3382438",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i101-s303-r0/worker-result.json": "61f7579103041f09cfee444445236ed43fe9ed8c3d8ae0b0b98ce959dfcfb42d",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i101-s303-r0/worker-result.json": "c299e3741391165a3f068cbf07a2c35a7eeb40c80779660dc714014e93ef9299",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i101-s303-r0/worker-result.json": "127c0f9586812919dfa67d79d842a6867a1ed8c7d83bc1afbe6734167c5d732f",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i101-s303-r0/worker-result.json": "37c9472bf13e55bd9826db11f0fa7e65a47e28a873a02c5d2be4d163ae4dd218",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i101-s404-r0/worker-result.json": "f6b297ab7f45ed0ebed1de1f3764b5fab7646f6db74b8e479f7246eea4b143cb",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i101-s404-r0/worker-result.json": "4899894c1fa7050e97f70644eb967fc4b239797dbb1a6ff9ac27986acac2071b",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i101-s404-r0/worker-result.json": "cc05d01e9d6b21fe6f57a76a790614a1d882a23b41fac9d3eb2c6c2f08b455e7",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i101-s404-r0/worker-result.json": "513eafcdef8c1cc233514e0192a094f3e0c3ae398fe4643ded0859c70b3e4019",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i202-s101-r0/worker-result.json": "76cefc6d66aa3db75b1639a71a6aa54f1a0aa9ebf25280ecc5bed1a06b1f077b",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i202-s101-r0/worker-result.json": "8cd0ed797383df7ef64ab45d7b5d44f5ddf803b0368811ccf21c7d9e5d7964d4",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i202-s101-r0/worker-result.json": "9b0a07bcbab23ca81ca95e9e41dba59f5dd19247039ccb4692393fabde683537",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i202-s101-r0/worker-result.json": "0268276e6eb3f4b7cc2544f5fb2771c1b9ecf31a0e81c5fc9578f6720cd03a73",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i202-s202-r0/worker-result.json": "dc35f86e32e72d279d3c252766619991cb79a541951ce40b1ea1968aefad6d86",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i202-s202-r0/worker-result.json": "316cc2f5f6b26b24bb09f5cdf2cef25acc8f33affa3f7d6d1f1bd1a21c21291c",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i202-s202-r0/worker-result.json": "f6a7fb636dbaf9ce978f4f9ded9f2d174598b6c88b0d3b1f55472add7c1418cb",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i202-s202-r0/worker-result.json": "77d2443728a61c5458392e035b79ca7f8458bec2176616dcc64a4359b7816957",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i202-s303-r0/worker-result.json": "048dd03b4e6c0c2a4c7f8f371cde2c3d425f2286c7ff24f2eb714d663703a30b",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i202-s303-r0/worker-result.json": "4a776939344aaf1148e6a33aae926308e893807b15cc9ea683807a668936c154",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i202-s303-r0/worker-result.json": "90090f8e97a2ea778dbfab91459aabf346f5fc8f82d0c271d0818d2703ae43ad",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i202-s303-r0/worker-result.json": "54a53748c0d4fbca925289ca762a2f694ac0b1c4a2d5603e256ef838dfed5d96",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-api-i202-s404-r0/worker-result.json": "ddc328cb5674e0b9216bad512cbd7641ae13bacaec8ed835ff67fefea9945cc0",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-api-i202-s404-r0/worker-result.json": "22467121592bd2aad7eb2f91da18d2cd00dffed596613bdc9514d50c8c4a8b65",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_random-generic-i202-s404-r0/worker-result.json": "8903891e9669e9eb1f20addf7a8b139d0a83e6d2dc969fa4caa686dd8da1fa30",
+    "runs/variance-diagnostic-v1/stage4/cases/task_action_min_nll-generic-i202-s404-r0/worker-result.json": "5c2befaa92f749212d603c5df65f79758c84f4a79bab3e2f8b500533b9c80e31"
+  },
+  "primary_seed_cells": [
+    [
+      101,
+      101
+    ],
+    [
+      101,
+      202
+    ],
+    [
+      101,
+      303
+    ],
+    [
+      101,
+      404
+    ],
+    [
+      202,
+      101
+    ],
+    [
+      202,
+      202
+    ],
+    [
+      202,
+      303
+    ],
+    [
+      202,
+      404
+    ]
+  ]
+}
