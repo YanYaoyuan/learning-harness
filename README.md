@@ -2,17 +2,19 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前状态（2026-11-12）**：强基线对照已完成全部4,284次评测并通过核账。教师辅助来源相对ReAct来源的主AUC差为−3.56个百分点，当前没有显示候选优势；三个种子的差值为−9.77、−3.42、+2.49。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) · [执行方式检查](output/source-comparison-v1/execution-robustness.png)。旧结果保留各自适用范围，不把增益AUC较高解读为学习能力更强。
+**当前状态（2026-11-12）**：Stage 3按冻结方案训练，独立监督器每30分钟核对真实进程/GPU，每30秒监听结束事件；中途成对图在固定完成数量节点上传。训练进度以[W&B实时记录](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/262c0863d930-progress)为准。
 
-Stage 0已全部完成，用时2.03 GPU小时。旧API−generic配对分数中，批布局重复方差占比约0.46%，训练侧差异更大；初始化/dropout与样本抽取尚未拆开。[完整结果](docs/VARIANCE_DIAGNOSTIC_STAGE0_RESULTS_2026-11-12.zh-CN.md) · [冻结协议](docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
+| 实验 | 状态 | 结果与入口 |
+|---|---|---|
+| API辅助 vs ReAct自采，共同成功匹配 | 完成4,284次评测 | 主AUC差−3.56pp；三种子−9.77/−3.42/+2.49pp。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) |
+| Stage 0：重复评测诊断 | 完成1,248回合 | 旧来源比较中，批布局重复分量占比约0.46%。[结果](docs/VARIANCE_DIAGNOSTIC_STAGE0_RESULTS_2026-11-12.zh-CN.md) |
+| Stage 1：初始化×采样 | 完成34模型/2,176回合 | 抽样分量占比估计50.8%；逐单元与敏感性见[结果](output/variance-diagnostic-v1/stage1/RESULTS.zh-CN.md)。 |
+| Stage 2：同预算采样干预 | 完成68模型/4,352回合 | 全池相对子集复用：API +5.18pp、generic +1.27pp。[最终结果与图](output/variance-diagnostic-v1/stage2/RESULTS.zh-CN.md) |
+| Stage 3：任务与不同内容预算控制 | 运行中，计划70模型/4,480回合 | 随机与低NLL各256条不同内容；同任务位置/次数、192步/768次呈现。[冻结协议](docs/VARIANCE_DIAGNOSTIC_STAGE3_SPEC.md) · [中途观察与图](docs/STAGE3_INTERIM_MONITORING_2026-11-12.zh-CN.md) |
 
-Stage 1已完成34个模型、2,176个开发集回合，耗时4.33 GPU小时：成功率差异的抽样方差占比估计50.8%，初始化/dropout占比11.1%。每来源采用4×4交叉种子，加2次条件训练重复。[设计](docs/VARIANCE_DIAGNOSTIC_STAGE1_SPEC.md) · [执行记录](docs/STAGE1_EXECUTION_2026-11-12.zh-CN.md) · [W&B实时进度](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/dc1dca75927c-progress)。这是旧API−generic训练波动诊断；全部逐单元、图表与原始记录已归档。
+Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 
-Stage 2已完成：68个模型、4,352个任务回合，累计10.143 GPU小时。两个新组均192步/768次呈现；全池相对子集复用的成功率平均差为API +5.18pp、generic +1.27pp。四个初始化内的来源差值波动均下降。[冻结设计](docs/VARIANCE_DIAGNOSTIC_STAGE2_SPEC.md) · [W&B进度](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/762860f6c45b-progress)。历史256组只作剂量参照，采样策略主比较在两个768组间进行。
-
-[Stage 2中途效果观察](docs/STAGE2_INTERIM_OBSERVATION_2026-11-12.zh-CN.md)：北京时间16:03快照中的6组完整配对单元显示，全池遍历相对子集复用的成功率平均差为API +3.39pp、generic +3.91pp。独立观察器将在8/12/16组时自动更新图表，主训练计划保持冻结。
-
-Stage 3已于北京时间2026-11-12 19:45启动：逐位置任务ID、逐任务次数、192步/768次呈现匹配；比较随机与低NLL选择的256条任务内不同内容示范。共70个新模型、4,480次新评测，预算14 GPU小时。[冻结协议](docs/VARIANCE_DIAGNOSTIC_STAGE3_SPEC.md) · [W&B进度](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/262c0863d930-progress)。独立监督器每30分钟核查实际进程和GPU状态、每30秒监听结束事件；Stage 2结束已自动执行机制审计。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md)。
+下一步准备（均未启动额外GPU训练）：[任务与动作构成匹配，16份候选调度](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [API/ReAct全合格成功经验预算审计](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md) · [WebShop独立CPU环境与协议检查](docs/WEBSHOP_PREPARATION_2026-11-12.zh-CN.md)。WebShop目前是1000商品开发预览，正式benchmark尚未就绪。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
@@ -24,7 +26,7 @@ python3 -m venv .venv-dev
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv-dev/bin/python -m pytest -q
 ```
 
-独立开发环境已通过126项CPU测试，包含种子控制、采样干预、预算预留、失败记账、方差分解与存储迁移检查。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
+独立开发环境已通过138项CPU测试，包含种子控制、采样干预、预算预留、失败记账、方差分解与存储迁移检查。GPU训练和真实环境依赖仍使用下述专用环境。若工作机的ROS等工具设置了全局`PYTHONPATH`，运行独立测试时先清除该变量。[CPU测试工作流模板](docs/ci/cpu-tests.yml)使用同一依赖入口；当前GitHub登录不含workflow权限，远端CI尚未启用。
 
 [实验协议：环境、baseline、benchmark 与统计口径](docs/EXPERIMENT_PLAN.zh-CN.md) · [前期调研](output/pdf/agent-research/README.md)
 
