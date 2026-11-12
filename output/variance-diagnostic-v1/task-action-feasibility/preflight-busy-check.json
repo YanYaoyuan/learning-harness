@@ -1,0 +1,10 @@
+{
+  "checked_unix": 1794491017.1741612,
+  "gpus": [
+    0,
+    1
+  ],
+  "new_training_started": false,
+  "status": "busy_gpu_refusal_verified",
+  "reason": "A selected GPU already has a compute process; inspect before starting"
+}

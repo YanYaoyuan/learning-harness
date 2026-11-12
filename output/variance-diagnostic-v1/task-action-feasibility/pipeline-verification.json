@@ -1,0 +1,38 @@
+{
+  "status": "cpu_components_verified",
+  "recorded_unix": 1794491410.0647135,
+  "full_repository_cpu_tests": 163,
+  "ruff_checks_passed": true,
+  "real_candidate_recipes_validated": 16,
+  "real_raw_outcome_check": {
+    "checked_family_evaluations": 48,
+    "checked_episodes": 1536,
+    "all_means_match": true,
+    "new_gpu_calls": 0,
+    "recorded_unix": 1794490474.6498888
+  },
+  "busy_gpu_preflight": {
+    "checked_unix": 1794491017.1741612,
+    "gpus": [
+      0,
+      1
+    ],
+    "new_training_started": false,
+    "status": "busy_gpu_refusal_verified",
+    "reason": "A selected GPU already has a compute process; inspect before starting"
+  },
+  "candidate_validation_output_sha256": "88a2047059e593acb3cfa2ee69257c9197020c957f2e7b8e26f08aeae1ca2b30",
+  "formal_followup_frozen": false,
+  "new_training_started": false,
+  "full_gpu_pipeline_verified": false,
+  "code_sha256": {
+    "scripts/action_control_worker.py": "544b3033a6116f206d14b6d5d50ad35166364a4cac2c04288009238f8aab05ae",
+    "scripts/action_control_report.py": "a5951a22c881027be79d9eadf3e551ed028f57661b5562e78df537649b4ba504",
+    "scripts/run_action_controls.py": "e0c7edb2fd56fb92936d7115e4d6de61d896b36b6ad37832f48cb3c8c03338c8",
+    "src/learning_harness/action_control_audit.py": "56e148545b641332f1a6cac92f7f1e68453b3b4f15d4e877e1e105c947ab1708",
+    "src/learning_harness/controlled_study.py": "2dc0888fb6df6fb6acdcdcef927cfb5e42620b9ae97ed1d8e05f363387efb0f2",
+    "src/learning_harness/action_matched_sampling.py": "8f7b17785271d6bc36f153e3eee8d1962636f8f22ae700bb4cfa638344a3030d",
+    "tests/test_action_control_audit.py": "14f68e4230925526b010535ff6350fa205a737da35a24f3a976c8c8bd1804435",
+    "tests/test_controlled_study.py": "ad92f98943db76d2d1ebb9b888b762aaed5ea0c9cc03397f0209e017f39a9cf0"
+  }
+}

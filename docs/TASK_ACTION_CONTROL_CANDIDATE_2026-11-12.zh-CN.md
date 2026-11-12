@@ -50,4 +50,4 @@ PYTHONPATH=src CUDA_VISIBLE_DEVICES='' .venv-model/bin/python \
 
 校验模式不加载学生模型、不使用GPU、不训练。训练模式要求Stage 3执行与本地报告完成、正式冻结文件存在、配方已去除候选状态、代码/配置/调度全部被哈希锁定，且物理GPU与可见设备一致。未来训练继续复用同一split-seed训练器、原JSON评测内核、零B分支及只读NLL诊断。
 
-新增7项审计检查与先前12项相关检查均通过；独立开发环境全套145项CPU测试通过。真实配方重校验与原输出逐字节相同，证据位于`worker-validation.json`和`worker-verification.json`。这不表示新worker的GPU训练链路已实测；正式研究控制器、最终报告入口与预算尚未创建或冻结。
+该阶段新增7项审计检查与先前12项相关检查均通过，独立环境当时全套145项CPU测试通过；原证据位于`worker-validation.json`和`worker-verification.json`。随后控制器与报告的CPU准备见[执行记录](CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。完整GPU链路尚未实测，正式预算与研究冻结尚未执行。
