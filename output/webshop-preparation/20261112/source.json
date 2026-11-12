@@ -1,0 +1,13 @@
+{
+  "status": "source_downloaded",
+  "repository": "https://github.com/princeton-nlp/WebShop",
+  "revision": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd",
+  "archive": "data/downloads/webshop-64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd.tar.gz",
+  "archive_bytes": 32261562,
+  "archive_sha256": "2e3e671ad76ee5dd1b143f1a060f91386b9699602bee794259b5de79ebfaea8a",
+  "source": "third_party/WebShop",
+  "setup_script_executed": false,
+  "product_data_downloaded": false,
+  "official_test_used": false,
+  "purpose": "Prepare second-environment validation while Stage3 trains"
+}

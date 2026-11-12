@@ -1,0 +1,120 @@
+{
+  "status": "ready_for_development",
+  "started_unix": 1794485652.7295978,
+  "smoke_only": true,
+  "product_catalog": "1000-product community mirror preview",
+  "human_goals_used": false,
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "data": [
+    {
+      "name": "items_shuffle_1000.json",
+      "google_drive_id": "1EgHdxQ_YxqIQlvvq5iKlCrkEKR6-j0Ib",
+      "bytes": 4467013,
+      "sha256": "30a4765c3a327af72d9a9a95a6b2486d516f0fa1d3ecd83681901ce82a21b269",
+      "entries": 1000,
+      "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/smoke1000/items_shuffle_1000.json",
+      "community_mirrors": [
+        {
+          "repository": "YWZBrandon/webshop-data",
+          "revision": "ce990fff5aee388db2706f07820c578ab68e0453",
+          "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/ce990fff5aee388db2706f07820c578ab68e0453/items_shuffle_1000.json",
+          "sha256": "30a4765c3a327af72d9a9a95a6b2486d516f0fa1d3ecd83681901ce82a21b269",
+          "entries": 1000
+        },
+        {
+          "repository": "HongbangYuan/webshop",
+          "revision": "0129d4a81dbdb827e76afd20a1e2c38b61098613",
+          "url": "https://huggingface.co/datasets/HongbangYuan/webshop/resolve/0129d4a81dbdb827e76afd20a1e2c38b61098613/items_shuffle_1000.json",
+          "sha256": "30a4765c3a327af72d9a9a95a6b2486d516f0fa1d3ecd83681901ce82a21b269",
+          "entries": 1000
+        }
+      ]
+    },
+    {
+      "name": "items_ins_v2_1000.json",
+      "google_drive_id": "1IduG0xl544V_A_jv3tHXC0kyFi7PnyBu",
+      "bytes": 147099,
+      "sha256": "f88a36314a397b53b3d9c3fa5878e5f7b26d35019a51ec83fbedeca61a948f6f",
+      "entries": 1000,
+      "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/smoke1000/items_ins_v2_1000.json",
+      "community_mirrors": [
+        {
+          "repository": "YWZBrandon/webshop-data",
+          "revision": "ce990fff5aee388db2706f07820c578ab68e0453",
+          "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/ce990fff5aee388db2706f07820c578ab68e0453/items_ins_v2_1000.json",
+          "sha256": "f88a36314a397b53b3d9c3fa5878e5f7b26d35019a51ec83fbedeca61a948f6f",
+          "entries": 1000
+        },
+        {
+          "repository": "HongbangYuan/webshop",
+          "revision": "0129d4a81dbdb827e76afd20a1e2c38b61098613",
+          "url": "https://huggingface.co/datasets/HongbangYuan/webshop/resolve/0129d4a81dbdb827e76afd20a1e2c38b61098613/items_ins_v2_1000.json",
+          "sha256": "f88a36314a397b53b3d9c3fa5878e5f7b26d35019a51ec83fbedeca61a948f6f",
+          "entries": 1000
+        }
+      ]
+    },
+    {
+      "name": "items_human_ins.json",
+      "google_drive_id": "14Kb5SPBk_jfdLZ_CDBNitW98QLDlKR5O",
+      "bytes": 5137548,
+      "sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3",
+      "entries": 10136,
+      "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/smoke1000/items_human_ins.json",
+      "community_mirrors": [
+        {
+          "repository": "YWZBrandon/webshop-data",
+          "revision": "ce990fff5aee388db2706f07820c578ab68e0453",
+          "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/ce990fff5aee388db2706f07820c578ab68e0453/items_human_ins.json",
+          "sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3",
+          "entries": 10136
+        },
+        {
+          "repository": "HongbangYuan/webshop",
+          "revision": "0129d4a81dbdb827e76afd20a1e2c38b61098613",
+          "url": "https://huggingface.co/datasets/HongbangYuan/webshop/resolve/0129d4a81dbdb827e76afd20a1e2c38b61098613/items_human_ins.json",
+          "sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3",
+          "entries": 10136
+        }
+      ]
+    }
+  ],
+  "original_drive_download_failed": true,
+  "original_author_byte_identity_verified": false,
+  "independent_mirrors_cross_checked": true,
+  "finished_unix": 1794485662.5364916,
+  "products_loaded": 1000,
+  "index_documents_sha256": "353cfab6bb6673ac2b8a39cf23e11499d2e345550a65cea4ed6b909b09844af0",
+  "steps": [
+    {
+      "action": "search[shirt]",
+      "observation_nonempty": true,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "click[b09qgk5xhz]",
+      "observation_nonempty": true,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "click[buy now]",
+      "observation_nonempty": true,
+      "reward": 0.0,
+      "done": true
+    }
+  ],
+  "upstream_code_sha256": {
+    "web_agent_site/engine/engine.py": "9b86ffc82951124f5c4a7eb8103de14100dbee11ba8869951ed6fb8feaeef804",
+    "web_agent_site/engine/goal.py": "9703c8583244e2041182eb14856186b998145ab16ce2ba9aef8cb680877c8ed5",
+    "web_agent_site/envs/web_agent_text_env.py": "f4efee238c2a69ad76ff5372716a16051c67ea0351c7006491834822ea9afda3",
+    "web_agent_site/utils.py": "bdd6df3b869cf3fe028169add3611d1b811ae663ae4f79520617c26b20614970"
+  },
+  "torch_version": "1.11.0+cpu",
+  "torch_cuda_available": false,
+  "full_benchmark_ready": false,
+  "readiness_only_not_an_agent_performance_result": true
+}

@@ -1,0 +1,83 @@
+F.....                                                                   [100%]
+=================================== FAILURES ===================================
+_____________________________ test_get_type_reward _____________________________
+
+    def test_get_type_reward():
+        # Exact Match
+        goal = {
+            'query': "Query 1",
+            'product_category': "a › b › c",
+            'name': "Name 1"
+        }
+        purchased = {
+            'query': "Query 1",
+            'product_category': "a › b › c",
+            'name': "Name 1"
+        }
+        result = get_type_reward(purchased, goal)
+        assert result['r_type'] == 1.
+        assert result['query_match'] == True
+        assert result['category_match'] == True
+        assert result['title_score'] == 1
+    
+        # Query Mismatch
+        purchased['query'] = 'Query 2'
+        result = get_type_reward(purchased, goal)
+        assert result['query_match'] == False
+    
+        # Out of order / non-matching / partially matching / duplicate categories
+        purchased['product_category'] = "b › c › a"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == True
+        purchased['product_category'] = "d › e › f"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == False
+        purchased['product_category'] = "a › d › b"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == True
+        purchased['product_category'] = "a › a › b"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == True
+        purchased['product_category'] = "a › a › d"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == False
+    
+        # Similar product names
+        goal['name'] = "Mens D.O.N. Issue 2 Gca Basketball Sneakers Shoes Casual - Off White"
+        purchased['name'] = "PEAK High Top Mens Basketball Shoes Lou Williams Streetball Master Breathable Non Slip Outdoor Sneakers"
+        result = get_type_reward(purchased, goal)
+>       assert isclose(result['title_score'], 0.333, abs_tol=1e-2)
+E       assert False
+E        +  where False = isclose(0.4444444444444444, 0.333, abs_tol=0.01)
+
+tests/web-agent-site/engine/test_goal.py:49: AssertionError
+=============================== warnings summary ===============================
+../../.venv-webshop/lib/python3.10/site-packages/typer/__init__.py:25
+  /home/user/work/bgyfw/harness/.venv-webshop/lib/python3.10/site-packages/typer/__init__.py:25: DeprecationWarning: 'click.utils.get_binary_stream' is deprecated and will be removed in Click 9.0.
+    from click.utils import get_binary_stream as get_binary_stream
+
+../../.venv-webshop/lib/python3.10/site-packages/typer/__init__.py:26
+  /home/user/work/bgyfw/harness/.venv-webshop/lib/python3.10/site-packages/typer/__init__.py:26: DeprecationWarning: 'click.utils.get_text_stream' is deprecated and will be removed in Click 9.0.
+    from click.utils import get_text_stream as get_text_stream
+
+../../.venv-webshop/lib/python3.10/site-packages/typer/completion.py:121
+  /home/user/work/bgyfw/harness/.venv-webshop/lib/python3.10/site-packages/typer/completion.py:121: DeprecationWarning: 'BaseCommand' is deprecated and will be removed in Click 9.0. Use 'Command' instead.
+    cli: click.BaseCommand,
+
+../../.venv-webshop/lib/python3.10/site-packages/spacy/cli/_util.py:11
+  /home/user/work/bgyfw/harness/.venv-webshop/lib/python3.10/site-packages/spacy/cli/_util.py:11: DeprecationWarning: Importing 'parser.split_arg_string' is deprecated, it will only be available in 'shell_completion' in Click 9.0.
+    from click.parser import split_arg_string
+
+../../.venv-webshop/lib/python3.10/site-packages/requests/__init__.py:43
+  /home/user/work/bgyfw/harness/.venv-webshop/lib/python3.10/site-packages/requests/__init__.py:43: DeprecationWarning: 'urllib3[secure]' extra is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+    import urllib3
+
+../../.venv-webshop/lib/python3.10/site-packages/thefuzz/fuzz.py:11
+  /home/user/work/bgyfw/harness/.venv-webshop/lib/python3.10/site-packages/thefuzz/fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+    warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /home/user/work/bgyfw/harness/output/webshop-preparation/20261112/upstream-tests.xml -
+=========================== short test summary info ============================
+FAILED tests/web-agent-site/engine/test_goal.py::test_get_type_reward - asser...
+1 failed, 5 passed, 6 warnings in 0.61s

@@ -1,0 +1,61 @@
+{
+  "status": "ready",
+  "started_unix": 1794485030.4067004,
+  "steps": [
+    {
+      "name": "venv",
+      "returncode": 0,
+      "seconds": 1.2652847490389831
+    },
+    {
+      "name": "pip",
+      "returncode": 0,
+      "seconds": 2.617511384014506
+    },
+    {
+      "name": "cpu-torch",
+      "returncode": 0,
+      "seconds": 31.506877260981128
+    },
+    {
+      "name": "runtime",
+      "returncode": 0,
+      "seconds": 82.3901759510045
+    },
+    {
+      "name": "pyserini",
+      "returncode": 0,
+      "seconds": 25.80310661002295
+    },
+    {
+      "name": "spacy-model",
+      "returncode": 0,
+      "seconds": 2.7183186400216073
+    },
+    {
+      "name": "import-check",
+      "returncode": 1,
+      "seconds": 1.816785011033062
+    }
+  ],
+  "gpu_used": false,
+  "existing_training_environments_modified": false,
+  "upstream_setup_script_executed": false,
+  "error_type": "RuntimeError",
+  "error": "Runtime preparation failed at import-check",
+  "finished_unix": 1794485317.7366467,
+  "repair_reason": "Declared encoder import requires onnxruntime even for sparse search",
+  "recovery_steps": [
+    {
+      "name": "runtime-repair",
+      "returncode": 0,
+      "seconds": 7.2748621789505705
+    },
+    {
+      "name": "import-recheck",
+      "returncode": 0,
+      "seconds": 1.8666769419796765
+    }
+  ],
+  "requirements_sha256": "050b07d91ed5a0b34c9046b01729b0056838ab97264cb970260caa4f6d680182"
+}

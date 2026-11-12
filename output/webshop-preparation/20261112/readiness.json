@@ -1,0 +1,23 @@
+{
+  "status": "development_ready_benchmark_not_ready",
+  "recorded_unix": 1794486194.1855876,
+  "smoke_status": "ready_for_development",
+  "runtime_ready": true,
+  "mechanics_checked": true,
+  "upstream_unit_tests": {
+    "passed": 5,
+    "failed": 1,
+    "unchanged": true
+  },
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "full_catalog_downloaded": false,
+  "formal_protocol_frozen": false,
+  "open_items": [
+    "Reference NLP reward environment",
+    "Full catalog and verified goal split",
+    "Public-observation student adapter",
+    "Outcome calibration and formal protocol"
+  ]
+}

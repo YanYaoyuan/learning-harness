@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "started_unix": 1794485030.4067004,
+  "steps": [
+    {
+      "name": "venv",
+      "returncode": 0,
+      "seconds": 1.2652847490389831
+    },
+    {
+      "name": "pip",
+      "returncode": 0,
+      "seconds": 2.617511384014506
+    },
+    {
+      "name": "cpu-torch",
+      "returncode": 0,
+      "seconds": 31.506877260981128
+    },
+    {
+      "name": "runtime",
+      "returncode": 0,
+      "seconds": 82.3901759510045
+    },
+    {
+      "name": "pyserini",
+      "returncode": 0,
+      "seconds": 25.80310661002295
+    },
+    {
+      "name": "spacy-model",
+      "returncode": 0,
+      "seconds": 2.7183186400216073
+    },
+    {
+      "name": "import-check",
+      "returncode": 1,
+      "seconds": 1.816785011033062
+    }
+  ],
+  "gpu_used": false,
+  "existing_training_environments_modified": false,
+  "upstream_setup_script_executed": false,
+  "error_type": "RuntimeError",
+  "error": "Runtime preparation failed at import-check",
+  "finished_unix": 1794485178.5270169
+}

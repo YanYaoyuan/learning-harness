@@ -1,0 +1,25 @@
+# Isolated CPU text runtime for upstream WebShop 64fa2a5.
+# CPU torch is installed separately from the official PyTorch CPU wheel index.
+beautifulsoup4==4.11.1
+cleantext==1.1.4
+Flask==2.1.2
+Werkzeug==2.1.2
+gym==0.24.0
+numpy==1.22.4
+pandas==1.4.2
+scipy==1.10.1
+scikit-learn==1.1.1
+spacy==3.3.0
+typing_extensions==4.5.0
+transformers==4.19.2
+selenium==4.2.0
+thefuzz==0.19.0
+rich==12.4.4
+requests==2.27.1
+tqdm==4.64.0
+rank_bm25==0.2.2
+pyjnius==1.6.1
+faiss-cpu==1.7.4
+sentencepiece==0.1.99
+onnxruntime==1.13.1
+gdown==5.2.0
