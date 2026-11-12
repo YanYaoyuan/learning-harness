@@ -1,0 +1,46 @@
+{
+  "status": "reference_tests_passed",
+  "started_unix": 1794488351.096265,
+  "source_revision": "61e56dbba107ae13ff49e6058d7d2aad23326929",
+  "gpu_used": false,
+  "model_calls": 0,
+  "official_test_evaluations": 0,
+  "original_current_source_modified": false,
+  "source_archive": {
+    "url": "https://codeload.github.com/princeton-nlp/WebShop/tar.gz/61e56dbba107ae13ff49e6058d7d2aad23326929",
+    "path": "/home/user/work/bgyfw/harness/data/downloads/webshop-61e56dbba107ae13ff49e6058d7d2aad23326929.tar.gz",
+    "bytes": 14906019,
+    "sha256": "0e395ed48188c0b7fad531c15f44615b2b01b73327c697a1efa256e464ccde30"
+  },
+  "original_goal_sha256": "d6083dbff9e8b3957bef50cf56edd1f371bcd076ad8cf16fdd7eda09ee4fb87e",
+  "current_goal_sha256": "9703c8583244e2041182eb14856186b998145ab16ce2ba9aef8cb680877c8ed5",
+  "reward_logic_identical_except_model_name": true,
+  "test_sha256": {
+    "tests/web-agent-site/engine/test_goal.py": "f10b97ca81eb2f4ffd8a3a0b377f421d3c0ce50ee2d5e80d7e1f39fab228055e",
+    "tests/web-agent-site/engine/test_normalize.py": "503168a43640681d8a5863a027727c8b4c2b777358b278e3c0bd45d6f2f476a4"
+  },
+  "nlp_wheel": {
+    "url": "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.3.0/en_core_web_lg-3.3.0-py3-none-any.whl",
+    "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/models/webshop-nlp/en_core_web_lg-3.3.0-py3-none-any.whl",
+    "bytes": 400651786,
+    "sha256": "6ce19d37dfe5280400f80a5954d41afca10cbc742b97bfcf4b0e452b6eb24273"
+  },
+  "tests_returncode": 0,
+  "tests_argv": [
+    "/home/user/work/bgyfw/harness/.venv-webshop/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-o",
+    "addopts=",
+    "-p",
+    "no:cacheprovider",
+    "--junitxml=/home/user/work/bgyfw/harness/output/webshop-preparation/20261112/original-reference/tests.xml",
+    "/home/user/work/bgyfw/harness/third_party/WebShop-2022-reference/tests/web-agent-site/engine/test_goal.py",
+    "/home/user/work/bgyfw/harness/third_party/WebShop-2022-reference/tests/web-agent-site/engine/test_normalize.py"
+  ],
+  "source_path": "/home/user/work/bgyfw/harness/third_party/WebShop-2022-reference",
+  "nlp_pythonpath": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/models/webshop-nlp/python-packages",
+  "ended_unix": 1794488417.880081,
+  "full_benchmark_ready": false
+}

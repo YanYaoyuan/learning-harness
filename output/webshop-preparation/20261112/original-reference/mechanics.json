@@ -1,0 +1,44 @@
+{
+  "status": "original_reward_preview_mechanics_passed",
+  "started_unix": 1794488645.7280834,
+  "ended_unix": 1794488646.0798545,
+  "nlp_meta": {
+    "lang": "en",
+    "name": "core_web_lg",
+    "version": "3.3.0"
+  },
+  "source_sha256": {
+    "web_agent_site/engine/goal.py": "d6083dbff9e8b3957bef50cf56edd1f371bcd076ad8cf16fdd7eda09ee4fb87e",
+    "web_agent_site/engine/engine.py": "9b86ffc82951124f5c4a7eb8103de14100dbee11ba8869951ed6fb8feaeef804",
+    "web_agent_site/envs/web_agent_text_env.py": "7a939687616023d2ecd03e6e65c5b5199e3425770fdc65f26aaef5c41d0b8d17"
+  },
+  "source_unchanged": true,
+  "products": 1000,
+  "synthetic_goals": 6910,
+  "steps": [
+    {
+      "action": "search[shirt]",
+      "observation_nonempty": true,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "click[b09qgk5xhz]",
+      "observation_nonempty": true,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action": "click[buy now]",
+      "observation_nonempty": true,
+      "reward": 0.0,
+      "done": true
+    }
+  ],
+  "model_calls": 0,
+  "gpu_used": false,
+  "human_goals_used": false,
+  "official_test_evaluations": 0,
+  "full_benchmark_ready": false,
+  "note": "Predetermined public actions; reward is not an agent-performance result"
+}

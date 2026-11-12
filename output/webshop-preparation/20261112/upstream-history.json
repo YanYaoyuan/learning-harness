@@ -1,0 +1,45 @@
+{
+  "repository": "https://github.com/princeton-nlp/WebShop",
+  "revision": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd",
+  "checked_unix": 1794488187.7809706,
+  "histories": {
+    "web_agent_site/engine/goal.py": [
+      {
+        "sha": "d149d0d7a5219c1ea4e60c80f2364a15eb324d7b",
+        "date": "2024-05-25T13:06:28Z",
+        "message": "Small Fixes and now working on Apple Mac",
+        "url": "https://github.com/princeton-nlp/WebShop/commit/d149d0d7a5219c1ea4e60c80f2364a15eb324d7b"
+      },
+      {
+        "sha": "61e56dbba107ae13ff49e6058d7d2aad23326929",
+        "date": "2022-07-17T00:47:25Z",
+        "message": "init",
+        "url": "https://github.com/princeton-nlp/WebShop/commit/61e56dbba107ae13ff49e6058d7d2aad23326929"
+      }
+    ],
+    "tests/web-agent-site/engine/test_goal.py": [
+      {
+        "sha": "61e56dbba107ae13ff49e6058d7d2aad23326929",
+        "date": "2022-07-17T00:47:25Z",
+        "message": "init",
+        "url": "https://github.com/princeton-nlp/WebShop/commit/61e56dbba107ae13ff49e6058d7d2aad23326929"
+      }
+    ],
+    "requirements.txt": [
+      {
+        "sha": "61e56dbba107ae13ff49e6058d7d2aad23326929",
+        "date": "2022-07-17T00:47:25Z",
+        "message": "init",
+        "url": "https://github.com/princeton-nlp/WebShop/commit/61e56dbba107ae13ff49e6058d7d2aad23326929"
+      }
+    ],
+    "setup_arm.sh": [
+      {
+        "sha": "d149d0d7a5219c1ea4e60c80f2364a15eb324d7b",
+        "date": "2024-05-25T13:06:28Z",
+        "message": "Small Fixes and now working on Apple Mac",
+        "url": "https://github.com/princeton-nlp/WebShop/commit/d149d0d7a5219c1ea4e60c80f2364a15eb324d7b"
+      }
+    ]
+  }
+}
