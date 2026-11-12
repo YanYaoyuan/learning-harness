@@ -66,3 +66,11 @@ API低NLL组提高13.281pp、随机提高3.906pp；generic低NLL仅提高0.391pp
 ![两个初始化的预设中途图](../output/variance-diagnostic-v1/stage4/interim/node-08/action-matched-policies.png)
 
 这是固定开发任务上的描述性中途结果，尚有四个初始化未完成；不输出未经校准的区间，不据此调整队列或提前停止。[汇总](../output/variance-diagnostic-v1/stage4/interim/node-08/aggregate-summary.json)与[独立只读缓存/基线审计](BASELINE_METHOD_AUDIT_2026-11-13.zh-CN.md)分别保留，后者不替换此处的原冻结比较。
+
+### node-08历史参照补充（post hoc）
+
+将node-04的历史核对延伸至相同的两个初始化后，API旧随机/低NLL为28.125%/10.938%，新组为32.031%/24.023%；两组分别提高3.906/13.086pp。Generic旧组11.133%/5.469%，新组6.250%/3.906%，两组分别降低4.883/1.563pp。差值缩小不能统一解释成绝对能力提高；特别是Generic加入第二初始化后，低NLL组的跨轮绝对变化方向与单初始化快照不同。[绝对分数、全部配对点与控制核对](../output/variance-diagnostic-v1/stage4/historical-reference-audit/node-08/RESULTS.zh-CN.md)保留这一变化。
+
+补充仅复用新旧各32份记录，新增模型/环境/教师调用均为0。它仍是事后跨轮描述，不是新的预设主要比较或因果中介估计；原node-08及完整六初始化队列保持原样。
+
+[独立均值及逐初始化核对](../output/research-operations/20261113/stage4-history-node8-local-check.json)保留全部四个来源×初始化组合；Generic初始化202的策略差值从−2.734pp到−3.125pp，不能把总体差距缩小表述为每个初始化都改善。[补充W&B图表](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b-history-node08)的4个汇总文件已下载逐字节核验。

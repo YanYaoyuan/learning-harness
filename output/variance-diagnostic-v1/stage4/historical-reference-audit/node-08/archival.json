@@ -1,0 +1,16 @@
+{
+  "status": "uploaded",
+  "checked_unix": 1794517393.3766124,
+  "run_id": "76f7e74a6c3b-history-node08",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b-history-node08",
+  "post_hoc": true,
+  "aggregate_only": true,
+  "raw_task_records_uploaded": false,
+  "new_model_calls": 0,
+  "uploaded_sha256": {
+    "aggregate-summary.json": "2ab9ab616cbeaceb0f481422fcbe4e05e4723838ebbaf843db0b59944b697d51",
+    "historical-reference.png": "49af0d7a406cd7d2a2546d55629d38de22d16e1d216966d020ebe306f1f8baab",
+    "historical-reference.pdf": "69e3936fbbe1e408df7c855bf1731b41d9fec1c424f5d77025d626c5799a4852",
+    "RESULTS.zh-CN.md": "0492a7c5711276439ac9258191aee415f9e0061d4deab8acd055e7dd96e93abc"
+  }
+}
