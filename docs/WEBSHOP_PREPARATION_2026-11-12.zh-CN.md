@@ -1,6 +1,6 @@
 # WebShop 第二环境准备记录
 
-这是环境准备与协议审计，不是第二环境上的方法效果实验。当前状态为 `development_ready / benchmark_not_ready`。ALFWorld Stage 3继续使用原冻结协议、GPU与预算；本准备使用独立CPU环境，没有教师调用或正式测试评测。
+这是环境准备与协议审计，不是第二环境上的方法效果实验。当前状态仍为 `development_ready / benchmark_not_ready`。2026-11-13已补齐完整商品/属性文件及流式结构审计，详见文末；完整索引、目标映射、公开信息接口与正式协议仍待完成。ALFWorld Stage 3已完成，Stage 4按独立冻结协议运行；本准备使用独立CPU环境，没有教师调用或正式测试评测。
 
 ## 已执行与可复现入口
 
@@ -21,7 +21,7 @@
 
 商品1000条、属性1000条，另有10136项人类指令注释。上游加载器即使关闭人类目标仍会打开注释文件；本次仅使用合成目标，未执行人类测试目标。两个镜像一致不等于已验证与原作者发布文件逐字节一致。完整URL、文件大小、SHA256、实际机械动作见 `smoke.json`。
 
-原始数据位于用户指定磁盘 `.../WorkSpace/learning-harness-lab/data/webshop/smoke1000/`，源码目录保留文件链接。GitHub仅上传代码和来源收据，排除商品数据、索引和虚拟环境。本次没有下载完整商品库，1000商品环境不能标为完整WebShop benchmark。
+预览原始数据位于用户指定磁盘 `.../WorkSpace/learning-harness-lab/data/webshop/smoke1000/`，源码目录保留文件链接。GitHub仅上传代码和来源收据，排除商品数据、索引和虚拟环境。2026-11-12的准备没有下载完整商品库，1000商品环境不能标为完整WebShop benchmark；完整文件于次日另外获取，旧预览保留。
 
 ## 初次单元测试：当前上游SM版本5项通过，1项失败
 
@@ -54,3 +54,20 @@ Stage 3完成后按其中得到的机制假设设计复现实验：固定来源�
 原版源码还完成了相同1000商品预览的搜索→详情→模拟购买终止检查，使用6910个合成目标之一、0次学生/教师LLM调用、0个正式测试目标。代码前后哈希一致。这里的终止奖励0仍是预设动作的机械检查，不是agent成绩。
 
 入口为`scripts/check_webshop_original_reward.py`与`scripts/smoke_webshop_original_reward.py`。收据、XML、原失败日志和提交历史全部保留在`output/webshop-preparation/20261112/`，最新奖励准备状态见`readiness-latest.json`。原版和当前上游版本并存，不能将单个奖励测试通过称为整个WebShop benchmark就绪。正式环境、完整目录、划分、学生可见信息与预算仍需另行固定；比较论文原始分数时优先采用原版奖励语义，并注明版本。
+
+## 2026-11-13：完整商品文件获取与流式结构审计
+
+两份官方完整文件链接在本次HEAD探测中均返回404，原始地址和结果保存在`20261113/official-full-links-probe.json`。两个既定社区镜像的固定版本元信息声明相同的完整文件大小和LFS SHA256；实际从第一个镜像下载一次，并逐文件核对实际字节与两份元信息一致。没有据此声称已和原作者文件逐字节核验。
+
+| 文件 | 实际字节数 | SHA256 |
+|---|---:|---|
+| items_shuffle.json | 5,479,720,229 | 2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8 |
+| items_ins_v2.json | 186,295,270 | 1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e |
+
+文件位于指定硬盘`learning-harness-lab/data/webshop/full-catalog-2ef591d65df3/`。下载入口`scripts/download_webshop_full_catalog.py`使用固定元信息、SHA256和容量预留；不覆盖已有收据/文件，不改现有预览路径，失败保留部分文件。获取收据为`output/webshop-preparation/20261113/full-catalog/download.json`。
+
+随后用独立CPU环境的ijson 3.3.0/yajl2_c流式解析，而非把5.5GB商品库整体读入内存：原始商品1,181,436条，ASIN均唯一；按原上游ASIN过滤规则排除6条，剩1,181,430条。属性记录1,181,436条，全部可用商品有属性记录。本次检查的必需字段无缺失，字符串及首图片等有限类型核对未发现不兼容；这不替代完整环境加载、价格/选项规范化及检索核验。
+
+本次审计约21秒，峰值RSS约287MiB，没有打开人类目标注释文件、生成目标映射或运行正式测试。完整来源/结构收据在`output/webshop-preparation/20261113/`，入口`scripts/audit_webshop_full_catalog.py`，固定新增CPU依赖在`configs/webshop-data-requirements.txt`。训练环境未安装此依赖。
+
+完整检索索引、固定随机数下的目标身份与划分、仅使用可见信息的学生接口，以及正式训练/评测预算仍未完成。完整文件获取不被写作第二环境结果。

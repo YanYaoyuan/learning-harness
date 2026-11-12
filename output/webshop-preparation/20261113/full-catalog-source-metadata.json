@@ -1,0 +1,149 @@
+{
+  "checked_unix": 1794504867.4842043,
+  "metadata_only": true,
+  "product_or_goal_contents_read": false,
+  "model_calls": 0,
+  "gpu_used": false,
+  "repositories": [
+    {
+      "repository": "YWZBrandon/webshop-data",
+      "revision": "ce990fff5aee388db2706f07820c578ab68e0453",
+      "metadata_url": "https://huggingface.co/api/datasets/YWZBrandon/webshop-data/tree/ce990fff5aee388db2706f07820c578ab68e0453?recursive=true&expand=false",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2713,
+          "type": "file",
+          "oid": "ece4edf3c17ce3df153a38c2db5203906346d61f"
+        },
+        {
+          "path": "items_human_ins.json",
+          "size": 5137548,
+          "type": "file",
+          "oid": "b2ab7479b9798e0b62ea394e065f3d506875f090"
+        },
+        {
+          "path": "items_ins_v2.json",
+          "size": 186295270,
+          "type": "file",
+          "oid": "2a4c1912d114022f6101d22d7558ad75521dae83",
+          "lfs": {
+            "oid": "1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e",
+            "size": 186295270,
+            "pointerSize": 134
+          }
+        },
+        {
+          "path": "items_ins_v2_1000.json",
+          "size": 147099,
+          "type": "file",
+          "oid": "22837ad99f3173712fc9cb1cce7de6b75fe90595"
+        },
+        {
+          "path": "items_shuffle.json",
+          "size": 5479720229,
+          "type": "file",
+          "oid": "8de5b9853120915568a8c5df0cceffc312e9d4a9",
+          "lfs": {
+            "oid": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+            "size": 5479720229,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "items_shuffle_1000.json",
+          "size": 4467013,
+          "type": "file",
+          "oid": "08dfda9a1c896e0f69d50e3437dd3fe94419b7d7"
+        },
+        {
+          "path": "subsets/10k/documents_10000.jsonl",
+          "size": 14839212,
+          "type": "file",
+          "oid": "50ba0593a32bf3a4936e8ee784a5b30fbd506099",
+          "lfs": {
+            "oid": "4e96836232c7ffa7ee568925d7486921f4771270e550767c2e4eeced07ea821d",
+            "size": 14839212,
+            "pointerSize": 133
+          }
+        },
+        {
+          "path": "subsets/10k/items_human_ins_10000.json",
+          "size": 44333,
+          "type": "file",
+          "oid": "817b1c59050a53e74c90e336998267327f03622b"
+        },
+        {
+          "path": "subsets/10k/items_ins_v2_10000.json",
+          "size": 1561520,
+          "type": "file",
+          "oid": "d35282dd19fd8d5c0a7b8046d1b355ba9b8e0cf8"
+        },
+        {
+          "path": "subsets/10k/items_shuffle_10000.json",
+          "size": 45987759,
+          "type": "file",
+          "oid": "88f7f5d9dedc545773579bbc06e0c5966181ce3e",
+          "lfs": {
+            "oid": "f17c8776cf9f34ad77a2e24b01fd9e722d2a3dbc210fd703c4a45bc43d806a0f",
+            "size": 45987759,
+            "pointerSize": 133
+          }
+        }
+      ]
+    },
+    {
+      "repository": "HongbangYuan/webshop",
+      "revision": "0129d4a81dbdb827e76afd20a1e2c38b61098613",
+      "metadata_url": "https://huggingface.co/api/datasets/HongbangYuan/webshop/tree/0129d4a81dbdb827e76afd20a1e2c38b61098613?recursive=true&expand=false",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2570,
+          "type": "file",
+          "oid": "adfc474dbd03e0d3cb2ef6e23a38fa5c9434c35e"
+        },
+        {
+          "path": "items_human_ins.json",
+          "size": 5137548,
+          "type": "file",
+          "oid": "b2ab7479b9798e0b62ea394e065f3d506875f090"
+        },
+        {
+          "path": "items_ins_v2.json",
+          "size": 186295270,
+          "type": "file",
+          "oid": "2a4c1912d114022f6101d22d7558ad75521dae83",
+          "lfs": {
+            "oid": "1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e",
+            "size": 186295270,
+            "pointerSize": 134
+          }
+        },
+        {
+          "path": "items_ins_v2_1000.json",
+          "size": 147099,
+          "type": "file",
+          "oid": "22837ad99f3173712fc9cb1cce7de6b75fe90595"
+        },
+        {
+          "path": "items_shuffle.json",
+          "size": 5479720229,
+          "type": "file",
+          "oid": "8de5b9853120915568a8c5df0cceffc312e9d4a9",
+          "lfs": {
+            "oid": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+            "size": 5479720229,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "items_shuffle_1000.json",
+          "size": 4467013,
+          "type": "file",
+          "oid": "08dfda9a1c896e0f69d50e3437dd3fe94419b7d7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "catalog_files_checksum_verified",
+  "pid": 1206340,
+  "started_unix": 1794505042.7539325,
+  "metadata_sha256": "8c1a70c642e9b4ba4eb251042e436d73117443b47b0f5a3f453f5acb0aa03495",
+  "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/full-catalog-2ef591d65df3",
+  "expected_bytes": 5666015499,
+  "files": [
+    {
+      "name": "items_shuffle.json",
+      "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/ce990fff5aee388db2706f07820c578ab68e0453/items_shuffle.json",
+      "expected_bytes": 5479720229,
+      "expected_sha256": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+      "downloaded_bytes": 5479720229,
+      "status": "checksum_verified",
+      "actual_sha256": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+      "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/full-catalog-2ef591d65df3/items_shuffle.json"
+    },
+    {
+      "name": "items_ins_v2.json",
+      "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/ce990fff5aee388db2706f07820c578ab68e0453/items_ins_v2.json",
+      "expected_bytes": 186295270,
+      "expected_sha256": "1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e",
+      "downloaded_bytes": 186295270,
+      "status": "checksum_verified",
+      "actual_sha256": "1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e",
+      "path": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/full-catalog-2ef591d65df3/items_ins_v2.json"
+    }
+  ],
+  "mirrors": [
+    {
+      "repository": "YWZBrandon/webshop-data",
+      "revision": "ce990fff5aee388db2706f07820c578ab68e0453",
+      "metadata_url": "https://huggingface.co/api/datasets/YWZBrandon/webshop-data/tree/ce990fff5aee388db2706f07820c578ab68e0453?recursive=true&expand=false"
+    },
+    {
+      "repository": "HongbangYuan/webshop",
+      "revision": "0129d4a81dbdb827e76afd20a1e2c38b61098613",
+      "metadata_url": "https://huggingface.co/api/datasets/HongbangYuan/webshop/tree/0129d4a81dbdb827e76afd20a1e2c38b61098613?recursive=true&expand=false"
+    }
+  ],
+  "original_author_byte_identity_verified": false,
+  "official_full_links_returned_404": true,
+  "human_goals_read": false,
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "full_benchmark_ready": false,
+  "existing_environment_or_preview_modified": false,
+  "finished_unix": 1794505097.3399317,
+  "remaining": [
+    "Streaming catalog/schema audit",
+    "Full retrieval index",
+    "Goal mapping and disjoint split protocol",
+    "Public-only student interface"
+  ]
+}

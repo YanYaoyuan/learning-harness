@@ -16,7 +16,7 @@
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 
-Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [共用队列、报告与汇总云端记录](docs/CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。半小时监督器已覆盖Stage 2/3、固定检查点复测与Stage 4；不按观察到的效果提前停止。其余准备：[API/ReAct全合格成功经验预算审计](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md) · [WebShop独立CPU环境与协议检查](docs/WEBSHOP_PREPARATION_2026-11-12.zh-CN.md)。WebShop目前是1000商品开发预览，正式benchmark尚未就绪。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
+Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [共用队列、报告与汇总云端记录](docs/CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。半小时监督器已覆盖Stage 2/3、固定检查点复测与Stage 4；不按观察到的效果提前停止。其余准备：[API/ReAct全合格成功经验预算审计](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md) · [WebShop独立CPU环境与协议检查](docs/WEBSHOP_PREPARATION_2026-11-12.zh-CN.md)。WebShop现有可运行流程仍为1000商品预览；完整118万商品库已另行下载并做结构审计，完整索引与正式划分尚未就绪。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 

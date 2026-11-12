@@ -1,0 +1,34 @@
+{
+  "status": "full_catalog_schema_audited",
+  "checked_unix": 1794505250.537114,
+  "acquisition_sha256": "3b43c59acfa0d4fcdef122d28cf2c48e982a0658f1a8ed29f4968b418423c577",
+  "file_sha256": {
+    "items_shuffle.json": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+    "items_ins_v2.json": "1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e"
+  },
+  "parser": {
+    "name": "ijson",
+    "version": "3.3.0",
+    "backend": "yajl2_c"
+  },
+  "counts": {
+    "raw_products": 1181436,
+    "upstream_usable_products": 1181430,
+    "upstream_filtered_asin_rows": 6
+  },
+  "unique_raw_asins": 1181436,
+  "required_field_missing_counts": {},
+  "possible_upstream_incompatibilities": {},
+  "attribute_records": 1181436,
+  "attribute_records_without_attributes": 0,
+  "usable_products_with_attribute_record": 1181430,
+  "usable_products_without_attribute_record": 0,
+  "cpu_elapsed_seconds": 21.083085275022313,
+  "peak_rss_kib": 294136,
+  "human_annotation_file_opened": false,
+  "goal_mapping_built": false,
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "full_benchmark_ready": false
+}
