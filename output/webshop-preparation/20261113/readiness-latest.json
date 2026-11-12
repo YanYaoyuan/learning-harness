@@ -1,6 +1,6 @@
 {
-  "status": "full_index_public_preview_and_goal_identity_ready",
-  "checked_unix": 1794507274.3162117,
+  "status": "full_train_environment_ready_for_model_calibration",
+  "checked_unix": 1794508612.8744936,
   "full_catalog_raw_products": 1181436,
   "full_catalog_usable_products": 1181430,
   "search_documents": 1181370,
@@ -15,8 +15,9 @@
   "gpu_used": false,
   "full_benchmark_ready": false,
   "remaining": [
-    "Integrate public adapter with a full environment factory restricted to the requested split before constructor auto-reset; verify all goal fingerprints",
-    "Freeze actual experiment collection/training/evaluation budgets, methods and statistical protocol before official test episodes"
+    "Prepare a declared chat/native rendering port of published ReAct and Act-only prompts, then freeze train-only baseline calibration protocol",
+    "Run local base-model calibration only after Stage4 releases the GPUs",
+    "Freeze actual collection/SFT/benchmark/statistical protocol before official test model evaluations"
   ],
   "goal_identity_protocol_frozen": true,
   "goal_identity_freeze_sha256": "ce3818cf416e775fb031cd99a066e2eff017e16333b30d3125c6d2ef38891233",
@@ -45,5 +46,12 @@
   },
   "goal_identity_manifest_sha256": "b5d66a5bd3440f9a4cfdc04e23b3c8004e672bdfd54300ba75e3ad187b8e46e3",
   "human_goal_text_exposed_to_student": false,
-  "goal_episode_resets": 0
+  "goal_episode_resets": 0,
+  "full_environment_train_mechanics_passed": true,
+  "full_environment_verification": "output/webshop-preparation/20261113/full-environment/mechanics.json",
+  "full_environment_factory_sha256": "4fa43a9b2ca0794b26e12bc23d37521fbba4a4cd5d3d8103414606c9ef261d10",
+  "verified_global_goal_fingerprints": 12087,
+  "training_mechanics_episodes": 1,
+  "eval_episodes": 0,
+  "cpu_suite_tests": 211
 }

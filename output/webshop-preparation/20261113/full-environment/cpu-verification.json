@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "recorded_unix": 1794508612.8746192,
+  "tests": 211,
+  "failures": 0,
+  "execution_output": "211 passed in 0.89s",
+  "scope": "Entire clean CPU suite after split-restricted full environment factory; six new tests include constructor auto-reset and session ownership",
+  "gpu_used": false
+}

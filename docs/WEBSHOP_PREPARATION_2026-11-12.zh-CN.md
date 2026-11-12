@@ -1,6 +1,6 @@
 # WebShop 第二环境准备记录
 
-这是环境准备与协议审计，不是第二环境上的方法效果实验。当前状态仍为 `development_ready / benchmark_not_ready`。2026-11-13已补齐完整商品/属性文件及流式结构审计，详见文末；完整索引、目标映射、公开信息接口与正式协议仍待完成。ALFWorld Stage 3已完成，Stage 4按独立冻结协议运行；本准备使用独立CPU环境，没有教师调用或正式测试评测。
+这是环境准备与协议审计，不是第二环境上的方法效果实验。当前为 `full_train_environment_ready_for_model_calibration / benchmark_not_ready`：完整商品、索引、12,087个目标身份和train目标池隔离均已核验，完整目录公开接口的train机械流程通过。公开ReAct/Act-only提示已获取；模型校准与正式效果协议尚未执行/冻结。ALFWorld Stage 3已完成，Stage 4按独立冻结协议运行；本准备使用独立CPU环境，没有教师调用或正式测试评测。
 
 ## 已执行与可复现入口
 
@@ -95,3 +95,15 @@ Stage 3完成后按其中得到的机制假设设计复现实验：固定来源�
 按协议先做的内容审计发现：train/test共享13种完整目标指纹、13种可见指令指纹、108种目标商品；train/eval对应25/25/252，eval/test对应2/2/23。这些是不同指纹或商品集合的交集大小，不是重叠回合数，也不意味着未来实际采集的训练池一定包含这些目标。标准split的索引互斥，内容与商品并不完全互斥；不改划分、删目标或以此选择模型。后续如报告去重子集，须在模型效果出来前另定规则并与完整标准测试分列。
 
 收据为`goal-identities/sealed.json`，第一次完整载入及目标生成已实际执行。剩余是把公开输入接口接入完整环境工厂，先用原`filter_goals(i, goal)`验证冻结身份并限制目标池，再创建会自动reset的环境；以及正式模型、采集、训练和评测协议。目标映射完成仍不作为模型效果或benchmark全流程已完成的证据。
+
+## 2026-11-13：完整目录的目标池隔离与公开接口接通
+
+`webshop_factory.py`先检查32个冻结身份输入、运行依赖和本地目标清单。原`SimServer.filter_goals(i, goal)`回调逐一核对12,087个完整目标/可见指令指纹，再只保留请求split；全部核验完成且服务器尚无用户会话时，才允许创建会自动reset的原环境。全局/局部目标索引显式映射，越split请求在环境构造之前拒绝。多个回合共享受限服务器，但用不同session前缀；关闭一个回合只清理自己的会话。
+
+新增6项CPU检查覆盖构造器自动reset、错误指纹、遍历不完整、池顺序变化、越split请求和并行回合的会话清理。完整独立CPU套件211项通过。随后`scripts/smoke_webshop_full.py`实际加载完整目录并验证全部12,087个指纹；首次环境构造前只有10,587个train目标、0个会话。对固定train全局索引1500执行公开搜索→点击公开商品→购买，原奖励/终止流程正常，关闭后会话数为0。
+
+本次使用预定动作而非模型，终止奖励0不代表agent效果。没有创建eval/test回合，0次模型/教师调用；目标文本和逐目标身份清单没有上传。原237个Stage 4输入、32个WebShop身份输入和原奖励源码均保持一致。收据为`output/webshop-preparation/20261113/full-environment/mechanics.json`。
+
+调用入口为`build_full_environment(identity_root, split)`和`factory.episode(global_index)`；学生仅接收公开view，完整目标核验与全局索引映射留在后台。此处的split是调用者显式指定的角色；正式test调用仍须等待另行冻结的模型效果协议。本轮实际只调用train。
+
+下一步是[公开基线提示与本地校准准备](WEBSHOP_REACT_BASELINE_PREPARATION_2026-11-13.zh-CN.md)：固定基础模型、chat/观察桥接和训练集校准预算，再运行模型。当前两卡仍供原Stage 4，不复用正在切换adapter的模型服务来做新环境试验。
