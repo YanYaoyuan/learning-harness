@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/princeton-nlp/LESS",
+  "revision": "8abf9628b9a814ac3045445eebc8ba3c908fdc78",
+  "retrieved_unix": 1794581744.280979,
+  "files": {
+    "README.md": "ea369243837745937230cee78d621b8462bcdcbbe935f0f93ca81478c24bc28f",
+    "LICENSE": "7735771cbaf9bbaedc38935d08ae54b0f9ea0891d910bff6bb99e63e0e0dd8bc",
+    "less/data_selection/collect_grad_reps.py": "9a7511321b6d13e5634574ce897692a7c30a4b62a8a333fef488a63279bf82d6",
+    "less/data_selection/matching.py": "5c2d95a2dca49cd644ed5684481f1d41e6eb775920820ca50245949d4521b466",
+    "less/data_selection/get_info.py": "3d1ad5a83743cae8c7c193449408ab3c9944223bc6485a735d89a2afdaaef309"
+  },
+  "purpose": "Read-only official source reference for the strong selection baseline; partial snapshot, not an installed or executed reproduction."
+}

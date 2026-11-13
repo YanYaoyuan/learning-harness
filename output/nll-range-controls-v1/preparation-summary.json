@@ -1,0 +1,203 @@
+{
+  "status": "candidate_schedules_prepared_not_trained",
+  "schedules": 32,
+  "model_calls": 0,
+  "training_runs": 0,
+  "fresh_query_evaluations": 0,
+  "rows": [
+    {
+      "source": "api",
+      "recipe": 101,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.23956090763095403,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.10028019918507493,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.12116701565599974,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.304020903413669,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "api",
+      "recipe": 202,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.23347411837405738,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.116002756826238,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.1386748228382694,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.30572107304630497,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "api",
+      "recipe": 303,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.2013363817574431,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.08968350489062026,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.1101116360979847,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.29783686576025525,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "api",
+      "recipe": 404,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.16242913833890643,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.08108914568233279,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.11081429250372564,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.29314237751861705,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "generic",
+      "recipe": 101,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.08807214976248624,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.059364263554041195,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.06355041445503311,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.14439817265238544,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "generic",
+      "recipe": 202,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.12119720148202752,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.0726431363703887,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.07454203731433524,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.14784340032822954,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "generic",
+      "recipe": 303,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.09570728317063502,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.05868036047249039,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.06325014106310012,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.14134731570921436,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    },
+    {
+      "source": "generic",
+      "recipe": 404,
+      "policies": {
+        "random": {
+          "mean_selected_nll": 0.09814831201415646,
+          "distinct_support": 256
+        },
+        "low": {
+          "mean_selected_nll": 0.05221503022630667,
+          "distinct_support": 256
+        },
+        "middle": {
+          "mean_selected_nll": 0.059256332056740725,
+          "distinct_support": 256
+        },
+        "high": {
+          "mean_selected_nll": 0.13146432408104716,
+          "distinct_support": 256
+        }
+      },
+      "all_budget_controls_passed": true,
+      "random_and_low_identical_to_completed_canonical_study": true
+    }
+  ],
+  "provenance_sha256": "a8e4a7d5e6f43c6646c0b02a9e1cedb9e4b9365d792cf6634875e784a34a5e5c",
+  "scope": "Selection controls prepared on historical training pools; a separate protocol must fix fresh evaluation and the gradient baseline before training."
+}

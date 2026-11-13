@@ -4,6 +4,8 @@
 
 **当前状态（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 
+**后续验证**：独立新任务基础校准64/64回合完成，JSON成功9/32、公开ReAct成功21/32，GPU0计账8.20分钟；128开发与128确认任务未评测。已准备32份NLL范围候选清单及40条公开目标支持样本，强选样主训练尚未开始。[完整校准结果](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) · [下一阶段工作单](docs/EXPERIENCE_VALUE_NEXT_STUDY_2026-11-13.zh-CN.md)。
+
 | 实验 | 状态 | 结果与入口 |
 |---|---|---|
 | API辅助 vs ReAct自采，共同成功匹配 | 完成4,284次评测 | 主AUC差−3.56pp；三种子−9.77/−3.42/+2.49pp。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) |
@@ -16,6 +18,7 @@
 | 独立NLL评分诊断 | 完成1,194次forward、853/853统一评分，107.127 GPU秒 | 重复与直接loss门槛通过，旧批布局完全复现；统一评分后原内容保留95.703%–98.438%，未重训新名单。[结果与图](output/nll-scoring-diagnostic-v1/RESULTS.zh-CN.md) |
 | WebShop基础学生校准 | 完成64个train回合、463次请求，243.564 GPU秒 | 两套公开提示成功5/32与6/32，模型请求错误0；属于起点校准，正式学习对照尚未启动。[结果与图](output/webshop-development-pilot-v1/RESULTS.zh-CN.md) |
 | 统一评分选样复现 | 完成96模型/6,144回合，14.350累计GPU小时 | 低NLL−随机API −3.516pp、Generic −3.060pp；API六初始化平均为负，Generic五负一正；所有正向配对保留。[完整结果与图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md) |
+| 独立新任务基础执行校准 | 完成64回合、1,801次请求，491.897 GPU秒 | JSON 9/32、ReAct 21/32；开发/确认集尚未评测，无新SFT结果。[结果与图](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) |
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 

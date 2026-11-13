@@ -1,0 +1,12 @@
+{
+  "freeze_sha256": "d66fc9ceb9f29e197efe8d867ff95d87da4829322a75a4e2025b1ac11c700f61",
+  "protocol": "fresh-executor-calibration-v1",
+  "frozen_inputs": 329,
+  "planned_episodes": 64,
+  "cap_gpu_hours": 1,
+  "gpu": 0,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "preparation_sha256": "45527ef913e73ca093ebc81021f14b7cb18e8835e7329f4b80055f8dceffbb63",
+  "raw_records_uploaded": false
+}

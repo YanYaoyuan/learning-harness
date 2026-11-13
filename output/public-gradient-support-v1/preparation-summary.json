@@ -1,0 +1,21 @@
+{
+  "status": "public_target_support_candidates_not_trained",
+  "examples": 40,
+  "per_public_demo": {
+    "react_put_0": 6,
+    "react_put_1": 12,
+    "react_clean_0": 8,
+    "react_clean_1": 14
+  },
+  "length_rejected": {},
+  "max_sequence_length": 2048,
+  "assistant_only_target": true,
+  "thoughts_removed": true,
+  "query_answers_used": false,
+  "new_model_calls": 0,
+  "teacher_calls": 0,
+  "support_sha256": "f79e41834d1f6efab71aafd1051c9f274de1d6175fefe46526e4fb3656946a7e",
+  "public_source_sha256": "a10976b4ae99f4802aa9e621933bb71065ae103f2bd273a24466ab1005fbc45a",
+  "parser_sha256": "c68e35f22d42cd9548a69ed36c502c67865986fb5bf768327f3caf07e3cac8b8",
+  "scope": "Public support shared with ReAct prompting, not fresh supervised tasks; freeze its role, weights and cost in the later selection protocol."
+}

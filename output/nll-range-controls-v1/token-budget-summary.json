@@ -1,0 +1,298 @@
+{
+  "status": "cpu_token_exposure_audited",
+  "rows": [
+    {
+      "source": "api",
+      "policy": "high",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 473070,
+      "supervised_target_tokens": 9785,
+      "schedule_sha256": "774b328a641a59e6356625ab33e8d02a5a0a134f69e86f94f5819fbe65f0a04d"
+    },
+    {
+      "source": "api",
+      "policy": "high",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 479621,
+      "supervised_target_tokens": 9878,
+      "schedule_sha256": "6e6493d285f2517ae2f4704d2333058b8ad2e6957501037e8e4f594e0058b9dc"
+    },
+    {
+      "source": "api",
+      "policy": "high",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 475033,
+      "supervised_target_tokens": 9862,
+      "schedule_sha256": "e4979993413697dc475094cd375a5fb816599402bc74ad8b29bb28202eb1dee7"
+    },
+    {
+      "source": "api",
+      "policy": "high",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 480457,
+      "supervised_target_tokens": 9811,
+      "schedule_sha256": "00e01e0eca83d21aa9f0f0b97c13cf89449c2d52d82ca9a9dc52c1b849de0af4"
+    },
+    {
+      "source": "generic",
+      "policy": "high",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 507689,
+      "supervised_target_tokens": 9493,
+      "schedule_sha256": "4a9c261e9942d97fee5ff8dde15d0c65b3d8ae73c08442a7c8c3773cea56b754"
+    },
+    {
+      "source": "generic",
+      "policy": "high",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 508044,
+      "supervised_target_tokens": 9578,
+      "schedule_sha256": "2250cb8ef0437dd719e867148b3a25c303509907d1da765ca1d602de38cea82b"
+    },
+    {
+      "source": "generic",
+      "policy": "high",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 504447,
+      "supervised_target_tokens": 9482,
+      "schedule_sha256": "8101569697c4b97bb918dcccff399494f63f34a7370b2266b7acc3612f70318d"
+    },
+    {
+      "source": "generic",
+      "policy": "high",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 502108,
+      "supervised_target_tokens": 9318,
+      "schedule_sha256": "1335d0bf37443d3180c7747eb6cbc8a739027d683c7a119c4d1b9d1ddb5a3a7f"
+    },
+    {
+      "source": "api",
+      "policy": "low",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 495483,
+      "supervised_target_tokens": 9803,
+      "schedule_sha256": "a6519e32889326be5b08490e2e44745344720dd5c38ec8e5f81add5921931dc3"
+    },
+    {
+      "source": "api",
+      "policy": "low",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 496778,
+      "supervised_target_tokens": 9851,
+      "schedule_sha256": "e932f89110f40ef6ae960db84ccb976ae9d6a8f38835bc3cc389966b39947f2d"
+    },
+    {
+      "source": "api",
+      "policy": "low",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 494698,
+      "supervised_target_tokens": 9864,
+      "schedule_sha256": "397cf341548c61639bf65fb03bab6793a2065d495bf00167ebeee2a08802f5af"
+    },
+    {
+      "source": "api",
+      "policy": "low",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 501601,
+      "supervised_target_tokens": 9816,
+      "schedule_sha256": "4b7b070d2def58548ef1d60de66327dda0cb4d9125a15af6ebfc56b9e32640a4"
+    },
+    {
+      "source": "generic",
+      "policy": "low",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 529079,
+      "supervised_target_tokens": 9454,
+      "schedule_sha256": "af37812e449439d25434708278b34216b8d1cefc48e6ffa1aa16ffa563f27050"
+    },
+    {
+      "source": "generic",
+      "policy": "low",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 531663,
+      "supervised_target_tokens": 9547,
+      "schedule_sha256": "2d8508ff725c1e86e21d55e906a4c96a93a208a87d25409c81e39bea72ec5a02"
+    },
+    {
+      "source": "generic",
+      "policy": "low",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 527061,
+      "supervised_target_tokens": 9433,
+      "schedule_sha256": "e8b5fbd406976ea8a405f61cbf03f3e988bd4baf2a8bc5793b97dbd12887edf5"
+    },
+    {
+      "source": "generic",
+      "policy": "low",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 526650,
+      "supervised_target_tokens": 9274,
+      "schedule_sha256": "74f94937d95b0fdec7741447e27f743df98edeb5cfac4da1a3ca49927b6ab802"
+    },
+    {
+      "source": "api",
+      "policy": "middle",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 492349,
+      "supervised_target_tokens": 9784,
+      "schedule_sha256": "6cc6f4df6fa809d5aadebd64e5b44877b8028dd81e256e259115fc263401fbaa"
+    },
+    {
+      "source": "api",
+      "policy": "middle",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 497402,
+      "supervised_target_tokens": 9878,
+      "schedule_sha256": "822b54cb95382e8432013c1d3f8964c4b064e3a70843bdd65bb92d03e1aa6d80"
+    },
+    {
+      "source": "api",
+      "policy": "middle",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 496698,
+      "supervised_target_tokens": 9861,
+      "schedule_sha256": "a5cd6d351cdf2d37cd9b236745e4f121fe5f8805625fbcf7d24a5e0ee08cb127"
+    },
+    {
+      "source": "api",
+      "policy": "middle",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 498050,
+      "supervised_target_tokens": 9814,
+      "schedule_sha256": "111a8e463b65bfc26fece8b824d2bad47360be4b170c4e1315bd534c662c4d4a"
+    },
+    {
+      "source": "generic",
+      "policy": "middle",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 521843,
+      "supervised_target_tokens": 9443,
+      "schedule_sha256": "7214dfcb3e45238e600c905706ff2414041bb81178afcdc146bc850dfcb8687c"
+    },
+    {
+      "source": "generic",
+      "policy": "middle",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 530051,
+      "supervised_target_tokens": 9552,
+      "schedule_sha256": "d5ad3cfc0098986988472adf1fc2a52b5a2a4604dfe5378a93f6c5b6858898e6"
+    },
+    {
+      "source": "generic",
+      "policy": "middle",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 524612,
+      "supervised_target_tokens": 9430,
+      "schedule_sha256": "191c3573c31316acf23d862eed22b2235debefaf765d5d91ce49dc53e9282332"
+    },
+    {
+      "source": "generic",
+      "policy": "middle",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 518810,
+      "supervised_target_tokens": 9262,
+      "schedule_sha256": "0bca661c6666d5e3def72fffe202301bafc878a253b149177d23b7fface80bab"
+    },
+    {
+      "source": "api",
+      "policy": "random",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 486623,
+      "supervised_target_tokens": 9783,
+      "schedule_sha256": "3b39c5a03228b7de565c6c5c523ac8a63236ed2c4782f9b65783448b5588e89a"
+    },
+    {
+      "source": "api",
+      "policy": "random",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 484402,
+      "supervised_target_tokens": 9881,
+      "schedule_sha256": "c607bdb336f94177fdd82d3dafd3149d78906ab100ad5a35a20edf297106890a"
+    },
+    {
+      "source": "api",
+      "policy": "random",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 480542,
+      "supervised_target_tokens": 9846,
+      "schedule_sha256": "d68cd37d0a4519155edd053317022c10ad41cf6a78494125bc84f401dac13a26"
+    },
+    {
+      "source": "api",
+      "policy": "random",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 495328,
+      "supervised_target_tokens": 9818,
+      "schedule_sha256": "e4a220864b970deadd1df4eefc7bfef1fa5fb4a1685f07d99be9c9701ec0534b"
+    },
+    {
+      "source": "generic",
+      "policy": "random",
+      "recipe": 101,
+      "presentations": 768,
+      "input_tokens_including_target": 523044,
+      "supervised_target_tokens": 9491,
+      "schedule_sha256": "3fbde088e96e28f8cb2de78d95f1030608e6f9510daa5d0f0d8ae1969a854f1b"
+    },
+    {
+      "source": "generic",
+      "policy": "random",
+      "recipe": 202,
+      "presentations": 768,
+      "input_tokens_including_target": 514993,
+      "supervised_target_tokens": 9567,
+      "schedule_sha256": "886dd74e189ac347df100b3ebce6e24c94ab14af1cefc03e6ad40c9acad773a8"
+    },
+    {
+      "source": "generic",
+      "policy": "random",
+      "recipe": 303,
+      "presentations": 768,
+      "input_tokens_including_target": 509426,
+      "supervised_target_tokens": 9462,
+      "schedule_sha256": "0852c73b723c167c554f6ee73d95ff88113ecfecd4e83995ae13be94681550a3"
+    },
+    {
+      "source": "generic",
+      "policy": "random",
+      "recipe": 404,
+      "presentations": 768,
+      "input_tokens_including_target": 514287,
+      "supervised_target_tokens": 9281,
+      "schedule_sha256": "319ccf5b668e2818030d092e60e1837ae5ef6a41bcb93e84e890d16ed5dc0521"
+    }
+  ],
+  "model_calls": 0,
+  "same_presentations": true,
+  "exact_token_budget_matching": false,
+  "scope": "Report actual exposure; fixed presentation count does not imply equal input or target token count.",
+  "preparation_sha256": "a8e4a7d5e6f43c6646c0b02a9e1cedb9e4b9365d792cf6634875e784a34a5e5c"
+}

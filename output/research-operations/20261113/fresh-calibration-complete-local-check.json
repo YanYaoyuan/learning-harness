@@ -1,0 +1,36 @@
+{
+  "status": "complete_local_audit",
+  "checked_unix": 1794582084.636854,
+  "freeze_sha256": "d66fc9ceb9f29e197efe8d867ff95d87da4829322a75a4e2025b1ac11c700f61",
+  "frozen_inputs": 329,
+  "groups": {
+    "json_direct": {
+      "episodes": 32,
+      "successes": 9,
+      "requests": 1098,
+      "unknown_requests": 0,
+      "seconds": 164.042597705964,
+      "result_sha256": "16a86761137e9f6a6919b978ff7c104d6864155ceb28204fa045e683a5aefdfb"
+    },
+    "react_retry": {
+      "episodes": 32,
+      "successes": 21,
+      "requests": 703,
+      "unknown_requests": 0,
+      "seconds": 327.85475273703923,
+      "result_sha256": "9482ca3599fe2f5993170dcf9d4bfd71e0683c5f355ee33950116b19e2b23e8d"
+    }
+  },
+  "paired_base_outcomes": {
+    "both_success": 9,
+    "json_only": 0,
+    "react_only": 12,
+    "both_fail": 11
+  },
+  "gpu_seconds": 491.89735044300323,
+  "development_evaluations": 0,
+  "confirmation_evaluations": 0,
+  "teacher_calls": 0,
+  "summary_sha256": "d284e6d577ddb563cb02e7d26aa59e9f1a8ac3e0133503590f8eaf6b49a9999b",
+  "raw_records_uploaded": false
+}
