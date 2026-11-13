@@ -1,0 +1,36 @@
+{
+  "status": "completed-evidence-only",
+  "sources": {
+    "output/variance-diagnostic-v1/stage2/summary.json": "fedd4eac6eb8439a91e3d0c0c48102a49ec329a7a92fdddbe99fb64bf6083a6e",
+    "output/variance-diagnostic-v1/stage3/summary.json": "e03827f681d57f1014bcdc986dbd9dd861f5b667f14e069b5836118662c0812d",
+    "output/variance-diagnostic-v1/stage4/summary.json": "37219b2f514f162e0cabe6b7a15f752ef6395d384314df781e9a61d7dbb21a04",
+    "output/variance-diagnostic-v1/stage4/aggregate-summary.json": "5a5fa6d7ecf5193c2b44f98a02fc8366942f508f5eaf36eebe0e2a2c5c19c910",
+    "output/nll-scoring-diagnostic-v1/aggregate-summary.json": "6cf08e05d5d3a5aee3040360918c7b1b1895d3504b9cdfc01ce1fdd63fbf555a",
+    "output/webshop-development-pilot-v1/aggregate-summary.json": "ef5d62e758b858aa4f5d1386449c6c350d770dfaa986337d3500b4e16d9cc3b6",
+    "output/source-comparison-v1/summary.json": "02c3a8d2de648362785ae2ab26a319b9793b7ee18c9547a3268924f8f947de57",
+    "docs/paper/EVIDENCE_SNAPSHOT_v0.2.json": "644ad96bf69707f2ad70323ad0cd9b02b4d0fd8d73eb824b2c474895f3c22ad6"
+  },
+  "figures": {
+    "initialization-effects.pdf": "3a328752f3001489e39007f5fc341c149a9271180b0c8a35424f2225dd70da96",
+    "scoring-diagnostic.pdf": "4cc48ce52b48d51e575a4c8496241ce6931c0e2f8eb0b11f2ee4ac0a34756689",
+    "selection-outcomes.pdf": "8222fb89103a549c4636bb3185b54c78af429e4b6caba1c48e4c7263f8647534",
+    "webshop-calibration.pdf": "b0c261f743222e71b161e336fbb404098fdca1fe4cce797e6854f782157e72f0"
+  },
+  "generated_tables": {
+    "initialization-rows.tex": "27fc3691cb460946b3124bd9bc24ee514befbb1e77b6179f259de05ec13a8ac8",
+    "selection-rows.tex": "ab75d69fc02c713c6ec1fca907add026564361f13c78855b855287ce042472d3"
+  },
+  "numeric_checks": {
+    "stage3_api_pp": -17.7734375,
+    "stage3_generic_pp": -7.8125,
+    "stage4_api_pp": -4.817708333333334,
+    "stage4_generic_pp": -2.994791666666667
+  },
+  "pending_study_not_used": "runs/variance-diagnostic-v1/stage5-canonical",
+  "raw_records_exported": false,
+  "generator": {
+    "path": "scripts/build_paper_assets.py",
+    "sha256": "e44be52b885b32830271e5e386742974f79e11105ce48d05ab3320c0fc63cd10"
+  },
+  "manuscript_version": "latex-v1"
+}

@@ -1,0 +1,16 @@
+\section{Discussion and Limitations}
+\label{sec:discussion}
+\smallpara{What the controlled result establishes.}
+At a fixed optimization dose, experience support affects task success. Even after matching task identity and distinct-content counts, low base-student action NLL is not a reliable selector in the two studied pools. A negative average remains under task/action matching. The result is a property of this selection rule, candidate support, student, and executor, rather than a theorem that easier examples are always harmful. Predictability and usefulness are different measurement targets, and these experiments show one setting in which they fail to align.
+
+\smallpara{What the controls leave open.}
+Matching action families does not equalize finer action semantics, context difficulty, recovery structure, or relevance to evaluation tasks. Restricting support also changes the NLL contrast. We therefore do not identify a causal mediation fraction or claim that these remaining features explain the result. A mechanism claim needs a measurable predictor that generalizes across collection conditions, followed by an intervention that changes outcomes while the established controls are retained.
+
+\smallpara{Generalization and statistical uncertainty.}
+The current evidence uses one backbone, two finite pools, and reused development tasks. Six initialization seeds improve visibility of conditional variation but do not replace new task identities. Formal binary-outcome interval calibration remains incomplete; we present all paired cells and per-initialization means without significance or equivalence claims. The evaluation executor is consequential: in the separate source study, base-model heating success changes from 6.25\% under JSON execution to 84.38\% under the stronger common ReAct executor. Fresh tasks, a common stronger executor, stronger selection baselines, and a second-environment learning intervention are needed before a broader benchmark claim.
+
+\smallpara{Selection units and available candidates.}
+Our selection unit is an action example with real history. A provenance audit traces 117 successful historical trajectories, but only two API tasks and one Generic task have multiple distinct, fully retained eligible complete trajectories. The old pools therefore offer little meaningful complete-trajectory choice. A trajectory-level baseline requires a new candidate pool; it cannot be manufactured by renaming the current action-level treatment.
+
+\section{Conclusion}
+We introduce and execute a progressively constrained experience-selection protocol for language-agent fine-tuning. Low action NLL is worse than random selection on average in two historical pools, including after task/action matching. Independent scoring and training-repeat audits expose practical boundaries of that observation. The next question is whether the controlled failure persists with uniform-score retraining, new tasks, stronger selectors, and an independent learning environment.

@@ -1,0 +1,19 @@
+\section{Introduction}
+\label{sec:intro}
+Language agents solve tasks through repeated interaction with an environment. Their performance depends on both model parameters and the surrounding harness: demonstrations, planning instructions, external guidance, and execution rules. ReAct exemplifies how a prompting and interaction protocol can improve behavior without updating parameters~\citep{yao2023react}. When the resulting experience is used for fine-tuning, however, the relevant question changes: \emph{which experience improves the student after collection-specific assistance is withdrawn?}
+
+Three quantities must be distinguished. Collection success measures the collecting system. A selection score measures a property of candidate experience. Post-training task success measures the updated student under a specified executor. A successful episode can contain redundant actions, and an action that the base student already predicts well can provide little useful supervision. Conversely, an initially surprising action may expose a behavior the student needs to acquire. These possibilities motivate direct intervention on the training experience rather than inferring its value from collection success or likelihood alone.
+
+We study a deliberately narrow comparison: random selection versus selection of low base-student action negative log-likelihood (NLL) examples from the same historical pool. The selection unit is an action demonstration with its genuine preceding history, rather than an independently generated complete trajectory. This distinction matters when relating the comparison to trajectory-level distillation~\citep{tang2026smartad} or methods that estimate reference-relative loss and gradient influence~\citep{lin2024rho,xia2024less}.
+
+Our experimental protocol progressively constrains experience composition. We first compare complete-pass exposure with subset replay at a fixed optimization budget. We then compare selection policies while matching task identity at every presentation and the distinct-content budget. Finally, we match task-by-action positions and within-stratum distinct-content quotas. Across the two fixed source pools, low-NLL selection is worse on average under both selection controls. Matching action composition reduces the observed gaps, but also changes the support and strength of the intervention; this reduction is not an identified mediation estimate.
+
+\begin{figure}[t]
+  \centering
+  \resizebox{\linewidth}{!}{\input{figures/architecture}}
+  \caption{\textbf{Study architecture.} Historical collection supplies fixed experience pools. We rebuild genuine student-view examples, score them with the frozen base model, and intervene on selection under shared reference constraints. Both policy arms receive the same optimization budget and are evaluated through a common executor after collection-specific assistance is removed. Source labels are collection conditions, not randomized harness treatments.}
+  \label{fig:architecture}
+\end{figure}
+
+We make three contributions. First, we formalize a reproducible selection comparison that separates training dose, task exposure, distinct content, and action composition. Second, we report completed comparisons across crossed initialization and sampling seeds, including positive paired cells and conditional retrains. Third, we audit numerical scoring consistency independently of downstream training, showing why selection overlap alone cannot establish performance robustness. The evidence supports a concrete failure case for this action-level proxy. It does not establish a general optimal selector, harness superiority, or a transferable learning mechanism.
+

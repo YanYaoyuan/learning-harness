@@ -1,5 +1,7 @@
 # 统一评分选样复现：运行与监控
 
+完成更新：96/96模型、6,144回合、零失败，14.350累计GPU小时；独立原始结果复核与W&B最终四文件字节核验均通过。训练控制器和观察器已结束。[最终结果和对照图](CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md)。以下保留原启动记录，PID和“下一次”时间是历史信息。
+
 2026-11-13 10:23（中国时间）启动。固定96新模型/6,144回合、六初始化×四配方×两来源×两策略，两张5090，18累计GPU小时上限。完整设计见[冻结前协议](CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 
 - 研究根目录：`runs/variance-diagnostic-v1/stage5-canonical`；freeze SHA256：`3d16840d5eb187fd7d1b855ec103d279034813ba351a7465a00050cbf7302cd7`，287项冻结输入。

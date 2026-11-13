@@ -1,0 +1,90 @@
+\section{A Controlled Experience-Selection Protocol}
+\label{sec:method}
+\subsection{Examples, predictability, and training schedules}
+A fixed source pool $\D_s$ contains eligible action demonstrations $z=(x,h,a)$: task $x$, actual public interaction history $h$, and the next canonical action $a$. Here $a$ includes the supervised JSON serialization and its chat-template terminator; $c(a)$ parses the command's action family. Let $u(z)$ identify the complete student-view messages by exact content. Deduplication identifies literal message equality, not semantic equivalence. Every retained example preserves its real history; selecting examples does not synthesize a new interaction trajectory.
+
+For the frozen base student $p_{\theta_0}$, action predictability is measured by token-average target NLL,
+\begin{equation}
+ \ell_0(z)=-\frac{1}{|a|}\sum_{v=1}^{|a|}
+ \log p_{\theta_0}(a_v\mid h,a_{<v}).
+ \label{eq:nll}
+\end{equation}
+The original cache can assign different numerical values to identical content in different batching layouts. The completed selection experiments use the recorded mean over copies of each content identity,
+\begin{equation}
+ q_0(u)=\frac{1}{|\{z\in\D_s:u(z)=u\}|}
+ \sum_{z\in\D_s:u(z)=u}\ell_0^{\mathrm{cache}}(z).
+ \label{eq:cache}
+\end{equation}
+We retain that definition for the historical experiments; an independent uniform-scoring check is reported separately in Section~\ref{sec:scoring}.
+
+A sampling recipe $j$ defines a frozen reference schedule $\mathbf r_j=(r_1,\ldots,r_B)$ with $B=768$ presentations. For a stratum function $g$, define the number of presentations and distinct content identities assigned to stratum $g$:
+\begin{equation}
+ n_g=\sum_{k=1}^{B}\ind\{g(z_{r_k})=g\},\qquad
+ K_g=\left|\{u(z_{r_k}):g(z_{r_k})=g\}\right|.
+ \label{eq:quotas}
+\end{equation}
+The two policies select $K_g$ identities from the eligible distinct support $\U_g$. Random selection samples uniformly without replacement; low-NLL selection solves
+\begin{equation}
+ A_g^{\low}\in\underset{A\subseteq\U_g,\,|A|=K_g}{\arg\min}
+ \sum_{u\in A}q_0(u).
+ \label{eq:selection}
+\end{equation}
+Ties are resolved by the representative corpus index. Within each stratum, a fixed recipe-specific shuffle cycles through the selected identities, visiting every identity before repeating it. These stratum sequences are interleaved in reference order. For the resulting policy schedule $\boldsymbol\sigma^{p}_{s,j}$,
+\begin{align}
+ g(z_{\sigma_k^p})&=g(z_{r_k})\quad &&\text{for every presentation }k,\label{eq:positions}\\
+ \left|\{u(z_{\sigma_k^p}):g(z_{\sigma_k^p})=g\}\right|&=K_g\quad &&\text{for every stratum }g.\label{eq:support}
+\end{align}
+The selected content may differ while these constraints hold exactly.
+
+\subsection{Progressively stronger controls}
+\begin{figure}[t]
+\centering
+\resizebox{\linewidth}{!}{\input{figures/control-ladder}}
+\caption{\textbf{Progressive controls, not interchangeable treatments.} Each comparison answers a different conditional question. The final constraint also restricts eligible content support and weakens the low-NLL selection contrast; changes in effect size across stages cannot be read as a mediation fraction.}
+\label{fig:controls}
+\end{figure}
+\smallpara{Training dose: complete pass versus subset replay.}
+Both arms receive 768 presentations and 192 updates. Complete-pass scheduling traverses the eligible corpus before repeating rows; the replay arm reuses a 256-row subset. Membership, multiplicity, order, and task mixture can change together. This first comparison evaluates the scheduling intervention as a whole.
+
+\smallpara{Task-matched selection.}
+We set $g(z)=x$. The policies share task identity at every presentation, task counts, and 256 distinct task/content records. They can still differ in action composition. We cross four initialization/dropout seeds with four sampling recipes within each source.
+
+\smallpara{Task-by-action-matched selection.}
+We set $g(z)=(x,c(a))$ and inherit the task/action quotas from the task-matched random reference. The policies now share every task/action position and within-stratum support count. Action families absent from the reference remain absent. The support restriction retains approximately 66.15\% and 40.44\% of the preceding NLL-selection contrast in the API and Generic pools. It changes the intervention as well as the control. We cross six initialization/dropout seeds with the same four sampling recipes.
+
+\begin{algorithm}[t]
+\caption{Matched content selection and paired evaluation}
+\label{alg:protocol}
+\begin{algorithmic}[1]
+\Require Fixed pool $\D_s$, base student $\theta_0$, reference $\mathbf r_j$, strata $g$
+\State Compute content identities, scores $q_0(u)$, and quotas $(n_g,K_g)$
+\For{$p\in\{\rand,\low\}$}
+  \State Select $A_g^p$ independently within each reference stratum
+  \State Cycle shuffled identities within each stratum; interleave in reference order
+  \State Verify Eqs.~\eqref{eq:positions}--\eqref{eq:support}, total support, and schedule hashes
+  \For{initialization/dropout seed $i$}
+    \State Train a fresh LoRA adapter on $\boldsymbol\sigma^p_{s,j}$ for 192 updates
+    \State Audit weights and evaluate through the common executor without collection guidance
+  \EndFor
+\EndFor
+\State Report paired differences, all initialization means, and all wins/ties/losses
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Training and estimands}
+We fine-tune low-rank adapters~\citep{hu2022lora} while freezing the backbone. The supervised objective averages the token-normalized target loss over scheduled examples,
+\begin{equation}
+ \mathcal L(\phi;\boldsymbol\sigma)
+ =\frac1B\sum_{k=1}^{B}\ell_{\theta_0+\Delta(\phi)}(z_{\sigma_k}).
+ \label{eq:sft}
+\end{equation}
+The implementation uses microbatches of one example and gradient accumulation to a global batch of four. Both policies use the same initialization/dropout seed $i$, optimizer configuration, and update budget. Equal presentations do not imply identical input/target token totals or exact FLOPs.
+
+Let $Y_{s,p,i,j,f,t}$ denote success for source $s$, policy $p$, initialization $i$, recipe $j$, family $f$, and task $t$. Each model's outcome and the primary contrast are
+\begin{align}
+ R_{s,p,i,j}&=\frac12\sum_{f\in\{\mathrm{cool},\mathrm{heat}\}}
+                  \frac1{32}\sum_{t=1}^{32}Y_{s,p,i,j,f,t},\label{eq:success}\\
+ \Delta_s&=\frac1{IJ}\sum_{i=1}^{I}\sum_{j=1}^{J}
+                (R_{s,\low,i,j}-R_{s,\rand,i,j}).\label{eq:effect}
+\end{align}
+Initialization seeds and sampling recipes are crossed factors. We also report $\Delta_{s,i}=J^{-1}\sum_j(R_{s,\low,i,j}-R_{s,\rand,i,j})$. The 24 task/action-matched cells are not 24 independent initialization seeds. Conditional repeats are excluded from these primary means.

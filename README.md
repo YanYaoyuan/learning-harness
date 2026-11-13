@@ -2,7 +2,7 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前状态（2026-11-13）**：Stage 4的100模型/6,400回合、NLL评分诊断与WebShop真实模型校准均完成并复核。10:23启动统一评分后的动作匹配选样复现：96个新模型/6,144回合，两张5090，18累计GPU小时上限，两策略均重新训练。半小时监控与W&B跟踪已启动。[新对照协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md) · [新训练W&B](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1-progress) · [上一轮完整报告](docs/STAGE4_COMPLETE_RESULTS_2026-11-13.zh-CN.md)。
+**当前状态（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 
 | 实验 | 状态 | 结果与入口 |
 |---|---|---|
@@ -15,7 +15,7 @@
 | Stage 4：任务×动作构成控制 | 完成100模型/6,400回合，14.663累计GPU小时 | 六初始化主比较：低NLL−随机API −4.818pp、generic −2.995pp；4次重复单列。每来源×策略两卡各12个主模型。[完整审核](docs/STAGE4_COMPLETE_RESULTS_2026-11-13.zh-CN.md) · [协议](docs/STAGE4_ACTION_CONTROL_SPEC_2026-11-13.zh-CN.md) · [所有预设节点](docs/STAGE4_INTERIM_MONITORING_2026-11-13.zh-CN.md) |
 | 独立NLL评分诊断 | 完成1,194次forward、853/853统一评分，107.127 GPU秒 | 重复与直接loss门槛通过，旧批布局完全复现；统一评分后原内容保留95.703%–98.438%，未重训新名单。[结果与图](output/nll-scoring-diagnostic-v1/RESULTS.zh-CN.md) |
 | WebShop基础学生校准 | 完成64个train回合、463次请求，243.564 GPU秒 | 两套公开提示成功5/32与6/32，模型请求错误0；属于起点校准，正式学习对照尚未启动。[结果与图](output/webshop-development-pilot-v1/RESULTS.zh-CN.md) |
-| 统一评分选样复现 | 96模型/6,144回合队列已启动 | 原随机名单逐索引不变；低NLL使用853条统一评分重新选择。六初始化×四采样配方，两策略重新训练。[协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md) · [监控入口](docs/CANONICAL_REPLICATION_MONITORING_2026-11-13.zh-CN.md) |
+| 统一评分选样复现 | 完成96模型/6,144回合，14.350累计GPU小时 | 低NLL−随机API −3.516pp、Generic −3.060pp；API六初始化平均为负，Generic五负一正；所有正向配对保留。[完整结果与图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md) |
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 
@@ -23,7 +23,9 @@ Stage 4执行和绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
-[英文论文正文初稿v0.2](docs/paper/MANUSCRIPT_DRAFT_v0.2.md)已纳入完整六初始化、评分诊断与WebShop校准，核对30个来源与4张图的SHA。[v0.1](docs/paper/MANUSCRIPT_DRAFT_v0.1.md)与旧证据快照保持不变。正文区分已完成实证、起点校准与仍待开展的正式统计/跨环境学习验证；新启动复现的结果尚未写入正文。
+[英文论文正文v0.3](docs/paper/MANUSCRIPT_DRAFT_v0.3.md)已纳入完整统一评分复现及新旧对照分解，绑定35个来源与5张图。[v0.2](docs/paper/MANUSCRIPT_DRAFT_v0.2.md)、[v0.1](docs/paper/MANUSCRIPT_DRAFT_v0.1.md)与旧证据快照保持不变。正文区分已完成实证、WebShop起点校准与仍待开展的新任务/强选样/跨环境学习验证。
+
+首版正式排版稿：[论文PDF](output/pdf/learning-harness-paper/learning-harness-paper.pdf) · [Overleaf源码包](output/learning-harness-paper-latex.zip) · [LaTeX入口与编译说明](docs/paper/latex/README.zh-CN.md)。使用官方NeurIPS 2026 preprint样式，包含可编辑TikZ架构/实验控制图、矢量实验图、公式、算法、主结果及附录。此首版PDF保留制作时的证据与字节，不包含后来完成的统一评分训练结果；新增完整结果已写入v0.3正文与独立报告，尚未合入下一版排版PDF。
 
 [独立NLL评分诊断](docs/NLL_SCORING_DIAGNOSTIC_READINESS_2026-11-13.zh-CN.md)按67项冻结输入完成一次真实GPU评分，32压力输入、4次直接loss检查、256个压力条件及392个原批重放观测齐全，853个不同输入全部统一评分。旧缓存、原配方和既有训练结果保持原样；重评分后的内容替换最多11/256，训练效果尚待单独检验。[完整结果](output/nll-scoring-diagnostic-v1/RESULTS.zh-CN.md)。
 

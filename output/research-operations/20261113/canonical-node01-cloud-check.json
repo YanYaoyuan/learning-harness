@@ -1,0 +1,13 @@
+{
+  "status": "all3_interim_cloud_files_byte_verified",
+  "checked_unix": 1794539306.328886,
+  "run_id": "3d16840d5eb1-progress",
+  "cloud_completed": 9,
+  "cloud_state": "running",
+  "verified_files": {
+    "aggregate-summary.json": "bb2a877769ecbecc2d6ff021a915b9e60366e05e8b6a341aa03ed58f7b255d24",
+    "action-matched-policies.png": "36a95aaaaaf9c6d2e872d871e9fcbc222fbca26d6eddad6499f4d4a85757aa26",
+    "action-matched-policies.pdf": "474eb0be2461ba7aaba267ffeb8e0b340410244a8e02113df619d6348249304c"
+  },
+  "raw_records_uploaded": false
+}

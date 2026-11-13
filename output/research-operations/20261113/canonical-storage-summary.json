@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "files": 192,
+  "bytes": 8729304576,
+  "composition_revisions_verified": 96,
+  "frozen_inputs_verified": 287,
+  "original_paths_preserved": true,
+  "detailed_receipt_sha256": "510a75eefc48b55837b2d1dfa21c3eaa388b87275f16896e28478bc9f0268b9d",
+  "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab",
+  "raw_records_uploaded": false
+}
