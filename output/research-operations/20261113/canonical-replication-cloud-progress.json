@@ -1,0 +1,10 @@
+{
+  "run_id": "3d16840d5eb1-progress",
+  "state": "running",
+  "completed": 0,
+  "planned": 96,
+  "execution_state": "running",
+  "last_step": 3,
+  "checked_unix": 1794536728.846482,
+  "raw_records_uploaded": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "validated_and_launched",
+  "checked_unix": 1794536666.0263424,
+  "root": "runs/variance-diagnostic-v1/stage5-canonical",
+  "freeze_sha256": "3d16840d5eb187fd7d1b855ec103d279034813ba351a7465a00050cbf7302cd7",
+  "frozen_inputs": 287,
+  "models": 96,
+  "episodes": 6144,
+  "cpu_checks_passed": 37,
+  "original_frozen_inputs_reverified": {
+    "stage4": 237,
+    "nll": 67,
+    "webshop": 61
+  },
+  "new_teacher_calls": 0,
+  "official_tests_used": false,
+  "random_recipes_indices_unchanged": true,
+  "init_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "sampling_recipes": [
+    101,
+    202,
+    303,
+    404
+  ],
+  "cap_gpu_hours": 18,
+  "raw_records_uploaded": false
+}
