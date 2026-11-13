@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "started_unix": 1794534867.9885333,
+  "planned_files": 200,
+  "planned_bytes": 9093025600,
+  "destination": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab",
+  "active_experiment_readers_stopped": true,
+  "matched_open_checkpoint_readers": 0,
+  "open_reader_check_plan_sha256": "3e825d652e86d830f6b6eec46e2443d01fed6a4262922f43e9eb30011973a9d9",
+  "mover_sha256": "d17b99fadd995105f0c44a024b20c32326aeb5c4274d81c5635a6c445f55f402",
+  "raw_json_records_retained_locally": true,
+  "verified_bytes": 9093025600,
+  "finished_unix": 1794534902.3796432,
+  "checkpoint_revisions_verified": 100,
+  "frozen_hashes_verified_after_relocation": true,
+  "working_disk_available_bytes": 23665410048,
+  "target_available_bytes": 12716888064,
+  "detailed_receipt_sha256": "296c190068aa18cd14a44bd6f8d5e975ef2c3b1b5b3d1d2db03bca8cf35d66b5",
+  "detailed_receipt_local_path": "output/research-operations/20261113/completed-stage4-storage.json"
+}

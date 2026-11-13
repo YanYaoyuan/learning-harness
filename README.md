@@ -2,7 +2,7 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前状态（2026-11-13）**：Stage 3完整结果及检查点复测已归档，Stage 4按冻结方案训练。独立监督器每30分钟核对真实进程/GPU，每30秒监听结束事件；中途成对图在固定完成数量节点上传。训练进度以[W&B实时记录](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b-progress)为准。
+**当前状态（2026-11-13）**：Stage 4的100模型/6,400回合全部完成并独立复核，最终汇总已在W&B下载核验；NLL评分诊断与WebShop真实模型校准也已完成。当前没有GPU作业，正在整理图表、正文补证与下一轮正式对照。[完整报告及接续记录](docs/STAGE4_COMPLETE_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b)。
 
 | 实验 | 状态 | 结果与入口 |
 |---|---|---|
@@ -12,19 +12,21 @@
 | Stage 2：同预算采样干预 | 完成68模型/4,352回合 | 全池相对子集复用：API +5.18pp、generic +1.27pp。[最终结果与图](output/variance-diagnostic-v1/stage2/RESULTS.zh-CN.md) |
 | Stage 3：任务与不同内容预算控制 | 完成70模型/4,480回合，云端归档完成 | 低NLL−随机：API −17.77pp、generic −7.81pp；四初始化平均差异方向一致。同任务位置/次数、192步/768次呈现及256条不同内容。[最终结果与图](output/variance-diagnostic-v1/stage3/RESULTS.zh-CN.md) · [汇总数据](output/variance-diagnostic-v1/stage3/aggregate-summary.json) |
 | Stage 3固定检查点复测 | 完成2检查点/128新回合 | 逐任务成败与步数均与原记录一致；不混入原主分析。[结果与图](output/variance-diagnostic-v1/stage3-reliability-check/RESULTS.zh-CN.md) |
-| Stage 4：任务×动作构成控制 | 2026-11-13 01:28启动，冻结100模型/6,400回合 | 六初始化×四采样配方，另列4个条件重训；两策略逐位置任务/动作类型与不同内容配额匹配。18累计GPU小时上限。[协议](docs/STAGE4_ACTION_CONTROL_SPEC_2026-11-13.zh-CN.md) · [预设中途结果与图](docs/STAGE4_INTERIM_MONITORING_2026-11-13.zh-CN.md) |
+| Stage 4：任务×动作构成控制 | 完成100模型/6,400回合，14.663累计GPU小时 | 六初始化主比较：低NLL−随机API −4.818pp、generic −2.995pp；4次重复单列。每来源×策略两卡各12个主模型。[完整审核](docs/STAGE4_COMPLETE_RESULTS_2026-11-13.zh-CN.md) · [协议](docs/STAGE4_ACTION_CONTROL_SPEC_2026-11-13.zh-CN.md) · [所有预设节点](docs/STAGE4_INTERIM_MONITORING_2026-11-13.zh-CN.md) |
+| 独立NLL评分诊断 | 完成1,194次forward、853/853统一评分，107.127 GPU秒 | 重复与直接loss门槛通过，旧批布局完全复现；统一评分后原内容保留95.703%–98.438%，未重训新名单。[结果与图](output/nll-scoring-diagnostic-v1/RESULTS.zh-CN.md) |
+| WebShop基础学生校准 | 完成64个train回合、463次请求，243.564 GPU秒 | 两套公开提示成功5/32与6/32，模型请求错误0；属于起点校准，正式学习对照尚未启动。[结果与图](output/webshop-development-pilot-v1/RESULTS.zh-CN.md) |
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 
-Stage 4执行和中途绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [共用队列、报告与汇总云端记录](docs/CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。半小时监督器已覆盖Stage 2/3、固定检查点复测与Stage 4；不按观察到的效果提前停止。其余准备：[API/ReAct全合格成功经验预算审计](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md) · [WebShop独立CPU环境与协议检查](docs/WEBSHOP_PREPARATION_2026-11-12.zh-CN.md)。WebShop完整118万商品库、索引和12,087个目标身份已固定，公开接口与目标池隔离已通过完整目录train机械检查。[32任务×两公开提示的校准入口](docs/WEBSHOP_DEVELOPMENT_PILOT_PROTOCOL_2026-11-13.zh-CN.md)已实现并通过CPU/本机HTTP/替身进程生命周期测试；真实模型校准等待Stage 4完成，正式效果实验尚未启动。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
+Stage 4执行和绘图：[16份调度设计](docs/TASK_ACTION_CONTROL_CANDIDATE_2026-11-12.zh-CN.md) · [共用队列、报告与汇总云端记录](docs/CONTROLLED_STUDY_EXECUTION_2026-11-12.zh-CN.md)。所有预设节点及四次重复均保留。半小时监督器持续保存真实进程/GPU记录；已完成作业不自动重启。下一轮需补齐[API/ReAct全合格成功经验比较](docs/FULL_SOURCE_COMPARISON_PREPARATION_2026-11-12.zh-CN.md)及共同强执行方式/新任务验证。WebShop完整118万商品库、索引和12,087个目标身份已固定，train池隔离与[32任务×两提示的真实校准](docs/WEBSHOP_DEVELOPMENT_PILOT_PROTOCOL_2026-11-13.zh-CN.md)均已核验；它尚不构成第二环境学习机制复现。[论文工作提纲](docs/PAPER_WORKING_OUTLINE_2026-11-12.zh-CN.md) · [研究决策及相关工作](docs/RESEARCH_DECISIONS_2026-11-11.zh-CN.md)。
 
 研究入口：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [历史实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。
 
-[英文论文正文初稿v0.1](docs/paper/MANUSCRIPT_DRAFT_v0.1.md)已包含方法、配对终点、完整Stage 2/3结果、原API/ReAct对照及node-12中途表。证据快照绑定原报告与图表SHA；完整六初始化、评分诊断、第二环境与正式统计验证仍单列为待补部分。
+[英文论文正文初稿v0.1](docs/paper/MANUSCRIPT_DRAFT_v0.1.md)保留其原报告与图表SHA，绑定Stage 2/3及node-12中途证据。完整六初始化、评分诊断和WebShop校准现已补齐并各有独立核验记录；正文修订将区分已完成实证、起点校准与仍待开展的正式统计/跨环境学习验证。
 
-[独立NLL评分诊断](docs/NLL_SCORING_DIAGNOSTIC_READINESS_2026-11-13.zh-CN.md)已完成853条不同输入的CPU编码、原16份选样配方精确再生及16项CPU测试，首次GPU评分前冻结67份输入。600秒GPU1方案检查填充、position IDs、精度和logits窗口；真实运行入口已验证会在Stage 4仍运行时拒绝启动。尚未加载GPU模型或产生新评分，不改旧缓存、训练配方和主实验队列。
+[独立NLL评分诊断](docs/NLL_SCORING_DIAGNOSTIC_READINESS_2026-11-13.zh-CN.md)按67项冻结输入完成一次真实GPU评分，32压力输入、4次直接loss检查、256个压力条件及392个原批重放观测齐全，853个不同输入全部统一评分。旧缓存、原配方和既有训练结果保持原样；重评分后的内容替换最多11/256，训练效果尚待单独检验。[完整结果](output/nll-scoring-diagnostic-v1/RESULTS.zh-CN.md)。
 
-[后续实验只读观察器](docs/FOLLOWUP_MONITORING_2026-11-13.zh-CN.md)已在真实主机启动，统一跟踪评分诊断与WebShop校准，每30秒更新汇总进度、每半小时追加进程检查；目前两项仍为未启动。它使用独立W&B进度run，不启动或重启任何GPU任务，不更改主实验监控。
+[后续实验只读观察器](docs/FOLLOWUP_MONITORING_2026-11-13.zh-CN.md)已完成两项后续实验的真实进程与汇总计数跟踪，并在两者均完成后正常退出。它使用独立W&B进度run，未启动或重启GPU任务；原半小时主监督器保持独立。新GPU研究需先核验现有句柄，再配置对应观察器。
 
 ## CPU 开发检查
 
@@ -94,7 +96,7 @@ PYTHONPATH=src .venv-wandb/bin/python scripts/track_wandb.py --watch
 - 目标视角 rejection SFT 导出、LoRA 脚本和统一 H0 评测。
 - GitHub快照包含ReAct、Reflexion的固定提示来源。SkillScaffold、EvoIn、Harness-Zero为原工作机的调研缓存，原论文训练尚未复现；它们没有随初始代码快照上传。
 
-密钥、模型权重、原始数据集和本地缓存不进入代码仓库。历史快照包含筛选后的实验记录；新完成实验的摘要、图表和逐任务CSV随代码保存，原始JSON记录压缩包归档到私有W&B，校验值见各实验的`archival.json`。没有设置教师API时，不会发出教师请求。
+密钥、模型权重、原始数据集和本地缓存不进入代码仓库。历史快照保留其既有记录；当前完成阶段仅发布明确白名单中的汇总、图表与源码，逐任务结果、原始请求、token及逐例评分保留本地。校验值见各阶段的`archival.json`与独立下载核验记录。没有设置教师API时，不会发出教师请求。
 
 ## 1. CPU 环境与清单
 

@@ -1,0 +1,72 @@
+{
+  "status": "webshop_calibration_recomputed_and_all64_episode_journals_checked",
+  "checked_unix": 1794533345.8394024,
+  "freeze_sha256": "3e5759a36d5e35370a5c930daa68ab8e7326b8ba43c2e2288b1bba8a5270e316",
+  "authoritative_report_sha256": "ef5d62e758b858aa4f5d1386449c6c350d770dfaa986337d3500b4e16d9cc3b6",
+  "parent_report_sha256": "37219b2f514f162e0cabe6b7a15f752ef6395d384314df781e9a61d7dbb21a04",
+  "frozen_inputs_verified": 61,
+  "episode_result_bundle_sha256": "bed2366f851fea48c81229d4df38a6392db9ead3d8426102cebe891432be0226",
+  "request_journal_bundle_sha256": "0a9a08230b238709772d8d09b41d91c6d03784e658fe14abbe1bc295d3736d6a",
+  "server_health_sha256": "012a3b28d6a7c60dda4534195348acf916b239d2babd67160f0fd94b03da5661",
+  "base_only_no_adapters_verified": true,
+  "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "complete": true,
+  "calibration_only": true,
+  "episodes": 64,
+  "paired_train_goal_coverage_identical": true,
+  "groups": {
+    "prompt1": {
+      "episodes": 32,
+      "successes": 5,
+      "success_percent": 15.625,
+      "mean_normalized_score": 0.4125,
+      "decision_budget_episodes": 10,
+      "decisions": 247,
+      "physical_actions": 86,
+      "thought_decisions": 78,
+      "invalid_format_decisions": 24,
+      "invalid_control_decisions": 59
+    },
+    "prompt1_actonly": {
+      "episodes": 32,
+      "successes": 6,
+      "success_percent": 18.75,
+      "mean_normalized_score": 0.4380208333333333,
+      "decision_budget_episodes": 10,
+      "decisions": 216,
+      "physical_actions": 91,
+      "thought_decisions": 38,
+      "invalid_format_decisions": 10,
+      "invalid_control_decisions": 77
+    }
+  },
+  "attempted_requests": 463,
+  "request_errors": 0,
+  "unknown_usage_requests": 0,
+  "gpu_seconds": 243.56445050239563,
+  "total_controller_wall_seconds": 305.7385416030884,
+  "cpu_preparation_before_gpu_seconds": 62.17409133911133,
+  "cap_exceeded": false,
+  "owned_processes_terminated": {
+    "controller": {
+      "pid": 3694467,
+      "alive": false,
+      "identity_verified": false
+    },
+    "worker": {
+      "pid": 3694812,
+      "alive": false,
+      "identity_verified": false
+    },
+    "server": {
+      "pid": 3699946,
+      "alive": false,
+      "identity_verified": false
+    }
+  },
+  "teacher_calls": 0,
+  "eval_episodes": 0,
+  "official_test_evaluations": 0,
+  "raw_records_uploaded": false,
+  "scope": "32 train goals per public prompt; base-only chat/native port calibration, not a formal paper benchmark or prompt-superiority test."
+}

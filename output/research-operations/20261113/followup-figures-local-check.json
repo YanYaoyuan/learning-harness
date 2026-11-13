@@ -1,0 +1,40 @@
+{
+  "status": "both_followup_png_and_pdf_visual_checks_passed",
+  "checked_unix": 1794533856.0312977,
+  "pdfs": [
+    {
+      "path": "output/pdf/nll-scoring-diagnostic-v1/scoring-layout-and-selection.pdf",
+      "pages": 1,
+      "sha256": "014f1573ba84afeed57287a9a4ceaf72803ca512b395d4bf91a890e0d1af8a8e",
+      "render_sha256": "f584e0848e7e5709cfc646dd76f9336f03017cf29d943c0abf09441a97b1c590"
+    },
+    {
+      "path": "output/pdf/webshop-development-pilot-v1/base-calibration.pdf",
+      "pages": 1,
+      "sha256": "c49e252ea316cf6b3a6ca9a41e32fde23c69a37e928a0af0c592de9c6091bfbb",
+      "render_sha256": "c0fba5866ea65811dd897ebd4b5f9d027f752c4a98f450eec70fffd4408d18ee"
+    }
+  ],
+  "pngs": [
+    {
+      "path": "output/nll-scoring-diagnostic-v1/scoring-layout-and-selection.png",
+      "sha256": "17336c95478b04c03176016a0b861b2f7996b9f0fa4a419a2b5b962bdf14d919"
+    },
+    {
+      "path": "output/webshop-development-pilot-v1/base-calibration.png",
+      "sha256": "a6ccd90fe231a560ff2a64c3da0319f5b643d7e6d8b9b4f4594e4a858c73458e"
+    }
+  ],
+  "no_clipping_or_overlap": true,
+  "source_numbers_match_reviewed_reports": true,
+  "calibration_and_stress_scope_labels_visible": true,
+  "parent_final_figure_visual_qa": {
+    "checked_unix": 1794535266.6950643,
+    "png_visually_checked": true,
+    "pdf_rerender_visually_checked": true,
+    "png_sha256": "8c5bd4e5ea190210baa78b563bb898ca077996eb6b178a0a51cd3fe040560406",
+    "pdf_sha256": "57897c1cd7a2b6b18d362ef912ad76fd5085d766be61851b7a88bb75a95d28c9",
+    "render_sha256": "7952ebffe7d58046124166bf8b827b3b9175284fb8b811f18867365dc00be415",
+    "all_primary_cells_and_mean_bars_visible": true
+  }
+}

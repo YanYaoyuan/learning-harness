@@ -1,0 +1,21 @@
+{
+  "status": "uploaded",
+  "checked_unix": 1794533991.268058,
+  "run_id": "d07f9cfdaa74",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/d07f9cfdaa74",
+  "artifact_components": {
+    "prefix": "nll-scoring",
+    "freeze_prefix": "d07f9cfdaa74",
+    "suffix": "aggregates"
+  },
+  "uploaded_sha256": {
+    "aggregate-summary.json": "6cf08e05d5d3a5aee3040360918c7b1b1895d3504b9cdfc01ce1fdd63fbf555a",
+    "scoring-layout-and-selection.png": "17336c95478b04c03176016a0b861b2f7996b9f0fa4a419a2b5b962bdf14d919",
+    "scoring-layout-and-selection.pdf": "014f1573ba84afeed57287a9a4ceaf72803ca512b395d4bf91a890e0d1af8a8e",
+    "RESULTS.zh-CN.md": "efb6671596e3a4c5c9d2bfbe55d92288265c3992c479afe896d6a25db44a2c35"
+  },
+  "publisher_sha256": "0fffd7c479583920b9d1ae674c4001e591daf07bfd14501426ca9975566acf17",
+  "independent_review_sha256": "bc84eb88b2660800ddc5d8fa2561e0c2195bca244b2dfa69e008dd2309e32f75",
+  "aggregate_only": true,
+  "raw_records_uploaded": false
+}

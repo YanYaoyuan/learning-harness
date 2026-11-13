@@ -1,0 +1,18 @@
+{
+  "checked_unix": 1794532290.3783457,
+  "reason": "Frozen observer used keyword arguments with SummaryDict.update",
+  "frozen_observer_sha256": "128efb5b99d7a2940a51cdd12669799e603e0329dcc79bb456f1d6a185464964",
+  "publisher_sha256": "528282ee7bca856c64357b65835f1ea14c798835b5e477df04903c0bf5658d8f",
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "parent_report_sha256": "37219b2f514f162e0cabe6b7a15f752ef6395d384314df781e9a61d7dbb21a04",
+  "independent_review_sha256": "1d7bb7112177bb8ebc8d832e42988c70d3eb80503270cf321371f134e0852bc4",
+  "public_files_sha256": {
+    "aggregate-summary.json": "5a5fa6d7ecf5193c2b44f98a02fc8366942f508f5eaf36eebe0e2a2c5c19c910",
+    "action-matched-policies.png": "8c5bd4e5ea190210baa78b563bb898ca077996eb6b178a0a51cd3fe040560406",
+    "action-matched-policies.pdf": "57897c1cd7a2b6b18d362ef912ad76fd5085d766be61851b7a88bb75a95d28c9",
+    "RESULTS.zh-CN.md": "93db07995bf2279986f5ab52b12ca41c7be536b1b56f155f7c1045b26e244d3d"
+  },
+  "gpu_execution": false,
+  "scientific_inputs_changed": false,
+  "raw_records_uploaded": false
+}
