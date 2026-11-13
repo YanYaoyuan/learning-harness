@@ -1,0 +1,35 @@
+{
+  "status": "precision_and_backend_diagnostic_completed",
+  "checked_unix": 1794584478.4830477,
+  "training_updates": 0,
+  "query_evaluations": 0,
+  "precision_conditions": {
+    "bf16_checkpointing": {
+      "repeated_comparisons": 4,
+      "max_relative_l2_error": 0.00956151193882317,
+      "min_cosine": 0.999954628925649,
+      "all_elementwise_equal": false,
+      "all_original_thresholds_pass": false
+    },
+    "bf16_eval": {
+      "repeated_comparisons": 4,
+      "max_relative_l2_error": 0.009008889159670953,
+      "min_cosine": 0.9999594221439732,
+      "all_elementwise_equal": false,
+      "all_original_thresholds_pass": false
+    },
+    "fp32_math_checkpointing": {
+      "repeated_comparisons": 4,
+      "max_relative_l2_error": 0.0,
+      "min_cosine": 1.0000000000000002,
+      "all_elementwise_equal": true,
+      "all_original_thresholds_pass": true
+    }
+  },
+  "thresholds": {
+    "min_cosine": 0.9999,
+    "max_relative_l2_error": 0.001
+  },
+  "decision": "Use the separately frozen FP32 mathematical-attention deterministic pilot; preserve the BF16 failure. This comparison changes precision and execution settings jointly.",
+  "raw_records_uploaded": false
+}

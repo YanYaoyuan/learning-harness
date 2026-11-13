@@ -1,0 +1,10 @@
+{
+  "status_at_snapshot": "stopped_at_gradient_repeatability_gate",
+  "freeze_sha256": "62bd4cb88979d43daf6396838168024d08082ac70ac78174fd03784b59e8aef3",
+  "frozen_inputs": 91,
+  "cap_gpu_hours": 2,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "automatic_retry": false,
+  "raw_records_uploaded": false
+}

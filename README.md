@@ -6,6 +6,8 @@
 
 **后续验证**：独立新任务基础校准64/64回合完成，JSON成功9/32、公开ReAct成功21/32，GPU0计账8.20分钟；128开发与128确认任务未评测。已准备32份NLL范围候选清单及40条公开目标支持样本，强选样主训练尚未开始。[完整校准结果](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) · [下一阶段工作单](docs/EXPERIENCE_VALUE_NEXT_STUDY_2026-11-13.zh-CN.md)。
 
+**强基线执行中**：GPU0正在做四检查点的优化器感知梯度提取，首个853候选检查点已通过。原BF16试验被数值门槛拦下，独立诊断后启用FP32确定性修订；失败与诊断成本保留计账。保持JSON接口的32回合公共示例校准已排队，之后再进入最终学生学习比较。[实现、数值图与执行记录](docs/OPTIMIZER_AWARE_SELECTION_PROGRESS_2026-11-13.zh-CN.md)。
+
 | 实验 | 状态 | 结果与入口 |
 |---|---|---|
 | API辅助 vs ReAct自采，共同成功匹配 | 完成4,284次评测 | 主AUC差−3.56pp；三种子−9.77/−3.42/+2.49pp。[完整解读](docs/SOURCE_COMPARISON_V1_RESULTS_2026-11-11.zh-CN.md) · [曲线](output/source-comparison-v1/adaptation-curves.png) |
