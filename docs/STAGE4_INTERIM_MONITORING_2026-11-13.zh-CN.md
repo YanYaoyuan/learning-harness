@@ -140,3 +140,29 @@ API低NLL组提高13.281pp、随机提高3.906pp；generic低NLL仅提高0.391pp
 ![五个完整初始化的预设中途图](../output/variance-diagnostic-v1/stage4/interim/node-20/action-matched-policies.png)
 
 初始化606及条件重复仍在原队列中。本快照是固定开发任务上的描述性结果，不给未经校准的显著性或等效结论，不据此调整队列、预算或停止规则。动作匹配同时影响内容支持和选择强度，差距缩小仍不能直接解释为动作构成的因果中介作用。初稿v0.1及其证据快照保持原版本，完整六初始化与后续验证完成后再修订正文。[不可变汇总](../output/variance-diagnostic-v1/stage4/interim/node-20/aggregate-summary.json) · [逐回合和逐初始化核对](../output/research-operations/20261113/stage4-node20-local-check.json) · [云端三个文件核验](../output/research-operations/20261113/stage4-cloud-node20-check.json)。
+
+## node-24：六初始化主对照齐全（2026-11-13）
+
+第24个预设配对快照已覆盖初始化101/202/303/404/505/606，各四份采样配方，两来源两策略共96个主模型、6,144回合。创建时全队列完成98/100，其中两次已完成的条件重复不进入主比较。独立重新核对96份worker结果哈希、全部6,144个逐任务结果和所有初始化/配方覆盖；PNG及PDF重渲染通过目视检查，W&B三个汇总文件下载后与本地逐字节一致。
+
+| 来源 | 动作匹配随机 | 动作匹配低NLL | 低NLL−随机 | 配对胜/平/负 |
+|---|---:|---:|---:|---:|
+| API | 31.706% | 26.888% | −4.818pp | 8/1/15 |
+| Generic | 6.771% | 3.776% | −2.995pp | 3/6/15 |
+
+| 初始化 | API低NLL−随机 | Generic低NLL−随机 |
+|---|---:|---:|
+| 101 | −5.8594pp | −1.5625pp |
+| 202 | −10.1562pp | −3.1250pp |
+| 303 | −2.3438pp | −2.7344pp |
+| 404 | 0.0000pp | −4.2969pp |
+| 505 | −1.5625pp | −1.9531pp |
+| 606 | −8.9844pp | −4.2969pp |
+
+新增初始化606的API四配方为零胜一平三负，平均差−8.984375pp；Generic为零胜两平两负，平均差−4.296875pp。完整六初始化的API均值五负一零，Generic六个均负；全部正向单元和初始化404的持平结果保留。24个配对单元不作为24个独立初始化。
+
+![六个完整初始化的预设配对图](../output/variance-diagnostic-v1/stage4/interim/node-24/action-matched-policies.png)
+
+主比较的数据覆盖现已齐全；快照仍保留原来的interim与final_study_complete=false标记，等待剩余两次预设重复完成后统一审核100模型/6,400回合报告。重复结果单列，不混入上述均值。正文修订将使用完整六初始化数据并保留初稿v0.1；独立评分检查和第二环境校准仍待父报告完成及GPU释放后执行。
+
+这些是固定开发任务上的描述性结果，不给未经校准的显著性或等效结论。动作匹配伴随内容支持和选择强度变化，跨轮差异仍不直接解释为因果中介比例；原队列、预算和停止规则保持既定方案。[不可变汇总](../output/variance-diagnostic-v1/stage4/interim/node-24/aggregate-summary.json) · [逐回合和逐初始化核对](../output/research-operations/20261113/stage4-node24-local-check.json) · [云端三个文件核验](../output/research-operations/20261113/stage4-cloud-node24-check.json)。

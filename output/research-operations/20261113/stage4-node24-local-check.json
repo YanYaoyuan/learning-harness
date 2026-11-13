@@ -1,0 +1,169 @@
+{
+  "status": "node24_independent_local_check_passed",
+  "checked_unix": 1794530749.3469434,
+  "snapshot": "output/variance-diagnostic-v1/stage4/interim/node-24",
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "aggregate_sha256": "0b1e76e793f66a874d3840dc643893f5a135dcf006a6a96b2ed057853b7a64f6",
+  "manifest_sha256_verified": {
+    "aggregate-summary.json": "0b1e76e793f66a874d3840dc643893f5a135dcf006a6a96b2ed057853b7a64f6",
+    "action-matched-policies.png": "c34ac000d0546428c3bcd12bcf14065147b63033c9e7b660cd846dacb54fba5c",
+    "action-matched-policies.pdf": "9838d888b5f244c53ae1c8101ebf17c673e141f0caa14ac006d235a60dda5934"
+  },
+  "worker_result_hashes_verified": 96,
+  "raw_episodes_verified": 6144,
+  "primary_paired_cells": 24,
+  "full_initializations": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "sampling_recipes_per_initialization": 4,
+  "global_models_completed_at_creation": 98,
+  "selected_models": 96,
+  "selected_episodes": 6144,
+  "primary_inventory_complete": true,
+  "final_study_complete": false,
+  "results": {
+    "api": {
+      "random_success_percent": 31.705729166666668,
+      "min_nll_success_percent": 26.888020833333332,
+      "difference_pp": -4.8177083333333375,
+      "wins": 8,
+      "ties": 1,
+      "losses": 15,
+      "per_initialization": [
+        {
+          "initialization_seed": 101,
+          "random_success_percent": 30.859375,
+          "min_nll_success_percent": 25.0,
+          "difference_pp": -5.859375,
+          "wins": 1,
+          "ties": 0,
+          "losses": 3
+        },
+        {
+          "initialization_seed": 202,
+          "random_success_percent": 33.203125,
+          "min_nll_success_percent": 23.046875,
+          "difference_pp": -10.15625,
+          "wins": 1,
+          "ties": 0,
+          "losses": 3
+        },
+        {
+          "initialization_seed": 303,
+          "random_success_percent": 30.859375,
+          "min_nll_success_percent": 28.515625,
+          "difference_pp": -2.34375,
+          "wins": 1,
+          "ties": 0,
+          "losses": 3
+        },
+        {
+          "initialization_seed": 404,
+          "random_success_percent": 31.640625,
+          "min_nll_success_percent": 31.640625,
+          "difference_pp": 0.0,
+          "wins": 3,
+          "ties": 0,
+          "losses": 1
+        },
+        {
+          "initialization_seed": 505,
+          "random_success_percent": 30.46875,
+          "min_nll_success_percent": 28.90625,
+          "difference_pp": -1.5625,
+          "wins": 2,
+          "ties": 0,
+          "losses": 2
+        },
+        {
+          "initialization_seed": 606,
+          "random_success_percent": 33.203125,
+          "min_nll_success_percent": 24.21875,
+          "difference_pp": -8.984375,
+          "wins": 0,
+          "ties": 1,
+          "losses": 3
+        }
+      ]
+    },
+    "generic": {
+      "random_success_percent": 6.770833333333333,
+      "min_nll_success_percent": 3.7760416666666665,
+      "difference_pp": -2.9947916666666665,
+      "wins": 3,
+      "ties": 6,
+      "losses": 15,
+      "per_initialization": [
+        {
+          "initialization_seed": 101,
+          "random_success_percent": 5.078125,
+          "min_nll_success_percent": 3.515625,
+          "difference_pp": -1.5625,
+          "wins": 2,
+          "ties": 1,
+          "losses": 1
+        },
+        {
+          "initialization_seed": 202,
+          "random_success_percent": 7.421875,
+          "min_nll_success_percent": 4.296875,
+          "difference_pp": -3.125,
+          "wins": 0,
+          "ties": 0,
+          "losses": 4
+        },
+        {
+          "initialization_seed": 303,
+          "random_success_percent": 7.03125,
+          "min_nll_success_percent": 4.296875,
+          "difference_pp": -2.734375,
+          "wins": 0,
+          "ties": 1,
+          "losses": 3
+        },
+        {
+          "initialization_seed": 404,
+          "random_success_percent": 6.640625,
+          "min_nll_success_percent": 2.34375,
+          "difference_pp": -4.296875,
+          "wins": 0,
+          "ties": 1,
+          "losses": 3
+        },
+        {
+          "initialization_seed": 505,
+          "random_success_percent": 7.03125,
+          "min_nll_success_percent": 5.078125,
+          "difference_pp": -1.953125,
+          "wins": 1,
+          "ties": 1,
+          "losses": 2
+        },
+        {
+          "initialization_seed": 606,
+          "random_success_percent": 7.421875,
+          "min_nll_success_percent": 3.125,
+          "difference_pp": -4.296875,
+          "wins": 0,
+          "ties": 2,
+          "losses": 2
+        }
+      ]
+    }
+  },
+  "descriptive_only": true,
+  "raw_task_records_uploaded": false,
+  "new_teacher_calls": 0,
+  "figure_visual_qa": {
+    "checked_unix": 1794530793.9541636,
+    "png_visually_checked": true,
+    "pdf_page1_rerender_visually_checked": true,
+    "render_file_sha256": "e2a3627685b805480aaae777b81200e7359683d25a96849c5bc98e1c91b29d7e",
+    "notes": "Both panels,axis labels,all paired lines,means and interim title are visible without clipping;PDF rerender matches PNG layout."
+  }
+}
