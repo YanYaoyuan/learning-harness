@@ -1,0 +1,35 @@
+{
+  "freeze_sha256": "fb14127e6cd401087b216fa38243f829640e7a558a5651260503e6bfdc1343e5",
+  "students": 224,
+  "models": 225,
+  "planned_episodes": 28800,
+  "development_tasks": 128,
+  "confirmation_evaluations": 0,
+  "initializations": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808
+  ],
+  "sampling_seeds": [
+    101,
+    202
+  ],
+  "policies": [
+    "random",
+    "gradient_high",
+    "high",
+    "low",
+    "middle",
+    "gradient_low",
+    "gradient_global"
+  ],
+  "cap_gpu_hours": 96,
+  "preparatory_seconds": 2370.0634648230043,
+  "frozen_inputs": 509,
+  "raw_records_uploaded": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "all_six_aggregate_files_byte_verified",
+  "checked_unix": 1794627572.7235136,
+  "runs": {
+    "optimizer-aware-selection-fp32-v1": {
+      "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/245af834c728",
+      "artifact": "optimizer-aware-245af834c728-aggregates:v0",
+      "files": {
+        "aggregate-summary.json": "83d8bf1aea9327b943d48d1f39fa664ca49bdfd86b4ed7db3113064d559a762a",
+        "feature-pilot.png": "5e3e71f6955836d079febd0f38215005b13807e18b2e28fbc468e3f8e477c92f",
+        "RESULTS.zh-CN.md": "cf165ab7487eded436dd118511e5c7bd8f9e5e4e50915feda96718c11d5a22ba"
+      }
+    },
+    "json-examples-calibration-v1": {
+      "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/0e2850555f94",
+      "artifact": "json-public-examples-0e2850555f94-aggregates:v0",
+      "files": {
+        "aggregate-summary.json": "ec155159b8e44fc7b03aa900f34665a9474dbbf407bee7047a778603d6f184fa",
+        "json-interface-calibration.png": "1ef547dfedb3a298c4bb308d6c4e6a824c7f02483e19ad395e8c5221b6645f6a",
+        "RESULTS.zh-CN.md": "8ebf7b6f2e5a27841eb40ae7f4532bb7b52f76acfe5b2fcfe29a55dae86624de"
+      }
+    }
+  },
+  "raw_records_uploaded": false
+}

@@ -2,11 +2,13 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前状态（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
+**当前执行（2026-11-14）**：最终学生开发学习对照已在GPU0启动。七种选择规则×两来源×八初始化×两采样种子，共224学生，另测基础模型；统一评测128个新开发任务，确认集封存。首位学生已完成192次更新并进入评测。[冻结规范](docs/EXPERIENCE_VALUE_DEVELOPMENT_SPEC_2026-11-14.zh-CN.md) · [执行、成本与W&B](docs/EXPERIENCE_VALUE_DEVELOPMENT_OPERATIONS_2026-11-14.zh-CN.md)。
 
-**后续验证**：独立新任务基础校准64/64回合完成，JSON成功9/32、公开ReAct成功21/32，GPU0计账8.20分钟；128开发与128确认任务未评测。已准备32份NLL范围候选清单及40条公开目标支持样本，强选样主训练尚未开始。[完整校准结果](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) · [下一阶段工作单](docs/EXPERIENCE_VALUE_NEXT_STUDY_2026-11-13.zh-CN.md)。
+**最近完成（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 
-**强基线执行中**：GPU0正在做四检查点的优化器感知梯度提取，首个853候选检查点已通过。原BF16试验被数值门槛拦下，独立诊断后启用FP32确定性修订；失败与诊断成本保留计账。保持JSON接口的32回合公共示例校准已排队，之后再进入最终学生学习比较。[实现、数值图与执行记录](docs/OPTIMIZER_AWARE_SELECTION_PROGRESS_2026-11-13.zh-CN.md)。
+**前置验证已完成**：基础校准JSON成功9/32、公开ReAct成功21/32；后续JSON兼容公共示例成功18/32。32份NLL候选清单、40条公开目标支持及四检查点梯度评分均已准备完成，现已进入学生开发学习对照；128确认任务继续封存。[完整校准结果](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) · [下一阶段工作单](docs/EXPERIENCE_VALUE_NEXT_STUDY_2026-11-13.zh-CN.md)。
+
+**强基线特征阶段已完成**：853候选、40支持、四检查点、3708次前后向核验通过，生成16份候选梯度清单。原BF16试验与数值修订记录保留，准备成本计入新学习对照。两项前置阶段的6个云端文件已逐字节验证。[实现、数值图与执行记录](docs/OPTIMIZER_AWARE_SELECTION_PROGRESS_2026-11-13.zh-CN.md)。
 
 | 实验 | 状态 | 结果与入口 |
 |---|---|---|
