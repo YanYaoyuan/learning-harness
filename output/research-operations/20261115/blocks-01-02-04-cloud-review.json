@@ -1,0 +1,33 @@
+{
+  "status": "all_nine_interim_files_byte_verified",
+  "checked_unix": 1794731061.3461258,
+  "snapshots": {
+    "1": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-01:v0",
+      "files": {
+        "aggregate-summary.json": "8e3a571614b4938637c55319fb269f6ec62b3bc9921b651de2acfc398a706781",
+        "selection-learning.png": "d9cd2300128a305aa64169f026fe12da278f6a58a8a833db5e6dbbc3f3b8e913",
+        "RESULTS.zh-CN.md": "7fdb029fe18b29be86217159c5be0c11439270058e618dfef124a283425db234"
+      }
+    },
+    "2": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-02:v0",
+      "files": {
+        "aggregate-summary.json": "cd685714d8da9de05ce476dea3fb6767e43aa6dd1a7ada8cf456617e91b7361f",
+        "selection-learning.png": "9fbc13620df5d52a14e2b1df805d7db7cd67030865892c23a94c43967598f36e",
+        "RESULTS.zh-CN.md": "95cb7581cd7793dc073289f0f41e2ce288758b3dd508f9d4b8b59dd648157012"
+      }
+    },
+    "4": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-04:v0",
+      "files": {
+        "aggregate-summary.json": "5006f3e94dd29e22dad2c431e08d5ce5fee85e11b6216b3fd91737d6083d39d3",
+        "selection-learning.png": "04621d50f89c61566f655ff4dfb1ba12c7681c1983cdd97f862cb7a4f858d2aa",
+        "RESULTS.zh-CN.md": "33f7a345ff06423aab42bb56688614b97cb78bd30dbca896532e09af21960232"
+      }
+    }
+  },
+  "closed_native_runs_checked": 87,
+  "native_summary_problems": [],
+  "raw_records_uploaded": false
+}

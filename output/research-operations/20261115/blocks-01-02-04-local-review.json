@@ -1,0 +1,131 @@
+{
+  "status": "all_three_prespecified_snapshots_recomputed_from_raw",
+  "checked_unix": 1794731036.3752518,
+  "models_audited": 57,
+  "episodes_audited": 7296,
+  "initializations_audited": [
+    101,
+    202
+  ],
+  "freeze_sha256": "fb14127e6cd401087b216fa38243f829640e7a558a5651260503e6bfdc1343e5",
+  "frozen_inputs": 509,
+  "baseline_success": 0.671875,
+  "snapshots": {
+    "1": {
+      "students": 14,
+      "episodes": 1920,
+      "summary_sha256": "8e3a571614b4938637c55319fb269f6ec62b3bc9921b651de2acfc398a706781",
+      "contrasts": {
+        "gradient_high_minus_random": {
+          "mean_difference": 0.04296875,
+          "per_paired_block": [
+            0.04296875
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 0
+        },
+        "gradient_high_minus_high": {
+          "mean_difference": 0.03515625,
+          "per_paired_block": [
+            0.03515625
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 0
+        },
+        "gradient_high_minus_gradient_low": {
+          "mean_difference": 0.06640625,
+          "per_paired_block": [
+            0.06640625
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 0
+        }
+      }
+    },
+    "2": {
+      "students": 28,
+      "episodes": 3712,
+      "summary_sha256": "cd685714d8da9de05ce476dea3fb6767e43aa6dd1a7ada8cf456617e91b7361f",
+      "contrasts": {
+        "gradient_high_minus_random": {
+          "mean_difference": 0.017578125,
+          "per_paired_block": [
+            0.04296875,
+            -0.0078125
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 1
+        },
+        "gradient_high_minus_high": {
+          "mean_difference": 0.021484375,
+          "per_paired_block": [
+            0.03515625,
+            0.0078125
+          ],
+          "wins": 2,
+          "ties": 0,
+          "losses": 0
+        },
+        "gradient_high_minus_gradient_low": {
+          "mean_difference": 0.052734375,
+          "per_paired_block": [
+            0.06640625,
+            0.0390625
+          ],
+          "wins": 2,
+          "ties": 0,
+          "losses": 0
+        }
+      }
+    },
+    "4": {
+      "students": 56,
+      "episodes": 7296,
+      "summary_sha256": "5006f3e94dd29e22dad2c431e08d5ce5fee85e11b6216b3fd91737d6083d39d3",
+      "contrasts": {
+        "gradient_high_minus_random": {
+          "mean_difference": 0.0185546875,
+          "per_paired_block": [
+            0.04296875,
+            -0.0078125,
+            0.00390625,
+            0.03515625
+          ],
+          "wins": 3,
+          "ties": 0,
+          "losses": 1
+        },
+        "gradient_high_minus_high": {
+          "mean_difference": 0.0087890625,
+          "per_paired_block": [
+            0.03515625,
+            0.0078125,
+            -0.01171875,
+            0.00390625
+          ],
+          "wins": 3,
+          "ties": 0,
+          "losses": 1
+        },
+        "gradient_high_minus_gradient_low": {
+          "mean_difference": 0.0478515625,
+          "per_paired_block": [
+            0.06640625,
+            0.0390625,
+            0.0390625,
+            0.046875
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "confirmation_evaluations": 0,
+  "raw_records_uploaded": false
+}
