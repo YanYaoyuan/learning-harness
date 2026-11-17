@@ -92,7 +92,7 @@ def main():
         final_summary_sha256=file_sha(PARENT), local_audit_sha256=file_sha(AUDIT),
         models=225, students=224, evaluation_episodes=28800,
         independent_initialization_count=8, sampling_replicates_per_initialization=2,
-        independent_experience_pool_count=2, inferential_tests_performed=False,
+        fixed_historical_pool_count=2, inferential_tests_performed=False,
         confirmation_evaluations=0, contrasts=contrasts,
         input_tokens={
             source: {

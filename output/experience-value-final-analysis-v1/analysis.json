@@ -7,7 +7,6 @@
   "evaluation_episodes": 28800,
   "independent_initialization_count": 8,
   "sampling_replicates_per_initialization": 2,
-  "independent_experience_pool_count": 2,
   "inferential_tests_performed": false,
   "confirmation_evaluations": 0,
   "contrasts": {
@@ -264,5 +263,6 @@
       }
     }
   },
-  "scope": "Eight initializations, two reused experience pools, one backbone/environment; no confirmatory significance or equivalence claim."
+  "scope": "Eight initializations, two reused experience pools, one backbone/environment; no confirmatory significance or equivalence claim.",
+  "fixed_historical_pool_count": 2
 }
