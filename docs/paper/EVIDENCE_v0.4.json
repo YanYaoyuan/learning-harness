@@ -1,0 +1,22 @@
+{
+  "version": "0.4",
+  "created_unix": 1794889525.903597,
+  "status": "complete development evidence; confirmation pending",
+  "sources": {
+    "docs/PAPER_SCOPE_DECISION_2026-11-17.zh-CN.md": "4e862593ff47d3254e1e2d858b2555d1f68e8ffb25678fe9e3c29de497e0517c",
+    "docs/EXPERIENCE_VALUE_DEVELOPMENT_SPEC_2026-11-14.zh-CN.md": "5d6bd9ac6b02578b317131766023d71e709aa0060561b92272e2458c7859989c",
+    "output/experience-value-development-v1/aggregate-summary.json": "a5e1893dfcd9276361abd8504b24a4ed47e08fd72156af59fd51b29a66f8fe1e",
+    "output/experience-value-development-v1/selection-learning.png": "1fd1afe3088ae33ad65b61a2524f750337e67ca93903160ade4acb7af348f98e",
+    "output/experience-value-completion-audit-v1/local-audit.json": "176744f6c67a74c9e646a6768e15790d49b994fe1661950d11adeea787e09b77",
+    "output/experience-value-completion-audit-v1/cloud-audit.json": "08f617da692a5cb7c2d0f3f1c0c4c3fcf38557082ad23bb2a3d52a3ecc2dc999",
+    "output/experience-value-final-analysis-v1/analysis.json": "d5c569de085457799cf945441da7d88f82f495d374cecd992a5332399dba30bd",
+    "output/experience-value-final-analysis-v1/paired-initializations.png": "372bc1d3ff0fd207ceb81171c7b1809555b6046dd89f2ae06025e7a3388dfc05",
+    "output/experience-value-length-feasibility-v1/summary.json": "b7b3cb37ddca6b47d6bbf3dc8c9576c06f7fa0629ad17a94c50d6d1490282a00",
+    "scripts/check_experience_value_length_support.py": "4d4bad44575789dbe2149ca9e024b63a473bf8905bb5e96ec595e211c06298ad",
+    "docs/paper/latex/references.bib": "131a21515b7596306cdd269559e8c5a7b5c24d060ea0bb699cfa3a45ae4631cd",
+    "docs/paper/MANUSCRIPT_DRAFT_v0.4.md": "83c60c98d0c125c926fbd90d81279d57458558446c8623e19f18d7175f572c83",
+    "docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md": "249a543a291fca9caada33b5b89828172c9c23eb643d785ce9fb1fcb5799c7d5"
+  },
+  "confirmation_evaluations": 0,
+  "formal_inferential_claims": false
+}
