@@ -1,0 +1,11 @@
+{
+  "parent_source_sha256": "dec15ea0779b582a48b007652e5f10e23cd3f35f55bb7970816cf49aa4e557ca",
+  "new_source_sha256": "e2467b92ab1e37be6d3f1af8375b7fa213412a62657fdc2a4331e8740b8ea495",
+  "functions": {
+    "training_audit": "AST-identical to completed parent",
+    "make_composition": "AST-identical to completed parent",
+    "worker": "AST-identical to completed parent",
+    "audit_result": "AST-identical to completed parent"
+  },
+  "additional_check": "New training_audit wrapper verifies initial parameter hash against paired completed gradient student."
+}

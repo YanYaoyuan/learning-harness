@@ -4,7 +4,7 @@
 
 **最新完成（2026-11-17）**：最终学生开发学习对照225/225模型、28,800回合全部结束，零失败，累计62.146 GPU小时。梯度高分相对随机、高NLL、梯度低分的来源等权差分别为+1.587、+0.928、+5.713个百分点；高分对低分在八初始化均为正，对随机的收益主要来自Generic来源。完整本地审计、18个云端文件哈希和224个学生云端结束摘要均已核验。[完整复盘与逐初始化图](docs/EXPERIENCE_VALUE_FINAL_REVIEW_2026-11-17.zh-CN.md) · [最终结果](output/experience-value-development-v1/RESULTS.zh-CN.md) · [下一阶段草案](docs/EXPERIENCE_VALUE_CONFIRMATION_DRAFT_2026-11-17.zh-CN.md)。
 
-**论文主线已收敛（2026-11-17）**：经验的可模仿性与实际学习价值不同，梯度选样相对强基线的收益依赖来源。新版[正文v0.4](docs/paper/MANUSCRIPT_DRAFT_v0.4.md)以完整新任务结果为主体。[收尾边界](docs/PAPER_SCOPE_DECISION_2026-11-17.zh-CN.md)只保留一次新任务确认；严格长度匹配CPU预检缺少评分对比度，不启动该训练，机制主张相应收窄。第二环境、机器人和meta-RL留作后续工作。128确认任务和官方测试仍封存，确认尚未执行。[本轮冻结规范](docs/EXPERIENCE_VALUE_DEVELOPMENT_SPEC_2026-11-14.zh-CN.md) · [执行、成本与W&B](docs/EXPERIENCE_VALUE_DEVELOPMENT_OPERATIONS_2026-11-14.zh-CN.md)。
+**当前主线与执行（2026-11-17）**：[全局经验选样](docs/GLOBAL_SELECTION_MAINLINE_2026-11-17.zh-CN.md)。已有全局梯度相对受限Random的API +4.102pp、Generic +4.541pp保留；GPU0正在补齐同等自由度的全局随机与全局高NLL，新增64学生，复用32个梯度学生和基础模型，24 GPU小时上限。[冻结规范](docs/GLOBAL_SELECTION_BASELINES_SPEC_2026-11-17.zh-CN.md) · [W&B](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/d135680b3a8f)。基线齐备后再冻结一次统一新任务确认；确认集和官方测试仍封存。历史[正文v0.4](docs/paper/MANUSCRIPT_DRAFT_v0.4.md)与[此前收尾安排](docs/PAPER_SCOPE_DECISION_2026-11-17.zh-CN.md)保留，本记录取代其受限四规则确认安排；第二环境、机器人和meta-RL不加入本篇。
 
 **最近完成（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 
