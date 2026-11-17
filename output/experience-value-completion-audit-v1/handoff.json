@@ -1,0 +1,17 @@
+{
+  "status": "integrity_audited_next_analysis_ready",
+  "checked_unix": 1794881453.880741,
+  "local_audit_sha256": "176744f6c67a74c9e646a6768e15790d49b994fe1661950d11adeea787e09b77",
+  "cloud_audit_sha256": "08f617da692a5cb7c2d0f3f1c0c4c3fcf38557082ad23bb2a3d52a3ecc2dc999",
+  "models": 225,
+  "verified_cloud_files": 18,
+  "confirmation_evaluations": 0,
+  "automatic_gpu_restart": false,
+  "raw_records_uploaded": false,
+  "required_next_steps": [
+    "Analyze paired effects across eight initializations.",
+    "Calibrate binary seed/task inference and power before confirmation.",
+    "Keep overlapping schedules distinct from independent experience pools.",
+    "Keep confirmation tasks sealed until a concrete protocol is frozen."
+  ]
+}

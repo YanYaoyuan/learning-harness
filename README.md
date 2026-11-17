@@ -2,11 +2,13 @@
 
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
-**当前执行（2026-11-14）**：最终学生开发学习对照已在GPU0启动。七种选择规则×两来源×八初始化×两采样种子，共224学生，另测基础模型；统一评测128个新开发任务，确认集封存。首位学生已完成192次更新并进入评测。[冻结规范](docs/EXPERIENCE_VALUE_DEVELOPMENT_SPEC_2026-11-14.zh-CN.md) · [执行、成本与W&B](docs/EXPERIENCE_VALUE_DEVELOPMENT_OPERATIONS_2026-11-14.zh-CN.md)。
+**最新完成（2026-11-17）**：最终学生开发学习对照225/225模型、28,800回合全部结束，零失败，累计62.146 GPU小时。梯度高分相对随机、高NLL、梯度低分的来源等权差分别为+1.587、+0.928、+5.713个百分点；高分对低分在八初始化均为正，对随机的收益主要来自Generic来源。完整本地审计、18个云端文件哈希和224个学生云端结束摘要均已核验。[完整复盘与逐初始化图](docs/EXPERIENCE_VALUE_FINAL_REVIEW_2026-11-17.zh-CN.md) · [最终结果](output/experience-value-development-v1/RESULTS.zh-CN.md) · [下一阶段草案](docs/EXPERIENCE_VALUE_CONFIRMATION_DRAFT_2026-11-17.zh-CN.md)。
+
+**接续工作**：CPU统计校准后冻结新任务确认协议，再评估文本长度控制及第二环境学习复现。128确认任务和官方测试保持封存，下一阶段尚未执行。[本轮冻结规范](docs/EXPERIENCE_VALUE_DEVELOPMENT_SPEC_2026-11-14.zh-CN.md) · [执行、成本与W&B](docs/EXPERIENCE_VALUE_DEVELOPMENT_OPERATIONS_2026-11-14.zh-CN.md)。
 
 **最近完成（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 
-**前置验证已完成**：基础校准JSON成功9/32、公开ReAct成功21/32；后续JSON兼容公共示例成功18/32。32份NLL候选清单、40条公开目标支持及四检查点梯度评分均已准备完成，现已进入学生开发学习对照；128确认任务继续封存。[完整校准结果](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) · [下一阶段工作单](docs/EXPERIENCE_VALUE_NEXT_STUDY_2026-11-13.zh-CN.md)。
+**前置验证已完成**：基础校准JSON成功9/32、公开ReAct成功21/32；后续JSON兼容公共示例成功18/32。32份NLL候选清单、40条公开目标支持及四检查点梯度评分已用于上述完整开发对照；这些32任务校准值不替代最终128任务上的67.188%基础模型成功率。[完整校准结果](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) · [历史工作单](docs/EXPERIENCE_VALUE_NEXT_STUDY_2026-11-13.zh-CN.md)。
 
 **强基线特征阶段已完成**：853候选、40支持、四检查点、3708次前后向核验通过，生成16份候选梯度清单。原BF16试验与数值修订记录保留，准备成本计入新学习对照。两项前置阶段的6个云端文件已逐字节验证。[实现、数值图与执行记录](docs/OPTIMIZER_AWARE_SELECTION_PROGRESS_2026-11-13.zh-CN.md)。
 
@@ -22,7 +24,8 @@
 | 独立NLL评分诊断 | 完成1,194次forward、853/853统一评分，107.127 GPU秒 | 重复与直接loss门槛通过，旧批布局完全复现；统一评分后原内容保留95.703%–98.438%，未重训新名单。[结果与图](output/nll-scoring-diagnostic-v1/RESULTS.zh-CN.md) |
 | WebShop基础学生校准 | 完成64个train回合、463次请求，243.564 GPU秒 | 两套公开提示成功5/32与6/32，模型请求错误0；属于起点校准，正式学习对照尚未启动。[结果与图](output/webshop-development-pilot-v1/RESULTS.zh-CN.md) |
 | 统一评分选样复现 | 完成96模型/6,144回合，14.350累计GPU小时 | 低NLL−随机API −3.516pp、Generic −3.060pp；API六初始化平均为负，Generic五负一正；所有正向配对保留。[完整结果与图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md) |
-| 独立新任务基础执行校准 | 完成64回合、1,801次请求，491.897 GPU秒 | JSON 9/32、ReAct 21/32；开发/确认集尚未评测，无新SFT结果。[结果与图](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) |
+| 独立新任务基础执行校准 | 完成64回合、1,801次请求，491.897 GPU秒 | JSON 9/32、ReAct 21/32；该阶段只做基础执行校准。[结果与图](docs/FRESH_EXECUTOR_CALIBRATION_RESULTS_2026-11-13.zh-CN.md) |
+| 新任务经验学习价值开发对照 | 完成225模型/28,800回合，62.146累计GPU小时 | 梯度高分−随机+1.587pp，高分−低分+5.713pp；八初始化、两来源、七选择规则，确认任务仍封存。[完整复盘](docs/EXPERIENCE_VALUE_FINAL_REVIEW_2026-11-17.zh-CN.md) |
 
 Stage 0—3使用旧API−generic经验池，不能替代API−ReAct强基线。原冻结分析与区间保留，少种子bootstrap尚未完成离散结果校准；采样分量的敏感性范围不是置信区间。Stage 2中途6/8/12/16组图保留为历史记录，主结果以完整16单元为准。
 

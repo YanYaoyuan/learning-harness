@@ -1,0 +1,92 @@
+{
+  "checked_unix": 1794881082.4428236,
+  "status": "experiment_completed",
+  "models": 225,
+  "students": 224,
+  "episodes": 28800,
+  "failures": 0,
+  "accounted_gpu_hours": 62.14581370804949,
+  "completed_china": "2026-11-17T05:55:30.466441+08:00",
+  "contrasts": {
+    "gradient_high_minus_random": {
+      "mean_difference": 0.015869140625,
+      "per_paired_block": [
+        0.04296875,
+        -0.0078125,
+        0.00390625,
+        0.03515625,
+        0.0078125,
+        0.015625,
+        -0.0078125,
+        -0.00390625,
+        -0.00390625,
+        0.015625,
+        0.0390625,
+        0.046875,
+        0.015625,
+        -0.01171875,
+        0.01953125,
+        0.046875
+      ],
+      "wins": 11,
+      "ties": 0,
+      "losses": 5
+    },
+    "gradient_high_minus_high": {
+      "mean_difference": 0.00927734375,
+      "per_paired_block": [
+        0.03515625,
+        0.0078125,
+        -0.01171875,
+        0.00390625,
+        -0.01953125,
+        -0.01953125,
+        0.046875,
+        0.015625,
+        0.0,
+        -0.00390625,
+        0.00390625,
+        0.0390625,
+        0.015625,
+        -0.0234375,
+        0.03125,
+        0.02734375
+      ],
+      "wins": 10,
+      "ties": 1,
+      "losses": 5
+    },
+    "gradient_high_minus_gradient_low": {
+      "mean_difference": 0.05712890625,
+      "per_paired_block": [
+        0.06640625,
+        0.0390625,
+        0.0390625,
+        0.046875,
+        0.02734375,
+        0.046875,
+        0.11328125,
+        0.02734375,
+        0.0703125,
+        0.03515625,
+        0.078125,
+        0.05859375,
+        0.08203125,
+        0.015625,
+        0.08203125,
+        0.0859375
+      ],
+      "wins": 16,
+      "ties": 0,
+      "losses": 0
+    }
+  },
+  "local_audit": "passed",
+  "cloud_audit_state": "passed",
+  "final_figure_visually_checked": true,
+  "confirmation_evaluations": 0,
+  "verified_cloud_files": 18,
+  "native_student_runs_verified": 224,
+  "paired_initialization_analysis": "output/experience-value-final-analysis-v1/analysis.json",
+  "paired_initialization_figure_visually_checked": true
+}
