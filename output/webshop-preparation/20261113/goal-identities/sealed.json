@@ -1,0 +1,45 @@
+{
+  "status": "goal_identities_sealed",
+  "pid": 1389821,
+  "started_unix": 1794507040.928082,
+  "freeze_sha256": "ce3818cf416e775fb031cd99a066e2eff017e16333b30d3125c6d2ef38891233",
+  "model_calls": 0,
+  "gpu_used": false,
+  "official_test_evaluations": 0,
+  "full_benchmark_ready": false,
+  "finished_unix": 1794507103.070398,
+  "products": 1181430,
+  "goals": 12087,
+  "split_counts": {
+    "test": 500,
+    "eval": 1000,
+    "train": 10587
+  },
+  "index_ranges_disjoint": true,
+  "content_overlap_counts": {
+    "train_test": {
+      "full_goal_fingerprints": 13,
+      "visible_instruction_fingerprints": 13,
+      "products": 108
+    },
+    "train_eval": {
+      "full_goal_fingerprints": 25,
+      "visible_instruction_fingerprints": 25,
+      "products": 252
+    },
+    "eval_test": {
+      "full_goal_fingerprints": 2,
+      "visible_instruction_fingerprints": 2,
+      "products": 23
+    }
+  },
+  "identity_manifest": "/media/user/50D2BD30D2BD1AE4/WorkSpace/learning-harness-lab/data/webshop/goal-identities-seed11-v1/identities.jsonl",
+  "identity_manifest_sha256": "b5d66a5bd3440f9a4cfdc04e23b3c8004e672bdfd54300ba75e3ad187b8e46e3",
+  "human_goal_text_written": false,
+  "episode_resets": 0,
+  "user_sessions": 0,
+  "remaining": [
+    "Permitted-pool full environment factory and public interface integration",
+    "Formal model/collection/training/evaluation protocol"
+  ]
+}

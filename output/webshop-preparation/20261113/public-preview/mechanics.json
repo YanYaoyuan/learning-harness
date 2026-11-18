@@ -1,0 +1,44 @@
+{
+  "status": "public_policy_boundary_preview_passed",
+  "started_unix": 1794506576.0910208,
+  "model_calls": 0,
+  "gpu_used": false,
+  "human_goals_used": false,
+  "human_annotation_file_opened": false,
+  "runtime_human_annotation_path": "empty synthetic-preview fixture",
+  "official_test_evaluations": 0,
+  "full_benchmark_ready": false,
+  "finished_unix": 1794506576.341673,
+  "products": 1000,
+  "synthetic_goals": 6910,
+  "public_view_fields": [
+    "observation",
+    "can_search",
+    "clickables"
+  ],
+  "terminal_debug_excluded": true,
+  "source_unchanged": true,
+  "source_sha256": {
+    "web_agent_site/engine/engine.py": "9b86ffc82951124f5c4a7eb8103de14100dbee11ba8869951ed6fb8feaeef804",
+    "web_agent_site/engine/goal.py": "d6083dbff9e8b3957bef50cf56edd1f371bcd076ad8cf16fdd7eda09ee4fb87e",
+    "web_agent_site/envs/web_agent_text_env.py": "7a939687616023d2ecd03e6e65c5b5199e3425770fdc65f26aaef5c41d0b8d17"
+  },
+  "steps": [
+    {
+      "action_type": "search",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action_type": "click_public_product",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action_type": "click_buy",
+      "reward": 0.0,
+      "done": true
+    }
+  ],
+  "note": "Predetermined public actions on synthetic preview; not an agent-performance or full-benchmark result."
+}

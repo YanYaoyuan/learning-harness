@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "updates": 2,
+  "task_evaluations": 0,
+  "teacher_calls": 0,
+  "cases": [
+    {
+      "arm": "random",
+      "nonzero_lora_b_parameters": 5013504,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "72ec0d6f2fc03e18b6957d228d8d1206fd10f4f629c56762d30486cd9b5235ea",
+        "trained_adapter_sha256": "431fc2f29aab44482282c4e42510dbb74aead5ca6078aa5f159677f1b52bfcfe",
+        "external_schedule_sha256": "334838a738b60f513231cc26372d7ecf21b191ae96cd341bebf2982b7f25e46c",
+        "selection_policy": "random",
+        "scheduled_prefix_length": 8,
+        "external_wrapper_sha256": "0afd4b10587f0248152c89f022da1522b74689742d07c8caa33f4af894e3f461"
+      }
+    },
+    {
+      "arm": "min_nll",
+      "nonzero_lora_b_parameters": 5013504,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "34f04afbf389b8590041f020800301fb86d5ec85fbd3c8fe36f07ba66c6c5311",
+        "trained_adapter_sha256": "c87287b4d38d8a43b0f83e1f6b829497ae3aedbe4c0ca3e8e5449e75632220d7",
+        "external_schedule_sha256": "7078bdc9f69b72e5e72801ce90898d10722f920a7c66fd73ec2faa87b6497773",
+        "selection_policy": "min_nll",
+        "scheduled_prefix_length": 8,
+        "external_wrapper_sha256": "0afd4b10587f0248152c89f022da1522b74689742d07c8caa33f4af894e3f461"
+      }
+    }
+  ],
+  "gpu_seconds": 14.461250488006044
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.608" timestamp="2026-11-12T20:21:31.002126" hostname="user"><testcase classname="third_party.WebShop.tests.web-agent-site.engine.test_goal" name="test_get_type_reward" time="0.024"><failure message="assert False&#10; +  where False = isclose(0.4444444444444444, 0.333, abs_tol=0.01)">def test_get_type_reward():
+        # Exact Match
+        goal = {
+            'query': "Query 1",
+            'product_category': "a › b › c",
+            'name': "Name 1"
+        }
+        purchased = {
+            'query': "Query 1",
+            'product_category': "a › b › c",
+            'name': "Name 1"
+        }
+        result = get_type_reward(purchased, goal)
+        assert result['r_type'] == 1.
+        assert result['query_match'] == True
+        assert result['category_match'] == True
+        assert result['title_score'] == 1
+    
+        # Query Mismatch
+        purchased['query'] = 'Query 2'
+        result = get_type_reward(purchased, goal)
+        assert result['query_match'] == False
+    
+        # Out of order / non-matching / partially matching / duplicate categories
+        purchased['product_category'] = "b › c › a"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == True
+        purchased['product_category'] = "d › e › f"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == False
+        purchased['product_category'] = "a › d › b"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == True
+        purchased['product_category'] = "a › a › b"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == True
+        purchased['product_category'] = "a › a › d"
+        result = get_type_reward(purchased, goal)
+        assert result['category_match'] == False
+    
+        # Similar product names
+        goal['name'] = "Mens D.O.N. Issue 2 Gca Basketball Sneakers Shoes Casual - Off White"
+        purchased['name'] = "PEAK High Top Mens Basketball Shoes Lou Williams Streetball Master Breathable Non Slip Outdoor Sneakers"
+        result = get_type_reward(purchased, goal)
+&gt;       assert isclose(result['title_score'], 0.333, abs_tol=1e-2)
+E       assert False
+E        +  where False = isclose(0.4444444444444444, 0.333, abs_tol=0.01)
+
+tests/web-agent-site/engine/test_goal.py:49: AssertionError</failure></testcase><testcase classname="third_party.WebShop.tests.web-agent-site.engine.test_goal" name="test_get_attribute_reward" time="0.001" /><testcase classname="third_party.WebShop.tests.web-agent-site.engine.test_goal" name="test_get_option_reward" time="0.000" /><testcase classname="third_party.WebShop.tests.web-agent-site.engine.test_goal" name="test_get_reward" time="0.019" /><testcase classname="third_party.WebShop.tests.web-agent-site.engine.test_normalize" name="test_normalize_color" time="0.000" /><testcase classname="third_party.WebShop.tests.web-agent-site.engine.test_normalize" name="test_normalize_color_size" time="0.000" /></testsuite></testsuites>

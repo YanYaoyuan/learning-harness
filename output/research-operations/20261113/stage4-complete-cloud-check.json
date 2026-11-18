@@ -1,0 +1,25 @@
+{
+  "status": "complete_study_cloud_all4aggregate_files_byte_verified",
+  "checked_unix": 1794532659.276595,
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "run_id": "76f7e74a6c3b",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/76f7e74a6c3b",
+  "artifact_components": {
+    "name_prefix": "task-action-controls",
+    "freeze_prefix": "76f7e74a6c3b",
+    "suffix": "aggregates",
+    "alias": "latest"
+  },
+  "verified_sha256": {
+    "aggregate-summary.json": "5a5fa6d7ecf5193c2b44f98a02fc8366942f508f5eaf36eebe0e2a2c5c19c910",
+    "action-matched-policies.png": "8c5bd4e5ea190210baa78b563bb898ca077996eb6b178a0a51cd3fe040560406",
+    "action-matched-policies.pdf": "57897c1cd7a2b6b18d362ef912ad76fd5085d766be61851b7a88bb75a95d28c9",
+    "RESULTS.zh-CN.md": "93db07995bf2279986f5ab52b12ca41c7be536b1b56f155f7c1045b26e244d3d"
+  },
+  "models": 100,
+  "evaluation_episodes": 6400,
+  "primary_models": 96,
+  "conditional_repeated_models": 4,
+  "raw_records_uploaded": false,
+  "observer_recovery": "SDK SummaryDict.update keyword-argument error; independent positional-dict publisher; frozen source retained."
+}

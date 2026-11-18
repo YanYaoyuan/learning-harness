@@ -1,0 +1,14 @@
+{
+  "status": "uploaded",
+  "run_id": "4c91c0a5cd17-repeat-check",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/4c91c0a5cd17-repeat-check",
+  "aggregate_only": true,
+  "raw_task_or_trajectory_records_uploaded": false,
+  "uploaded_sha256": {
+    "aggregate-summary.json": "094a2d4472e2e2b172731e27ef506be9d4fd356fdbdfa98b7cf0b5d2bf36fcd7",
+    "RESULTS.zh-CN.md": "8a8af10ad4c57b79412c1f4f74f524a2317277d9f4e14289de9132ce2047d91c",
+    "checkpoint-repeats.png": "97277e62d92091b1c63d36707cc776c885208f773d90cb167f7bd071b0d5ffe6",
+    "checkpoint-repeats.pdf": "94b44c99c1ae0c09dba3a5653612843a172b380abb438369c56c188e4920dde2"
+  },
+  "uploaded_unix": 1794504590.3539248
+}

@@ -1,0 +1,43 @@
+{
+  "status": "fresh_roles_prepared_not_evaluated",
+  "prepared_unix": 1794581085.1581137,
+  "seed": 20261113,
+  "history_files": 1429,
+  "historical_records": 54363,
+  "excluded_groups": 521,
+  "unused_group_counts": {
+    "pick_and_place_simple": 252,
+    "pick_clean_then_place_in_recep": 199,
+    "pick_heat_then_place_in_recep": 16
+  },
+  "selected_families": [
+    "pick_and_place_simple",
+    "pick_clean_then_place_in_recep"
+  ],
+  "reason": "Unused cooling groups exhausted and heating insufficient after conservative historical exclusion; placement/cleaning are a declared fresh-family expansion, not a new cooling/heating replication.",
+  "roles": {
+    "calibration": {
+      "tasks": 32,
+      "per_family": 16,
+      "sha256": "e26aa02a33f1a2b28a0b9e3c906304e7d89dc8a8040ef634303d49be21f8143e"
+    },
+    "development": {
+      "tasks": 128,
+      "per_family": 64,
+      "sha256": "2e7a54343854906ed6b80eaa63f825e43ae444072f988dc993d877bdfaf1efe7"
+    },
+    "confirmation": {
+      "tasks": 128,
+      "per_family": 64,
+      "sha256": "8c5b50ad7214e3c86d6d492fa8c880ab24ebef65af8b4f2021c5996e5bc2b932"
+    }
+  },
+  "public_reset_only_audits": 291,
+  "demonstration_collisions_excluded": 3,
+  "environment_steps": 0,
+  "new_model_calls": 0,
+  "teacher_calls": 0,
+  "official_seen_unseen_read": false,
+  "private_snapshot_sha256": "8ac9afd774562209821f0c5317a09505aecffe79833318426d8851f661613d76",
+  "raw_records_uploaded": false
+}

@@ -1,0 +1,40 @@
+{
+  "status": "published_prompt_literals_extracted",
+  "checked_unix": 1794508371.3349388,
+  "repository": "ysymyth/ReAct",
+  "commit": "6bdb3a1fd38b8188fc7ba4102969fe483df8fdc9",
+  "notebook_git_blob_sha": "67cb9f878de242951a7804a31bb5da4264111a29",
+  "prompt_source_cells": {
+    "prompt1": 4,
+    "prompt1_actonly": 5
+  },
+  "prompt_sha256": {
+    "prompt1": "58e4164eb648db4f8f437ee8a7b3ce064d3661d929e4f0fe71155ea6b062c56a",
+    "prompt1_actonly": "e4ce86d4a69779559dd0c3d7dbd436dfb7006bd36c10efc37c170d753753c20a"
+  },
+  "characters": {
+    "prompt1": 1786,
+    "prompt1_actonly": 1462
+  },
+  "reference_temperature": 0,
+  "reference_max_tokens": 100,
+  "reference_stop": [
+    "\n"
+  ],
+  "reference_history_character_budget": 6400,
+  "reference_loop_iterations": 15,
+  "reference_executed_decisions_maximum": 14,
+  "reference_requests_unused_last_completion": true,
+  "reference_observation_product_links_displayed": 3,
+  "reference_next_page_disabled": true,
+  "reference_think_feedback": "OK.",
+  "reference_remote_http_used": false,
+  "notebook_outputs_used": false,
+  "notebook_code_executed": false,
+  "exact_instruction_matches_by_split": {
+    "prompt1": {},
+    "prompt1_actonly": {}
+  },
+  "overlap_audit_scope": "Exact stripped instruction text only, including the price constraint; absence is not a semantic/product-overlap guarantee.",
+  "model_calls": 0
+}

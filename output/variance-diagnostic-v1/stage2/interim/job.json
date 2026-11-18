@@ -1,0 +1,21 @@
+{
+  "initial-upload": {
+    "pid": 2260918,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-wandb/bin/python",
+      "scripts/stage2_interim_report.py",
+      "--upload",
+      "output/variance-diagnostic-v1/stage2/interim/20261112T080354Z"
+    ],
+    "started_unix": 1794471060.479936
+  },
+  "observer": {
+    "pid": 2260919,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+      "scripts/stage2_interim_report.py",
+      "--watch"
+    ],
+    "started_unix": 1794471060.480267
+  }
+}

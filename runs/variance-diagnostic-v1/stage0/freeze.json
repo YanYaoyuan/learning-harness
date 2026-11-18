@@ -1,0 +1,38 @@
+{
+  "frozen_unix": 1794409687.728992,
+  "files": {
+    "docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md": "74d457951f9a7cd7a34f08ccd38a9c7940a76d228a5d46240ecb896855706ba0",
+    "scripts/run_stage0_repeat_eval.py": "3d76563da10ff42dc31ad5130ebcdf1c3d3cf457505354e5af2fc3abe881ca85",
+    "scripts/stage0_variance_share.py": "b554ff272579f36075d6fa2f5fff73b611e7bd25ce0ae6590a4c7cc27c2f5099"
+  },
+  "gpu": 0,
+  "cap_gpu_hours": 4.0,
+  "include_historical": false,
+  "environment_attestation": null,
+  "documented_hash_exceptions": [
+    {
+      "path": "scripts/transfer_factorial_report.py",
+      "recorded_sha256": "50e95362eaaac14c524acbfe28d92b7edf82ea113c974edcfe5041e6c6f03072",
+      "current_sha256": "4ff9cdea426560b5ebe736a9418afa71dc781f092998cbd2e36f83d13861b2a8",
+      "reason": "Current hash matches runs/transfer-factorial-v1/postrun-figure-audit.json, which records a post-run shared-y-label layout change and states numerical results were unchanged. The original source version is unavailable for an independent diff. This report is not imported or executed on the Stage 0 evaluation path. Historical checksums are preserved."
+    }
+  ],
+  "replicates": [
+    1,
+    2,
+    3
+  ],
+  "permutation_seed": 20261111,
+  "determinism_cells": [
+    [
+      "heat",
+      "api",
+      1101
+    ],
+    [
+      "heat",
+      "generic",
+      1101
+    ]
+  ]
+}

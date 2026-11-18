@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "passed": true,
+  "checks": {
+    "same_initialization_across_sampling": true,
+    "same_initialization_across_sources": true,
+    "changed_initialization_changes_weights": true,
+    "same_sampling_across_initialization": true,
+    "changed_sampling_changes_order": true,
+    "all_training_completed": true
+  },
+  "timings": [
+    {
+      "case": "generic-init101-sample101",
+      "seconds": 8.680962672980968
+    },
+    {
+      "case": "generic-init101-sample202",
+      "seconds": 8.481472810002742
+    },
+    {
+      "case": "generic-init202-sample101",
+      "seconds": 8.479650102002779
+    },
+    {
+      "case": "api-init101-sample101",
+      "seconds": 8.427937009022571
+    }
+  ],
+  "total_gpu_hours": 0.009464084548890242,
+  "task_evaluations": 0,
+  "teacher_calls": 0
+}

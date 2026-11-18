@@ -1,0 +1,102 @@
+{
+  "status": "watching",
+  "events": {
+    "runs/variance-diagnostic-v1/stage2": [
+      "completed",
+      true,
+      false
+    ],
+    "runs/variance-diagnostic-v1/stage3": [
+      "running",
+      false,
+      false
+    ]
+  },
+  "callbacks": {
+    "stage2-mechanism-audit": {
+      "status": "completed",
+      "started_unix": 1794482745.9730337,
+      "ended_unix": 1794482746.78817
+    }
+  },
+  "last_check_unix": 1794483947.8404138,
+  "next_periodic_unix": 1794484335.759015,
+  "last_snapshot": {
+    "time_unix": 1794483947.8404138,
+    "time_china": "2026-11-12T19:45:47.840414+08:00",
+    "periodic": false,
+    "changes": [
+      {
+        "root": "runs/variance-diagnostic-v1/stage3",
+        "status": "running",
+        "archive_uploaded": false,
+        "needs_attention": false
+      }
+    ],
+    "studies": [
+      {
+        "root": "runs/variance-diagnostic-v1/stage2",
+        "status": "completed",
+        "completed": 68,
+        "failed_cases": [],
+        "elapsed_gpu_hours": 10.143118452980287,
+        "processes": {
+          "pipeline": {
+            "pid": 1485688,
+            "alive": false,
+            "identity_verified": false
+          },
+          "observer": {
+            "pid": 1485689,
+            "alive": false,
+            "identity_verified": false
+          }
+        },
+        "missing_or_mismatched": [
+          "pipeline",
+          "observer"
+        ],
+        "needs_attention": false,
+        "finalization": {
+          "local_report_complete": true,
+          "cloud_status": "uploaded"
+        },
+        "archive_uploaded": true
+      },
+      {
+        "root": "runs/variance-diagnostic-v1/stage3",
+        "status": "running",
+        "completed": 0,
+        "failed_cases": [],
+        "elapsed_gpu_hours": 0.038437885430030294,
+        "processes": {
+          "pipeline": {
+            "pid": 3478673,
+            "alive": true,
+            "identity_verified": true
+          },
+          "observer": {
+            "pid": 3478674,
+            "alive": true,
+            "identity_verified": true
+          },
+          "full_reference-generic-i101-s101-r2": {
+            "pid": 3478712,
+            "alive": true,
+            "identity_verified": true
+          },
+          "full_reference-api-i101-s101-r2": {
+            "pid": 3478713,
+            "alive": true,
+            "identity_verified": true
+          }
+        },
+        "missing_or_mismatched": [],
+        "needs_attention": false,
+        "finalization": {},
+        "archive_uploaded": false
+      }
+    ],
+    "gpus": null
+  }
+}

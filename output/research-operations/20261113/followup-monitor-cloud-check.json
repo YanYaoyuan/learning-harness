@@ -1,0 +1,66 @@
+{
+  "status": "cloud_progress_summary_and_flat_history_verified",
+  "checked_unix": 1794517030.8055649,
+  "cloud_last_check_unix": 1794516999.331597,
+  "run_id": "bounded-followups-20261113",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/bounded-followups-20261113",
+  "studies": {
+    "nll": {
+      "state": "not_started",
+      "freeze_sha256": "d07f9cfdaa743984b09503c74810c68c82c0342df0da9d09f5657ca731872e43",
+      "started": false,
+      "terminal": false,
+      "audited_complete": false,
+      "gpu_seconds_estimate": 0,
+      "cap_gpu_seconds": 600,
+      "needs_attention": false,
+      "live_verified_processes": 0,
+      "raw_records_uploaded": false,
+      "progress_only": true,
+      "counts": {
+        "attempted_requests": 0,
+        "response_records": 0,
+        "error_records": 0,
+        "pending_requests": 0,
+        "unknown_usage_requests": 0,
+        "known_input_tokens": 0,
+        "known_output_tokens": 0,
+        "fp32_observations": 0,
+        "direct_checks_observations": 0,
+        "stress_observations": 0,
+        "legacy_observations": 0,
+        "uniform_observations": 0
+      }
+    },
+    "webshop": {
+      "state": "not_started",
+      "freeze_sha256": "3e5759a36d5e35370a5c930daa68ab8e7326b8ba43c2e2288b1bba8a5270e316",
+      "started": false,
+      "terminal": false,
+      "audited_complete": false,
+      "gpu_seconds_estimate": 0,
+      "cap_gpu_seconds": 3600,
+      "needs_attention": false,
+      "live_verified_processes": 0,
+      "raw_records_uploaded": false,
+      "progress_only": true,
+      "counts": {
+        "attempted_requests": 0,
+        "response_records": 0,
+        "error_records": 0,
+        "pending_requests": 0,
+        "unknown_usage_requests": 0,
+        "known_input_tokens": 0,
+        "known_output_tokens": 0,
+        "completed_episodes": 0,
+        "planned_episodes": 64
+      }
+    }
+  },
+  "history_rows_checked": 6,
+  "raw_records_uploaded": false,
+  "model_calls_in_followups": 0,
+  "progress_only": true,
+  "backend_summary_shape": "dot-flattened nested fields; direct studies lookup is absent",
+  "initial_query_note": "The first nested lookup returnedNone and failed before claiming verification. Dot-flattened fields and flat numeric history were then read and verified explicitly."
+}

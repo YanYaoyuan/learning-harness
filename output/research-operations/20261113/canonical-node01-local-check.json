@@ -1,0 +1,47 @@
+{
+  "status": "first_canonical_interim_independently_reaudited",
+  "checked_unix": 1794539306.9918876,
+  "models": 4,
+  "raw_episodes_verified": 256,
+  "frozen_inputs_verified": 287,
+  "aggregate_sha256": "bb2a877769ecbecc2d6ff021a915b9e60366e05e8b6a341aa03ed58f7b255d24",
+  "study": {
+    "root": "runs/variance-diagnostic-v1/stage5-canonical",
+    "status": "running",
+    "completed": 9,
+    "failed_cases": [],
+    "elapsed_gpu_hours": 1.4981754752349095,
+    "processes": {
+      "pipeline": {
+        "pid": 4091316,
+        "alive": true,
+        "identity_verified": true
+      },
+      "observer": {
+        "pid": 4091398,
+        "alive": true,
+        "identity_verified": true
+      },
+      "task_action_random-generic-i101-s303-r0": {
+        "pid": 115643,
+        "alive": true,
+        "identity_verified": true
+      },
+      "task_action_min_nll-api-i101-s303-r0": {
+        "pid": 146748,
+        "alive": true,
+        "identity_verified": true
+      }
+    },
+    "missing_or_mismatched": [],
+    "needs_attention": false,
+    "finalization": {},
+    "archive_uploaded": false
+  },
+  "monitor": {
+    "pid": 4091317,
+    "alive": true,
+    "identity_verified": true
+  },
+  "raw_records_uploaded": false
+}

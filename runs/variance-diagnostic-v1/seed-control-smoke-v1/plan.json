@@ -1,0 +1,30 @@
+{
+  "purpose": "Verify seed controls, not learner performance",
+  "gpu": 1,
+  "updates": 1,
+  "cases": [
+    [
+      "generic",
+      101,
+      101
+    ],
+    [
+      "generic",
+      101,
+      202
+    ],
+    [
+      "generic",
+      202,
+      101
+    ],
+    [
+      "api",
+      101,
+      101
+    ]
+  ],
+  "timeout_seconds_per_training": 180,
+  "teacher_calls": 0,
+  "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6"
+}

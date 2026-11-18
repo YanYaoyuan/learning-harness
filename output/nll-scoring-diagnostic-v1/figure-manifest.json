@@ -1,0 +1,10 @@
+{
+  "source_file": "output/nll-scoring-diagnostic-v1/aggregate-summary.json",
+  "source_sha256": "6cf08e05d5d3a5aee3040360918c7b1b1895d3504b9cdfc01ce1fdd63fbf555a",
+  "plotting_script_sha256": "e9b6b7b1751d07d155458eebb80140a12f26001ee84bd3c5c02456c73c6d48d8",
+  "outputs": {
+    "output/nll-scoring-diagnostic-v1/scoring-layout-and-selection.png": "17336c95478b04c03176016a0b861b2f7996b9f0fa4a419a2b5b962bdf14d919",
+    "output/pdf/nll-scoring-diagnostic-v1/scoring-layout-and-selection.pdf": "014f1573ba84afeed57287a9a4ceaf72803ca512b395d4bf91a890e0d1af8a8e"
+  },
+  "uncertainty": "Descriptive plots; no confidence intervals"
+}

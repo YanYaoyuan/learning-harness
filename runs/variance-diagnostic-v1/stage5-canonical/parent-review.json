@@ -1,0 +1,7 @@
+{
+  "decision": "run_canonical_selection_replication",
+  "complete_parent_reviewed": true,
+  "parent_report_sha256": "37219b2f514f162e0cabe6b7a15f752ef6395d384314df781e9a61d7dbb21a04",
+  "parent_review_sha256": "1d7bb7112177bb8ebc8d832e42988c70d3eb80503270cf321371f134e0852bc4",
+  "diagnostic_report_sha256": "6cf08e05d5d3a5aee3040360918c7b1b1895d3504b9cdfc01ce1fdd63fbf555a"
+}

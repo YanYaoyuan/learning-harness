@@ -9,6 +9,13 @@ description = "Controlled experiments on persistent learning from agent harnesse
 requires-python = ">=3.10"
 dependencies = []
 
+[project.optional-dependencies]
+dev = [
+    "numpy>=1.24,<3",
+    "matplotlib>=3.5,<4",
+    "pytest>=6.2,<10",
+]
+
 [project.scripts]
 lh = "learning_harness.cli:main"
 

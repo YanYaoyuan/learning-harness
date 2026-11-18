@@ -1,0 +1,57 @@
+{
+  "status": "all_final_and_interim_cloud_bytes_verified",
+  "checked_unix": 1794881453.880591,
+  "artifacts": {
+    "final": {
+      "artifact": "experience-value-fb14127e6cd4-final:v0",
+      "files": {
+        "aggregate-summary.json": "a5e1893dfcd9276361abd8504b24a4ed47e08fd72156af59fd51b29a66f8fe1e",
+        "selection-learning.png": "1fd1afe3088ae33ad65b61a2524f750337e67ca93903160ade4acb7af348f98e",
+        "RESULTS.zh-CN.md": "f754f146a73250648629977839de441a445bd239b14dc3b2e80e55da3f8e1ab7"
+      }
+    },
+    "1": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-01:v0",
+      "files": {
+        "aggregate-summary.json": "8e3a571614b4938637c55319fb269f6ec62b3bc9921b651de2acfc398a706781",
+        "selection-learning.png": "d9cd2300128a305aa64169f026fe12da278f6a58a8a833db5e6dbbc3f3b8e913",
+        "RESULTS.zh-CN.md": "7fdb029fe18b29be86217159c5be0c11439270058e618dfef124a283425db234"
+      }
+    },
+    "2": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-02:v0",
+      "files": {
+        "aggregate-summary.json": "cd685714d8da9de05ce476dea3fb6767e43aa6dd1a7ada8cf456617e91b7361f",
+        "selection-learning.png": "9fbc13620df5d52a14e2b1df805d7db7cd67030865892c23a94c43967598f36e",
+        "RESULTS.zh-CN.md": "95cb7581cd7793dc073289f0f41e2ce288758b3dd508f9d4b8b59dd648157012"
+      }
+    },
+    "4": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-04:v0",
+      "files": {
+        "aggregate-summary.json": "5006f3e94dd29e22dad2c431e08d5ce5fee85e11b6216b3fd91737d6083d39d3",
+        "selection-learning.png": "04621d50f89c61566f655ff4dfb1ba12c7681c1983cdd97f862cb7a4f858d2aa",
+        "RESULTS.zh-CN.md": "33f7a345ff06423aab42bb56688614b97cb78bd30dbca896532e09af21960232"
+      }
+    },
+    "8": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-08:v0",
+      "files": {
+        "aggregate-summary.json": "fbeffc50ef44d0a266d90a61f450ef95ff41353f81ef9db20f745f17b78f4add",
+        "selection-learning.png": "771ac8fb99410e6b8693869596932154a3a71afbe43268330e15b11c01df3715",
+        "RESULTS.zh-CN.md": "3180608b6f3f84e4bb3a9793ac2462b5e74955276b0bd9464f4ffe4ff22bf503"
+      }
+    },
+    "16": {
+      "artifact": "experience-value-fb14127e6cd4-blocks-16:v0",
+      "files": {
+        "aggregate-summary.json": "9c8837960bdb9b05de8aaff01c4e25b48586345919b862d769d58954ee175ea7",
+        "selection-learning.png": "1fd1afe3088ae33ad65b61a2524f750337e67ca93903160ade4acb7af348f98e",
+        "RESULTS.zh-CN.md": "f754f146a73250648629977839de441a445bd239b14dc3b2e80e55da3f8e1ab7"
+      }
+    }
+  },
+  "verified_files": 18,
+  "native_student_runs_verified": 224,
+  "raw_records_uploaded": false
+}

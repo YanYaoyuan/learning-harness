@@ -1,0 +1,34 @@
+{
+  "status": "original_evidence_restored_with_current_status",
+  "restored": [
+    "related work",
+    "selection equations and algorithm",
+    "control ladder and historical architecture",
+    "complete historical experiments",
+    "inventory/configuration tables",
+    "per-seed values and repeats",
+    "score sensitivity and replacement table",
+    "completed canonical replication",
+    "WebShop calibration",
+    "source-comparison and trajectory-unit boundaries"
+  ],
+  "original_source_files": {
+    "docs/paper/latex/sections/related.tex": "16f2bfb3b5b088b665dd393ad2951268af7f216b8233b34ea69f53f7cd0811d1",
+    "docs/paper/latex/sections/method.tex": "e60976088a3c058fd272764e7da04ef92af32708badef8d8ae646f8082e7f205",
+    "docs/paper/latex/sections/experiments.tex": "65ccc7e8e9f014e76d09fe7a1a8eec2a435ffd503734db206a59b974d7945282",
+    "docs/paper/latex/sections/appendix.tex": "6aa4bc646b71f71ec71fcae0b4809636ebb69b1729619ca3d885e478349ec0b2",
+    "docs/paper/latex/generated/selection-rows.tex": "ab75d69fc02c713c6ec1fca907add026564361f13c78855b855287ce042472d3",
+    "docs/paper/latex/generated/initialization-rows.tex": "27fc3691cb460946b3124bd9bc24ee514befbb1e77b6179f259de05ec13a8ac8",
+    "docs/paper/latex/figures/selection-outcomes.pdf": "8222fb89103a549c4636bb3185b54c78af429e4b6caba1c48e4c7263f8647534",
+    "docs/paper/latex/figures/initialization-effects.pdf": "3a328752f3001489e39007f5fc341c149a9271180b0c8a35424f2225dd70da96",
+    "docs/paper/latex/figures/scoring-diagnostic.pdf": "4cc48ce52b48d51e575a4c8496241ce6931c0e2f8eb0b11f2ee4ac0a34756689",
+    "docs/paper/latex/figures/webshop-calibration.pdf": "b0c261f743222e71b161e336fbb404098fdca1fe4cce797e6854f782157e72f0",
+    "docs/paper/latex/figures/control-ladder.tex": "eec67ba498dc9055f95c77714ba51c0d9bf7342cde1de57b21c1b6c562e63f24",
+    "docs/paper/latex/figures/architecture.tex": "471a9d88648c62c2dfee7f0f1d765e5bfb22c501ff8a99b3f41075251c697f24",
+    "docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md": "249a543a291fca9caada33b5b89828172c9c23eb643d785ce9fb1fcb5799c7d5"
+  },
+  "obsolete_status_updated": true,
+  "restoration_script_sha256": "2e249b594e05649e8c49fb35ea7c1c30e576edea11c8d9871930686d2e1fd86c",
+  "historical_and_fresh_panels_separated": true,
+  "original_manuscript_modified": false
+}

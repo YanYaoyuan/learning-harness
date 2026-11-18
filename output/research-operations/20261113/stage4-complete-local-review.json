@@ -1,0 +1,164 @@
+{
+  "status": "complete_parent_independently_recollected_and_reviewed",
+  "checked_unix": 1794531962.7514298,
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "parent_report_sha256": "37219b2f514f162e0cabe6b7a15f752ef6395d384314df781e9a61d7dbb21a04",
+  "frozen_inputs_verified": 237,
+  "models": 100,
+  "raw_episodes_reaudited": 6400,
+  "primary_models": 96,
+  "primary_cells": 24,
+  "initializations": 6,
+  "conditional_repeated_models": 4,
+  "primary_means_match_node24": true,
+  "primary_gpu_layout": {
+    "api": {
+      "random": {
+        "0": 12,
+        "1": 12
+      },
+      "min_nll": {
+        "0": 12,
+        "1": 12
+      }
+    },
+    "generic": {
+      "random": {
+        "0": 12,
+        "1": 12
+      },
+      "min_nll": {
+        "0": 12,
+        "1": 12
+      }
+    }
+  },
+  "repeat_results": [
+    {
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "original_success_percent": 31.25,
+      "repeated_success_percent": 31.25,
+      "repeat_minus_original_pp": 0.0,
+      "original_gpu": 0,
+      "repeat_gpu": 0,
+      "initial_parameters_equal": true,
+      "trained_weights_equal": false
+    },
+    {
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "original_success_percent": 34.375,
+      "repeated_success_percent": 29.6875,
+      "repeat_minus_original_pp": -4.6875,
+      "original_gpu": 0,
+      "repeat_gpu": 0,
+      "initial_parameters_equal": true,
+      "trained_weights_equal": false
+    },
+    {
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "original_success_percent": 4.6875,
+      "repeated_success_percent": 6.25,
+      "repeat_minus_original_pp": 1.5625,
+      "original_gpu": 1,
+      "repeat_gpu": 1,
+      "initial_parameters_equal": true,
+      "trained_weights_equal": false
+    },
+    {
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "original_success_percent": 4.6875,
+      "repeated_success_percent": 3.125,
+      "repeat_minus_original_pp": -1.5625,
+      "original_gpu": 1,
+      "repeat_gpu": 1,
+      "initial_parameters_equal": true,
+      "trained_weights_equal": false
+    }
+  ],
+  "elapsed_gpu_hours": 14.663371775192209,
+  "primary_results": {
+    "api": {
+      "success_difference_pp": -4.817708333333334,
+      "nll_difference": 0.0463312809190757,
+      "wins": 8,
+      "ties": 1,
+      "losses": 15
+    },
+    "generic": {
+      "success_difference_pp": -2.994791666666667,
+      "nll_difference": -0.00726074031791125,
+      "wins": 3,
+      "ties": 6,
+      "losses": 15
+    }
+  },
+  "independently_recomputed_aggregate": {
+    "complete": true,
+    "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+    "models": 100,
+    "evaluation_episodes": 6400,
+    "primary_seed_cells": 24,
+    "initialization_levels": 6,
+    "sampling_levels": 4,
+    "conditional_repeated_models": 4,
+    "groups": {
+      "api": {
+        "random": {
+          "mean_success": 0.3170572916666667,
+          "mean_nll": 0.18105982554863342
+        },
+        "min_nll": {
+          "mean_success": 0.2688802083333333,
+          "mean_nll": 0.2273911064677091
+        }
+      },
+      "generic": {
+        "random": {
+          "mean_success": 0.06770833333333333,
+          "mean_nll": 0.45337192390152864
+        },
+        "min_nll": {
+          "mean_success": 0.037760416666666664,
+          "mean_nll": 0.4461111835836174
+        }
+      }
+    },
+    "min_nll_minus_random": {
+      "api": {
+        "success_difference_pp": -4.817708333333334,
+        "nll_difference": 0.0463312809190757,
+        "wins": 8,
+        "ties": 1,
+        "losses": 15
+      },
+      "generic": {
+        "success_difference_pp": -2.994791666666667,
+        "nll_difference": -0.00726074031791125,
+        "wins": 3,
+        "ties": 6,
+        "losses": 15
+      }
+    },
+    "teacher_calls": 0,
+    "official_tests_used": false,
+    "raw_records_uploaded": false,
+    "aggregation": "Equal weights over primary paired cells; conditional repeats excluded from means.",
+    "uncertainty": "Descriptive fixed-development-task results; no calibrated confidence intervals."
+  },
+  "decision": "Parent local report passed review; eligible for frozen scoring diagnostic after actual GPU preflight. Cloud finalization handled separately.",
+  "raw_task_records_uploaded": false,
+  "new_teacher_calls": 0,
+  "official_tests_used": false
+}

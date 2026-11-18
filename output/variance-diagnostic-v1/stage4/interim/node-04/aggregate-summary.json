@@ -1,0 +1,62 @@
+{
+  "complete": false,
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "models": 16,
+  "evaluation_episodes": 1024,
+  "primary_seed_cells": 4,
+  "initialization_levels": 1,
+  "sampling_levels": 4,
+  "conditional_repeated_models": 0,
+  "groups": {
+    "api": {
+      "random": {
+        "mean_success": 0.30859375,
+        "mean_nll": 0.18823081429976796
+      },
+      "min_nll": {
+        "mean_success": 0.25,
+        "mean_nll": 0.23016388514636626
+      }
+    },
+    "generic": {
+      "random": {
+        "mean_success": 0.05078125,
+        "mean_nll": 0.46301643412244187
+      },
+      "min_nll": {
+        "mean_success": 0.03515625,
+        "mean_nll": 0.4635325428271768
+      }
+    }
+  },
+  "min_nll_minus_random": {
+    "api": {
+      "success_difference_pp": -5.859375,
+      "nll_difference": 0.041933070846598336,
+      "wins": 1,
+      "ties": 0,
+      "losses": 3
+    },
+    "generic": {
+      "success_difference_pp": -1.5625,
+      "nll_difference": 0.0005161087047349661,
+      "wins": 2,
+      "ties": 1,
+      "losses": 1
+    }
+  },
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "raw_records_uploaded": false,
+  "aggregation": "Equal weights over primary paired cells; conditional repeats excluded from means.",
+  "uncertainty": "Descriptive fixed-development-task results; no calibrated confidence intervals.",
+  "subset_complete": true,
+  "interim": true,
+  "final_study_complete": false,
+  "milestone": 4,
+  "actual_paired_cells": 4,
+  "completed_models": 16,
+  "planned_models": 100,
+  "monitoring_only": true,
+  "note": "All fully paired cells at first observation of the prespecified node; no inference, early stop or scheduling change."
+}

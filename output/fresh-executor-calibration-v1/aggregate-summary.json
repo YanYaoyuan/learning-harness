@@ -1,0 +1,72 @@
+{
+  "complete": true,
+  "freeze_sha256": "d66fc9ceb9f29e197efe8d867ff95d87da4829322a75a4e2025b1ac11c700f61",
+  "calibration_only": true,
+  "groups": {
+    "json_direct": {
+      "episodes": 32,
+      "successes": 9,
+      "mean_success": 0.28125,
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 16,
+          "successes": 7
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 16,
+          "successes": 2
+        }
+      },
+      "invalid_format_decisions": 0,
+      "thought_decisions": 0,
+      "usage": {
+        "attempted_requests": 1098,
+        "response_records": 1098,
+        "error_records": 0,
+        "pending_requests": 0,
+        "known_usage_requests": 1098,
+        "unknown_usage_requests": 0,
+        "known_input_tokens": 755460,
+        "known_output_tokens": 12305,
+        "truncated_tail": false,
+        "complete_usage": true
+      }
+    },
+    "react_retry": {
+      "episodes": 32,
+      "successes": 21,
+      "mean_success": 0.65625,
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 16,
+          "successes": 10
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 16,
+          "successes": 11
+        }
+      },
+      "invalid_format_decisions": 0,
+      "thought_decisions": 260,
+      "usage": {
+        "attempted_requests": 703,
+        "response_records": 703,
+        "error_records": 0,
+        "pending_requests": 0,
+        "known_usage_requests": 703,
+        "unknown_usage_requests": 0,
+        "known_input_tokens": 1316301,
+        "known_output_tokens": 13858,
+        "truncated_tail": false,
+        "complete_usage": true
+      }
+    }
+  },
+  "completed_episodes": 64,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "development_query_evaluations": 0,
+  "confirmation_query_evaluations": 0,
+  "raw_records_uploaded": false,
+  "scope": "Fresh train-derived placement/cleaning base calibration; no SFT or selection effect."
+}

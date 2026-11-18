@@ -1,0 +1,12 @@
+{
+  "freeze_sha256": "bbc869b80d2fe740060a4999614611a053033553b833715f67541bf699da3f6e",
+  "reused_checkpoints": 97,
+  "tasks": 128,
+  "episodes": 12416,
+  "training_updates": 0,
+  "cap_gpu_hours": 30.5,
+  "prior_finishing_gpu_hours": 17.419397306574812,
+  "frozen_inputs": 1025,
+  "analysis": "Finite-panel paired descriptive replication; no p-values or confidence intervals.",
+  "raw_records_uploaded": false
+}

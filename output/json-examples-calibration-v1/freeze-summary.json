@@ -1,0 +1,10 @@
+{
+  "status_at_snapshot": "queued_after_feature_extraction",
+  "freeze_sha256": "0e2850555f940d1efe7bf7bbb591390c0ecf6a947e26e9e3c6b9564339d8ddd6",
+  "frozen_inputs": 348,
+  "cap_gpu_hours": 0.5,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "automatic_retry": false,
+  "raw_records_uploaded": false
+}

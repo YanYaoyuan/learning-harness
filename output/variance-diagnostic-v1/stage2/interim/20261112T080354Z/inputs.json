@@ -1,0 +1,1236 @@
+{
+  "cutoff_unix": 1794470634.1521351,
+  "snapshot_china": "2026-11-12T16:03:54.152135+08:00",
+  "freeze_sha256": "762860f6c45bc166b1fff6ef8783cd015299d7e4c93b83c5227f4b5715894b72",
+  "records": [
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-api-i101-s101-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.21875,
+        "heat": 0.46875
+      },
+      "mean_success": 0.34375,
+      "mean_nll": 0.1220478813021676,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "9ce8546d3873767d341f13d5f0084fcc9dd5dadfc596498bf1a2429e9b27e9d1",
+        "trained_adapter_sha256": "30f0f1bfe6e8ba98921b05a101d03ab868c95c8a920f5ac66900b8f46bebe259",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 721,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 457,
+          "pick_clean_then_place_in_recep": 168,
+          "pick_heat_then_place_in_recep": 143
+        },
+        "input_tokens": 483453,
+        "target_tokens": 9802,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:263a40468acdfae18871bd5ac89e64b00357cf99b822a0d1e9ceedeaee636d39"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-api-i101-s202-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.125,
+        "heat": 0.46875
+      },
+      "mean_success": 0.296875,
+      "mean_nll": 0.1920952885732884,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "0e3abf5a2e35bc4ee813da2e79af9f05709b916dbb204beda753e0a8c6fb4295",
+        "trained_adapter_sha256": "7e523eee842f0341fcda7a870ad65a99619493508f191f10f8ebeaedd034b42a",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 721,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 455,
+          "pick_heat_then_place_in_recep": 146,
+          "pick_clean_then_place_in_recep": 167
+        },
+        "input_tokens": 481862,
+        "target_tokens": 9827,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:ddf74cdb6c6e531cb805a87d1bfd81c20723a83e6a72e44b82d8b016a2f7df35"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-api-i101-s303-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.1875,
+        "heat": 0.4375
+      },
+      "mean_success": 0.3125,
+      "mean_nll": 0.13148603763490158,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "389c2cf7809452531cc60b196433ef2f8b93061ff3d6394ad3d652cbc11345d2",
+        "trained_adapter_sha256": "4e398216b888b01c92c821c775e4d33cf513f9702931510eeca65269d64caaca",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 721,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_heat_then_place_in_recep": 150,
+          "pick_and_place_simple": 455,
+          "pick_clean_then_place_in_recep": 163
+        },
+        "input_tokens": 483120,
+        "target_tokens": 9822,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:69e2026467653e1df4d5bc754fd852f7f5ec9d2c818543dfec527a0b1be3b3c7"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-api-i101-s404-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.21875,
+        "heat": 0.40625
+      },
+      "mean_success": 0.3125,
+      "mean_nll": 0.14231954079075204,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "23de5df001ebd7b04a79839d9aa0bd68c919c94f20825a6e49015e1701027de7",
+        "trained_adapter_sha256": "a59a944cf66f4377689986087f8962828301164943002046a3268114d380d8e5",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 721,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 459,
+          "pick_clean_then_place_in_recep": 164,
+          "pick_heat_then_place_in_recep": 145
+        },
+        "input_tokens": 483640,
+        "target_tokens": 9803,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:3de5a12a6b43c4f2f8f66d7644806a04c4b67487d114c9226dc414585f7c7386"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-api-i202-s101-r0",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.25,
+        "heat": 0.53125
+      },
+      "mean_success": 0.390625,
+      "mean_nll": 0.13721786427273594,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "9ce8546d3873767d341f13d5f0084fcc9dd5dadfc596498bf1a2429e9b27e9d1",
+        "trained_adapter_sha256": "4191156a4c19d97b10f6df939b7565c1a9e45e6dada99d3039edcc5ba65b66ef",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 721,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 457,
+          "pick_clean_then_place_in_recep": 168,
+          "pick_heat_then_place_in_recep": 143
+        },
+        "input_tokens": 483453,
+        "target_tokens": 9802,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:c4f6870113fc8ff1b1806cc54caa73d667ad2524dab601900c371b82d3ab8fbb"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-api-i202-s202-r0",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.15625,
+        "heat": 0.5
+      },
+      "mean_success": 0.328125,
+      "mean_nll": 0.13734012854816863,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "0e3abf5a2e35bc4ee813da2e79af9f05709b916dbb204beda753e0a8c6fb4295",
+        "trained_adapter_sha256": "48e0363f5e88aaf0c3aed235202e5d0da7a6a5d99b2070e5c61ab669754d5102",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 721,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 455,
+          "pick_heat_then_place_in_recep": 146,
+          "pick_clean_then_place_in_recep": 167
+        },
+        "input_tokens": 481862,
+        "target_tokens": 9827,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:3176997c094506cfb4c8bfce60c29cb333a2e2da343b4b23497387ca28dee0d1"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-generic-i101-s101-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.0625,
+        "heat": 0.4375
+      },
+      "mean_success": 0.25,
+      "mean_nll": 0.3300336038527054,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "2f3e94cc090a2fa09a13b87424285494864ddae36cf06477f6d400792789db3b",
+        "trained_adapter_sha256": "4a30ece434a27da101939813d714c7eabd1a32411596e2c4973d7fc44404e9ae",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 732,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 560,
+          "pick_clean_then_place_in_recep": 170,
+          "pick_heat_then_place_in_recep": 38
+        },
+        "input_tokens": 510880,
+        "target_tokens": 9412,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:7ecfec354253c64815e0d420e98e5d43a050cb2ef37938620bbdc48e6c796c18"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-generic-i101-s202-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.125,
+        "heat": 0.21875
+      },
+      "mean_success": 0.171875,
+      "mean_nll": 0.45556669490618174,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "1ad55b71d24626a1ad2e3db92cc2ebfe4663eb600757270b54114189d76ee30b",
+        "trained_adapter_sha256": "ffc99012314ebbcb210ba812e834727db0fa4c1d637aabc4337782b8982d8aac",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 732,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 565,
+          "pick_heat_then_place_in_recep": 35,
+          "pick_clean_then_place_in_recep": 168
+        },
+        "input_tokens": 511003,
+        "target_tokens": 9395,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:401aadc1b432c9764d0b929033e6515180d43277a603defa91bc4dcbbda6158c"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-generic-i101-s303-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.0625,
+        "heat": 0.21875
+      },
+      "mean_success": 0.140625,
+      "mean_nll": 0.43907975981564196,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "1dec743f35eac896ff90e232044e35396edc28ed0c629cd91ccf258af8f9a8ee",
+        "trained_adapter_sha256": "01f8ad4372bde027b39655b574dfbbf6a9a1cc08fbfca7eb9b9bf707b6f19b0c",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 732,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 560,
+          "pick_clean_then_place_in_recep": 171,
+          "pick_heat_then_place_in_recep": 37
+        },
+        "input_tokens": 509706,
+        "target_tokens": 9410,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:b29d107d74f3b9a9800a46e1f501136bc35388a651aee7c35b8b1329d06596c6"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-generic-i101-s404-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.03125,
+        "heat": 0.25
+      },
+      "mean_success": 0.140625,
+      "mean_nll": 0.4315321499645217,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "077c6144b42522ad8369636bf5b153374c95018024cc4a96a2ab11c054378dce",
+        "trained_adapter_sha256": "d2405bc3b60e6fa59aa8a232cb1311ded0407bf27a2e2d5416862ecd116aa27d",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 732,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 559,
+          "pick_clean_then_place_in_recep": 173,
+          "pick_heat_then_place_in_recep": 36
+        },
+        "input_tokens": 511225,
+        "target_tokens": 9398,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:2699972baa3083074f928946406b6fa91256f7959d26d3f67747d6201749ab6b"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-generic-i202-s101-r0",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.0625,
+        "heat": 0.21875
+      },
+      "mean_success": 0.140625,
+      "mean_nll": 0.41740195631953214,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "2f3e94cc090a2fa09a13b87424285494864ddae36cf06477f6d400792789db3b",
+        "trained_adapter_sha256": "821cc9da897da50f7197c2445f43e7303aae5fa2029a1724212c00dc3c72a9db",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 732,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 560,
+          "pick_clean_then_place_in_recep": 170,
+          "pick_heat_then_place_in_recep": 38
+        },
+        "input_tokens": 510880,
+        "target_tokens": 9412,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:9db6936f150ec8fa80a6fccc4c251729a55b74be1ac5ce7ae8fe727b07881f5a"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "full_pass-generic-i202-s202-r0",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "full_pass"
+      },
+      "success": {
+        "cool": 0.0625,
+        "heat": 0.375
+      },
+      "mean_success": 0.21875,
+      "mean_nll": 0.41439701855770106,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "1ad55b71d24626a1ad2e3db92cc2ebfe4663eb600757270b54114189d76ee30b",
+        "trained_adapter_sha256": "7f98e21612cbc3b82213564f8eb0812fc908e42ebff7296a37db4718c570d625",
+        "sampling_arm": "full_pass",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 732,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 565,
+          "pick_heat_then_place_in_recep": 35,
+          "pick_clean_then_place_in_recep": 168
+        },
+        "input_tokens": 511003,
+        "target_tokens": 9395,
+        "minimum_repetitions": 1,
+        "maximum_repetitions": 2
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:ac2357f970fb688cf2c63e7e8e9c9a025be98ecf9289dd3e93144f20a5c1841a"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-api-i101-s101-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.1875,
+        "heat": 0.40625
+      },
+      "mean_success": 0.296875,
+      "mean_nll": 0.18883903529609525,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "f8a8bb2c3a2697b40f4b23b8b3b37c5801a724f09b74fcd57557d5facb8a0465",
+        "trained_adapter_sha256": "5c9f63f22ce41ca8ff4e55242f057aa7a25b55501f81341f2828d235e2810820",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 489,
+          "pick_clean_then_place_in_recep": 132,
+          "pick_heat_then_place_in_recep": 147
+        },
+        "input_tokens": 473184,
+        "target_tokens": 9735,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:3ef0179b9b61e4e8c93721c88f9a7e9c0904f501469b6ae775274a7a28799697"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-api-i101-s202-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.15625,
+        "heat": 0.46875
+      },
+      "mean_success": 0.3125,
+      "mean_nll": 0.18044686874216825,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "542f3167e8d973d55fb5cc66f0d2359144352373f5d7d96c694a7be876e80c62",
+        "trained_adapter_sha256": "7d7535bf85aaf07853d6e2d7f893e02be8f4c491dff00d5fe629b11d7d76e129",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 510,
+          "pick_heat_then_place_in_recep": 120,
+          "pick_clean_then_place_in_recep": 138
+        },
+        "input_tokens": 478602,
+        "target_tokens": 9732,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:0ab6ae420086c64a76a7b6cbf92120170d7c76b4cb1f8a11e2a6fa2f71b47fd4"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-api-i101-s303-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.15625,
+        "heat": 0.46875
+      },
+      "mean_success": 0.3125,
+      "mean_nll": 0.14689064302299465,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "60aa8f7c28ab7c61573c4a4a79684ade97eef08e518ba21949ad9634361d2428",
+        "trained_adapter_sha256": "71221237152b1417abc1eaf4e37377633f10a89fc8c4e0a466db8bfb83ecdded",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 34,
+        "task_type_presentations": {
+          "pick_heat_then_place_in_recep": 141,
+          "pick_and_place_simple": 456,
+          "pick_clean_then_place_in_recep": 171
+        },
+        "input_tokens": 484752,
+        "target_tokens": 9762,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:d93a1138756947210d205578bbb67b2919858f867f29f441b84a598128c263f6"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-api-i101-s404-r0",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.09375,
+        "heat": 0.5
+      },
+      "mean_success": 0.296875,
+      "mean_nll": 0.20133762830050494,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "a634bac0978f6548e4b71b4970b3da434116751c285b36b3a06ac0d7e7448dd5",
+        "trained_adapter_sha256": "c4166ddabba5fdb9c5201578e3ee5b4124bb2cb80f96846d6d6170b944125f92",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 441,
+          "pick_clean_then_place_in_recep": 174,
+          "pick_heat_then_place_in_recep": 153
+        },
+        "input_tokens": 474876,
+        "target_tokens": 9657,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:4a485b1f0ca0264e4f3dd6db81b395135901ca925c75356eeed5720050c14f17"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-api-i202-s101-r0",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.21875,
+        "heat": 0.28125
+      },
+      "mean_success": 0.25,
+      "mean_nll": 0.1722506990943913,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "f8a8bb2c3a2697b40f4b23b8b3b37c5801a724f09b74fcd57557d5facb8a0465",
+        "trained_adapter_sha256": "b6a4749313df11ac8e4671e127002bf81c7fcee36c31403a5964ffaf634ea306",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 489,
+          "pick_clean_then_place_in_recep": 132,
+          "pick_heat_then_place_in_recep": 147
+        },
+        "input_tokens": 473184,
+        "target_tokens": 9735,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:c8e269199a46196285de65fc5482b331da2a06a45ec22ab828a028b39796dae0"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-api-i202-s202-r0",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.09375,
+        "heat": 0.53125
+      },
+      "mean_success": 0.3125,
+      "mean_nll": 0.13252285788202242,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "542f3167e8d973d55fb5cc66f0d2359144352373f5d7d96c694a7be876e80c62",
+        "trained_adapter_sha256": "29f99001848e29157c7fc900b817e29627556f8b8be8112d7079dd9f567ceb74",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 35,
+        "task_type_presentations": {
+          "pick_and_place_simple": 510,
+          "pick_heat_then_place_in_recep": 120,
+          "pick_clean_then_place_in_recep": 138
+        },
+        "input_tokens": 478602,
+        "target_tokens": 9732,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:a2a8724fe32ee79eb94e2353afbeaf856ad6c2393ada4239b5bed29f24c1d965"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i101-s101-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.15625,
+        "heat": 0.3125
+      },
+      "mean_success": 0.234375,
+      "mean_nll": 0.40121432901421333,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "b27a48f4d776fe6f2328b924117fcf7ce694c21810c2b04291ea9dfec22bef44",
+        "trained_adapter_sha256": "ea390e3f706df4da5c4d82d71ab9712355fdc3c4aefbbfe76172a147f8a1ceda",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 537,
+          "pick_clean_then_place_in_recep": 195,
+          "pick_heat_then_place_in_recep": 36
+        },
+        "input_tokens": 523044,
+        "target_tokens": 9675,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:e10a1fa0ce2ef57fd7692f73d5349831b5bc0b4f68853f635988c1d9302c6072"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i101-s202-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.0625,
+        "heat": 0.0625
+      },
+      "mean_success": 0.0625,
+      "mean_nll": 0.3650807166105723,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "4cb0eca80a777eeaff5c517420c6fec2e52405b09bd791b32d108342461c99ae",
+        "trained_adapter_sha256": "b39e0ea3816733c38a87d7014bee18316ae6d66ebda35c40ce902c04d530e5ed",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 564,
+          "pick_heat_then_place_in_recep": 30,
+          "pick_clean_then_place_in_recep": 174
+        },
+        "input_tokens": 519135,
+        "target_tokens": 9417,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:01923ed43bfce6ea2d24f1c82b5cb2bcb744f92dc2baf2f2e849213ca34faac1"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i101-s303-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.03125,
+        "heat": 0.40625
+      },
+      "mean_success": 0.21875,
+      "mean_nll": 0.43460179552196965,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 303,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "bc9242701126e207cfe924792bd78f2bf58f343eccccb0e5b87020de7ca924c4",
+        "trained_adapter_sha256": "7522bda6e2d0e462922d6f3e48d257bd2bf9a79439e2d10e4a087cc54c7b1c4f",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 531,
+          "pick_clean_then_place_in_recep": 207,
+          "pick_heat_then_place_in_recep": 30
+        },
+        "input_tokens": 513642,
+        "target_tokens": 9378,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:820efbe317604e7fa40d556273137c047d8cea4ce343bc26be9e3ef11a4d6c1d"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i101-s404-r0",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.03125,
+        "heat": 0.15625
+      },
+      "mean_success": 0.09375,
+      "mean_nll": 0.4087856408521359,
+      "control": {
+        "initialization_seed": 101,
+        "sampling_seed": 404,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "b831389b521df0caceeb0df2122bbc1b538f83dc8da0b813edcfe66a031d8174",
+        "trained_adapter_sha256": "c4664b27fd73cc7bbaeae853b11374defb947a057ba16b8f9c11a779190b0bb9",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 28,
+        "task_type_presentations": {
+          "pick_and_place_simple": 564,
+          "pick_clean_then_place_in_recep": 168,
+          "pick_heat_then_place_in_recep": 36
+        },
+        "input_tokens": 517074,
+        "target_tokens": 9453,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:5dfb312c416904964e8d97ee35a523a549e6fe562b09693ba4db1172c0a9f162"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i202-s101-r0",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.09375,
+        "heat": 0.25
+      },
+      "mean_success": 0.171875,
+      "mean_nll": 0.4407887437427417,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "b27a48f4d776fe6f2328b924117fcf7ce694c21810c2b04291ea9dfec22bef44",
+        "trained_adapter_sha256": "3daa29504907e45b79ca4c9513f107bf1f5e073875afded119cd5b7a6da2b1e4",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 537,
+          "pick_clean_then_place_in_recep": 195,
+          "pick_heat_then_place_in_recep": 36
+        },
+        "input_tokens": 523044,
+        "target_tokens": 9675,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:5269949c4bb15548686cc2488a0a3ae6dbcdb8f3cb2d1ae364f6d17dd4a94439"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i202-s202-r0",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "repeat": 0,
+        "gpu": 1,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.09375,
+        "heat": 0
+      },
+      "mean_success": 0.046875,
+      "mean_nll": 0.4034805958129409,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "4cb0eca80a777eeaff5c517420c6fec2e52405b09bd791b32d108342461c99ae",
+        "trained_adapter_sha256": "0b846b8c966da376a1ad62f63a92e81b01b733617e1e622c19fcd69d0b0eb1dc",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 564,
+          "pick_heat_then_place_in_recep": 30,
+          "pick_clean_then_place_in_recep": 174
+        },
+        "input_tokens": 519135,
+        "target_tokens": 9417,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:df4c5827bccd5f524b4daecb9643890b6ec60b3787dcee191c73f3a4ffb0619b"
+    },
+    {
+      "complete": true,
+      "smoke": false,
+      "case": {
+        "name": "subset_replay-generic-i202-s303-r0",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 303,
+        "repeat": 0,
+        "gpu": 0,
+        "arm": "subset_replay"
+      },
+      "success": {
+        "cool": 0.0625,
+        "heat": 0.40625
+      },
+      "mean_success": 0.234375,
+      "mean_nll": 0.33042869132572555,
+      "control": {
+        "initialization_seed": 202,
+        "sampling_seed": 303,
+        "initialization_factor": "LoRA initialization plus dropout stream",
+        "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+        "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+        "completed": true,
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "initial_parameter_count": 11796480,
+        "schedule_sha256": "bc9242701126e207cfe924792bd78f2bf58f343eccccb0e5b87020de7ca924c4",
+        "trained_adapter_sha256": "d5b6b0615fd4f291063d94c9df273150953b3e4be0d1f8fcc77c88f338dc23da",
+        "sampling_arm": "subset_replay",
+        "intervention_wrapper_sha256": "c5fb82c45ee0a6c5064928331675db71bfc6a0fa9e7d40e39f66cda0e1fb8097"
+      },
+      "exposure": {
+        "processed_examples": 768,
+        "unique_examples": 256,
+        "unique_tasks": 29,
+        "task_type_presentations": {
+          "pick_and_place_simple": 531,
+          "pick_clean_then_place_in_recep": 207,
+          "pick_heat_then_place_in_recep": 30
+        },
+        "input_tokens": 513642,
+        "target_tokens": 9378,
+        "minimum_repetitions": 3,
+        "maximum_repetitions": 3
+      },
+      "composition_revision": "cdbee75f17c01a7cc42f958dc650907174af0554/composition-sha256:cbdcf4a11e8a513519ad3d4906a1218d9da8d26f0eac9c1eae6665659aabdf16"
+    }
+  ],
+  "provenance": {
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s101-r0/worker-result.json": "d763cd8401665b8f084419e6d245fa017f15073de783e55e09388dfdb923e790",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s202-r0/worker-result.json": "c4c4f952d25fe5dd5b675e485150d9811c14f202f2b5dc1b46d9df821e253a5e",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s303-r0/worker-result.json": "ddc89fb2021f57367fd46db4b77be8752228b25a7b0786dbf6a58bde65ba6307",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i101-s404-r0/worker-result.json": "0031953d12dd850ad0c612181697265a5efe405cd15fa014b91e6528be38ccca",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s101-r0/worker-result.json": "963f46b7470926f537c4032e6814433f3e7c78d1255ff77c081f0199791b6062",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-api-i202-s202-r0/worker-result.json": "dc2385eb4e59979fa6a5ac49d4ccebc738f61e44cc0e224c14d0cfdbce03d84b",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s101-r0/worker-result.json": "c2499dc45b69a458b19103e3a85061854ccd04fa0ab93b1a8ca784314f2b3c54",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s202-r0/worker-result.json": "5c7d227b881731d95699cee4c4b7c12a7b20eecae068fba4a5425a37a62f857f",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s303-r0/worker-result.json": "a43f054f5822315cedd5d20a3134e39a6ef789297281d6d1b3bc9fa33875d33d",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i101-s404-r0/worker-result.json": "8629bff9dd039958233b14ca61a5275e34aead9857d033193ddc8bdb49fe0a04",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s101-r0/worker-result.json": "42233725bffc1a276722e9231e0889a6fbe9dd3022df520acf25422e4d07135a",
+    "runs/variance-diagnostic-v1/stage2/cases/full_pass-generic-i202-s202-r0/worker-result.json": "c32ef10705ba1ce615d4afdf5a1129209e2875c0aa35d64ac602e468a7ff8a7e",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s101-r0/worker-result.json": "60cf7047fa1ce1d24dd9aeeb7e9580f8e161ec9eead90a0099761e249be36f36",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s202-r0/worker-result.json": "258ca7a0e8de55d4ba20b579e067bcb822a75ec7854d3618b0b44e58793868d9",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s303-r0/worker-result.json": "a660532af2d0faa9e77b5b0b20941c3aa32ed91b5fe224204436315f0b988715",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i101-s404-r0/worker-result.json": "3f0f0e2c0032bdc0d4ca615c80ccc0324676ab84a62d6adf4f4cfcb912b2287b",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s101-r0/worker-result.json": "66feb6ee173c654983911aace518d3a961d1f7fb91d4886b18b4e254accfafe8",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-api-i202-s202-r0/worker-result.json": "0709ff41b26570fcb85c6126fdd0e3882d639c39d95f1c305d2a55844d67dc1d",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s101-r0/worker-result.json": "7c783a94b45de2ccfb40e21c386edbbc6497c5dcc61228ab4d2512c05f0cd435",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s202-r0/worker-result.json": "fecdcddf2ffb4a1e14fcaf08bbc16faef075a8543feedbd55863fdcc5ef1dd70",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s303-r0/worker-result.json": "b5507e9d2cea56ca518ce239dcaeb3c076b3b0fdd97cc419d2a67ddfd4bfe196",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i101-s404-r0/worker-result.json": "57a207df538a4978b8c58d9899c1821f66c89ad77552dcef31cf89233763ecaa",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s101-r0/worker-result.json": "8ced5e6d3b812b2ddd57fb534efdac4c8c4d73fa1082caad21874484c51cff50",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s202-r0/worker-result.json": "8564e23ea34c095a7c7e2ed54de6b984af441cde84868c10c018864678f8dead",
+    "runs/variance-diagnostic-v1/stage2/cases/subset_replay-generic-i202-s303-r0/worker-result.json": "defe26c233945cc56a0f692c31af4d87b50829ed8998392c6ef79eff6851a7e9"
+  },
+  "fixed_main_plan_unchanged": true,
+  "purpose": "User-requested descriptive interim look; no outcome-dependent scheduling or inference"
+}

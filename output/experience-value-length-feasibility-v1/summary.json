@@ -1,0 +1,300 @@
+{
+  "status": "cpu_feasibility_complete",
+  "parent_freeze_sha256": "fb14127e6cd401087b216fa38243f829640e7a558a5651260503e6bfdc1343e5",
+  "code_sha256": "4d4bad44575789dbe2149ca9e024b63a473bf8905bb5e96ec595e211c06298ad",
+  "source_rows": {
+    "api": 721,
+    "generic": 732
+  },
+  "widths_checked": [
+    0,
+    8,
+    16,
+    32
+  ],
+  "thresholds": {
+    "max_input_imbalance": 0.01,
+    "min_retained_score_gap": 0.25
+  },
+  "selection_rule": "finest predeclared bin width passing every source and sampling condition",
+  "selected_bin_width": null,
+  "feasible": false,
+  "records": [
+    {
+      "source": "api",
+      "sampling_seed": 101,
+      "input_bin_width": 0,
+      "input_tokens": {
+        "random": 486623,
+        "high": 486623,
+        "gradient_high": 486623,
+        "gradient_low": 486623
+      },
+      "target_tokens": 9783,
+      "max_input_token_imbalance": 0.0,
+      "original_gradient_gap": 0.005492108408295357,
+      "retained_gradient_gap_fraction": 2.8069247817043617e-08,
+      "high_low_distinct_selected_content": 2,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 101,
+      "input_bin_width": 8,
+      "input_tokens": {
+        "random": 486612,
+        "high": 486620,
+        "gradient_high": 486650,
+        "gradient_low": 486600
+      },
+      "target_tokens": 9783,
+      "max_input_token_imbalance": 0.00010275126795064651,
+      "original_gradient_gap": 0.005492108408295357,
+      "retained_gradient_gap_fraction": 0.020541281462663506,
+      "high_low_distinct_selected_content": 12,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 101,
+      "input_bin_width": 16,
+      "input_tokens": {
+        "random": 486647,
+        "high": 486611,
+        "gradient_high": 486644,
+        "gradient_low": 486567
+      },
+      "target_tokens": 9783,
+      "max_input_token_imbalance": 0.00016439020480964642,
+      "original_gradient_gap": 0.005492108408295357,
+      "retained_gradient_gap_fraction": 0.019733314049960142,
+      "high_low_distinct_selected_content": 16,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 101,
+      "input_bin_width": 32,
+      "input_tokens": {
+        "random": 486691,
+        "high": 486581,
+        "gradient_high": 486631,
+        "gradient_low": 486613
+      },
+      "target_tokens": 9783,
+      "max_input_token_imbalance": 0.0002260160964554512,
+      "original_gradient_gap": 0.005492108408295357,
+      "retained_gradient_gap_fraction": 0.0345118224504176,
+      "high_low_distinct_selected_content": 26,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 202,
+      "input_bin_width": 0,
+      "input_tokens": {
+        "random": 484402,
+        "high": 484402,
+        "gradient_high": 484402,
+        "gradient_low": 484402
+      },
+      "target_tokens": 9881,
+      "max_input_token_imbalance": 0.0,
+      "original_gradient_gap": 0.005128260732457573,
+      "retained_gradient_gap_fraction": 1.0020249228932038e-08,
+      "high_low_distinct_selected_content": 0,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 202,
+      "input_bin_width": 8,
+      "input_tokens": {
+        "random": 484404,
+        "high": 484399,
+        "gradient_high": 484402,
+        "gradient_low": 484401
+      },
+      "target_tokens": 9881,
+      "max_input_token_imbalance": 1.0321962659267884e-05,
+      "original_gradient_gap": 0.005128260732457573,
+      "retained_gradient_gap_fraction": 0.005285690424413616,
+      "high_low_distinct_selected_content": 6,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 202,
+      "input_bin_width": 16,
+      "input_tokens": {
+        "random": 484359,
+        "high": 484383,
+        "gradient_high": 484398,
+        "gradient_low": 484386
+      },
+      "target_tokens": 9881,
+      "max_input_token_imbalance": 8.051878874966709e-05,
+      "original_gradient_gap": 0.005128260732457573,
+      "retained_gradient_gap_fraction": 0.02604634701717484,
+      "high_low_distinct_selected_content": 16,
+      "passes": false
+    },
+    {
+      "source": "api",
+      "sampling_seed": 202,
+      "input_bin_width": 32,
+      "input_tokens": {
+        "random": 484284,
+        "high": 484332,
+        "gradient_high": 484326,
+        "gradient_low": 484399
+      },
+      "target_tokens": 9881,
+      "max_input_token_imbalance": 0.00023746396742407348,
+      "original_gradient_gap": 0.005128260732457573,
+      "retained_gradient_gap_fraction": 0.052297604406740236,
+      "high_low_distinct_selected_content": 30,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 101,
+      "input_bin_width": 0,
+      "input_tokens": {
+        "random": 523044,
+        "high": 523044,
+        "gradient_high": 523044,
+        "gradient_low": 523044
+      },
+      "target_tokens": 9491,
+      "max_input_token_imbalance": 0.0,
+      "original_gradient_gap": 0.005649952681755128,
+      "retained_gradient_gap_fraction": 0.030163793229166312,
+      "high_low_distinct_selected_content": 16,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 101,
+      "input_bin_width": 8,
+      "input_tokens": {
+        "random": 523051,
+        "high": 523045,
+        "gradient_high": 523041,
+        "gradient_low": 523064
+      },
+      "target_tokens": 9491,
+      "max_input_token_imbalance": 4.397276747391746e-05,
+      "original_gradient_gap": 0.005649952681755128,
+      "retained_gradient_gap_fraction": 0.08637781580857468,
+      "high_low_distinct_selected_content": 36,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 101,
+      "input_bin_width": 16,
+      "input_tokens": {
+        "random": 522964,
+        "high": 522967,
+        "gradient_high": 523004,
+        "gradient_low": 523049
+      },
+      "target_tokens": 9491,
+      "max_input_token_imbalance": 0.00016253508845733168,
+      "original_gradient_gap": 0.005649952681755128,
+      "retained_gradient_gap_fraction": 0.1486425592942965,
+      "high_low_distinct_selected_content": 48,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 101,
+      "input_bin_width": 32,
+      "input_tokens": {
+        "random": 523020,
+        "high": 522983,
+        "gradient_high": 523041,
+        "gradient_low": 523313
+      },
+      "target_tokens": 9491,
+      "max_input_token_imbalance": 0.0006309510152575428,
+      "original_gradient_gap": 0.005649952681755128,
+      "retained_gradient_gap_fraction": 0.1817040548065043,
+      "high_low_distinct_selected_content": 66,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 202,
+      "input_bin_width": 0,
+      "input_tokens": {
+        "random": 514993,
+        "high": 514993,
+        "gradient_high": 514993,
+        "gradient_low": 514993
+      },
+      "target_tokens": 9567,
+      "max_input_token_imbalance": 0.0,
+      "original_gradient_gap": 0.005384215188144026,
+      "retained_gradient_gap_fraction": 0.0252160936102293,
+      "high_low_distinct_selected_content": 14,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 202,
+      "input_bin_width": 8,
+      "input_tokens": {
+        "random": 514996,
+        "high": 515020,
+        "gradient_high": 515016,
+        "gradient_low": 515020
+      },
+      "target_tokens": 9567,
+      "max_input_token_imbalance": 4.660230370721326e-05,
+      "original_gradient_gap": 0.005384215188144026,
+      "retained_gradient_gap_fraction": 0.086070606088066,
+      "high_low_distinct_selected_content": 32,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 202,
+      "input_bin_width": 16,
+      "input_tokens": {
+        "random": 515026,
+        "high": 514953,
+        "gradient_high": 515058,
+        "gradient_low": 515039
+      },
+      "target_tokens": 9567,
+      "max_input_token_imbalance": 0.00020387320251793114,
+      "original_gradient_gap": 0.005384215188144026,
+      "retained_gradient_gap_fraction": 0.12780162567955206,
+      "high_low_distinct_selected_content": 50,
+      "passes": false
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 202,
+      "input_bin_width": 32,
+      "input_tokens": {
+        "random": 515053,
+        "high": 514954,
+        "gradient_high": 514961,
+        "gradient_low": 515063
+      },
+      "target_tokens": 9567,
+      "max_input_token_imbalance": 0.00021162870617198618,
+      "original_gradient_gap": 0.005384215188144026,
+      "retained_gradient_gap_fraction": 0.17055326640697785,
+      "high_low_distinct_selected_content": 58,
+      "passes": false
+    }
+  ],
+  "gpu_work_started": false,
+  "confirmation_evaluations": 0,
+  "raw_records_uploaded": false,
+  "scope": "Candidate support only; retained score gap is not a measured learning effect."
+}

@@ -1,0 +1,2 @@
+# Isolated WebShop CPU preparation only; do not install into the training env.
+ijson==3.3.0

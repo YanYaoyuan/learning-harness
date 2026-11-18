@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "started_unix": 1794485433.473744,
+  "smoke_only": true,
+  "product_catalog": "official 1000-product subset",
+  "human_goals_used": false,
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "data": [],
+  "error_type": "FileURLRetrievalError",
+  "error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1EgHdxQ_YxqIQlvvq5iKlCrkEKR6-j0Ib\n\nbut Gdown can't. Please check connections and permissions.",
+  "finished_unix": 1794485433.8579273
+}

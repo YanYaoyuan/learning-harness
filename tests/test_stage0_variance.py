@@ -66,3 +66,12 @@ def test_paired_difference_weights_families_equally():
         cells["heat", "generic", seed] = {t: 0 for t in tasks}
     d = stage0.paired_differences([cells])
     assert d.shape == (3, 1) and np.allclose(d, 0.5)
+
+
+def test_genuine_small_repeat_variation_is_not_zeroed():
+    stage0 = load()
+    means = np.array([0.10, 0.30, -0.20])
+    changes = np.array([-1e-8, 0.0, 1e-8])
+    result = stage0.variance_share(means[:, None] + changes[None, :])
+    assert result["msw"] > 0.0
+    assert result["msw"] == pytest.approx(1e-16, rel=1e-7, abs=0.0)

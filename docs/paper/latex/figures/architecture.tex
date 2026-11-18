@@ -1,0 +1,29 @@
+\begin{tikzpicture}[
+  font=\sffamily\footnotesize,
+  block/.style={draw=ink!55,rounded corners=2pt,align=center,text width=2.72cm,minimum height=1.05cm,inner sep=5pt,fill=white},
+  flow/.style={-{Stealth[length=2mm]},line width=.65pt,draw=ink!75},
+  control/.style={flow,dashed,draw=agentblue},
+  note/.style={align=center,font=\sffamily\scriptsize,text=ink!80}]
+\node[block,fill=ink!4] (harness) at (0,0) {Historical collector\\base agent + $H_s$};
+\node[block,fill=ink!4] (env) at (3.6,0) {ALFWorld\\text environment};
+\node[block,fill=ink!4] (pool) at (7.2,0) {Successful episodes\\fixed source pool $\D_s$};
+\node[note,text width=2.7cm] at (10.8,0) {API and Generic:\\two source pools,\\one environment};
+\draw[flow] (harness.north east) to[bend left=18] node[above,note]{action} (env.north west);
+\draw[flow] (env.south west) to[bend left=18] node[below,note]{observation} (harness.south east);
+\draw[flow] (env) -- (pool);
+\node[block] (view) at (0,-2.0) {Student-view examples\\real history + action};
+\node[block,fill=agentblue!6] (score) at (3.6,-2.0) {Frozen base student\\action NLL $q_0(u)$};
+\node[block,fill=agentorange!7] (select) at (7.2,-2.0) {Matched selection\\random vs.\ low NLL};
+\node[block,fill=agentblue!6] (train) at (10.8,-2.0) {Paired LoRA SFT\\same initialization $i$};
+\draw[flow] (pool.south) -- ++(0,-.35) -| (view.north);
+\draw[flow] (view) -- (score);
+\draw[flow] (score) -- (select);
+\draw[flow] (select) -- (train);
+\node[block,text width=4.05cm,fill=agentblue!5] (quotas) at (1.8,-4.0) {Frozen reference schedule $\mathbf r_j$\\task/action positions + support quotas};
+\node[block,text width=3.25cm] (result) at (6.55,-4.0) {Paired task success $\Delta_s$\\all cells + per-initialization means};
+\node[block] (eval) at (10.8,-4.0) {Common executor\\assistance withdrawn};
+\draw[control] (quotas.north east) -- ++(.35,.30) -| (select.south);
+\draw[flow] (train) -- node[right,note]{256 distinct records\\768 presentations\\192 updates} (eval);
+\draw[flow] (eval) -- (result);
+\node[note,text width=12.8cm] at (5.4,-5.1) {Selection, training, and evaluation use no new teacher calls. Both policy arms are trained from the same base checkpoint.};
+\end{tikzpicture}

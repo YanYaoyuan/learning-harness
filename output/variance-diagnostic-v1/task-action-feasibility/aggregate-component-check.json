@@ -1,0 +1,65 @@
+{
+  "status": "actual_input_component_check_passed",
+  "component_only": true,
+  "models": 32,
+  "episodes": 2048,
+  "input_is_stage3_task_matched_not_new_action_matched": true,
+  "new_model_calls": 0,
+  "formal_followup_started": false,
+  "source_snapshot_sha256": "62b2d04e7020c535dbc9be5656ab3abc4eefa47517b89390eebecdfd522a8173",
+  "stage3_frozen_files_unchanged": 188,
+  "checked_unix": 1794495401.1702917,
+  "aggregate": {
+    "complete": true,
+    "freeze_sha256": "262c0863d930a940b1fb63beba36c64f4db2f5e8b13fe2b0616f90d34ea93f10",
+    "models": 32,
+    "evaluation_episodes": 2048,
+    "primary_seed_cells": 8,
+    "initialization_levels": 2,
+    "sampling_levels": 4,
+    "conditional_repeated_models": 0,
+    "groups": {
+      "api": {
+        "random": {
+          "mean_success": 0.28125,
+          "mean_nll": 0.16624780875848175
+        },
+        "min_nll": {
+          "mean_success": 0.109375,
+          "mean_nll": 0.3800389026335983
+        }
+      },
+      "generic": {
+        "random": {
+          "mean_success": 0.111328125,
+          "mean_nll": 0.452473622446992
+        },
+        "min_nll": {
+          "mean_success": 0.0546875,
+          "mean_nll": 0.5302363033980483
+        }
+      }
+    },
+    "min_nll_minus_random": {
+      "api": {
+        "success_difference_pp": -17.1875,
+        "nll_difference": 0.21379109387511655,
+        "wins": 0,
+        "ties": 0,
+        "losses": 8
+      },
+      "generic": {
+        "success_difference_pp": -5.6640625,
+        "nll_difference": 0.07776268095105618,
+        "wins": 3,
+        "ties": 0,
+        "losses": 5
+      }
+    },
+    "teacher_calls": 0,
+    "official_tests_used": false,
+    "raw_records_uploaded": false,
+    "aggregation": "Equal weights over primary paired cells; conditional repeats excluded from means.",
+    "uncertainty": "Descriptive fixed-development-task results; no calibrated confidence intervals."
+  }
+}

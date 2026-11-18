@@ -1,0 +1,10 @@
+{
+  "checked_unix": 1794731062.0549319,
+  "periodic_checks": 48,
+  "first_check": "2026-11-14T16:25:22.462765+08:00",
+  "last_check": "2026-11-15T15:56:35.510103+08:00",
+  "max_interval_seconds": 1801.811666727066,
+  "min_interval_seconds": 1801.324244260788,
+  "next_periodic_unix": 1794731195.5101035,
+  "automatic_gpu_restart": false
+}

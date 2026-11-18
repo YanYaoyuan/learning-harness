@@ -1,0 +1,8 @@
+{
+  "cpu_only": true,
+  "new_model_calls": 0,
+  "canonical_inputs": 853,
+  "schedules": 16,
+  "random_indices_unchanged": true,
+  "probe_journal_sha256": "98c522ebe34ec15292e5d98920ac2b2c805c1806aac952da9f76b6cdc19d41f5"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "cpu_and_start_gate_passed",
+  "checked_unix": 1794511070.843397,
+  "tests": 248,
+  "failures": 0,
+  "execution_output": "248 passed in 4.88s",
+  "ruff": "All checks passed",
+  "freeze_sha256": "3e5759a36d5e35370a5c930daa68ab8e7326b8ba43c2e2288b1bba8a5270e316",
+  "frozen_files": 61,
+  "frozen_episodes": 64,
+  "real_model_server_gpu_validated": false,
+  "actual_new_language_model_calls": 0,
+  "gpu_started": false,
+  "teacher_calls": 0,
+  "official_test_evaluations": 0,
+  "eval_episodes": 0,
+  "start_gate_actual_invocation": {
+    "returncode": 1,
+    "expected_reason": "Stage 4 has not completed",
+    "execution_created": false,
+    "seconds": 3.47070050239563
+  },
+  "source_sha256": {
+    "src/learning_harness/webshop_agent.py": "1cd5a9ec3a1327ae62e0c14f37e2dd99d4b7226af18db3ab42e76feea2cfeca3",
+    "src/learning_harness/webshop_requests.py": "ea71f2d5c5c0cb2c596d2d68b97f0ed80e20ce5194d8074ec79f98fed5320672",
+    "src/learning_harness/webshop_serving.py": "f48022b3cb5839b8c3dedc905ab63142403fc23ec4f1f5b04dec52bb23d79b36",
+    "src/learning_harness/webshop_pilot.py": "ba69f098f73afe96275d5b4f39ad0eb61f3bf3586116a9b0e01c2497d04f0b8a",
+    "scripts/run_webshop_pilot.py": "75bd64cfd635ddc491abb97b9a703b620ad4850a56f012a895952e3779a849b3",
+    "scripts/webshop_pilot_worker.py": "183ee34827aaed633c4c81c5ec87b346905849e1acbd9144141085245373527e",
+    "scripts/serve_webshop_base.py": "4d2c4fdef64d5e2ce620946ac56b9c6562091e78606ce9cf9208ed53982a371f",
+    "tests/test_webshop_agent.py": "dbfcdcf372a4bc19e1f13d49089c045ca2088bb33a70a880b450577ad651c5f0",
+    "tests/test_webshop_requests.py": "ce630549d41d9a579bc36584a229d521abe1f93d57583de20a00043146ac0c00",
+    "tests/test_webshop_serving.py": "0e57e33613db009206b119f37aa4d6bcf6e9c97725a8c3f14ffc119781a930e2",
+    "tests/test_webshop_pilot.py": "db94679d3f8383337dc78afcbb29ee8aa99e7fbfbf053e0102492cbeb172e47c"
+  },
+  "scope": "CPU core and real loopback HTTP; explicit no-GPU child stand-ins test success/failure/cap cleanup. Actual frozen CLI refused to start while Stage4 is running."
+}

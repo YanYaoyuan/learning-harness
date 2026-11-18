@@ -1,0 +1,25 @@
+{
+  "status": "watching",
+  "looks": {
+    "1": {
+      "directory": "output/variance-diagnostic-v1/stage3/interim/20261112T122632Z",
+      "actual_paired_cells": 1,
+      "cloud_status": "uploaded"
+    },
+    "4": {
+      "directory": "output/variance-diagnostic-v1/stage3/interim/20261112T130713Z",
+      "actual_paired_cells": 4,
+      "cloud_status": "uploaded"
+    },
+    "8": {
+      "directory": "output/variance-diagnostic-v1/stage3/interim/20261112T142101Z",
+      "actual_paired_cells": 8,
+      "cloud_status": "uploaded"
+    },
+    "12": {
+      "directory": "output/variance-diagnostic-v1/stage3/interim/20261112T153322Z",
+      "actual_paired_cells": 12,
+      "cloud_status": "uploaded"
+    }
+  }
+}

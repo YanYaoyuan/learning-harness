@@ -1,0 +1,239 @@
+{
+  "complete": true,
+  "freeze_sha256": "d07f9cfdaa743984b09503c74810c68c82c0342df0da9d09f5657ca731872e43",
+  "primary_observations_complete": true,
+  "metrics": {
+    "conditions": {
+      "canonical": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.0,
+        "max_absolute_difference": 0.0,
+        "rank_correlation_to_canonical": 1.0
+      },
+      "canonical_repeat": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.0,
+        "max_absolute_difference": 0.0,
+        "rank_correlation_to_canonical": 1.0
+      },
+      "default_unpadded": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.0,
+        "max_absolute_difference": 0.0,
+        "rank_correlation_to_canonical": 1.0
+      },
+      "dynamic_window": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.0,
+        "max_absolute_difference": 0.0,
+        "rank_correlation_to_canonical": 1.0
+      },
+      "pad32_default": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.03621919289966913,
+        "max_absolute_difference": 0.1899471879005432,
+        "rank_correlation_to_canonical": 0.9831378299120235
+      },
+      "pad32_explicit": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.03707702204265484,
+        "max_absolute_difference": 0.24240275472402573,
+        "rank_correlation_to_canonical": 0.9849706744868035
+      },
+      "pad128_default": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.06032328986894475,
+        "max_absolute_difference": 0.2096022367477417,
+        "rank_correlation_to_canonical": 0.9853372434017595
+      },
+      "pad128_explicit": {
+        "paired_inputs": 32,
+        "mean_absolute_difference": 0.044633474515168636,
+        "max_absolute_difference": 0.1726672500371933,
+        "rank_correlation_to_canonical": 0.9824046920821115
+      }
+    },
+    "fp32_reference_inputs": 32,
+    "bf16_vs_fp32_mean_absolute_difference": 0.03961076814304754,
+    "bf16_vs_fp32_max_absolute_difference": 0.16304445266723633,
+    "bf16_vs_fp32_rank_correlation": 0.9857038123167156,
+    "repeated_input_gate_passed": true,
+    "direct_loss_gate_passed": true,
+    "direct_loss_checks": 4,
+    "direct_loss_max_absolute_difference": 3.5315752029418945e-06,
+    "optional_rescoring_gate_passed": true
+  },
+  "stress_scores": 256,
+  "expected_stress_scores": 256,
+  "predeclared_infeasible_padding_trials": 0,
+  "legacy_replay_observations": 392,
+  "expected_legacy_replay_observations": 392,
+  "legacy_replay_mean_absolute_difference": 0.0,
+  "legacy_replay_max_absolute_difference": 0.0,
+  "uniform_unique_scored": 853,
+  "uniform_unique_planned": 853,
+  "uniform_complete": true,
+  "selection_changes": [
+    {
+      "source": "api",
+      "stage": "stage3",
+      "sampling_seed": 101,
+      "selected_content": 256,
+      "replaced_content": 5,
+      "retained_fraction": 0.98046875,
+      "original_recipe_sha256": "7078bdc9f69b72e5e72801ce90898d10722f920a7c66fd73ec2faa87b6497773"
+    },
+    {
+      "source": "api",
+      "stage": "stage3",
+      "sampling_seed": 202,
+      "selected_content": 256,
+      "replaced_content": 5,
+      "retained_fraction": 0.98046875,
+      "original_recipe_sha256": "38e37d70ab51126da33bfc70c8a159d2ef9462a6b224635033baff7b8e2ec517"
+    },
+    {
+      "source": "api",
+      "stage": "stage3",
+      "sampling_seed": 303,
+      "selected_content": 256,
+      "replaced_content": 5,
+      "retained_fraction": 0.98046875,
+      "original_recipe_sha256": "62c40598ea09d9cc3e0738e54be91445aabe2f58ba208f0181aefe77791045ba"
+    },
+    {
+      "source": "api",
+      "stage": "stage3",
+      "sampling_seed": 404,
+      "selected_content": 256,
+      "replaced_content": 5,
+      "retained_fraction": 0.98046875,
+      "original_recipe_sha256": "4b6111cff13e5ac683f541f4fcd29db29e4d3baf2dc41e4be9dec1eca9acfa98"
+    },
+    {
+      "source": "api",
+      "stage": "stage4",
+      "sampling_seed": 101,
+      "selected_content": 256,
+      "replaced_content": 5,
+      "retained_fraction": 0.98046875,
+      "original_recipe_sha256": "47bb84381992c5ea2e7597615a1927884c954be8b15e2eca5af5ad918857349f"
+    },
+    {
+      "source": "api",
+      "stage": "stage4",
+      "sampling_seed": 202,
+      "selected_content": 256,
+      "replaced_content": 6,
+      "retained_fraction": 0.9765625,
+      "original_recipe_sha256": "af8d22896a76e1497a7fe0665f67e58e53bedc26f30ccdd8b37c8779a5d281d7"
+    },
+    {
+      "source": "api",
+      "stage": "stage4",
+      "sampling_seed": 303,
+      "selected_content": 256,
+      "replaced_content": 6,
+      "retained_fraction": 0.9765625,
+      "original_recipe_sha256": "a1e1a1bd1b1bb75e17e5b58b26d7ddbd58f17aba7011a6315d272d86466cdd4f"
+    },
+    {
+      "source": "api",
+      "stage": "stage4",
+      "sampling_seed": 404,
+      "selected_content": 256,
+      "replaced_content": 4,
+      "retained_fraction": 0.984375,
+      "original_recipe_sha256": "5e31fe7933d2d5f9df06fcbbf226a54b30151abc69ba6ca8eb1fd1212d7a3c8b"
+    },
+    {
+      "source": "generic",
+      "stage": "stage3",
+      "sampling_seed": 101,
+      "selected_content": 256,
+      "replaced_content": 4,
+      "retained_fraction": 0.984375,
+      "original_recipe_sha256": "6a359f3389831c62bcdcb1f75369fe2d57b61f6b470793f9c30e074a772d1ac2"
+    },
+    {
+      "source": "generic",
+      "stage": "stage3",
+      "sampling_seed": 202,
+      "selected_content": 256,
+      "replaced_content": 4,
+      "retained_fraction": 0.984375,
+      "original_recipe_sha256": "af500597324212941dff5f01eb4f9a7fdc9b08b7e6f5a4fa81db0d383fb6c230"
+    },
+    {
+      "source": "generic",
+      "stage": "stage3",
+      "sampling_seed": 303,
+      "selected_content": 256,
+      "replaced_content": 4,
+      "retained_fraction": 0.984375,
+      "original_recipe_sha256": "5ea19ca0a11164ab5b55a62727998ec1b0a40e5e6f23d61561018d109d8c8c05"
+    },
+    {
+      "source": "generic",
+      "stage": "stage3",
+      "sampling_seed": 404,
+      "selected_content": 256,
+      "replaced_content": 4,
+      "retained_fraction": 0.984375,
+      "original_recipe_sha256": "5df773dc652327154c7479819d061920eab2251409e38a5bad44aa1f1c04e686"
+    },
+    {
+      "source": "generic",
+      "stage": "stage4",
+      "sampling_seed": 101,
+      "selected_content": 256,
+      "replaced_content": 8,
+      "retained_fraction": 0.96875,
+      "original_recipe_sha256": "55a6c802c4f6a27decb43c334302a06c8e89a2c6b2527a7b64a65dab2a55ea4f"
+    },
+    {
+      "source": "generic",
+      "stage": "stage4",
+      "sampling_seed": 202,
+      "selected_content": 256,
+      "replaced_content": 11,
+      "retained_fraction": 0.95703125,
+      "original_recipe_sha256": "28f546e1df34b48775b5843b6aef512ab666291a5799eb7afaf7452683844979"
+    },
+    {
+      "source": "generic",
+      "stage": "stage4",
+      "sampling_seed": 303,
+      "selected_content": 256,
+      "replaced_content": 9,
+      "retained_fraction": 0.96484375,
+      "original_recipe_sha256": "e258ac8c1a1dec9728086704ecbba2aee3eef782eb8ab4093763ac6c16019c59"
+    },
+    {
+      "source": "generic",
+      "stage": "stage4",
+      "sampling_seed": 404,
+      "selected_content": 256,
+      "replaced_content": 11,
+      "retained_fraction": 0.95703125,
+      "original_recipe_sha256": "e01629d442f90c52fb80ea0b9a6a0e5d32cda9b0ac3b4cfbcac54e27b29e4863"
+    }
+  ],
+  "forward_attempts": 1194,
+  "completed_forwards": 1194,
+  "unknown_usage_forwards": 0,
+  "known_input_tokens": 979468,
+  "known_padded_input_positions": 1077186,
+  "forward_journal_sha256": "98c522ebe34ec15292e5d98920ac2b2c805c1806aac952da9f76b6cdc19d41f5",
+  "generated_tokens": 0,
+  "teacher_calls": 0,
+  "environment_episodes": 0,
+  "official_test_evaluations": 0,
+  "optimizer_updates": 0,
+  "raw_records_uploaded": false,
+  "scope": "Train-only instrument diagnostic; sentinel stress sample is not representative. No new SFT or policy-performance estimate.",
+  "base_model_files_after_verified": true,
+  "execution_status": "evaluation_completed",
+  "gpu_seconds": 107.12664604798192,
+  "cap_exceeded": false
+}

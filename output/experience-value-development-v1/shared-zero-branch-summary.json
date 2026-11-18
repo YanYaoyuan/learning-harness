@@ -1,0 +1,8 @@
+{
+  "source_sha256": "6525b20c2c6f75b2449e6fd0cfcf44713001bb9aae1a12d473d96e6010410b3e",
+  "active_tensors": 288,
+  "excluded_foreign_keys": 144,
+  "clean_zero_weight_sha256": "60cef9c91422310ffb8566fd2be0ac3480ae8876746456cc1f85faeaab66dc6f",
+  "historical_source_unchanged": true,
+  "weights_uploaded": false
+}

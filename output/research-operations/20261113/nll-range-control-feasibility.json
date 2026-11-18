@@ -1,0 +1,152 @@
+{
+  "status": "cpu_only_control_feasibility",
+  "new_model_calls": 0,
+  "new_training": 0,
+  "rows": [
+    {
+      "source": "api",
+      "recipe": 101,
+      "active_strata": 119,
+      "strata_with_selection_choice": 52,
+      "forced_content_quota": 82,
+      "distinct_support": 256,
+      "low_high_replaced": 108,
+      "low_middle_replaced": 29,
+      "middle_high_replaced": 89,
+      "mean_selected_nll": {
+        "random": 0.23053012642145032,
+        "low": 0.10153200746017604,
+        "middle": 0.12735186050503755,
+        "high": 0.29774860544302695
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "api",
+      "recipe": 202,
+      "active_strata": 121,
+      "strata_with_selection_choice": 53,
+      "forced_content_quota": 81,
+      "distinct_support": 256,
+      "low_high_replaced": 109,
+      "low_middle_replaced": 32,
+      "middle_high_replaced": 86,
+      "mean_selected_nll": {
+        "random": 0.22696089630374203,
+        "low": 0.11120345855162392,
+        "middle": 0.13883360700067973,
+        "high": 0.29840218117467376
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "api",
+      "recipe": 303,
+      "active_strata": 121,
+      "strata_with_selection_choice": 54,
+      "forced_content_quota": 81,
+      "distinct_support": 256,
+      "low_high_replaced": 107,
+      "low_middle_replaced": 24,
+      "middle_high_replaced": 90,
+      "mean_selected_nll": {
+        "random": 0.20600125232452468,
+        "low": 0.09174059235851889,
+        "middle": 0.11561307657937228,
+        "high": 0.28847180528093963
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "api",
+      "recipe": 404,
+      "active_strata": 122,
+      "strata_with_selection_choice": 48,
+      "forced_content_quota": 98,
+      "distinct_support": 256,
+      "low_high_replaced": 106,
+      "low_middle_replaced": 30,
+      "middle_high_replaced": 87,
+      "mean_selected_nll": {
+        "random": 0.1683324488195195,
+        "low": 0.08044295574169255,
+        "middle": 0.11235560195970207,
+        "high": 0.27894044614151176
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "generic",
+      "recipe": 101,
+      "active_strata": 113,
+      "strata_with_selection_choice": 66,
+      "forced_content_quota": 54,
+      "distinct_support": 256,
+      "low_high_replaced": 165,
+      "low_middle_replaced": 60,
+      "middle_high_replaced": 136,
+      "mean_selected_nll": {
+        "random": 0.08606314880065738,
+        "low": 0.053043032945318175,
+        "middle": 0.057783921103532615,
+        "high": 0.14453508282059144
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "generic",
+      "recipe": 202,
+      "active_strata": 116,
+      "strata_with_selection_choice": 66,
+      "forced_content_quota": 59,
+      "distinct_support": 256,
+      "low_high_replaced": 161,
+      "low_middle_replaced": 66,
+      "middle_high_replaced": 134,
+      "mean_selected_nll": {
+        "random": 0.11520648704110395,
+        "low": 0.06365235470837963,
+        "middle": 0.06692616555869677,
+        "high": 0.14540669449294089
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "generic",
+      "recipe": 303,
+      "active_strata": 103,
+      "strata_with_selection_choice": 64,
+      "forced_content_quota": 47,
+      "distinct_support": 256,
+      "low_high_replaced": 166,
+      "low_middle_replaced": 54,
+      "middle_high_replaced": 131,
+      "mean_selected_nll": {
+        "random": 0.09785223513447314,
+        "low": 0.05176275545438422,
+        "middle": 0.05659470822401644,
+        "high": 0.13680052930267764
+      },
+      "all_task_action_and_support_controls_passed": true
+    },
+    {
+      "source": "generic",
+      "recipe": 404,
+      "active_strata": 106,
+      "strata_with_selection_choice": 68,
+      "forced_content_quota": 41,
+      "distinct_support": 256,
+      "low_high_replaced": 163,
+      "low_middle_replaced": 60,
+      "middle_high_replaced": 131,
+      "mean_selected_nll": {
+        "random": 0.09745091780811338,
+        "low": 0.049438932831815885,
+        "middle": 0.05812621197189166,
+        "high": 0.13675903187228466
+      },
+      "all_task_action_and_support_controls_passed": true
+    }
+  ],
+  "scope": "Within the existing action-matched reference support; no performance or mechanism conclusion. Middle ranks by absolute deviation from the within-stratum distinct-content median."
+}

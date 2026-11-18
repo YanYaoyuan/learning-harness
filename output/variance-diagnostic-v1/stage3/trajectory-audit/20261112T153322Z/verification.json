@@ -1,0 +1,27 @@
+{
+  "status": "real_data_audit_passed",
+  "models": 48,
+  "episodes": 3072,
+  "steps": 111636,
+  "format_error_steps": 1,
+  "format_error_episodes": 1,
+  "post_hoc_case_paired_by_task_identity": true,
+  "post_hoc_case_totals_reconcile": true,
+  "post_hoc_case_family_tasks": [
+    32,
+    32
+  ],
+  "ruff_check": "passed",
+  "baseline_cpu_suite_last_passed": 190,
+  "new_model_calls": 0,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "raw_records_uploaded": false,
+  "stage3_frozen_files_unchanged": 188,
+  "checked_unix": 1794498414.2764382,
+  "code_sha256": {
+    "scripts/audit_stage3_trajectories.py": "f077b30f515d27e92e570b1a034cc18321c46fba70ac270df7413b928cbf0a87",
+    "scripts/report_paired_task_outcomes.py": "920cfd3af05194b0790e4570080d006539cfd55573ebfdfdc267ec77ce0fc912",
+    "src/learning_harness/trajectory_audit.py": "6c2ded42b6aa6ce36f227610cee10f616abaa102c90832eeddd5d3115a2465e7"
+  }
+}

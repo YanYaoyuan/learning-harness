@@ -1,0 +1,29 @@
+{
+  "pipeline": {
+    "pid": 251680,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-model/bin/python",
+      "scripts/run_stage1_crossed_seeds.py"
+    ],
+    "started_unix": 1794451240.962987
+  },
+  "observer": {
+    "pid": 436225,
+    "argv": [
+      "/home/user/work/bgyfw/harness/.venv-wandb/bin/python",
+      "scripts/track_stage1.py"
+    ],
+    "started_unix": 1794453239.019905,
+    "reason": "Wait for report process completion before final cloud archival"
+  },
+  "observer_history": [
+    {
+      "pid": 251681,
+      "argv": [
+        "/home/user/work/bgyfw/harness/.venv-wandb/bin/python",
+        "scripts/track_stage1.py"
+      ],
+      "started_unix": 1794451240.9672303
+    }
+  ]
+}

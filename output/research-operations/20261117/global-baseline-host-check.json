@@ -1,0 +1,39 @@
+{
+  "root": "runs/global-selection-baselines-v1",
+  "status": "running",
+  "completed": 0,
+  "failed_cases": [],
+  "elapsed_gpu_hours": 0.02177294803990258,
+  "processes": {
+    "pipeline": {
+      "pid": 2635113,
+      "alive": true,
+      "identity_verified": true
+    },
+    "observer": {
+      "pid": 2635168,
+      "alive": true,
+      "identity_verified": true
+    },
+    "training_telemetry": {
+      "pid": 2635169,
+      "alive": true,
+      "identity_verified": true
+    },
+    "b01-global_random-api-i101-s101": {
+      "pid": 2635171,
+      "alive": true,
+      "identity_verified": true
+    }
+  },
+  "missing_or_mismatched": [],
+  "needs_attention": false,
+  "finalization": {},
+  "archive_uploaded": false,
+  "monitor": {
+    "pid": 2635114,
+    "alive": true,
+    "identity_verified": true
+  },
+  "checked_unix": 1794893955.5391886
+}

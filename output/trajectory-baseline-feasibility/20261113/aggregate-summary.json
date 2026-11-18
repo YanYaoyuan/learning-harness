@@ -1,0 +1,73 @@
+{
+  "status": "source_lineage_and_trajectory_candidate_audit_passed",
+  "checked_unix": 1794511909.2986908,
+  "sources": {
+    "api": {
+      "source": "api",
+      "successful_episodes": 68,
+      "task_count": 35,
+      "raw_step_labels": 740,
+      "eligible_step_labels": 721,
+      "raw_complete_successful_traces": 68,
+      "eligible_complete_successful_traces": 60,
+      "traces_with_removed_labels": 8,
+      "removed_literal_no_effect_labels": 19,
+      "raw_candidates_per_task_histogram": {
+        "2": 33,
+        "1": 2
+      },
+      "tasks_with_two_or_more_raw_candidates": 33,
+      "tasks_with_two_or_more_distinct_raw_candidates": 4,
+      "tasks_with_two_or_more_complete_eligible_candidates": 29,
+      "tasks_with_ten_raw_candidates": 0,
+      "cached_nll_covers_all_raw_steps": false,
+      "full_trajectory_nll_available": 60,
+      "all_source_target_views_verified": true
+    },
+    "generic": {
+      "source": "generic",
+      "successful_episodes": 49,
+      "task_count": 29,
+      "raw_step_labels": 785,
+      "eligible_step_labels": 732,
+      "raw_complete_successful_traces": 49,
+      "eligible_complete_successful_traces": 32,
+      "traces_with_removed_labels": 17,
+      "removed_literal_no_effect_labels": 53,
+      "raw_candidates_per_task_histogram": {
+        "2": 20,
+        "1": 9
+      },
+      "tasks_with_two_or_more_raw_candidates": 20,
+      "tasks_with_two_or_more_distinct_raw_candidates": 5,
+      "tasks_with_two_or_more_complete_eligible_candidates": 13,
+      "tasks_with_ten_raw_candidates": 0,
+      "cached_nll_covers_all_raw_steps": false,
+      "full_trajectory_nll_available": 32,
+      "all_source_target_views_verified": true
+    }
+  },
+  "inputs_sha256": {
+    "runs/api-harness-v1/collection/api/episodes.jsonl": "771f7e071758b2f02a648deb4a25ef629a4d234b6a41de760bdf4c719d9929bd",
+    "runs/api-harness-v1/collection/api/steps.jsonl": "ab677249fd28161e42ac1bd4ed3319f40903b0b368b4bd53a6d1049750d9e8f4",
+    "runs/api-harness-v1/collection/api/run.json": "ed8b79dcff3c6bf762eb5fb4ada4d269703e4480d8a8dcedccc9c4e8b0513347",
+    "runs/api-harness-v1/corpora/raw-api.jsonl": "0d921ccded8866a024f0e875c550263a05935788751997c1a05a1da6afe07ba9",
+    "runs/transfer-factorial-v1/corpora/full-api.jsonl": "c773ed8eaac5d4c4c4bde513702f5eaa009d0be57c2dca6d8b4caddb369405e4",
+    "runs/variance-diagnostic-v1/stage3/base-nll/api.json": "9bcd0c477d4d30c7370f765a4cdbefdccbc02fbe94ae5f848cb732c6366b5b43",
+    "runs/api-harness-v1/corpora/raw-api.jsonl.meta.json": "296e30d23ed042e5ba59dc8e5ed80dc856455c8e226ab8ab7272aa4e5248f7ad",
+    "runs/api-harness-v1/collection/generic/episodes.jsonl": "5d4a509d9ea53bec6a66cce50df829f6772bae40f9973f44374ab441fb8175da",
+    "runs/api-harness-v1/collection/generic/steps.jsonl": "652adb58ca6932c7bf2b0ab322db771c55913a2ac4a802a65de759a76ab4444a",
+    "runs/api-harness-v1/collection/generic/run.json": "fcbf47c599d0335913273f3b2c6341b1ed4a0b535d1d682e15d91a7197dfd065",
+    "runs/api-harness-v1/corpora/raw-generic.jsonl": "a2a14ff3a04357ea7a3dd06b17dfcc3e82312e0732e88a4c6de549c9d3994e1e",
+    "runs/transfer-factorial-v1/corpora/full-generic.jsonl": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+    "runs/variance-diagnostic-v1/stage3/base-nll/generic.json": "02f6ef4b0d4549aaa4ae2fb740ad3c3d5a58a3034f7d1fee2473ac7ef7f30de3",
+    "runs/api-harness-v1/corpora/raw-generic.jsonl.meta.json": "ee7131ce4590074067c8ecb9028152fc69f6e4434d4f07ed17182fdde8fc1202"
+  },
+  "script_sha256": "37cdda90a765832df5a88be19781974a887d9bc428996c237241644b63ec90e0",
+  "actual_new_model_calls": 0,
+  "gpu_used": false,
+  "teacher_calls": 0,
+  "official_test_evaluations": 0,
+  "raw_records_uploaded": false,
+  "scope": "Old API/generic pools, not the newer API/ReAct source comparison. Metadata/NLL-cache feasibility only; no new performance result or SmartAD reproduction."
+}

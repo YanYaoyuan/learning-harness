@@ -1,0 +1,18 @@
+{
+  "checked_unix": 1794515814.526775,
+  "status": "cpu_preparation_and_recipe_regeneration_verified",
+  "gpu_used": false,
+  "unique_inputs": 853,
+  "source_row_references": 1453,
+  "sentinel_inputs": 32,
+  "replay_batches": 49,
+  "planned_stress_scores": 256,
+  "inputs_identical_to_first_preparation": true,
+  "original_schedules_exactly_regenerated": 16,
+  "optional_new_selection_runtime_exercised": true,
+  "score_vector": "synthetic means of original cached observations; not new model measurements",
+  "cpu_tests_passed": 16,
+  "model_calls": 0,
+  "teacher_calls": 0,
+  "inputs_sha256": "5cb074b9891b75eff6287b6ebde16d3ff55fe8c3d2dfadd2a8d4e1f980a61b2a"
+}

@@ -1,0 +1,15 @@
+{
+  "repository": "ysymyth/ReAct",
+  "commit": "6bdb3a1fd38b8188fc7ba4102969fe483df8fdc9",
+  "notebook_path": "WebShop.ipynb",
+  "url": "https://raw.githubusercontent.com/ysymyth/ReAct/6bdb3a1fd38b8188fc7ba4102969fe483df8fdc9/WebShop.ipynb",
+  "git_blob_sha": "67cb9f878de242951a7804a31bb5da4264111a29",
+  "bytes": 1262229,
+  "sha256": "fb8704ec5528e43589924ab33d14eb7f97e82f7cd9da5c02b0295a9be30f9ca6",
+  "raw_notebook": "data/downloads/react-webshop-6bdb3a1fd38b8188fc7ba4102969fe483df8fdc9.ipynb",
+  "source_cells": 8,
+  "source_cells_sha256": "7ee6607ff77d0d5c9126937f7272676cda6d58abec6aca12c578719526fff467",
+  "outputs_removed_from_source_export": true,
+  "notebook_executed": false,
+  "model_calls": 0
+}

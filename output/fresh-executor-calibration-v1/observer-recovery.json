@@ -1,0 +1,10 @@
+{
+  "started_unix": 1794581588.6016095,
+  "freeze_sha256": "d66fc9ceb9f29e197efe8d867ff95d87da4829322a75a4e2025b1ac11c700f61",
+  "evaluator_unchanged": true,
+  "original_observer_unchanged": true,
+  "reason": "Connection file has no host key; use W&B settings default as prior observers did.",
+  "api_host": "https://api.forge.coreweave.com",
+  "recovery_script_sha256": "9029f0478b9eb98d9193efc8780fb975dd9c28af2544f4434377701ae25f8acd",
+  "raw_records_uploaded": false
+}

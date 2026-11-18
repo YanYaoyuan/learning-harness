@@ -1,0 +1,31 @@
+{
+  "status": "compiled_rendered_and_verified",
+  "checked_unix": 1794539451.9343133,
+  "pdf": "output/pdf/learning-harness-paper/learning-harness-paper.pdf",
+  "pdf_sha256": "95cf611a76101ea3778af539f236a258a010ff3260c294379853c56d97146424",
+  "archive": "output/learning-harness-paper-latex.zip",
+  "archive_sha256": "e60dd665147c0865840081e23e0ab1de408125fcdc96f4701bbc7357d7732498",
+  "pages": 13,
+  "all13_pages_rendered_and_visually_inspected": true,
+  "detailed_diagram_formula_result_inspections": true,
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "missing_characters": false,
+  "all_fonts_embedded": true,
+  "equations": 9,
+  "references": 11,
+  "tables": 7,
+  "figures": 6,
+  "editable_tikz_diagrams": 2,
+  "source_files": 22,
+  "standalone_extracted_archive_compiled_offline": true,
+  "standalone_pdf_text_identical": true,
+  "completed_source_and_figure_hashes_verified": 34,
+  "additional_manual_table_numeric_values_checked": 25,
+  "harmless_compiler_notes": [
+    "Upstream algorithm.sty legacy-encoding comment",
+    "One underfull paragraph; visually inspected"
+  ],
+  "running_replication_outcomes_used": false,
+  "raw_data_or_weights_included": false
+}

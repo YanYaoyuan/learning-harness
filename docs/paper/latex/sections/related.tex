@@ -1,0 +1,10 @@
+\section{Related Work}
+\label{sec:related}
+\smallpara{Interactive agents and learning from assistance.}
+ALFWorld aligns textual household interaction with embodied tasks~\citep{shridhar2021alfworld}; our experiments use its text interface. WebShop evaluates grounded shopping decisions in a simulated website~\citep{yao2022webshop}. ReAct combines reasoning and actions through public demonstrations~\citep{yao2023react}. More recent work explicitly studies skill-guided training and skill-free deployment: SkillScaffold estimates policy-relative skill utility and selectively injects skills during agentic RL~\citep{zhong2026skillscaffold}. Our controlled SFT comparison holds the historical pool fixed and changes which action examples receive a finite training budget. It neither reproduces SkillScaffold nor tests an RL update rule.
+
+\smallpara{Predictability and data selection.}
+SmartAD selects a correct teacher trajectory with low student NLL and additionally changes segment-level supervision weights~\citep{tang2026smartad}. Our action-level selection omits those trajectory and weighting components. Rho-1 uses reference-based selective token training~\citep{lin2024rho}, while LESS uses optimizer-aware gradient features and target demonstrations~\citep{xia2024less}. These methods differ in selection unit, available information, and cost; raw action NLL is not a substitute for implementing them. Our results delimit one proxy under controlled interactive-agent fine-tuning, rather than refute student-aligned selection in general.
+
+\smallpara{Selection, updates, and evaluation.}
+EvoHeir separates task admission, parameter inheritance, and experience inheritance, emphasizing that a promising selected task need not yield a useful update~\citep{yang2026evoheir}. Our comparison isolates selection from a fixed experience pool rather than choosing which updated model to inherit. More broadly, few-run RL evaluation can be sensitive to the analysis procedure~\citep{agarwal2021precipice}. We therefore expose crossed seed roles and every paired cell, and restrict the current claims to descriptive results on fixed development tasks.

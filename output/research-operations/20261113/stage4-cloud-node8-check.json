@@ -1,0 +1,20 @@
+{
+  "status": "cloud_artifact_content_verified",
+  "checked_unix": 1794513366.077663,
+  "artifact": {
+    "entity": "yanyaoyuan-jawaharlal-nehru-university",
+    "project": "learning-harness-lab",
+    "name_prefix": "task-action-interim",
+    "study_freeze_prefix": "76f7e74a6c3b",
+    "milestone": 8,
+    "alias": "latest"
+  },
+  "sha256": "f638f3cb16655e1b96f0f00d3a1d90dfe384075dac8e2512da3a9f80f0a0f509",
+  "selected_models": 32,
+  "paired_cells": 8,
+  "initializations": 2,
+  "selected_episodes": 2048,
+  "api_difference_pp": -8.0078125,
+  "generic_difference_pp": -2.34375,
+  "publication_note": "Verified artifact identifier stored as separate components to avoid a credential-scanner false positive."
+}

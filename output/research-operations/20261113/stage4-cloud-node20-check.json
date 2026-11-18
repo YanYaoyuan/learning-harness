@@ -1,0 +1,25 @@
+{
+  "status": "cloud_all_interim_aggregate_files_byte_verified",
+  "checked_unix": 1794526478.5944047,
+  "run_id": "76f7e74a6c3b-progress",
+  "milestone": 20,
+  "artifact": {
+    "entity": "yanyaoyuan-jawaharlal-nehru-university",
+    "project": "learning-harness-lab",
+    "name_prefix": "task-action-interim",
+    "study_freeze_prefix": "76f7e74a6c3b",
+    "milestone": 20,
+    "alias": "latest"
+  },
+  "verified_sha256": {
+    "aggregate-summary.json": "a7c763b6a763332f52bcefafbb6083cc654bb4be308acbde96c51ba1b6b64c17",
+    "action-matched-policies.png": "b0a9109b421aaffa16c6bdb5798935ac82a1dc35721ff117639242f3186e2798",
+    "action-matched-policies.pdf": "a645b40b40424f2cf39c152f60aad935a017103c85e7bb0f10ad533a5eced930"
+  },
+  "selected_models": 80,
+  "selected_episodes": 5120,
+  "initializations": 5,
+  "api_difference_pp": -3.9843749999999996,
+  "generic_difference_pp": -2.734375,
+  "raw_task_records_uploaded": false
+}

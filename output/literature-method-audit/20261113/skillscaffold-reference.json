@@ -1,0 +1,51 @@
+{
+  "repository": "Vaidurya00/SkillScaffold",
+  "verified_subset_commit": "10d9a155004b0951028822e028fc65cb975ee891",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "e705eb2818d09388f01e24b371589cc1f56ab81a",
+      "sha256": "5ad16bea941f04a3d5683368cb4a6812aae5147b92597eb6709e3328ba30f003",
+      "bytes": 5852
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "456e53742c2559a96f834c77daafd58c895db5cb",
+      "sha256": "bf917707c1e0ffdfe653d63aebc188a48f738f3faad9acc188c346d3618694af",
+      "bytes": 11337
+    },
+    {
+      "path": "NOTICE",
+      "git_blob_sha": "234c37d7a73bf1e045604adad617bac02dc10f44",
+      "sha256": "891c3770fe194478a0734b1a73711405ee284663190513432f503fba0068450c",
+      "bytes": 642
+    },
+    {
+      "path": "benchmarks/alfworld/src/alfworld/generate/group_delta_credit.py",
+      "git_blob_sha": "8b743be8f890fa42c97640318512f1775c245989",
+      "sha256": "a1f3400e61db09e75c64f420ce55021cd4b60bdfbd579554eb41b34cd43ab035",
+      "bytes": 7100
+    },
+    {
+      "path": "benchmarks/alfworld/src/alfworld/generate/group_delta_rollout.py",
+      "git_blob_sha": "8e5ff8605cf7e6769845d2df197035d1475ce2ad",
+      "sha256": "34d4fc1ad7517a1410c56ec19ac20e57e996fc43e252a3296819a58d3855cda1",
+      "bytes": 24440
+    },
+    {
+      "path": "benchmarks/webshop/src/webshop/generate/rollout.py",
+      "git_blob_sha": "2e4a0c74f4914c53e6aad887d56c5ab2ab6f9230",
+      "sha256": "12ef46608e0b0a6e894b0054b7aa53835c6e40ee1e4eaba5f106f8b4552e03db",
+      "bytes": 19817
+    },
+    {
+      "path": "benchmarks/webshop/protocol/splits.json",
+      "git_blob_sha": "c01de881ae72c450f5592446b2ceab3db28419ca",
+      "sha256": "915545fe400287a16fcdc190aa53e2ba1e5bf93dfed2fa4029bcbcbb3e41930b",
+      "bytes": 48687
+    }
+  ],
+  "checked_unix": 1794512409.5356135,
+  "scope": "Only these seven local files verified against the pinned official tree; not a whole-checkout identity assertion",
+  "code_executed": false
+}

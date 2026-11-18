@@ -1,0 +1,561 @@
+{
+  "status": "candidate_controls_feasible",
+  "candidate_schedules": 16,
+  "official_tests_used": false,
+  "model_calls": 0,
+  "gpu_used": false,
+  "formal_protocol_frozen": false,
+  "stage3_unchanged": true,
+  "results": [
+    {
+      "source": "api",
+      "sampling_seed": 101,
+      "task_count": 35,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-3/trial_T20190909_151519_764841",
+          "distinct_quota": 5,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Plate-None-Cabinet-13/trial_T20190909_123529_408273",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 311,
+      "matched_reference_action_groups": 119,
+      "eligible_action_groups": 159,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-api-s101.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-api-s101.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "api",
+      "sampling_seed": 202,
+      "task_count": 35,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-3/trial_T20190909_151519_764841",
+          "distinct_quota": 5,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Plate-None-Cabinet-13/trial_T20190909_123529_408273",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 311,
+      "matched_reference_action_groups": 121,
+      "eligible_action_groups": 159,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-api-s202.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-api-s202.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "api",
+      "sampling_seed": 303,
+      "task_count": 35,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-3/trial_T20190909_151519_764841",
+          "distinct_quota": 5,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Plate-None-Cabinet-13/trial_T20190909_123529_408273",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 311,
+      "matched_reference_action_groups": 121,
+      "eligible_action_groups": 159,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-api-s303.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-api-s303.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "api",
+      "sampling_seed": 404,
+      "task_count": 35,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-401/trial_T20190908_215223_949164",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-3/trial_T20190909_151519_764841",
+          "distinct_quota": 5,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Plate-None-Cabinet-13/trial_T20190909_123529_408273",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 311,
+      "matched_reference_action_groups": 122,
+      "eligible_action_groups": 159,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-api-s404.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-api-s404.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 101,
+      "task_count": 29,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+          "distinct_quota": 3,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Bowl-None-Cabinet-13/trial_T20190909_022941_058533",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151643_465634",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 386,
+      "matched_reference_action_groups": 113,
+      "eligible_action_groups": 153,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-generic-s101.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-generic-s101.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 202,
+      "task_count": 29,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+          "distinct_quota": 3,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Bowl-None-Cabinet-13/trial_T20190909_022941_058533",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151643_465634",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 386,
+      "matched_reference_action_groups": 116,
+      "eligible_action_groups": 153,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-generic-s202.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-generic-s202.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 303,
+      "task_count": 29,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+          "distinct_quota": 3,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Bowl-None-Cabinet-13/trial_T20190909_022941_058533",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151643_465634",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 386,
+      "matched_reference_action_groups": 103,
+      "eligible_action_groups": 153,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-generic-s303.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-generic-s303.json",
+          "exact_controls_passed": true
+        }
+      ]
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 404,
+      "task_count": 29,
+      "unchanged_task_quota_full_action_coverage_feasible": false,
+      "infeasible_full_coverage_tasks": [
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153318_365643",
+          "distinct_quota": 2,
+          "full_pool_action_families": 3
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314",
+          "distinct_quota": 3,
+          "full_pool_action_families": 4
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_and_place_simple-Watch-None-CoffeeTable-201/trial_T20190908_124638_700872",
+          "distinct_quota": 3,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Bowl-None-Cabinet-13/trial_T20190909_022941_058533",
+          "distinct_quota": 4,
+          "full_pool_action_families": 5
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Egg-None-DiningTable-24/trial_T20190918_202435_944015",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        },
+        {
+          "task_id": "alfworld:train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151643_465634",
+          "distinct_quota": 4,
+          "full_pool_action_families": 6
+        }
+      ],
+      "proportional_support_needed_for_every_full_pool_action_family": 386,
+      "matched_reference_action_groups": 106,
+      "eligible_action_groups": 153,
+      "reference_distinct_support": 256,
+      "candidates": [
+        {
+          "policy": "random",
+          "schedule_file": "random-generic-s404.json",
+          "exact_controls_passed": true
+        },
+        {
+          "policy": "min_nll",
+          "schedule_file": "min_nll-generic-s404.json",
+          "exact_controls_passed": true
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "runs/variance-diagnostic-v1/stage3/freeze.json": "262c0863d930a940b1fb63beba36c64f4db2f5e8b13fe2b0616f90d34ea93f10",
+    "/home/user/work/bgyfw/harness/scripts/prepare_task_action_controls.py": "9eea70108eb7409b47121d20885e579fb388ed8880841925371e9e7cb65677ec",
+    "src/learning_harness/action_matched_sampling.py": "8f7b17785271d6bc36f153e3eee8d1962636f8f22ae700bb4cfa638344a3030d",
+    "runs/transfer-factorial-v1/corpora/full-api.jsonl": "c773ed8eaac5d4c4c4bde513702f5eaa009d0be57c2dca6d8b4caddb369405e4",
+    "runs/variance-diagnostic-v1/stage3/base-nll/api.json": "9bcd0c477d4d30c7370f765a4cdbefdccbc02fbe94ae5f848cb732c6366b5b43",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s101.json": "334838a738b60f513231cc26372d7ecf21b191ae96cd341bebf2982b7f25e46c",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s202.json": "8d2aa7e21e68e86adbf929cfe7b610365f2ff4d0bf6b56c32f2e6ffd433ed35a",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s303.json": "f5837fc63f167c478fc352c74906cc911aaccc8bd3c434ca96de6d72cb29b8e2",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s404.json": "8d59c06a09b63a3ee4381440d7a98eba0469426a7015ddffd551a7e25433f1b6",
+    "runs/transfer-factorial-v1/corpora/full-generic.jsonl": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+    "runs/variance-diagnostic-v1/stage3/base-nll/generic.json": "02f6ef4b0d4549aaa4ae2fb740ad3c3d5a58a3034f7d1fee2473ac7ef7f30de3",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s101.json": "52669206ec3192151ab246d3a6e203de4d767d183d67112ee1c7403047d799a2",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s202.json": "f4e6ff97f8c434b815a3e0e22003dc009c872af8c4f99bdf7bc996e20ec6da4c",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s303.json": "1605d35a8292ffd854362a0b1a8405c5d15cea2a41934085634c73904f4059d8",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s404.json": "24453006559deb646d3811350f2fba53b316855518f44868e6372eee72beac9c"
+  },
+  "note": "Prepared after exploratory Stage 3 peek; no effect claims, no automatic training launch"
+}

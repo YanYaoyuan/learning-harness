@@ -1,0 +1,77 @@
+{
+  "exploratory": true,
+  "interim": true,
+  "final_study_complete": false,
+  "models": 48,
+  "episodes": 3072,
+  "teacher_calls": 0,
+  "new_model_calls": 0,
+  "official_tests_used": false,
+  "groups": {
+    "api": {
+      "random": {
+        "success": 0.2721354166666667,
+        "steps": 32.717447916666664,
+        "take_attempt": 0.8684895833333334,
+        "move_attempt": 0.7239583333333334,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.14980379584238,
+        "hit_call_limit": 0.7278645833333334,
+        "exact_command_repetition_fraction": 0.31330536397008996
+      },
+      "min_nll": {
+        "success": 0.10546875,
+        "steps": 37.169270833333336,
+        "take_attempt": 0.8502604166666666,
+        "move_attempt": 0.59375,
+        "any_format_error": 0.0013020833333333333,
+        "format_error_fraction": 3.255208333333333e-05,
+        "literal_no_effect_fraction": 0.19610604182123023,
+        "hit_call_limit": 0.89453125,
+        "exact_command_repetition_fraction": 0.3201649406483226
+      }
+    },
+    "generic": {
+      "random": {
+        "success": 0.12630208333333334,
+        "steps": 36.658854166666664,
+        "take_attempt": 0.75390625,
+        "move_attempt": 0.49609375,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.13313829518713363,
+        "hit_call_limit": 0.8736979166666666,
+        "exact_command_repetition_fraction": 0.2802750400173252
+      },
+      "min_nll": {
+        "success": 0.053385416666666664,
+        "steps": 38.813802083333336,
+        "take_attempt": 0.6822916666666666,
+        "move_attempt": 0.51171875,
+        "any_format_error": 0.0,
+        "format_error_fraction": 0.0,
+        "literal_no_effect_fraction": 0.2570749586353787,
+        "hit_call_limit": 0.9479166666666666,
+        "exact_command_repetition_fraction": 0.34929801969039026
+      }
+    }
+  },
+  "definitions": {
+    "aggregation": "Fractions normalized within each episode; 32 episodes per family, 64 per model; equal weights across models and paired seed cells. Shared tasks and sampling cells are not independent initialization seeds.",
+    "take_attempt": "At least one parsed canonical action beginning with take; attempt only, not verified acquisition.",
+    "move_attempt": "At least one canonical move action, including public put aliases; attempt only, not verified placement.",
+    "any_format_error": "JSON/action parser failure; does not measure hidden physical action validity.",
+    "literal_no_effect_fraction": "Fraction of steps with observation exactly Nothing happens. after stripping outer whitespace; observable proxy, not an oracle of invalid actions.",
+    "hit_call_limit": "Episode has exactly config.max_steps actions, including any success at the cap.",
+    "exact_command_repetition_fraction": "1 - number of distinct canonical commands / step count; repeated navigation may be legitimate.",
+    "scope": "Post hoc behavior description of existing outcomes; no causal attribution, inference, early stopping, or change to frozen training/evaluation."
+  },
+  "initialization_levels": 3,
+  "paired_seed_cells": 12,
+  "format_error_episodes": 1,
+  "format_error_steps": 1,
+  "total_steps": 111636,
+  "raw_records_uploaded": false,
+  "local_analysis_sha256": "5d989655e16a3014bcf25cd0bbc5f2765cdc66ccf79539e81de6995241a39c37"
+}

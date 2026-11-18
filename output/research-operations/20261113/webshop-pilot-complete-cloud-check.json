@@ -1,0 +1,19 @@
+{
+  "status": "completed_followup_cloud_all4files_byte_verified",
+  "checked_unix": 1794534341.6423225,
+  "kind": "webshop",
+  "run_id": "3e5759a36d5e-calibration",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3e5759a36d5e-calibration",
+  "artifact_components": {
+    "prefix": "webshop-calibration",
+    "freeze_prefix": "3e5759a36d5e",
+    "suffix": "aggregates"
+  },
+  "verified_sha256": {
+    "aggregate-summary.json": "ef5d62e758b858aa4f5d1386449c6c350d770dfaa986337d3500b4e16d9cc3b6",
+    "base-calibration.png": "a6ccd90fe231a560ff2a64c3da0319f5b643d7e6d8b9b4f4594e4a858c73458e",
+    "base-calibration.pdf": "c49e252ea316cf6b3a6ca9a41e32fde23c69a37e928a0af0c592de9c6091bfbb",
+    "RESULTS.zh-CN.md": "f01be35fa89d70edc49e59b5aa5c70e17dbf60e1a66ee5df2eaeffac470a2cca"
+  },
+  "raw_records_uploaded": false
+}

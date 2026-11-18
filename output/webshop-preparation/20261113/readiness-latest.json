@@ -1,0 +1,66 @@
+{
+  "status": "full_train_environment_ready_for_model_calibration",
+  "checked_unix": 1794511113.3672354,
+  "full_catalog_raw_products": 1181436,
+  "full_catalog_usable_products": 1181430,
+  "search_documents": 1181370,
+  "blank_text_documents": 60,
+  "full_index_verified": true,
+  "full_index_verification_sha256": "04981a4bd293219615d9386b08e2771a85e2f572e86f5c5f5c844090949e43d2",
+  "public_boundary_preview_passed": true,
+  "public_boundary_verification_sha256": "d88f6474984ae198d55801f0bca93367d2b4e6a131b821ba8e786872370836c8",
+  "original_reward_profile": "2022 LG; six original reward tests passed in preserved CPU environment",
+  "model_calls": 0,
+  "official_test_evaluations": 0,
+  "gpu_used": false,
+  "full_benchmark_ready": false,
+  "remaining": [
+    "Run dedicated local base-model train-only64-episode calibration after Stage4 completes and its final results are reviewed",
+    "Freeze actual collection/SFT/benchmark/statistical protocol before official test model evaluations"
+  ],
+  "goal_identity_protocol_frozen": true,
+  "goal_identity_freeze_sha256": "ce3818cf416e775fb031cd99a066e2eff017e16333b30d3125c6d2ef38891233",
+  "goals": 12087,
+  "split_counts": {
+    "test": 500,
+    "eval": 1000,
+    "train": 10587
+  },
+  "split_content_overlap_counts": {
+    "train_test": {
+      "full_goal_fingerprints": 13,
+      "visible_instruction_fingerprints": 13,
+      "products": 108
+    },
+    "train_eval": {
+      "full_goal_fingerprints": 25,
+      "visible_instruction_fingerprints": 25,
+      "products": 252
+    },
+    "eval_test": {
+      "full_goal_fingerprints": 2,
+      "visible_instruction_fingerprints": 2,
+      "products": 23
+    }
+  },
+  "goal_identity_manifest_sha256": "b5d66a5bd3440f9a4cfdc04e23b3c8004e672bdfd54300ba75e3ad187b8e46e3",
+  "human_goal_text_exposed_to_student": false,
+  "goal_episode_resets": 0,
+  "full_environment_train_mechanics_passed": true,
+  "full_environment_verification": "output/webshop-preparation/20261113/full-environment/mechanics.json",
+  "full_environment_factory_sha256": "4fa43a9b2ca0794b26e12bc23d37521fbba4a4cd5d3d8103414606c9ef261d10",
+  "verified_global_goal_fingerprints": 12087,
+  "training_mechanics_episodes": 1,
+  "eval_episodes": 0,
+  "cpu_suite_tests": 248,
+  "environment_ready": true,
+  "policy_runner_core_cpu_verified": true,
+  "model_calibration_executed": false,
+  "production_model_launcher_ready": true,
+  "model_server_real_gpu_verified": false,
+  "pilot_protocol_frozen": true,
+  "pilot_freeze_sha256": "3e5759a36d5e35370a5c930daa68ab8e7326b8ba43c2e2288b1bba8a5270e316",
+  "pilot_frozen_files": 61,
+  "pilot_frozen_episodes": 64,
+  "pilot_start_gate_actual_check_passed": true
+}

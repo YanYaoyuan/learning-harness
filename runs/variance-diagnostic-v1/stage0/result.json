@@ -1,0 +1,147 @@
+{
+  "specification": "docs/VARIANCE_DIAGNOSTIC_STAGE0_SPEC.md",
+  "freeze_sha256": "667b7438cb90ec4ffd4014a8e770c328364c287fc06694c8febe82e0c03c50b1",
+  "include_historical_frozen_choice": false,
+  "exploratory": true,
+  "complete_new_replicates": [
+    1,
+    2,
+    3
+  ],
+  "primary_replicates": [
+    "rep1",
+    "rep2",
+    "rep3"
+  ],
+  "historical_compatibility_failures": [],
+  "paired_difference_by_seed_and_replicate": [
+    [
+      0.09375,
+      0.125,
+      0.125
+    ],
+    [
+      0.3125,
+      0.296875,
+      0.3125
+    ],
+    [
+      -0.0625,
+      -0.078125,
+      -0.0625
+    ]
+  ],
+  "primary": {
+    "seeds": 3,
+    "replicates": 3,
+    "msw": 0.0001627604166666667,
+    "msb": 0.10549587673611113,
+    "df_within": 6,
+    "df_between": 2,
+    "replicate_variance": 0.0001627604166666667,
+    "seed_variance": 0.035111038773148154,
+    "single_evaluation_total": 0.03527379918981482,
+    "replicate_sd_pp": 1.275775907699572,
+    "seed_sd_pp": 18.73793979421114,
+    "seed_variance_truncated_at_zero": false,
+    "share": 0.004614201486798258,
+    "share_interval": [
+      0.0002399406416542238,
+      0.023455567250346254
+    ],
+    "interval_level": 0.9,
+    "interval_method": "one-way random-effects F interval; normal-theory, approximate"
+  },
+  "decision": "Stage 1 in full",
+  "decision_is_a_spending_rule_not_a_finding": true,
+  "secondary": {
+    "per_family": {
+      "cool": {
+        "seeds": 3,
+        "replicates": 3,
+        "msw": 0.0,
+        "msb": 0.01171875,
+        "df_within": 6,
+        "df_between": 2,
+        "replicate_variance": 0.0,
+        "seed_variance": 0.00390625,
+        "single_evaluation_total": 0.00390625,
+        "replicate_sd_pp": 0.0,
+        "seed_sd_pp": 6.25,
+        "seed_variance_truncated_at_zero": false,
+        "share": 0.0,
+        "share_interval": [
+          0.0,
+          0.0
+        ],
+        "interval_level": 0.9,
+        "interval_method": "one-way random-effects F interval; normal-theory, approximate",
+        "note": "Replicates identical within every seed; interval degenerate."
+      },
+      "heat": {
+        "seeds": 3,
+        "replicates": 3,
+        "msw": 0.0006510416666666668,
+        "msb": 0.3614366319444445,
+        "df_within": 6,
+        "df_between": 2,
+        "replicate_variance": 0.0006510416666666668,
+        "seed_variance": 0.12026186342592593,
+        "single_evaluation_total": 0.1209129050925926,
+        "replicate_sd_pp": 2.551551815399144,
+        "seed_sd_pp": 34.67879228374684,
+        "seed_variance_truncated_at_zero": false,
+        "share": 0.005384385282680228,
+        "share_interval": [
+          0.0002801273346774158,
+          0.027313233326575204
+        ],
+        "interval_level": 0.9,
+        "interval_method": "one-way random-effects F interval; normal-theory, approximate"
+      }
+    },
+    "new_replicates_only": {
+      "seeds": 3,
+      "replicates": 3,
+      "msw": 0.0001627604166666667,
+      "msb": 0.10549587673611113,
+      "df_within": 6,
+      "df_between": 2,
+      "replicate_variance": 0.0001627604166666667,
+      "seed_variance": 0.035111038773148154,
+      "single_evaluation_total": 0.03527379918981482,
+      "replicate_sd_pp": 1.275775907699572,
+      "seed_sd_pp": 18.73793979421114,
+      "seed_variance_truncated_at_zero": false,
+      "share": 0.004614201486798258,
+      "share_interval": [
+        0.0002399406416542238,
+        0.023455567250346254
+      ],
+      "interval_level": 0.9,
+      "interval_method": "one-way random-effects F interval; normal-theory, approximate"
+    },
+    "with_historical_regardless_of_checks": {
+      "seeds": 3,
+      "replicates": 4,
+      "msw": 0.0002983940972222222,
+      "msb": 0.13484700520833331,
+      "df_within": 9,
+      "df_between": 2,
+      "replicate_variance": 0.0002983940972222222,
+      "seed_variance": 0.033637152777777776,
+      "single_evaluation_total": 0.033935546875,
+      "replicate_sd_pp": 1.7274087449767705,
+      "seed_sd_pp": 18.3404342308948,
+      "seed_variance_truncated_at_zero": false,
+      "share": 0.008792965627498001,
+      "share_interval": [
+        0.00045707678608175595,
+        0.0366610596164928
+      ],
+      "interval_level": 0.9,
+      "interval_method": "one-way random-effects F interval; normal-theory, approximate"
+    },
+    "task_outcome_flip_rate": 0.041666666666666664
+  }
+}

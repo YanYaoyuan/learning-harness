@@ -1,0 +1,58 @@
+{
+  "checked_unix": 1794512979.1862152,
+  "sources": {
+    "api": {
+      "all": {
+        "pairs": 303,
+        "max_gap": 0.2655482292175293,
+        "nonzero": 256
+      },
+      "same_padding": {
+        "pairs": 30,
+        "max_gap": 0.0,
+        "nonzero": 0
+      },
+      "same_padding_head_and_batch_size": {
+        "pairs": 13,
+        "max_gap": 0.0,
+        "nonzero": 0
+      },
+      "different_padding": {
+        "pairs": 273,
+        "max_gap": 0.2655482292175293,
+        "nonzero": 256
+      }
+    },
+    "generic": {
+      "all": {
+        "pairs": 224,
+        "max_gap": 0.29006427526474,
+        "nonzero": 196
+      },
+      "different_padding": {
+        "pairs": 206,
+        "max_gap": 0.29006427526474,
+        "nonzero": 196
+      },
+      "same_padding": {
+        "pairs": 18,
+        "max_gap": 0.0,
+        "nonzero": 0
+      },
+      "same_padding_head_and_batch_size": {
+        "pairs": 7,
+        "max_gap": 0.0,
+        "nonzero": 0
+      }
+    }
+  },
+  "inputs_sha256": {
+    "runs/transfer-factorial-v1/corpora/full-api.jsonl": "c773ed8eaac5d4c4c4bde513702f5eaa009d0be57c2dca6d8b4caddb369405e4",
+    "runs/variance-diagnostic-v1/stage3/base-nll/api.json": "9bcd0c477d4d30c7370f765a4cdbefdccbc02fbe94ae5f848cb732c6366b5b43",
+    "runs/transfer-factorial-v1/corpora/full-generic.jsonl": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+    "runs/variance-diagnostic-v1/stage3/base-nll/generic.json": "02f6ef4b0d4549aaa4ae2fb740ad3c3d5a58a3034f7d1fee2473ac7ef7f30de3"
+  },
+  "script_sha256": "41a906349bb384f26c92199eb56306ad95737b0c95a13becda416ab5b3eb8439",
+  "actual_new_model_calls": 0,
+  "scope": "All distinct row pairs for identical messages. Extreme-pair groups in the original summary may use the same row twice when the score span is zero; those group counts are not counts of independent same-layout pairs."
+}

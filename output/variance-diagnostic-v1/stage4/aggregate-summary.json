@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "freeze_sha256": "76f7e74a6c3b9b4da51b8f543f983583c89d954e1abceac2a99ae35dfb48c345",
+  "models": 100,
+  "evaluation_episodes": 6400,
+  "primary_seed_cells": 24,
+  "initialization_levels": 6,
+  "sampling_levels": 4,
+  "conditional_repeated_models": 4,
+  "groups": {
+    "api": {
+      "random": {
+        "mean_success": 0.3170572916666667,
+        "mean_nll": 0.18105982554863342
+      },
+      "min_nll": {
+        "mean_success": 0.2688802083333333,
+        "mean_nll": 0.2273911064677091
+      }
+    },
+    "generic": {
+      "random": {
+        "mean_success": 0.06770833333333333,
+        "mean_nll": 0.45337192390152864
+      },
+      "min_nll": {
+        "mean_success": 0.037760416666666664,
+        "mean_nll": 0.4461111835836174
+      }
+    }
+  },
+  "min_nll_minus_random": {
+    "api": {
+      "success_difference_pp": -4.817708333333334,
+      "nll_difference": 0.0463312809190757,
+      "wins": 8,
+      "ties": 1,
+      "losses": 15
+    },
+    "generic": {
+      "success_difference_pp": -2.994791666666667,
+      "nll_difference": -0.00726074031791125,
+      "wins": 3,
+      "ties": 6,
+      "losses": 15
+    }
+  },
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "raw_records_uploaded": false,
+  "aggregation": "Equal weights over primary paired cells; conditional repeats excluded from means.",
+  "uncertainty": "Descriptive fixed-development-task results; no calibrated confidence intervals."
+}

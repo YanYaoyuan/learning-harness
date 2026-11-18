@@ -83,11 +83,12 @@ def historical_hash_mismatches() -> dict:
     mismatches = {}
     for name in HISTORICAL_HASH_LISTS:
         path = SOURCE_ROOT / name
-        if path.exists():
-            for target, recorded in json.loads(path.read_text()).items():
-                current = file_sha(target)
-                if current != recorded:
-                    mismatches[target] = (recorded, current)
+        if not path.is_file():
+            raise ValueError(f"Missing historical hash list: {path}")
+        for target, recorded in json.loads(path.read_text()).items():
+            current = file_sha(target)
+            if current != recorded:
+                mismatches[target] = (recorded, current)
     return mismatches
 
 

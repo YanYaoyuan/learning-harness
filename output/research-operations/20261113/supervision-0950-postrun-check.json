@@ -1,0 +1,48 @@
+{
+  "status": "post_run_periodic_monitor_verified",
+  "checked_unix": 1794535046.9831917,
+  "periodic_time_china": "2026-11-13T09:50:07.548274+08:00",
+  "periodic_record_sha256": "fe2ec7790093fec52247eb2f000a30e2653e85712ca4d7751465510e356266d8",
+  "periodic_gpu_observation": {
+    "returncode": 0,
+    "output": "0, NVIDIA GeForce RTX 5090, 520 MiB, 0 %\n1, NVIDIA GeForce RTX 5090, 2529 MiB, 29 %"
+  },
+  "main_study": {
+    "root": "runs/variance-diagnostic-v1/stage4",
+    "status": "completed",
+    "completed": 100,
+    "failed_cases": [],
+    "elapsed_gpu_hours": 14.663371775192209,
+    "processes": {
+      "pipeline": {
+        "pid": 1158656,
+        "alive": false,
+        "identity_verified": false
+      },
+      "observer": {
+        "pid": 1158893,
+        "alive": false,
+        "identity_verified": false
+      }
+    },
+    "missing_or_mismatched": [
+      "pipeline",
+      "observer"
+    ],
+    "needs_attention": false,
+    "finalization": {
+      "local_report_complete": true,
+      "cloud_status": "uploaded",
+      "raw_records_uploaded": false
+    },
+    "archive_uploaded": true
+  },
+  "main_supervisor": {
+    "pid": 1111147,
+    "alive": true,
+    "identity_verified": true
+  },
+  "known_experimental_gpu_jobs_completed": true,
+  "storage_summary": "output/research-operations/20261113/stage4-storage-summary.json",
+  "frozen_checkpoint_revisions_retained": 100
+}

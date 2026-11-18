@@ -1,0 +1,95 @@
+{
+  "checked_unix": 1794516311.6750636,
+  "papers": [
+    {
+      "name": "less-icml2024",
+      "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xia24c/xia24c.pdf",
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xia24c/xia24c.pdf",
+      "path": "data/papers/2026-11-selection-controls/less-icml2024.pdf",
+      "bytes": 880116,
+      "sha256": "50576484289729e541e472e713ffc81943e0929436f49a5e975a5af03f57b32b",
+      "downloaded_unix": 1794516168.3911352,
+      "status": "method_sections_reviewed_not_full_text",
+      "text_sections": [
+        "3.1 (Adam influence excerpt)",
+        "3.2",
+        "4.1",
+        "4.2"
+      ],
+      "rendered_pages": [
+        4
+      ],
+      "rendered_pages_visually_inspected": true,
+      "author_code_executed": false
+    },
+    {
+      "name": "rho1-neurips2024",
+      "url": "https://papers.neurips.cc/paper_files/paper/2024/file/3322a9a72a1707de14badd5e552ff466-Paper-Conference.pdf",
+      "final_url": "https://papers.neurips.cc/paper_files/paper/2024/file/3322a9a72a1707de14badd5e552ff466-Paper-Conference.pdf",
+      "path": "data/papers/2026-11-selection-controls/rho1-neurips2024.pdf",
+      "bytes": 778470,
+      "sha256": "7b29297863a772b5179dba316cd539362cd4dbe82268ab8f021e8c23cd42e42d",
+      "downloaded_unix": 1794516170.169762,
+      "status": "method_sections_reviewed_not_full_text",
+      "text_sections": [
+        "2.1",
+        "2.2"
+      ],
+      "rendered_pages": [
+        4
+      ],
+      "rendered_pages_visually_inspected": true,
+      "author_code_executed": false
+    },
+    {
+      "name": "form-over-content-2609.19589v1",
+      "url": "https://arxiv.org/pdf/2609.19589v1",
+      "final_url": "https://arxiv.org/pdf/2609.19589v1",
+      "path": "data/papers/2026-11-selection-controls/form-over-content-2609.19589v1.pdf",
+      "bytes": 420505,
+      "sha256": "42db2a679aeee54ca255bb65d13d0b4c746b99db96c0705da3d1dc0101fcaf0b",
+      "downloaded_unix": 1794516170.6565895,
+      "status": "method_sections_reviewed_not_full_text",
+      "text_sections": [
+        "3.1",
+        "3.2",
+        "3.3 (excerpt)",
+        "5",
+        "6"
+      ],
+      "rendered_pages": [
+        3
+      ],
+      "rendered_pages_visually_inspected": true,
+      "author_code_executed": false
+    },
+    {
+      "name": "selection-is-not-learning-2610.22029v1",
+      "path": "output/pdf/agent-research/papers/learning-to-improve/39_2610.22029v1_Selection_Is_Not_Learning.pdf",
+      "url": "https://arxiv.org/pdf/2610.22029v1",
+      "bytes": 630323,
+      "sha256": "4ad196c508855fe27c17b305b3f56fe4946af59639d4772973a43b16bf4efa0b",
+      "status": "method_sections_reviewed_not_full_text",
+      "text_sections": [
+        "3",
+        "4.1",
+        "4.2",
+        "4.3",
+        "5 (Proposition1 and adjoining interpretation)"
+      ],
+      "rendered_pages": [
+        4,
+        5
+      ],
+      "rendered_pages_visually_inspected": true,
+      "author_code_executed": false
+    }
+  ],
+  "all_pdfs_sha256_verified": true,
+  "full_paper_read_claimed": false,
+  "new_gpu_model_calls": 0,
+  "teacher_calls": 0,
+  "training_queue_changed": false,
+  "download_note": "The guessed PMLR PDF path returned HTTP404 before any file was written; the PDF URL explicitly linked by the official PMLR landing page succeeded.",
+  "scientific_note": "Related-work interpretation and proposed comparisons; not new benchmark results or full author-code reproductions."
+}

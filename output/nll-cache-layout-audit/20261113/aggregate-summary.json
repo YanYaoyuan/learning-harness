@@ -1,0 +1,331 @@
+{
+  "status": "cache_duplicate_and_selection_sensitivity_audited",
+  "sources": {
+    "api": {
+      "duplicate_message_groups": 303,
+      "score_span_mean": 0.011594977388615774,
+      "score_span_median": 1.625573986530071e-07,
+      "score_span_max": 0.2655482292175293,
+      "groups_with_span_above_001": 72,
+      "groups_with_span_above_01": 6,
+      "same_extreme_pair_padded_length_groups": 47,
+      "same_extreme_pair_padded_length_max_span": 0.0,
+      "different_extreme_pair_padded_length_groups": 256,
+      "different_extreme_pair_padded_length_max_span": 0.2655482292175293,
+      "all_duplicate_encoded_lengths_identical": true,
+      "original_frozen_schedules_regenerated": true,
+      "selection_sensitivity": [
+        {
+          "stage": "stage3",
+          "sampling_seed": 101,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 101,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 202,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 202,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 303,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 303,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 404,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 404,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 101,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 3,
+          "retained_fraction": 0.98828125
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 101,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 202,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 4,
+          "retained_fraction": 0.984375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 202,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 303,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 4,
+          "retained_fraction": 0.984375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 303,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 404,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 404,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        }
+      ]
+    },
+    "generic": {
+      "duplicate_message_groups": 224,
+      "score_span_mean": 0.011684144951457151,
+      "score_span_median": 1.7575658262103389e-07,
+      "score_span_max": 0.29006427526474,
+      "groups_with_span_above_001": 42,
+      "groups_with_span_above_01": 6,
+      "same_extreme_pair_padded_length_groups": 28,
+      "same_extreme_pair_padded_length_max_span": 0.0,
+      "different_extreme_pair_padded_length_groups": 196,
+      "different_extreme_pair_padded_length_max_span": 0.29006427526474,
+      "all_duplicate_encoded_lengths_identical": true,
+      "original_frozen_schedules_regenerated": true,
+      "selection_sensitivity": [
+        {
+          "stage": "stage3",
+          "sampling_seed": 101,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 101,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 0,
+          "retained_fraction": 1.0
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 202,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 202,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 0,
+          "retained_fraction": 1.0
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 303,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 303,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 0,
+          "retained_fraction": 1.0
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 404,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage3",
+          "sampling_seed": 404,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 0,
+          "retained_fraction": 1.0
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 101,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 4,
+          "retained_fraction": 0.984375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 101,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 1,
+          "retained_fraction": 0.99609375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 202,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 6,
+          "retained_fraction": 0.9765625
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 202,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 303,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 4,
+          "retained_fraction": 0.984375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 303,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 404,
+          "variant": "first_copy",
+          "selected_content": 256,
+          "replaced_content": 4,
+          "retained_fraction": 0.984375
+        },
+        {
+          "stage": "stage4",
+          "sampling_seed": 404,
+          "variant": "last_copy",
+          "selected_content": 256,
+          "replaced_content": 2,
+          "retained_fraction": 0.9921875
+        }
+      ]
+    }
+  },
+  "checked_unix": 1794512251.4221954,
+  "inputs_sha256": {
+    "runs/transfer-factorial-v1/corpora/full-api.jsonl": "c773ed8eaac5d4c4c4bde513702f5eaa009d0be57c2dca6d8b4caddb369405e4",
+    "runs/variance-diagnostic-v1/stage3/base-nll/api.json": "9bcd0c477d4d30c7370f765a4cdbefdccbc02fbe94ae5f848cb732c6366b5b43",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s101.json": "7078bdc9f69b72e5e72801ce90898d10722f920a7c66fd73ec2faa87b6497773",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s202.json": "38e37d70ab51126da33bfc70c8a159d2ef9462a6b224635033baff7b8e2ec517",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s303.json": "62c40598ea09d9cc3e0738e54be91445aabe2f58ba208f0181aefe77791045ba",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s404.json": "4b6111cff13e5ac683f541f4fcd29db29e4d3baf2dc41e4be9dec1eca9acfa98",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json": "47bb84381992c5ea2e7597615a1927884c954be8b15e2eca5af5ad918857349f",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s101.json": "334838a738b60f513231cc26372d7ecf21b191ae96cd341bebf2982b7f25e46c",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json": "af8d22896a76e1497a7fe0665f67e58e53bedc26f30ccdd8b37c8779a5d281d7",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s202.json": "8d2aa7e21e68e86adbf929cfe7b610365f2ff4d0bf6b56c32f2e6ffd433ed35a",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json": "a1e1a1bd1b1bb75e17e5b58b26d7ddbd58f17aba7011a6315d272d86466cdd4f",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s303.json": "f5837fc63f167c478fc352c74906cc911aaccc8bd3c434ca96de6d72cb29b8e2",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json": "5e31fe7933d2d5f9df06fcbbf226a54b30151abc69ba6ca8eb1fd1212d7a3c8b",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s404.json": "8d59c06a09b63a3ee4381440d7a98eba0469426a7015ddffd551a7e25433f1b6",
+    "runs/transfer-factorial-v1/corpora/full-generic.jsonl": "fa96c2c2e74ff1ad4ee11cf4411c4b11ef43d1c94f88114643f9e6091a22f1d2",
+    "runs/variance-diagnostic-v1/stage3/base-nll/generic.json": "02f6ef4b0d4549aaa4ae2fb740ad3c3d5a58a3034f7d1fee2473ac7ef7f30de3",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s101.json": "6a359f3389831c62bcdcb1f75369fe2d57b61f6b470793f9c30e074a772d1ac2",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s202.json": "af500597324212941dff5f01eb4f9a7fdc9b08b7e6f5a4fa81db0d383fb6c230",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s303.json": "5ea19ca0a11164ab5b55a62727998ec1b0a40e5e6f23d61561018d109d8c8c05",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s404.json": "5df773dc652327154c7479819d061920eab2251409e38a5bad44aa1f1c04e686",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json": "55a6c802c4f6a27decb43c334302a06c8e89a2c6b2527a7b64a65dab2a55ea4f",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s101.json": "52669206ec3192151ab246d3a6e203de4d767d183d67112ee1c7403047d799a2",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json": "28f546e1df34b48775b5843b6aef512ab666291a5799eb7afaf7452683844979",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s202.json": "f4e6ff97f8c434b815a3e0e22003dc009c872af8c4f99bdf7bc996e20ec6da4c",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json": "e258ac8c1a1dec9728086704ecbba2aee3eef782eb8ab4093763ac6c16019c59",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s303.json": "1605d35a8292ffd854362a0b1a8405c5d15cea2a41934085634c73904f4059d8",
+    "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json": "e01629d442f90c52fb80ea0b9a6a0e5d32cda9b0ac3b4cfbcac54e27b29e4863",
+    "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s404.json": "24453006559deb646d3811350f2fba53b316855518f44868e6372eee72beac9c"
+  },
+  "script_sha256": "32d02f902b72539e7a4e668fe81fec44eac4bb2e1413dc3577ba6540ee10710c",
+  "gpu_used": false,
+  "actual_new_model_calls": 0,
+  "teacher_calls": 0,
+  "raw_records_uploaded": false,
+  "original_schedule_files_modified": false,
+  "interpretation": "Layout association in existing cache only, not a causal diagnosis or GPU rescoring. First/last-copy sensitivity is not a bound on the effect of independently rescored NLL. Original frozen study remains unchanged."
+}

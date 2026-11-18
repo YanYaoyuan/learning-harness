@@ -1,0 +1,989 @@
+{
+  "complete": true,
+  "stage2_summary_sha256": "fedd4eac6eb8439a91e3d0c0c48102a49ec329a7a92fdddbe99fb64bf6083a6e",
+  "new_cases": 68,
+  "new_episodes": 4352,
+  "matched_compute_policy_effects": {
+    "mean_success": {
+      "api": {
+        "mean_difference": 0.0517578125,
+        "cell_differences": [
+          [
+            0.046875,
+            -0.015625,
+            0.0,
+            0.015625
+          ],
+          [
+            0.140625,
+            0.015625,
+            0.0625,
+            -0.03125
+          ],
+          [
+            0.078125,
+            0.03125,
+            0.078125,
+            -0.03125
+          ],
+          [
+            0.140625,
+            0.078125,
+            0.171875,
+            0.046875
+          ]
+        ],
+        "full_pass_sampling_variance": 0.0,
+        "subset_replay_sampling_variance": 0.0015021430121527778,
+        "sampling_variance_reduction_fraction": 1.0
+      },
+      "generic": {
+        "mean_difference": 0.0126953125,
+        "cell_differences": [
+          [
+            0.015625,
+            0.109375,
+            -0.078125,
+            0.046875
+          ],
+          [
+            -0.03125,
+            0.171875,
+            -0.0625,
+            0.0625
+          ],
+          [
+            0.0625,
+            0.125,
+            -0.140625,
+            0.078125
+          ],
+          [
+            -0.109375,
+            0.0625,
+            -0.1875,
+            0.078125
+          ]
+        ],
+        "full_pass_sampling_variance": 0,
+        "subset_replay_sampling_variance": 0.0113525390625,
+        "sampling_variance_reduction_fraction": 1.0
+      },
+      "paired_api_minus_generic": {
+        "mean_difference": 0.0390625,
+        "cell_differences": [
+          [
+            0.03125,
+            -0.125,
+            0.078125,
+            -0.03125
+          ],
+          [
+            0.171875,
+            -0.15625,
+            0.125,
+            -0.09375
+          ],
+          [
+            0.015625,
+            -0.09375,
+            0.21875,
+            -0.109375
+          ],
+          [
+            0.25,
+            0.015625,
+            0.359375,
+            -0.03125
+          ]
+        ],
+        "full_pass_sampling_variance": 0,
+        "subset_replay_sampling_variance": 0.021199544270833332,
+        "sampling_variance_reduction_fraction": 1.0
+      }
+    },
+    "mean_nll": {
+      "api": {
+        "mean_difference": -0.031739348912402036,
+        "cell_differences": [
+          [
+            -0.06679115399392765,
+            0.011648419831120138,
+            -0.015404605388093073,
+            -0.0590180875097529
+          ],
+          [
+            -0.03503283482165537,
+            0.004817270666146206,
+            -0.099739793898064,
+            -0.012923070737559855
+          ],
+          [
+            -0.0394994990613802,
+            -0.03214849087347957,
+            -0.038956988205469445,
+            0.002279136634908585
+          ],
+          [
+            -0.047737626198490174,
+            0.005742910936386639,
+            -0.024918844646222682,
+            -0.06014632533289921
+          ]
+        ],
+        "full_pass_sampling_variance": 0,
+        "subset_replay_sampling_variance": 0,
+        "sampling_variance_reduction_fraction": null
+      },
+      "generic": {
+        "mean_difference": -0.03932221453914885,
+        "cell_differences": [
+          [
+            -0.07118072516150792,
+            0.09048597829560945,
+            0.00447796429367231,
+            0.022746509112385793
+          ],
+          [
+            -0.023386787423209543,
+            0.01091642274476018,
+            0.051385265530761004,
+            -0.12374212707895482
+          ],
+          [
+            -0.11925612411860287,
+            0.033552415468538765,
+            -0.13207811484922793,
+            -0.11825705063897862
+          ],
+          [
+            -0.007911510781021813,
+            0.01617628682994071,
+            -0.10441611833986109,
+            -0.15866771651068523
+          ]
+        ],
+        "full_pass_sampling_variance": 0.000622069721022886,
+        "subset_replay_sampling_variance": 0.0012215326425310394,
+        "sampling_variance_reduction_fraction": 0.49074654301996756
+      },
+      "paired_api_minus_generic": {
+        "mean_difference": 0.007582865626746822,
+        "cell_differences": [
+          [
+            0.004389571167580264,
+            -0.07883755846448931,
+            -0.019882569681765383,
+            -0.0817645966221387
+          ],
+          [
+            -0.011646047398445769,
+            -0.006099152078613945,
+            -0.15112505942882498,
+            0.11081905634139497
+          ],
+          [
+            0.07975662505722267,
+            -0.06570090634201833,
+            0.09312112664375849,
+            0.12053618727388721
+          ],
+          [
+            -0.03982611541746836,
+            -0.010433375893554087,
+            0.0794972736936384,
+            0.09852139117778602
+          ]
+        ],
+        "full_pass_sampling_variance": 0.0002193227163776243,
+        "subset_replay_sampling_variance": 0.00034903796825467735,
+        "sampling_variance_reduction_fraction": 0.3716365085600247
+      }
+    }
+  },
+  "success_variance_components": {
+    "partial_256": {
+      "components": {
+        "mean": 0.1103515625,
+        "ms_initialization": 0.0118560791015625,
+        "ms_sampling": 0.034642537434895836,
+        "ms_residual": 0.005467732747395833,
+        "initialization_variance_raw": 0.0015970865885416667,
+        "sampling_variance_raw": 0.007293701171875001,
+        "initialization_variance": 0.0015970865885416667,
+        "sampling_variance": 0.007293701171875001,
+        "interaction_plus_noise_variance": 0.005467732747395833,
+        "sampling_share": 0.5079702444208289,
+        "initialization_share": 0.1112291888062345,
+        "df_initialization": 3,
+        "df_sampling": 3,
+        "df_interaction": 9
+      },
+      "sensitivity": {
+        "method": "Leave-one-factor-level-out; not a confidence interval",
+        "fits": [
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 0,
+            "mean": 0.1328125,
+            "ms_initialization": 0.00567626953125,
+            "ms_sampling": 0.017876519097222224,
+            "ms_residual": 0.0031263563368055555,
+            "initialization_variance_raw": 0.0006374782986111111,
+            "sampling_variance_raw": 0.004916720920138889,
+            "initialization_variance": 0.0006374782986111111,
+            "sampling_variance": 0.004916720920138889,
+            "interaction_plus_noise_variance": 0.0031263563368055555,
+            "sampling_share": 0.56640625,
+            "initialization_share": 0.0734375,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 1,
+            "mean": 0.09765625,
+            "ms_initialization": 0.013916015625,
+            "ms_sampling": 0.035068088107638895,
+            "ms_residual": 0.006320529513888891,
+            "initialization_variance_raw": 0.0018988715277777773,
+            "sampling_variance_raw": 0.009582519531250002,
+            "initialization_variance": 0.0018988715277777773,
+            "sampling_variance": 0.009582519531250002,
+            "interaction_plus_noise_variance": 0.006320529513888891,
+            "sampling_share": 0.5382857142857143,
+            "initialization_share": 0.10666666666666662,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 2,
+            "mean": 0.1171875,
+            "ms_initialization": 0.01666259765625,
+            "ms_sampling": 0.021782769097222224,
+            "ms_residual": 0.007195366753472221,
+            "initialization_variance_raw": 0.002366807725694445,
+            "sampling_variance_raw": 0.004862467447916668,
+            "initialization_variance": 0.002366807725694445,
+            "sampling_variance": 0.004862467447916668,
+            "interaction_plus_noise_variance": 0.007195366753472221,
+            "sampling_share": 0.33709449929478147,
+            "initialization_share": 0.16408086506817116,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 3,
+            "mean": 0.09375,
+            "ms_initialization": 0.01116943359375,
+            "ms_sampling": 0.03466796874999999,
+            "ms_residual": 0.005228678385416665,
+            "initialization_variance_raw": 0.0014851888020833337,
+            "sampling_variance_raw": 0.009813096788194442,
+            "initialization_variance": 0.0014851888020833337,
+            "sampling_variance": 0.009813096788194442,
+            "interaction_plus_noise_variance": 0.005228678385416665,
+            "sampling_share": 0.5937628231432088,
+            "initialization_share": 0.08986458760771444,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 0,
+            "mean": 0.13541666666666666,
+            "ms_initialization": 0.010470920138888888,
+            "ms_sampling": 0.036885579427083336,
+            "ms_residual": 0.007561577690972223,
+            "initialization_variance_raw": 0.0009697808159722217,
+            "sampling_variance_raw": 0.007331000434027778,
+            "initialization_variance": 0.0009697808159722217,
+            "sampling_variance": 0.007331000434027778,
+            "interaction_plus_noise_variance": 0.007561577690972223,
+            "sampling_share": 0.4621633176571184,
+            "initialization_share": 0.0611372381359555,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 1,
+            "mean": 0.09114583333333333,
+            "ms_initialization": 0.011854383680555558,
+            "ms_sampling": 0.043111165364583336,
+            "ms_residual": 0.006625705295138889,
+            "initialization_variance_raw": 0.0017428927951388896,
+            "sampling_variance_raw": 0.009121365017361112,
+            "initialization_variance": 0.0017428927951388896,
+            "sampling_variance": 0.009121365017361112,
+            "interaction_plus_noise_variance": 0.006625705295138889,
+            "sampling_share": 0.5215199689802249,
+            "initialization_share": 0.09965102753005044,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 2,
+            "mean": 0.13802083333333334,
+            "ms_initialization": 0.0018717447916666672,
+            "ms_sampling": 0.03358968098958333,
+            "ms_residual": 0.0026652018229166665,
+            "initialization_variance_raw": -0.0002644856770833331,
+            "sampling_variance_raw": 0.007731119791666665,
+            "initialization_variance": 0,
+            "sampling_variance": 0.007731119791666665,
+            "interaction_plus_noise_variance": 0.0026652018229166665,
+            "sampling_share": 0.7436399217221135,
+            "initialization_share": 0.0,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 3,
+            "mean": 0.07682291666666667,
+            "ms_initialization": 0.01683892144097222,
+            "ms_sampling": 0.024983723958333332,
+            "ms_residual": 0.005018446180555555,
+            "initialization_variance_raw": 0.003940158420138888,
+            "sampling_variance_raw": 0.004991319444444444,
+            "initialization_variance": 0.003940158420138888,
+            "sampling_variance": 0.004991319444444444,
+            "interaction_plus_noise_variance": 0.005018446180555555,
+            "sampling_share": 0.3578026251823043,
+            "initialization_share": 0.2824501701507049,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          }
+        ],
+        "sampling_share_range": [
+          0.33709449929478147,
+          0.7436399217221135
+        ]
+      }
+    },
+    "full_pass": {
+      "components": {
+        "mean": 0.177734375,
+        "ms_initialization": 0.01556396484375,
+        "ms_sampling": 0.0003458658854166667,
+        "ms_residual": 0.003044976128472222,
+        "initialization_variance_raw": 0.0031297471788194445,
+        "sampling_variance_raw": -0.0006747775607638889,
+        "initialization_variance": 0.0031297471788194445,
+        "sampling_variance": 0,
+        "interaction_plus_noise_variance": 0.003044976128472222,
+        "sampling_share": 0.0,
+        "initialization_share": 0.5068643602416255,
+        "df_initialization": 3,
+        "df_sampling": 3,
+        "df_interaction": 9
+      },
+      "sensitivity": {
+        "method": "Leave-one-factor-level-out; not a confidence interval",
+        "fits": [
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 0,
+            "mean": 0.19010416666666666,
+            "ms_initialization": 0.019673665364583336,
+            "ms_sampling": 0.0007866753472222219,
+            "ms_residual": 0.0036146375868055555,
+            "initialization_variance_raw": 0.004014756944444445,
+            "sampling_variance_raw": -0.0009426540798611111,
+            "initialization_variance": 0.004014756944444445,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.0036146375868055555,
+            "sampling_share": 0.0,
+            "initialization_share": 0.5262222222222223,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 1,
+            "mean": 0.18229166666666666,
+            "ms_initialization": 0.022847493489583332,
+            "ms_sampling": 0.002115885416666666,
+            "ms_residual": 0.0016886393229166663,
+            "initialization_variance_raw": 0.005289713541666666,
+            "sampling_variance_raw": 0.00014241536458333326,
+            "initialization_variance": 0.005289713541666666,
+            "sampling_variance": 0.00014241536458333326,
+            "interaction_plus_noise_variance": 0.0016886393229166663,
+            "sampling_share": 0.019999999999999993,
+            "initialization_share": 0.7428571428571429,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 2,
+            "mean": 0.19140625,
+            "ms_initialization": 0.01885986328125,
+            "ms_sampling": 0.0006171332465277776,
+            "ms_residual": 0.0026923285590277775,
+            "initialization_variance_raw": 0.004041883680555556,
+            "sampling_variance_raw": -0.0006917317708333334,
+            "initialization_variance": 0.004041883680555556,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.0026923285590277775,
+            "sampling_share": 0.0,
+            "initialization_share": 0.6002014098690835,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 3,
+            "mean": 0.14713541666666666,
+            "ms_initialization": 0.0008748372395833333,
+            "ms_sampling": 0.0005628797743055557,
+            "ms_residual": 0.004184299045138889,
+            "initialization_variance_raw": -0.000827365451388889,
+            "sampling_variance_raw": -0.0012071397569444443,
+            "initialization_variance": 0,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.004184299045138889,
+            "sampling_share": 0.0,
+            "initialization_share": 0.0,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 0,
+            "mean": 0.1796875,
+            "ms_initialization": 0.010226779513888888,
+            "ms_sampling": 0.00042724609375,
+            "ms_residual": 0.0012139214409722222,
+            "initialization_variance_raw": 0.0030042860243055555,
+            "sampling_variance_raw": -0.00019666883680555556,
+            "initialization_variance": 0.0030042860243055555,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.0012139214409722222,
+            "sampling_share": 0.0,
+            "initialization_share": 0.7122186495176849,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 1,
+            "mean": 0.17578125,
+            "ms_initialization": 0.011847601996527776,
+            "ms_sampling": 0.00042724609375,
+            "ms_residual": 0.0027330186631944445,
+            "initialization_variance_raw": 0.003038194444444444,
+            "sampling_variance_raw": -0.0005764431423611111,
+            "initialization_variance": 0.003038194444444444,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.0027330186631944445,
+            "sampling_share": 0.0,
+            "initialization_share": 0.5264394829612221,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 2,
+            "mean": 0.18098958333333334,
+            "ms_initialization": 0.013258192274305554,
+            "ms_sampling": 0.00026448567708333337,
+            "ms_residual": 0.003980848524305555,
+            "initialization_variance_raw": 0.0030924479166666665,
+            "sampling_variance_raw": -0.0009290907118055554,
+            "initialization_variance": 0.0030924479166666665,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.003980848524305555,
+            "sampling_share": 0.0,
+            "initialization_share": 0.43720038350910834,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 3,
+            "mean": 0.17447916666666666,
+            "ms_initialization": 0.014404296874999995,
+            "ms_sampling": 0.00026448567708333337,
+            "ms_residual": 0.004252115885416666,
+            "initialization_variance_raw": 0.0033840603298611097,
+            "sampling_variance_raw": -0.0009969075520833333,
+            "initialization_variance": 0.0033840603298611097,
+            "sampling_variance": 0,
+            "interaction_plus_noise_variance": 0.004252115885416666,
+            "sampling_share": 0.0,
+            "initialization_share": 0.44316163410301945,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          }
+        ],
+        "sampling_share_range": [
+          0.0,
+          0.019999999999999993
+        ]
+      }
+    },
+    "subset_replay": {
+      "components": {
+        "mean": 0.138671875,
+        "ms_initialization": 0.00103759765625,
+        "ms_sampling": 0.08807373046875,
+        "ms_residual": 0.0032755533854166665,
+        "initialization_variance_raw": -0.0005594889322916666,
+        "sampling_variance_raw": 0.021199544270833332,
+        "initialization_variance": 0,
+        "sampling_variance": 0.021199544270833332,
+        "interaction_plus_noise_variance": 0.0032755533854166665,
+        "sampling_share": 0.8661679135494597,
+        "initialization_share": 0.0,
+        "df_initialization": 3,
+        "df_sampling": 3,
+        "df_interaction": 9
+      },
+      "sensitivity": {
+        "method": "Leave-one-factor-level-out; not a confidence interval",
+        "fits": [
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 0,
+            "mean": 0.13411458333333334,
+            "ms_initialization": 0.0010579427083333333,
+            "ms_sampling": 0.0878024631076389,
+            "ms_residual": 0.0011121961805555557,
+            "initialization_variance_raw": -1.3563368055555616e-05,
+            "sampling_variance_raw": 0.028896755642361115,
+            "initialization_variance": 0,
+            "sampling_variance": 0.028896755642361115,
+            "interaction_plus_noise_variance": 0.0011121961805555557,
+            "sampling_share": 0.9629378531073446,
+            "initialization_share": 0.0,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 1,
+            "mean": 0.13411458333333334,
+            "ms_initialization": 0.0010579427083333335,
+            "ms_sampling": 0.0702785915798611,
+            "ms_residual": 0.004747178819444445,
+            "initialization_variance_raw": -0.0009223090277777779,
+            "sampling_variance_raw": 0.02184380425347222,
+            "initialization_variance": 0,
+            "sampling_variance": 0.02184380425347222,
+            "interaction_plus_noise_variance": 0.004747178819444445,
+            "sampling_share": 0.8214741137464933,
+            "initialization_share": 0.0,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 2,
+            "mean": 0.14192708333333334,
+            "ms_initialization": 0.0013020833333333335,
+            "ms_sampling": 0.05579291449652777,
+            "ms_residual": 0.0038519965277777793,
+            "initialization_variance_raw": -0.0006374782986111114,
+            "sampling_variance_raw": 0.017313639322916664,
+            "initialization_variance": 0,
+            "sampling_variance": 0.017313639322916664,
+            "interaction_plus_noise_variance": 0.0038519965277777793,
+            "sampling_share": 0.818007049022749,
+            "initialization_share": 0.0,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "initialization",
+            "deleted_level": 3,
+            "mean": 0.14453125,
+            "ms_initialization": 0.000732421875,
+            "ms_sampling": 0.053622775607638874,
+            "ms_residual": 0.0033908420138888886,
+            "initialization_variance_raw": -0.0006646050347222221,
+            "sampling_variance_raw": 0.01674397786458333,
+            "initialization_variance": 0,
+            "sampling_variance": 0.01674397786458333,
+            "interaction_plus_noise_variance": 0.0033908420138888886,
+            "sampling_share": 0.8315931289996632,
+            "initialization_share": 0.0,
+            "df_initialization": 2,
+            "df_sampling": 3,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 0,
+            "mean": 0.16666666666666666,
+            "ms_initialization": 0.0007052951388888887,
+            "ms_sampling": 0.11330159505208336,
+            "ms_residual": 0.004876030815972223,
+            "initialization_variance_raw": -0.0013902452256944447,
+            "sampling_variance_raw": 0.027106391059027783,
+            "initialization_variance": 0,
+            "sampling_variance": 0.027106391059027783,
+            "interaction_plus_noise_variance": 0.004876030815972223,
+            "sampling_share": 0.8475402883799831,
+            "initialization_share": 0.0,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 1,
+            "mean": 0.09375,
+            "ms_initialization": 0.0022243923611111114,
+            "ms_sampling": 0.08367919921875,
+            "ms_residual": 0.004116482204861111,
+            "initialization_variance_raw": -0.0006306966145833332,
+            "sampling_variance_raw": 0.019890679253472224,
+            "initialization_variance": 0,
+            "sampling_variance": 0.019890679253472224,
+            "interaction_plus_noise_variance": 0.004116482204861111,
+            "sampling_share": 0.8285310734463277,
+            "initialization_share": 0.0,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 2,
+            "mean": 0.19401041666666666,
+            "ms_initialization": 0.00067138671875,
+            "ms_sampling": 0.05861409505208333,
+            "ms_residual": 0.00067138671875,
+            "initialization_variance_raw": 0.0,
+            "sampling_variance_raw": 0.014485677083333332,
+            "initialization_variance": 0.0,
+            "sampling_variance": 0.014485677083333332,
+            "interaction_plus_noise_variance": 0.00067138671875,
+            "sampling_share": 0.9557046979865772,
+            "initialization_share": 0.0,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          },
+          {
+            "deleted_axis": "sampling",
+            "deleted_level": 3,
+            "mean": 0.10026041666666667,
+            "ms_initialization": 0.0027872721354166665,
+            "ms_sampling": 0.09670003255208333,
+            "ms_residual": 0.003438313802083334,
+            "initialization_variance_raw": -0.00021701388888888912,
+            "sampling_variance_raw": 0.0233154296875,
+            "initialization_variance": 0,
+            "sampling_variance": 0.0233154296875,
+            "interaction_plus_noise_variance": 0.003438313802083334,
+            "sampling_share": 0.8714828897338402,
+            "initialization_share": 0.0,
+            "df_initialization": 3,
+            "df_sampling": 2,
+            "df_interaction": 6
+          }
+        ],
+        "sampling_share_range": [
+          0.818007049022749,
+          0.9629378531073446
+        ]
+      }
+    }
+  },
+  "conditional_sampling": [
+    {
+      "initialization_seed": 101,
+      "full_pass": {
+        "mean_gap_pp": 14.0625,
+        "sampling_sd_pp": 3.827327723098716
+      },
+      "subset_replay": {
+        "mean_gap_pp": 15.234375,
+        "sampling_sd_pp": 8.873294290312927
+      }
+    },
+    {
+      "initialization_seed": 202,
+      "full_pass": {
+        "mean_gap_pp": 16.40625,
+        "sampling_sd_pp": 6.314768569261532
+      },
+      "subset_replay": {
+        "mean_gap_pp": 15.234375,
+        "sampling_sd_pp": 13.463818702823504
+      }
+    },
+    {
+      "initialization_seed": 303,
+      "full_pass": {
+        "mean_gap_pp": 13.671875,
+        "sampling_sd_pp": 5.898308152555273
+      },
+      "subset_replay": {
+        "mean_gap_pp": 12.890625,
+        "sampling_sd_pp": 18.54817594075403
+      }
+    },
+    {
+      "initialization_seed": 404,
+      "full_pass": {
+        "mean_gap_pp": 26.953125,
+        "sampling_sd_pp": 2.34375
+      },
+      "subset_replay": {
+        "mean_gap_pp": 12.109375,
+        "sampling_sd_pp": 19.363866088563856
+      }
+    }
+  ],
+  "task_exposure_audits": [
+    {
+      "source": "api",
+      "sampling_seed": 101,
+      "task_exposure_tvd": 0.1171875,
+      "full_tasks": 35,
+      "replay_tasks": 35,
+      "full_unique": 721,
+      "replay_unique": 256
+    },
+    {
+      "source": "api",
+      "sampling_seed": 202,
+      "task_exposure_tvd": 0.11588541666666667,
+      "full_tasks": 35,
+      "replay_tasks": 35,
+      "full_unique": 721,
+      "replay_unique": 256
+    },
+    {
+      "source": "api",
+      "sampling_seed": 303,
+      "task_exposure_tvd": 0.11458333333333333,
+      "full_tasks": 35,
+      "replay_tasks": 34,
+      "full_unique": 721,
+      "replay_unique": 256
+    },
+    {
+      "source": "api",
+      "sampling_seed": 404,
+      "task_exposure_tvd": 0.08463541666666667,
+      "full_tasks": 35,
+      "replay_tasks": 35,
+      "full_unique": 721,
+      "replay_unique": 256
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 101,
+      "task_exposure_tvd": 0.10286458333333333,
+      "full_tasks": 29,
+      "replay_tasks": 29,
+      "full_unique": 732,
+      "replay_unique": 256
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 202,
+      "task_exposure_tvd": 0.0859375,
+      "full_tasks": 29,
+      "replay_tasks": 29,
+      "full_unique": 732,
+      "replay_unique": 256
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 303,
+      "task_exposure_tvd": 0.12109375,
+      "full_tasks": 29,
+      "replay_tasks": 29,
+      "full_unique": 732,
+      "replay_unique": 256
+    },
+    {
+      "source": "generic",
+      "sampling_seed": 404,
+      "task_exposure_tvd": 0.10677083333333333,
+      "full_tasks": 29,
+      "replay_tasks": 28,
+      "full_unique": 732,
+      "replay_unique": 256
+    }
+  ],
+  "next_schedule_recipes": [
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s101.json",
+      "sha256": "334838a738b60f513231cc26372d7ecf21b191ae96cd341bebf2982b7f25e46c",
+      "policy": "random",
+      "source": "api",
+      "seed": 101,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s101.json",
+      "sha256": "7078bdc9f69b72e5e72801ce90898d10722f920a7c66fd73ec2faa87b6497773",
+      "policy": "min_nll",
+      "source": "api",
+      "seed": 101,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s202.json",
+      "sha256": "8d2aa7e21e68e86adbf929cfe7b610365f2ff4d0bf6b56c32f2e6ffd433ed35a",
+      "policy": "random",
+      "source": "api",
+      "seed": 202,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s202.json",
+      "sha256": "38e37d70ab51126da33bfc70c8a159d2ef9462a6b224635033baff7b8e2ec517",
+      "policy": "min_nll",
+      "source": "api",
+      "seed": 202,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s303.json",
+      "sha256": "f5837fc63f167c478fc352c74906cc911aaccc8bd3c434ca96de6d72cb29b8e2",
+      "policy": "random",
+      "source": "api",
+      "seed": 303,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s303.json",
+      "sha256": "62c40598ea09d9cc3e0738e54be91445aabe2f58ba208f0181aefe77791045ba",
+      "policy": "min_nll",
+      "source": "api",
+      "seed": 303,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-api-s404.json",
+      "sha256": "8d59c06a09b63a3ee4381440d7a98eba0469426a7015ddffd551a7e25433f1b6",
+      "policy": "random",
+      "source": "api",
+      "seed": 404,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-api-s404.json",
+      "sha256": "4b6111cff13e5ac683f541f4fcd29db29e4d3baf2dc41e4be9dec1eca9acfa98",
+      "policy": "min_nll",
+      "source": "api",
+      "seed": 404,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s101.json",
+      "sha256": "52669206ec3192151ab246d3a6e203de4d767d183d67112ee1c7403047d799a2",
+      "policy": "random",
+      "source": "generic",
+      "seed": 101,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s101.json",
+      "sha256": "6a359f3389831c62bcdcb1f75369fe2d57b61f6b470793f9c30e074a772d1ac2",
+      "policy": "min_nll",
+      "source": "generic",
+      "seed": 101,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s202.json",
+      "sha256": "f4e6ff97f8c434b815a3e0e22003dc009c872af8c4f99bdf7bc996e20ec6da4c",
+      "policy": "random",
+      "source": "generic",
+      "seed": 202,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s202.json",
+      "sha256": "af500597324212941dff5f01eb4f9a7fdc9b08b7e6f5a4fa81db0d383fb6c230",
+      "policy": "min_nll",
+      "source": "generic",
+      "seed": 202,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s303.json",
+      "sha256": "1605d35a8292ffd854362a0b1a8405c5d15cea2a41934085634c73904f4059d8",
+      "policy": "random",
+      "source": "generic",
+      "seed": 303,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s303.json",
+      "sha256": "5ea19ca0a11164ab5b55a62727998ec1b0a40e5e6f23d61561018d109d8c8c05",
+      "policy": "min_nll",
+      "source": "generic",
+      "seed": 303,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/random-generic-s404.json",
+      "sha256": "24453006559deb646d3811350f2fba53b316855518f44868e6372eee72beac9c",
+      "policy": "random",
+      "source": "generic",
+      "seed": 404,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    },
+    {
+      "path": "runs/variance-diagnostic-v1/stage3/inputs/schedules/min_nll-generic-s404.json",
+      "sha256": "5df773dc652327154c7479819d061920eab2251409e38a5bad44aa1f1c04e686",
+      "policy": "min_nll",
+      "source": "generic",
+      "seed": 404,
+      "exact_task_order_matched": true,
+      "exact_task_exposure_matched": true
+    }
+  ],
+  "next_control_ready": true,
+  "base_nll_ready": true,
+  "next_question": "At identical per-task counts and task order, how do random and base-NLL-selected 256-example supports compare with full traversal?",
+  "next_step_not_started_by_this_audit": true
+}

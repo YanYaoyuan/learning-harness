@@ -1,0 +1,13 @@
+{
+  "status": "all_three_aggregate_files_byte_verified",
+  "checked_unix": 1794582142.0658302,
+  "run_id": "d66fc9ceb9f2",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/d66fc9ceb9f2",
+  "artifact": "fresh-base-d66fc9ceb9f2-aggregates:v0",
+  "files": {
+    "aggregate-summary.json": "d284e6d577ddb563cb02e7d26aa59e9f1a8ac3e0133503590f8eaf6b49a9999b",
+    "executor-calibration.png": "ad79f0d578a12db316bad131a0af3f462029811a4bf1c65b7e7b7ce637fd08b0",
+    "RESULTS.zh-CN.md": "e809d2ad1658d3abbbc5631bf89a8a46b9a1aafbb3bff95a50d4e6c70daa7c30"
+  },
+  "raw_records_uploaded": false
+}

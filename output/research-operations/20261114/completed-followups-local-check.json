@@ -1,0 +1,76 @@
+{
+  "status": "completed_outputs_independently_recomputed",
+  "checked_unix": 1794627565.222646,
+  "gradient_checkpoints": 4,
+  "gradient_candidates": 853,
+  "gradient_requests": 3708,
+  "gradient_schedule_replay_passed": true,
+  "gradient_high_nll_overlap": [
+    {
+      "source": "api",
+      "recipe": 101,
+      "gradient_high_nll_overlap": 215,
+      "distinct_selected": 256
+    },
+    {
+      "source": "api",
+      "recipe": 202,
+      "gradient_high_nll_overlap": 207,
+      "distinct_selected": 256
+    },
+    {
+      "source": "api",
+      "recipe": 303,
+      "gradient_high_nll_overlap": 210,
+      "distinct_selected": 256
+    },
+    {
+      "source": "api",
+      "recipe": 404,
+      "gradient_high_nll_overlap": 212,
+      "distinct_selected": 256
+    },
+    {
+      "source": "generic",
+      "recipe": 101,
+      "gradient_high_nll_overlap": 173,
+      "distinct_selected": 256
+    },
+    {
+      "source": "generic",
+      "recipe": 202,
+      "gradient_high_nll_overlap": 176,
+      "distinct_selected": 256
+    },
+    {
+      "source": "generic",
+      "recipe": 303,
+      "gradient_high_nll_overlap": 177,
+      "distinct_selected": 256
+    },
+    {
+      "source": "generic",
+      "recipe": 404,
+      "gradient_high_nll_overlap": 178,
+      "distinct_selected": 256
+    }
+  ],
+  "json_examples_raw_episodes_verified": 32,
+  "paired_calibration": {
+    "json": {
+      "both_success": 8,
+      "examples_only": 10,
+      "other_only": 1,
+      "both_fail": 13
+    },
+    "react": {
+      "both_success": 16,
+      "examples_only": 2,
+      "other_only": 5,
+      "both_fail": 9
+    }
+  },
+  "development_query_evaluations": 0,
+  "confirmation_query_evaluations": 0,
+  "raw_records_uploaded": false
+}

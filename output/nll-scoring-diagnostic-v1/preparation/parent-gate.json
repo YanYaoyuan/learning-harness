@@ -1,0 +1,12 @@
+{
+  "checked_unix": 1794515850.1918972,
+  "status": "actual_parent_running_gate_verified",
+  "command": "PYTHONPATH=src python3 scripts/run_nll_scoring_probe.py run",
+  "returncode": 1,
+  "reason": "Stage 4 has not completed; never share its model servers",
+  "execution_created": false,
+  "job_created": false,
+  "gpu_model_calls": 0,
+  "teacher_calls": 0,
+  "verification_note": "Sequential check. An earlier parallel validate/run verification returned a non-matching denial; no execution was created. Both modes hold the same nonblocking controller lock."
+}

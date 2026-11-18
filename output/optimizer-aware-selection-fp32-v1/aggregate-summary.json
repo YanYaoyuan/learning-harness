@@ -1,0 +1,155 @@
+{
+  "complete": true,
+  "feature_pilot_only": true,
+  "freeze_sha256": "245af834c7285a485b7c16dd67401342a3396aa0edee8e04aa32dfac5c142934",
+  "unique_candidates": 853,
+  "support_examples": 40,
+  "checkpoints": 4,
+  "warmup_updates": 32,
+  "warmup_unique_contents": 43,
+  "warmup_presentations": 128,
+  "sources": {
+    "api": {
+      "rows": 721,
+      "unique_contents": 418,
+      "mean_score": 0.018163338984216147,
+      "standard_deviation": 0.010107323455462306,
+      "min_score": -0.010823229793459177,
+      "max_score": 0.05774299520999193,
+      "negative_score_fraction": 0.03827751196172249,
+      "pearson_with_nll": 0.46168853856672054
+    },
+    "generic": {
+      "rows": 732,
+      "unique_contents": 508,
+      "mean_score": 0.016893385183713805,
+      "standard_deviation": 0.008326294782074773,
+      "min_score": -0.0077758305706083775,
+      "max_score": 0.061472767032682896,
+      "negative_score_fraction": 0.023622047244094488,
+      "pearson_with_nll": 0.008796238941895887
+    }
+  },
+  "usage": {
+    "attempted_requests": 3708,
+    "response_records": 3708,
+    "error_records": 0,
+    "pending_requests": 0,
+    "known_usage_requests": 3708,
+    "unknown_usage_requests": 0,
+    "known_input_tokens": 2435731,
+    "known_output_tokens": 0,
+    "truncated_tail": false,
+    "complete_usage": true
+  },
+  "forward_phases": {
+    "warmup": 128,
+    "support": 160,
+    "candidate": 3412,
+    "support_repeat": 4,
+    "candidate_repeat": 4
+  },
+  "supervised_tokens_processed": 46382,
+  "scoring_weights_optimizer_and_rng_unchanged": true,
+  "gradient_repeatability_min_cosine": 0.9999998807907104,
+  "gradient_repeatability_max_relative_l2": 0.0,
+  "candidate_schedules": 16,
+  "candidate_schedule_sha256": {
+    "gradient-matched-api-s101.json": "bad7fdddaed2ff49faddfab2bf8200f6813d65e39f71b22e831c6eca4a4fa9e7",
+    "gradient-global-api-s101.json": "31151a89ce6f45a559aefbec9f9b6f43282d4fb8f2f6ae411e0a60585d68a4be",
+    "gradient-matched-api-s202.json": "4c1439361b1782ef134ae0572ce22ec94750a86250df3fefcd77e911cf8b45fa",
+    "gradient-global-api-s202.json": "63aba72c1820a23b6b3e48b459ad3b8b10e6d1c1ef72b7f7153755e36ae5b5a3",
+    "gradient-matched-api-s303.json": "4029daec2b3a5cca2648d6b9c3b48c91d5ed51f1b0116b0690ea8f21b54ee40d",
+    "gradient-global-api-s303.json": "8f61039fdc566063e68805fb00db96c6573c8aa9c7cca07f150993956693f3f4",
+    "gradient-matched-api-s404.json": "ff1398d51954de80d1d623c39c7b7d6532110b1d6c437a2e54ba985d02d74049",
+    "gradient-global-api-s404.json": "3cb3a187be9983cdf01627a54e8216734f18088665beb905e2270f17855add9f",
+    "gradient-matched-generic-s101.json": "a0223009deb105056e709eafdf9516bccc48c90612d91309a5936af6ef7fbc23",
+    "gradient-global-generic-s101.json": "24596b9392a76b6b58c405ad82be97104642361d8f8c560dd7184099029c2f97",
+    "gradient-matched-generic-s202.json": "f01e953bf87c36523f30b76dffedf934e7a31bafa776ca27d317abad25004e98",
+    "gradient-global-generic-s202.json": "f8b9e851d726081d51b62c60d37ad83026946c0759e87daf89fea17b260560cf",
+    "gradient-matched-generic-s303.json": "410c3952b984c74e51f3adb932372e537a3756a6d2122be99874c7a6ac65b8e5",
+    "gradient-global-generic-s303.json": "6c07874fabb7be5164e9c136e49331bb47031e95b10f8d519db22e72d6909b6e",
+    "gradient-matched-generic-s404.json": "0b8945eeeab4de5b1e08c9017006d4f843c013ec0a7c680ebcc225126bad878c",
+    "gradient-global-generic-s404.json": "0fdcd4f1a140ffabf34bab5d1a05762db917787df2d1b067851e77e0cfa8094e"
+  },
+  "matched_controls": [
+    {
+      "source": "api",
+      "recipe": 101,
+      "budget_controls_passed": true,
+      "overlap_with_low": 170,
+      "overlap_with_random": 191,
+      "mean_selected_nll": 0.29184185121357425,
+      "mean_selected_gradient_score": 0.020988638046191
+    },
+    {
+      "source": "api",
+      "recipe": 202,
+      "budget_controls_passed": true,
+      "overlap_with_low": 172,
+      "overlap_with_random": 196,
+      "mean_selected_nll": 0.2931034589372223,
+      "mean_selected_gradient_score": 0.020954160367239183
+    },
+    {
+      "source": "api",
+      "recipe": 303,
+      "budget_controls_passed": true,
+      "overlap_with_low": 169,
+      "overlap_with_random": 182,
+      "mean_selected_nll": 0.2837149999192036,
+      "mean_selected_gradient_score": 0.021125336365372505
+    },
+    {
+      "source": "api",
+      "recipe": 404,
+      "budget_controls_passed": true,
+      "overlap_with_low": 176,
+      "overlap_with_random": 191,
+      "mean_selected_nll": 0.2750698587497734,
+      "mean_selected_gradient_score": 0.020605142798226932
+    },
+    {
+      "source": "generic",
+      "recipe": 101,
+      "budget_controls_passed": true,
+      "overlap_with_low": 149,
+      "overlap_with_random": 154,
+      "mean_selected_nll": 0.11786151844162641,
+      "mean_selected_gradient_score": 0.01956089988785455
+    },
+    {
+      "source": "generic",
+      "recipe": 202,
+      "budget_controls_passed": true,
+      "overlap_with_low": 144,
+      "overlap_with_random": 163,
+      "mean_selected_nll": 0.1259199098696778,
+      "mean_selected_gradient_score": 0.019435708794205198
+    },
+    {
+      "source": "generic",
+      "recipe": 303,
+      "budget_controls_passed": true,
+      "overlap_with_low": 150,
+      "overlap_with_random": 152,
+      "mean_selected_nll": 0.11637429034907616,
+      "mean_selected_gradient_score": 0.020179590850053348
+    },
+    {
+      "source": "generic",
+      "recipe": 404,
+      "budget_controls_passed": true,
+      "overlap_with_low": 148,
+      "overlap_with_random": 158,
+      "mean_selected_nll": 0.1142811579071585,
+      "mean_selected_gradient_score": 0.019656164266734777
+    }
+  ],
+  "downstream_students_trained": 0,
+  "query_evaluations": 0,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "raw_records_uploaded": false,
+  "scope": "Optimizer-aware feature extraction and untrained selector preparation; no downstream learning-value evidence yet."
+}

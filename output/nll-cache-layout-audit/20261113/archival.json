@@ -1,0 +1,19 @@
+{
+  "status": "uploaded",
+  "checked_unix": 1794513014.0611484,
+  "run_id": "nll-cache-audit-20261113",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/nll-cache-audit-20261113",
+  "aggregate_only": true,
+  "raw_task_records_uploaded": false,
+  "actual_new_model_calls": 0,
+  "uploaded_sha256": {
+    "aggregate-summary.json": "06b0daec9ca42f2957d41663ddabf56ea75a3f1e7a0b98ba3bb97c9f849c0ba8",
+    "cache-consistency.png": "4512ab3c0748d2b0fc0dec18ece112409f8068fdc0402444b4e4af8517d902ae",
+    "cache-consistency.pdf": "10b1524015933fe6b711d031fa8280387fba037fd1e6546e7027c66ae39aea5b",
+    "provenance.json": "8dd819bfd6a55f9d9948887da1cda6f810ceb6c78be048aa11e271a4e119311e",
+    "distinct-pair-check.json": "7f75b94ec71c945df532eba6735918fec65836585f47bd86ef0d910916a1d124",
+    "trajectory-feasibility.json": "9c90ee9a9bd01db050808b65c0e13b62c345affb78282823de11137f18816820",
+    "trajectory-derived-summary.json": "5b9d99e3cac80ff6efc7fd5b518692e2f8c721fad71af9811c60133c80553288",
+    "baseline-method-audit.zh-CN.md": "301fae057c46df76211db3c528b207858257414488b38c05562a7dda5a44852f"
+  }
+}

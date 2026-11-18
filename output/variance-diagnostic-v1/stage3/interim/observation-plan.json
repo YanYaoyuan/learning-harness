@@ -1,0 +1,12 @@
+{
+  "milestones": [
+    1,
+    4,
+    8,
+    12,
+    16
+  ],
+  "read_only": true,
+  "script_sha256": "81d0af5019d56b106eaf2edd86f1e4663033d3d2433be88e36cc9bbddcc3ae71",
+  "note": "Set after first eight models; descriptive monitoring, not preregistered inference"
+}

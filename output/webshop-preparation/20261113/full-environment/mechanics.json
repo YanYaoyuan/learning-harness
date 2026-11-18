@@ -1,0 +1,56 @@
+{
+  "status": "full_train_environment_mechanics_passed",
+  "started_unix": 1794507728.5115929,
+  "pid": 1453189,
+  "code_sha256": {
+    "scripts/smoke_webshop_full.py": "241482040d7b52b2f52adffda11d4c9af7c31161ea606e2b570c6f03465201f0",
+    "src/learning_harness/webshop_factory.py": "4fa43a9b2ca0794b26e12bc23d37521fbba4a4cd5d3d8103414606c9ef261d10",
+    "src/learning_harness/webshop_public.py": "6b046f01cfcf509c5a80da65e16f22b4174527f00db9f6d6d9d8971e4a6060a6"
+  },
+  "split": "train",
+  "global_goal_index": 1500,
+  "model_calls": 0,
+  "gpu_used": false,
+  "official_test_evaluations": 0,
+  "eval_episodes": 0,
+  "full_benchmark_ready": false,
+  "backend": {
+    "identity_freeze_sha256": "ce3818cf416e775fb031cd99a066e2eff017e16333b30d3125c6d2ef38891233",
+    "identity_manifest_sha256": "b5d66a5bd3440f9a4cfdc04e23b3c8004e672bdfd54300ba75e3ad187b8e46e3",
+    "products": 1181430,
+    "indexed_documents": 1181370,
+    "factory_sha256": "4fa43a9b2ca0794b26e12bc23d37521fbba4a4cd5d3d8103414606c9ef261d10",
+    "split": "train",
+    "permitted_goals": 10587,
+    "verified_global_goals": 12087,
+    "server_sessions_before_first_environment": 0
+  },
+  "finished_unix": 1794507791.9146519,
+  "training_mechanics_episodes": 1,
+  "public_view_fields": [
+    "observation",
+    "can_search",
+    "clickables"
+  ],
+  "terminal_debug_excluded": true,
+  "backend_sessions_after_close": 0,
+  "all_global_goal_fingerprints_verified": 12087,
+  "steps": [
+    {
+      "action_type": "search",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action_type": "click_public_product",
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "action_type": "click_buy",
+      "reward": 0.0,
+      "done": true
+    }
+  ],
+  "note": "Predetermined public actions, not a model-performance result or formal benchmark evaluation."
+}

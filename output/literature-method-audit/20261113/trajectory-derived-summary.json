@@ -1,0 +1,15 @@
+{
+  "checked_unix": 1794512600.6910498,
+  "sources": {
+    "api": {
+      "local_records_sha256": "6ffb148e8be097b88d2534d167e86f231e533cd7fc4eb772a8f3e67c08a02dba",
+      "tasks_with_two_distinct_complete_eligible_candidates": 2
+    },
+    "generic": {
+      "local_records_sha256": "0aaaea092d1f0f7bbace798eb881ca311a754d0b4f320755c60f1fcb1befe741",
+      "tasks_with_two_distinct_complete_eligible_candidates": 1
+    }
+  },
+  "definition": "Group complete eligible trajectories by task, then count tasks with at least two exact target-view trajectory hashes. Per-task records remain local.",
+  "actual_new_model_calls": 0
+}

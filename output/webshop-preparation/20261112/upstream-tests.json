@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "returncode": 1,
+  "started_unix": 1794486090.941048,
+  "ended_unix": 1794486091.8062794,
+  "argv": [
+    "/home/user/work/bgyfw/harness/.venv-webshop/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-o",
+    "addopts=",
+    "-p",
+    "no:cacheprovider",
+    "--junitxml=/home/user/work/bgyfw/harness/output/webshop-preparation/20261112/upstream-tests.xml",
+    "/home/user/work/bgyfw/harness/third_party/WebShop/tests/web-agent-site/engine/test_goal.py",
+    "/home/user/work/bgyfw/harness/third_party/WebShop/tests/web-agent-site/engine/test_normalize.py"
+  ],
+  "upstream_code_unchanged": true,
+  "source_sha256": {
+    "tests/web-agent-site/engine/test_goal.py": "f10b97ca81eb2f4ffd8a3a0b377f421d3c0ce50ee2d5e80d7e1f39fab228055e",
+    "tests/web-agent-site/engine/test_normalize.py": "503168a43640681d8a5863a027727c8b4c2b777358b278e3c0bd45d6f2f476a4",
+    "web_agent_site/engine/goal.py": "9703c8583244e2041182eb14856186b998145ab16ce2ba9aef8cb680877c8ed5",
+    "web_agent_site/engine/normalize.py": "1962113ac9e209a636d4f181b2c70544bbea59b03adca9847e48287158d794fb"
+  },
+  "official_test_evaluations": 0,
+  "model_calls": 0,
+  "gpu_used": false,
+  "scope": "Upstream handcrafted unit cases only; no human goals"
+}

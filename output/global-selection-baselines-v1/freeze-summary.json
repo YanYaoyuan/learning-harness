@@ -1,0 +1,11 @@
+{
+  "freeze_sha256": "d135680b3a8fa320ce255e0287728ba1e6b425f2b854d24cbed341e2906dec3f",
+  "new_students": 64,
+  "reused_students": 32,
+  "reused_base": 1,
+  "new_episodes": 8192,
+  "frozen_inputs": 564,
+  "cap_gpu_hours": 24,
+  "confirmation_evaluations": 0,
+  "raw_records_uploaded": false
+}

@@ -1,0 +1,46 @@
+\documentclass{article}
+\PassOptionsToPackage{numbers,sort&compress}{natbib}
+\usepackage[preprint,main]{neurips_2026}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,mathtools,booktabs,multirow}
+\usepackage{graphicx,subcaption,algorithm,algpseudocode}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc}
+\usepackage{xcolor,microtype,url}
+\usepackage[colorlinks=true,linkcolor=teal!65!black,citecolor=teal!65!black,urlcolor=teal!65!black]{hyperref}
+\definecolor{agentblue}{HTML}{147D92}
+\definecolor{agentorange}{HTML}{C85B39}
+\definecolor{ink}{HTML}{183044}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\low}{\mathrm{low}}
+\newcommand{\rand}{\mathrm{rand}}
+\newcommand{\pp}{\,\mathrm{pp}}
+\newcommand{\ind}{\mathbb{1}}
+\newcommand{\smallpara}[1]{\paragraph{#1}}
+\graphicspath{{figures/}}
+\input{generated/selection-rows}
+\input{generated/initialization-rows}
+\title{When Low-Loss Demonstrations Hurt:\\Controlled Experience Selection for Language Agents}
+\author{Anonymous Authors}
+\date{}
+\begin{document}
+\raggedbottom
+\maketitle
+\begin{abstract}
+An agent's successful experience need not be useful training data for its underlying model. We study this distinction in supervised fine-tuning of a 4B language agent in ALFWorld, separating collection conditions, experience selection, and post-training execution. A sequence of controlled comparisons first holds training dose fixed, then matches task exposure and distinct-content budgets, and finally matches task-by-action composition. At equal presentation and update budgets, a complete-pass schedule improves task success over subset replay by 5.18 and 1.27 percentage points in two historical source pools. Under task matching, selecting actions with low base-student negative log-likelihood instead of random selection reduces mean success by 17.77 and 7.81 points across four initialization/dropout seeds and four sampling recipes. After task-by-action matching, negative average differences remain: 4.82 and 2.99 points across six initialization seeds. We report every paired cell, conditional retrains, and independent scoring checks. Uniform rescoring changes 4--11 of 256 selected records per recipe; its downstream replication is ongoing and excluded from the results. These findings provide a controlled failure case for an action-level predictability proxy, with explicit limits from one backbone, finite source pools, and reused development tasks.
+\end{abstract}
+
+\input{sections/introduction}
+\input{sections/related}
+\input{sections/method}
+\input{sections/experiments}
+\input{sections/discussion}
+
+\bibliographystyle{plainnat}
+{\small\bibliography{references}}
+\clearpage
+\appendix
+\input{sections/appendix}
+\end{document}

@@ -1,0 +1,714 @@
+{
+  "proposal_state": "draft",
+  "protocol": "task-action-controls-v1",
+  "name": "Task/action-controlled content selection",
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "primary_metric": "mean_success",
+  "primary_contrast": "min_nll_minus_random",
+  "gpus": [
+    0,
+    1
+  ],
+  "cap_gpu_hours": 14,
+  "allocation_seconds": 1800,
+  "minimum_allocation_seconds": 900,
+  "planned_episodes": 4352,
+  "cases": [
+    {
+      "name": "task_action_random-api-i101-s101-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i101-s101-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i101-s101-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i101-s101-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i101-s202-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json"
+    },
+    {
+      "name": "task_action_random-api-i101-s202-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i101-s202-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json"
+    },
+    {
+      "name": "task_action_random-generic-i101-s202-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s202.json"
+    },
+    {
+      "name": "task_action_random-api-i101-s303-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i101-s303-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json"
+    },
+    {
+      "name": "task_action_random-generic-i101-s303-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i101-s303-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i101-s404-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json"
+    },
+    {
+      "name": "task_action_random-api-i101-s404-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i101-s404-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
+    },
+    {
+      "name": "task_action_random-generic-i101-s404-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i202-s101-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-api-i202-s101-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i202-s101-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i202-s101-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_random-api-i202-s202-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i202-s202-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json"
+    },
+    {
+      "name": "task_action_random-generic-i202-s202-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i202-s202-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i202-s303-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json"
+    },
+    {
+      "name": "task_action_random-api-i202-s303-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i202-s303-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json"
+    },
+    {
+      "name": "task_action_random-generic-i202-s303-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s303.json"
+    },
+    {
+      "name": "task_action_random-api-i202-s404-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i202-s404-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json"
+    },
+    {
+      "name": "task_action_random-generic-i202-s404-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i202-s404-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
+    },
+    {
+      "name": "task_action_random-api-i303-s101-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i303-s101-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i303-s101-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i303-s101-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i303-s202-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json"
+    },
+    {
+      "name": "task_action_random-api-i303-s202-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i303-s202-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json"
+    },
+    {
+      "name": "task_action_random-generic-i303-s202-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s202.json"
+    },
+    {
+      "name": "task_action_random-api-i303-s303-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i303-s303-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json"
+    },
+    {
+      "name": "task_action_random-generic-i303-s303-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i303-s303-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i303-s404-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json"
+    },
+    {
+      "name": "task_action_random-api-i303-s404-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i303-s404-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 303,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
+    },
+    {
+      "name": "task_action_random-generic-i303-s404-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 303,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i404-s101-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-api-i404-s101-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i404-s101-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i404-s101-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 101,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_random-api-i404-s202-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i404-s202-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s202.json"
+    },
+    {
+      "name": "task_action_random-generic-i404-s202-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i404-s202-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 202,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s202.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i404-s303-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s303.json"
+    },
+    {
+      "name": "task_action_random-api-i404-s303-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s303.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i404-s303-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s303.json"
+    },
+    {
+      "name": "task_action_random-generic-i404-s303-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 303,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s303.json"
+    },
+    {
+      "name": "task_action_random-api-i404-s404-r0",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i404-s404-r0",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s404.json"
+    },
+    {
+      "name": "task_action_random-generic-i404-s404-r0",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 404,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s404.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i404-s404-r0",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 404,
+      "sampling_seed": 404,
+      "repeat": 0,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s404.json"
+    },
+    {
+      "name": "task_action_random-api-i101-s101-r1",
+      "source": "api",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 1,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-api-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-api-i101-s101-r1",
+      "source": "api",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 1,
+      "gpu": 0,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-api-s101.json"
+    },
+    {
+      "name": "task_action_random-generic-i101-s101-r1",
+      "source": "generic",
+      "policy": "random",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 1,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/random-generic-s101.json"
+    },
+    {
+      "name": "task_action_min_nll-generic-i101-s101-r1",
+      "source": "generic",
+      "policy": "min_nll",
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "repeat": 1,
+      "gpu": 1,
+      "schedule": "runs/variance-diagnostic-v1/stage4/inputs/schedules/min_nll-generic-s101.json"
+    }
+  ],
+  "report_script": "scripts/action_control_report.py",
+  "observer_script": "scripts/track_action_controls.py",
+  "cloud_scope": "aggregate_only",
+  "interim_cell_milestones": [
+    1,
+    4,
+    8,
+    12,
+    16
+  ],
+  "monitoring_interval_seconds": 1800,
+  "event_poll_seconds": 30,
+  "monitoring_rule": "All fully paired cells available at first observation of each node; descriptive only, no early stopping or outcome-based scheduling.",
+  "claim": "Remaining effect of low-NLL content selection conditional on the same task/action coverage and distinct-content quotas; not a full causal-mediation estimate.",
+  "status": "Proposal only; finalize after complete Stage 3 review. No freeze or GPU launch."
+}

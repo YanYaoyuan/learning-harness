@@ -1,0 +1,11 @@
+{
+  "status_at_snapshot": "running_feature_extraction",
+  "freeze_sha256": "245af834c7285a485b7c16dd67401342a3396aa0edee8e04aa32dfac5c142934",
+  "frozen_inputs": 103,
+  "cap_gpu_hours": 2,
+  "teacher_calls": 0,
+  "official_tests_used": false,
+  "automatic_retry": false,
+  "raw_records_uploaded": false,
+  "prior_charged_gpu_seconds": 25.87141118303407
+}

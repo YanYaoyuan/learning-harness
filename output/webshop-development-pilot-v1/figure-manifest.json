@@ -1,0 +1,10 @@
+{
+  "source_file": "runs/webshop-development-pilot-v1/aggregate-summary.json",
+  "source_sha256": "ef5d62e758b858aa4f5d1386449c6c350d770dfaa986337d3500b4e16d9cc3b6",
+  "plotting_script_sha256": "e9b6b7b1751d07d155458eebb80140a12f26001ee84bd3c5c02456c73c6d48d8",
+  "outputs": {
+    "output/webshop-development-pilot-v1/base-calibration.png": "a6ccd90fe231a560ff2a64c3da0319f5b643d7e6d8b9b4f4594e4a858c73458e",
+    "output/pdf/webshop-development-pilot-v1/base-calibration.pdf": "c49e252ea316cf6b3a6ca9a41e32fde23c69a37e928a0af0c592de9c6091bfbb"
+  },
+  "uncertainty": "Descriptive plots; no confidence intervals"
+}

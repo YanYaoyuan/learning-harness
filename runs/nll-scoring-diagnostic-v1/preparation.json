@@ -1,0 +1,39 @@
+{
+  "status": "cpu_tokens_prepared",
+  "prepared_unix": 1794515797.3491642,
+  "gpu_used": false,
+  "unique_inputs": 853,
+  "sentinel_inputs": 32,
+  "replay_batches": 49,
+  "inputs_sha256": "5cb074b9891b75eff6287b6ebde16d3ff55fe8c3d2dfadd2a8d4e1f980a61b2a",
+  "model_runtime": {
+    "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+    "packages": {
+      "torch": "2.12.0.dev20260317+cu128",
+      "transformers": "4.57.1",
+      "tokenizers": "0.22.1",
+      "safetensors": "0.6.2"
+    }
+  },
+  "code_sha256": {
+    "scripts/run_nll_scoring_probe.py": "77816babe229710ec725c283113168a24b362268a967598c36c44281213fecb6",
+    "src/learning_harness/nll_scoring_probe.py": "85005daba6de8680929122af21f29a4491071eb1b4c1c06f72aaee65f2e32b2b",
+    "scripts/train_lora.py": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+    "scripts/score_training_nll.py": "31b0fd387c812be2c8b33df1c673c407c1b77c7cabda3f1cf06e2f963d05fb4f",
+    "src/learning_harness/common.py": "dbcf1ad4f602f65ce63642a4741263066efe8224e3890fa442b3598ed94c6d3c",
+    "src/learning_harness/bounded_queue.py": "a97fd1ff2311cd582cd3cd098e09bc4b355dac6a4aaaf63d6f44866041993e98",
+    "src/learning_harness/action_matched_sampling.py": "8f7b17785271d6bc36f153e3eee8d1962636f8f22ae700bb4cfa638344a3030d",
+    "src/learning_harness/task_matched_sampling.py": "e7e329f1f5d08d87fd9a99dd0bdb99704e124cd08f03457de0c179736341fc9f",
+    "src/learning_harness/webshop_requests.py": "ea71f2d5c5c0cb2c596d2d68b97f0ed80e20ce5194d8074ec79f98fed5320672",
+    "src/learning_harness/webshop_pilot.py": "ba69f098f73afe96275d5b4f39ad0eb61f3bf3586116a9b0e01c2497d04f0b8a",
+    "src/learning_harness/webshop_serving.py": "f48022b3cb5839b8c3dedc905ab63142403fc23ec4f1f5b04dec52bb23d79b36",
+    "src/learning_harness/webshop_factory.py": "4fa43a9b2ca0794b26e12bc23d37521fbba4a4cd5d3d8103414606c9ef261d10",
+    "src/learning_harness/webshop_public.py": "6b046f01cfcf509c5a80da65e16f22b4174527f00db9f6d6d9d8971e4a6060a6",
+    "src/learning_harness/idle_gpu_contexts.py": "91b3b2cdceed34b3728376a7f7f57327f08fcff18bea3fba8ba9e9fb5dfae412",
+    "scripts/run_action_controls.py": "3c490d34500be9a108250805594961ff36e5c42c52034ceaf4240095bb6b772a",
+    "scripts/run_stage0_repeat_eval.py": "3d76563da10ff42dc31ad5130ebcdf1c3d3cf457505354e5af2fc3abe881ca85",
+    "scripts/action_control_report.py": "d69f78189da9ff94aae59c86b4fce38a1364e9b300c1b729c148a592a447b538",
+    "tests/test_nll_scoring_probe.py": "c40b62b8d834d86b72069b083e540e4ecd2478d0c809c52d0a6d8a1361662048",
+    "tests/test_nll_scoring_probe_math.py": "b41550ef68d0bb67d40bae1b3aeb95edf1689982ff753a6b0cbfb081628c3393"
+  }
+}

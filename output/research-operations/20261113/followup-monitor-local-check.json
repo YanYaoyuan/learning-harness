@@ -1,0 +1,35 @@
+{
+  "status": "live_readonly_observer_and_cpu_paths_verified",
+  "checked_unix": 1794517052.7916682,
+  "observer": {
+    "pid": 2284907,
+    "alive": true,
+    "identity_verified": true
+  },
+  "main_supervisor": {
+    "pid": 1111147,
+    "alive": true,
+    "identity_verified": true
+  },
+  "main_completed_models": 46,
+  "main_failed_cases": [],
+  "last_main_periodic_check": "2026-11-13T04:49:52.258257+08:00",
+  "tests_passed": 7,
+  "tests_command": "PYTHONPATH=src CUDA_VISIBLE_DEVICES='' PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv-model/bin/python -m pytest -q tests/test_followup_monitor.py",
+  "ruff_check": "passed",
+  "real_cpu_snapshot": "runs/bounded-followup-monitor-smoke-v1/state.json",
+  "frozen_inputs_verified": {
+    "main": 237,
+    "webshop": 61,
+    "nll_diagnostic": 67
+  },
+  "followup_executions_started": false,
+  "automatic_gpu_launch": false,
+  "automatic_gpu_restart": false,
+  "raw_records_uploaded": false,
+  "source_sha256": {
+    "scripts/track_bounded_followups.py": "01ce458baf3e6279331b264671da60133cd2d1fb2c20cf41d47fdd2d20b39748",
+    "src/learning_harness/followup_monitor.py": "cb3469083a6562bcd171b72e60cf2f3dd587cc3f653a6067f2b3e60bef23d7ab",
+    "tests/test_followup_monitor.py": "11790fc094d5fbb09511ce8533278689285e170b2b4e081e51bcde9fadaa18b6"
+  }
+}

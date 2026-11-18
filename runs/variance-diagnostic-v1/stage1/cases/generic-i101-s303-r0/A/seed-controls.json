@@ -1,0 +1,12 @@
+{
+  "initialization_seed": 101,
+  "sampling_seed": 303,
+  "initialization_factor": "LoRA initialization plus dropout stream",
+  "trainer_sha256": "1bb525ba5ad951dbb24101fd0030d2bdc06d7c4bec6c1745508f0297ff476f46",
+  "wrapper_sha256": "1aa3a7ed36ca79694cf8ff9029b9f19934840bd98be72c5cf6013e659bbb4da6",
+  "completed": true,
+  "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+  "initial_parameter_count": 11796480,
+  "schedule_sha256": "885a1fb52ed72bddf5a57827df0b07f3558619adde85fb423b17ee5737738c1c",
+  "trained_adapter_sha256": "46355d239a5a682691210ea83edc1463169d9999b57a143bcbd1a45d8831759f"
+}

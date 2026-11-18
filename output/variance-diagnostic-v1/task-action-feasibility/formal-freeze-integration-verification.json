@@ -1,0 +1,23 @@
+{
+  "status": "isolated_formalization_and_hash_loader_passed",
+  "cpu_tests": 191,
+  "freeze_tests": 7,
+  "successful_formalization_test_uses_synthetic_parent_and_candidate_fixture": true,
+  "recipe_loader_mocked_in_integration_test": true,
+  "actual_hash_loader_used": true,
+  "original_candidates_unchanged": true,
+  "overwrite_refused": true,
+  "post_freeze_file_mutation_refused": true,
+  "draft_status_not_copied_to_formal_plan": true,
+  "real_candidate_regeneration_previously_checked": 16,
+  "actual_followup_directory_exists": false,
+  "actual_gpu_pipeline_executed": false,
+  "new_model_calls": 0,
+  "teacher_calls": 0,
+  "stage3_frozen_files_unchanged": 188,
+  "checked_unix": 1794499044.5221958,
+  "code_sha256": {
+    "scripts/freeze_action_controls.py": "3e1943bc3556de028b412bb6d95f51af0d35e88d72ef69e7c50d2c1793e97b58",
+    "tests/test_action_control_freeze.py": "72e97ef62e04f6a934509797f87c6fc9962c33cc4aa3a15aeec412fcf7ca1ed5"
+  }
+}

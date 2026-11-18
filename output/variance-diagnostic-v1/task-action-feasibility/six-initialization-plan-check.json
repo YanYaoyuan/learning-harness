@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "proposal_sha256": "9f15ad647a02d376cb1a9f0e4c0472b4b92d9a1c905ada07a4f7a87ee7e4a552",
+  "validated_real_recipes": 16,
+  "plan": {
+    "primary_seed_cells": [
+      [
+        101,
+        101
+      ],
+      [
+        101,
+        202
+      ],
+      [
+        101,
+        303
+      ],
+      [
+        101,
+        404
+      ],
+      [
+        202,
+        101
+      ],
+      [
+        202,
+        202
+      ],
+      [
+        202,
+        303
+      ],
+      [
+        202,
+        404
+      ],
+      [
+        303,
+        101
+      ],
+      [
+        303,
+        202
+      ],
+      [
+        303,
+        303
+      ],
+      [
+        303,
+        404
+      ],
+      [
+        404,
+        101
+      ],
+      [
+        404,
+        202
+      ],
+      [
+        404,
+        303
+      ],
+      [
+        404,
+        404
+      ],
+      [
+        505,
+        101
+      ],
+      [
+        505,
+        202
+      ],
+      [
+        505,
+        303
+      ],
+      [
+        505,
+        404
+      ],
+      [
+        606,
+        101
+      ],
+      [
+        606,
+        202
+      ],
+      [
+        606,
+        303
+      ],
+      [
+        606,
+        404
+      ]
+    ],
+    "planned_models": 100,
+    "repeated_models": 4
+  },
+  "expanded_aggregation_checked_with_synthetic_values": true,
+  "synthetic_values_are_not_experiment_results": true,
+  "training_started": false,
+  "checked_unix": 1794504228.5864055
+}

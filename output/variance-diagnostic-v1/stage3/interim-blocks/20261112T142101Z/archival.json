@@ -1,0 +1,8 @@
+{
+  "status": "uploaded",
+  "run_id": "262c0863d930-interim-20261112T142101Z",
+  "run_url": "https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/262c0863d930-interim-20261112T142101Z",
+  "interim": true,
+  "source_snapshot": "output/variance-diagnostic-v1/stage3/interim/20261112T142101Z",
+  "primary_interim_effects_unchanged": true
+}

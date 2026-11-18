@@ -1,0 +1,241 @@
+{
+  "interim": true,
+  "final_study_complete": false,
+  "cutoff_unix": 1794493261.27958,
+  "completed_models": 35,
+  "planned_models": 70,
+  "matched_seed_cells": [
+    [
+      101,
+      101
+    ],
+    [
+      101,
+      202
+    ],
+    [
+      101,
+      303
+    ],
+    [
+      101,
+      404
+    ],
+    [
+      202,
+      101
+    ],
+    [
+      202,
+      202
+    ],
+    [
+      202,
+      303
+    ],
+    [
+      202,
+      404
+    ]
+  ],
+  "paired_rows": [
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "source": "api",
+      "random_success": 0.296875,
+      "random_nll": 0.17724277162689872,
+      "min_nll_success": 0.171875,
+      "min_nll_nll": 0.3960709349770217,
+      "success_difference_pp": -12.5,
+      "nll_difference": 0.218828163350123
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 101,
+      "source": "generic",
+      "random_success": 0.234375,
+      "random_nll": 0.4815388965134636,
+      "min_nll_success": 0.03125,
+      "min_nll_nll": 0.5227304524190977,
+      "success_difference_pp": -20.3125,
+      "nll_difference": 0.04119155590563406
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "source": "api",
+      "random_success": 0.328125,
+      "random_nll": 0.13067819603148095,
+      "min_nll_success": 0.109375,
+      "min_nll_nll": 0.42513381165369374,
+      "success_difference_pp": -21.875,
+      "nll_difference": 0.2944556156222128
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 202,
+      "source": "generic",
+      "random_success": 0.015625,
+      "random_nll": 0.5001993669316328,
+      "min_nll_success": 0.046875,
+      "min_nll_nll": 0.6052237105420719,
+      "success_difference_pp": 3.125,
+      "nll_difference": 0.10502434361043911
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "source": "api",
+      "random_success": 0.3125,
+      "random_nll": 0.1308181630268783,
+      "min_nll_success": 0.171875,
+      "min_nll_nll": 0.39518811729679104,
+      "success_difference_pp": -14.0625,
+      "nll_difference": 0.2643699542699127
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 303,
+      "source": "generic",
+      "random_success": 0.1875,
+      "random_nll": 0.4122668976013506,
+      "min_nll_success": 0.03125,
+      "min_nll_nll": 0.5568742887780349,
+      "success_difference_pp": -15.625,
+      "nll_difference": 0.1446073911766843
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "source": "api",
+      "random_success": 0.140625,
+      "random_nll": 0.23531279064763339,
+      "min_nll_success": 0.015625,
+      "min_nll_nll": 0.3561436126178132,
+      "success_difference_pp": -12.5,
+      "nll_difference": 0.1208308219701798
+    },
+    {
+      "initialization_seed": 101,
+      "sampling_seed": 404,
+      "source": "generic",
+      "random_success": 0.03125,
+      "random_nll": 0.376078399003683,
+      "min_nll_success": 0.015625,
+      "min_nll_nll": 0.5395757605391986,
+      "success_difference_pp": -1.5625,
+      "nll_difference": 0.16349736153551564
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "source": "api",
+      "random_success": 0.328125,
+      "random_nll": 0.15920540315867565,
+      "min_nll_success": 0.109375,
+      "min_nll_nll": 0.4076424864548037,
+      "success_difference_pp": -21.875,
+      "nll_difference": 0.24843708329612807
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 101,
+      "source": "generic",
+      "random_success": 0.15625,
+      "random_nll": 0.5414053637391667,
+      "min_nll_success": 0.078125,
+      "min_nll_nll": 0.47984583497101296,
+      "success_difference_pp": -7.8125,
+      "nll_difference": -0.06155952876815374
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "source": "api",
+      "random_success": 0.328125,
+      "random_nll": 0.17946056393796864,
+      "min_nll_success": 0.03125,
+      "min_nll_nll": 0.4132462693822903,
+      "success_difference_pp": -29.6875,
+      "nll_difference": 0.23378570544432167
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 202,
+      "source": "generic",
+      "random_success": 0.03125,
+      "random_nll": 0.4614480088083962,
+      "min_nll_success": 0.078125,
+      "min_nll_nll": 0.5157729503093199,
+      "success_difference_pp": 4.6875,
+      "nll_difference": 0.05432494150092371
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "source": "api",
+      "random_success": 0.265625,
+      "random_nll": 0.14997487738215565,
+      "min_nll_success": 0.171875,
+      "min_nll_nll": 0.2836802483218823,
+      "success_difference_pp": -9.375,
+      "nll_difference": 0.13370537093972668
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 303,
+      "source": "generic",
+      "random_success": 0.203125,
+      "random_nll": 0.415527079224036,
+      "min_nll_success": 0.09375,
+      "min_nll_nll": 0.5501628491852961,
+      "success_difference_pp": -10.9375,
+      "nll_difference": 0.13463576996126014
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "source": "api",
+      "random_success": 0.25,
+      "random_nll": 0.16728970425616282,
+      "min_nll_success": 0.09375,
+      "min_nll_nll": 0.3632057403644905,
+      "success_difference_pp": -15.625,
+      "nll_difference": 0.19591603610832767
+    },
+    {
+      "initialization_seed": 202,
+      "sampling_seed": 404,
+      "source": "generic",
+      "random_success": 0.03125,
+      "random_nll": 0.43132496775420776,
+      "min_nll_success": 0.0625,
+      "min_nll_nll": 0.471704580440354,
+      "success_difference_pp": 3.125,
+      "nll_difference": 0.04037961268614626
+    }
+  ],
+  "freeze_sha256": "262c0863d930a940b1fb63beba36c64f4db2f5e8b13fe2b0616f90d34ea93f10",
+  "note": "Descriptive peek requested by user; no inference or outcome-based scheduling",
+  "effects": {
+    "api": {
+      "random_success_pct": 28.125,
+      "min_nll_success_pct": 10.9375,
+      "nll_minus_random_pp": -17.1875,
+      "wins": 0,
+      "ties": 0,
+      "losses": 8,
+      "diagnostic_nll_difference": 0.21379109387511655
+    },
+    "generic": {
+      "random_success_pct": 11.1328125,
+      "min_nll_success_pct": 5.46875,
+      "nll_minus_random_pp": -5.6640625,
+      "wins": 3,
+      "ties": 0,
+      "losses": 5,
+      "diagnostic_nll_difference": 0.07776268095105618
+    }
+  }
+}
