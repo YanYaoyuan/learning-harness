@@ -1,0 +1,9 @@
+\begin{tikzpicture}[font=\sffamily\footnotesize,
+ card/.style={draw=ink!40,rounded corners=2pt,align=left,text width=3.85cm,minimum height=1.65cm,inner sep=7pt},
+ flow/.style={-{Stealth[length=2mm]},draw=ink!65,line width=.65pt}]
+\node[card,fill=ink!3] (s2) at (0,0) {\textbf{1. Fix training dose}\\Full pass vs.\ subset replay\\768 draws / 192 updates\\\textcolor{ink!65}{Task mixture can differ}};
+\node[card,fill=agentblue!5] (s3) at (4.65,0) {\textbf{2. Match task exposure}\\Random vs.\ low NLL\\Same task at each position\\256 distinct records};
+\node[card,fill=agentorange!6] (s4) at (9.3,0) {\textbf{3. Match task/action}\\Random vs.\ low NLL\\Same task/action positions\\Same stratum support};
+\draw[flow] (s2) -- (s3);
+\draw[flow] (s3) -- (s4);
+\end{tikzpicture}

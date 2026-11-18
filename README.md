@@ -6,7 +6,7 @@
 
 **当前执行（2026-11-18）**：同等全局自由度的64个新基线已完成，零失败；梯度相对全局随机提高API 8.252pp、Generic 5.957pp，相对全局高NLL提高4.102pp、4.053pp，两个来源对两个基线的八初始化均为正。原始97模型和云端记录已核验。最后一次[冻结新任务复现](docs/GLOBAL_CONFIRMATION_SPEC_2026-11-18.zh-CN.md)已在GPU0运行：复用97检查点、12,416回合，无新训练，30.5 GPU小时上限。[确认W&B](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/bbc869b80d2f)。此次采用有限任务面板的配对描述性复现，不使用未经校准的p值或置信区间；官方seen/unseen测试未执行。
 
-**新版论文与图（2026-11-18）**：[8页LaTeX PDF](output/pdf/global-selection-paper/global-selection-paper.pdf) · [Overleaf源码包](output/global-selection-paper-latex.zip) · [源码说明](docs/paper/latex-global-v2/README.zh-CN.md)。已纳入架构、公式、全局对照、覆盖交互、逐初始化热图、真实训练loss、动作构成和NLL—学习收益散点。新任务复现完成前没有其结果；自动收尾程序将核验最终云端文件，更新确认表与对比图并保留旧稿，随后需要最终视觉复查。旧稿和全部负向结果保持。研究仍沿[全局经验选样主线](docs/GLOBAL_SELECTION_MAINLINE_2026-11-17.zh-CN.md)，不新增环境或教师采集。
+**完整论文与图（2026-11-18）**：[LaTeX完整PDF（正文＋附录）](output/pdf/global-selection-paper/global-selection-paper.pdf) · [Overleaf源码包](output/global-selection-paper-latex.zip) · [源码说明](docs/paper/latex-global-v2/README.zh-CN.md)。保留新架构、公式、全局对照、覆盖交互、逐初始化热图、真实训练loss、动作构成和NLL—学习收益散点，并恢复短稿曾压缩的相关工作、历史实验细节、算法与超参表、复测和评分诊断，以及WebShop起点校准；历史与新任务证据分开。新任务复现完成前没有其结果；自动收尾程序将核验最终云端文件，更新确认表与对比图并保留旧稿，随后需要最终视觉复查。原13页稿、8页快照和全部负向结果保持。研究仍沿[全局经验选样主线](docs/GLOBAL_SELECTION_MAINLINE_2026-11-17.zh-CN.md)，不新增环境或教师采集。
 
 **最近完成（2026-11-13）**：统一评分后的动作匹配复现96/96模型、6,144回合已完成，零失败，14.350累计GPU小时；独立重核所有模型和原始评测，W&B最终四文件逐字节一致。低NLL−随机为API −3.516pp、Generic −3.060pp。[完整结果与新旧对照图](docs/CANONICAL_REPLICATION_RESULTS_2026-11-13.zh-CN.md) · [W&B最终结果](https://forge.coreweave.com/wandb/yanyaoyuan-jawaharlal-nehru-university/learning-harness-lab/runs/3d16840d5eb1) · [协议](docs/CANONICAL_SELECTION_REPLICATION_SPEC_2026-11-13.zh-CN.md)。
 

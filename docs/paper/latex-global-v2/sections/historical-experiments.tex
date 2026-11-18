@@ -1,0 +1,60 @@
+\section{Detailed Historical Selection Experiments}
+\label{sec:experiments}
+These restored results use the older cooling/heating development panels. They remain separate from the fresh-task main estimates; all original counterexamples and repeats are retained.
+\subsection{Setting and evaluation protocol}
+We use Qwen3-4B-Instruct-2507 from the Qwen3 family~\citep{yang2025qwen3}, with a pinned revision recorded in Appendix~\ref{app:inventory}. The two historical experience pools, API and Generic, contain 721/732 eligible action rows from 35/29 collection tasks and 418/508 exact distinct message records. These labels describe existing collection conditions; the main contrasts are \emph{within} a source. The pools are not independent environments or randomized harness treatments. No new teacher calls are made in the controlled selection studies.
+
+Training uses BF16 LoRA with rank 16, alpha 32, dropout 0.05, attention projections $q,k,v,o$, learning rate $10^{-4}$, zero weight decay, 0.05 warmup ratio, and maximum sequence length 2,048. Both policies receive 192 updates and 768 presentations. The task-matched comparison has 64 primary models, four conditional retrains, and two fresh full-pass reference checks. The task/action-matched comparison has 96 primary models and four conditional retrains. A paired policy cell shares a physical GPU; every source/policy group in the latter study has 12 primary models on each of two RTX 5090s.
+
+Evaluation uses 32 cooling and 32 heating development tasks, environment seed 11, temperature zero, batch size eight, and a common JSON executor. Collection-specific assistance is removed; fixed public execution instructions and examples remain. The audited checkpoint combines the trained A adapter with an untrained zero-effect B adapter at step zero. These are repeatedly inspected development tasks from the official training pool. Official seen/unseen tests remain sealed. We report descriptive paired outcomes rather than uncalibrated confidence intervals or significance claims.
+
+\begin{table}[t]
+\centering
+\caption{\textbf{Completed selection comparisons.} Success rates are percentages; $\Delta$ is low NLL minus random in percentage points. W/T/L counts paired initialization--recipe cells, not independent initialization seeds. Conditional retrains are excluded.}
+\label{tab:historical-main}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Control & Source & Random & Low NLL & $\Delta$ (pp) & W/T/L\\
+\midrule
+\SelectionRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Experience support at a fixed training dose}
+\label{sec:dose}
+The complete-pass versus subset-replay study completes 68 new models and 4,352 evaluation episodes. At 768 presentations and 192 updates, complete-pass exposure increases mean success by 5.176 points for API and 1.270 points for Generic. The source-contrast sampling standard deviations within the four initialization blocks change from 8.87/13.46/18.55/19.36 to 3.83/6.31/5.90/2.34 points. These values describe four recipes per block, not population variance intervals. Since the intervention can also change task mixtures and multiplicities, we next constrain task exposure directly.
+
+\subsection{Low action NLL under matched task exposure}
+\label{sec:task}
+The task-matched study completes all 70 new models and 4,480 evaluation episodes. Its primary comparison uses four initialization seeds crossed with four recipes for each source and policy. Random and low-NLL schedules share task position, task counts, and 256 distinct task/content records. Low-NLL selection lowers mean success from 27.930\% to 10.156\% in API and from 12.695\% to 4.883\% in Generic (Table~\ref{tab:historical-main}). Every initialization-level average is negative in both pools.
+
+The means do not imply uniform harm. One of 16 API cells and five of 16 Generic cells favor low NLL. Figure~\ref{fig:outcomes} retains these cells rather than replacing the distribution by a single mean. Action composition remains free to vary, so this comparison cannot attribute the difference to content properties beyond action distribution.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{selection-outcomes.pdf}
+  \caption{\textbf{Every primary paired cell.} Lines connect random and low-NLL outcomes for one initialization--recipe pair; black ticks show means. Top: API; bottom: Generic. Left: task matching (16 pairs per source). Right: task/action matching (24 pairs per source). All panels use the same vertical scale. No confidence interval is encoded. Lines sharing an initialization are not independent training seeds.}
+  \label{fig:outcomes}
+\end{figure}
+
+\subsection{Residual differences after action-composition matching}
+\label{sec:action}
+The task/action-matched study completes 100 models and 6,400 evaluation episodes, using 14.663 cumulative GPU-hours against an 18-hour cap. The 96 primary models cover six initialization/dropout seeds and four recipes. Low NLL remains worse on average: 31.706\% versus 26.888\% for API, and 6.771\% versus 3.776\% for Generic. API has five negative initialization-level means and one zero; Generic has six negative means. Paired W/T/L counts are 8/1/15 and 3/6/15, respectively.
+
+The smaller gaps relative to task matching are informative constraints on the original observation, but do not identify how much of it was caused by action composition. The reference quotas change available content support and weaken the selection contrast. Absolute performance also changes differently across pools. A post-hoc comparison restricted to the first two initialization blocks changes API random/low-NLL success from 28.125\%/10.938\% to 32.031\%/24.023\%; Generic changes from 11.133\%/5.469\% to 6.250\%/3.906\%. Gap reduction can accompany improvement or deterioration in absolute success. Appendix~\ref{app:seeds} reports all initialization-level differences.
+
+\subsection{Training variability and scoring consistency}
+\label{sec:scoring}
+Four prespecified conditional retrains in the final study use initialization 101, recipe 101, and the original physical GPUs. All four produce different final weights. Success changes are 0.000 and $-4.688$ points for API random and low NLL, and $+1.562$ and $-1.562$ for Generic. These repeated cells are separate from primary means and do not estimate a population variance. An earlier post-hoc check reevaluates two stored checkpoints under their original configurations, adding 128 episodes; each reproduces its own recorded success and step count. This does not establish universal evaluation determinism.
+
+An independent scoring diagnostic completes 1,194 forward passes, including uniform scoring of all 853 distinct message inputs, in 107.127 GPU seconds. Canonical repeats and original-layout replays reproduce their respective scores exactly. Four checks against direct supervised loss have absolute discrepancy at most $3.54\times10^{-6}$. Padding/precision stress tests nevertheless reveal numerical differences. The 32 stress inputs were selected deliberately and are not a representative error sample.
+
+Uniform scores change 4--11 of 256 selected records across 16 original recipes, retaining 95.703\%--98.438\% of the content. High overlap is not a downstream performance guarantee. The separately frozen, 96-model uniform-score paired retraining study is now complete. Low NLL minus Random is $-3.516$ points in API and $-3.060$ in Generic; its results are distinguished from the older cached-score comparisons rather than replacing them. Appendix~\ref{app:scoring} reports the completed instrument checks.
+
+\subsection{Source comparison and second-environment calibration}
+\label{sec:scope}
+The earlier teacher-assisted versus ReAct self-collection study is a separate estimand. Collection succeeds in 69/144 and 110/144 attempts, respectively. On 58 common successful task/seed pairs, its API-minus-ReAct raw adaptation-AUC difference is $-3.56$ points, with seed values $-9.77$, $-3.42$, and $+2.49$. This result is retained; within-pool selection results do not overturn it. Common-success matching discards unmatched coverage, and a sufficiently consumed full-eligible-data comparison remains open.
+
+A WebShop base-model calibration completes 64 train-only episodes on 32 shared goals under two public prompt ports. ReAct solves 5/32 and Act-only solves 6/32; their mean partial scores are 0.4125 and 0.4380. All 463 requests finish without transport errors, but include 34 invalid-format and 136 invalid-control model decisions. The pilot verifies an executable second environment and measures headroom. It has no SFT intervention and is neither cross-environment replication of the selection effect nor a published benchmark comparison. Full details appear in Appendix~\ref{app:webshop}.

@@ -10,6 +10,7 @@ import subprocess
 import time
 
 from learning_harness.common import file_sha
+from restore_global_paper_sections import restore_sections
 
 SOURCE = Path("docs/paper/latex-global-v2")
 OUTPUT = Path("output/pdf/global-selection-paper")
@@ -19,11 +20,25 @@ BODY = r"""\documentclass{article}
 \usepackage[preprint]{neurips_2026}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{amsmath,amssymb,booktabs,graphicx,microtype}
+\usepackage{amsmath,amssymb,mathtools,booktabs,multirow,graphicx,microtype}
+\usepackage{algorithm,algpseudocode}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning,fit}
 \usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
 \urlstyle{same}
+\graphicspath{{figures/}}
+\definecolor{agentblue}{HTML}{147D92}
+\definecolor{agentorange}{HTML}{C85B39}
+\definecolor{ink}{HTML}{183044}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\low}{\mathrm{low}}
+\newcommand{\rand}{\mathrm{rand}}
+\newcommand{\pp}{\,\mathrm{pp}}
+\newcommand{\ind}{\mathbb{1}}
+\newcommand{\smallpara}[1]{\paragraph{#1}}
+\input{generated/selection-rows}
+\input{generated/initialization-rows}
 \title{Learning-Oriented Global Experience Selection\\for Small Language Agents}
 \author{Anonymous Authors}
 \begin{document}
@@ -59,6 +74,8 @@ Our contribution is the complete learning-oriented selection comparison, its exp
 \label{fig:architecture}
 \end{figure*}
 
+\input{sections/related-work}
+
 \section{Problem and Selection Procedure}
 Let $D_s$ be a fixed historical pool, $S_p(D_s;j)$ the schedule produced by rule $p$ with sampling seed $j$, and $A_B$ the common training procedure at presentation budget $B$. Initialization/dropout seed $i$ determines the training starting state and dropout stream:
 \begin{equation}
@@ -87,6 +104,28 @@ s(e)=\max_f\sum_{c\in\{8,16,24,32\}}\tfrac14\,u(a_c(e))^\top b_{c,f}.
 Checkpoint averaging precedes the maximum over support families. The 40 fixed public actions contain 18 placement and 22 cleaning actions; no query answers are used. Features are evaluated in a numerically checked FP32 procedure. Final students start again from the original base, not the feature-warmup weights.
 
 \paragraph{Common replay.} Each global rule selects 256 distinct message contents. Each set is replayed in three shuffled passes using the same schedule-generation procedure, yielding 768 presentations. The selected contents and their task/action distribution can differ. Fixed presentations and optimizer updates do not establish equal token counts or FLOPs.
+
+\begin{algorithm}[t]
+\caption{Global experience selection under the common training budget}
+\label{alg:global}
+\begin{algorithmic}[1]
+\Require Fixed pool $D_s$, rule $p$, support $K=256$, replay seed $j$
+\State Deduplicate exact message contents; retain the first representative index
+\If{$p$ is global random}
+  \State Draw $K$ representatives uniformly without replacement
+\Else
+  \State Rank representatives by canonical NLL or the fixed optimizer-aware score
+  \State Select the top $K$, breaking score ties by representative index
+\EndIf
+\State Create three seeded shuffled passes, totaling 768 presentations
+\For{each of the eight initialization/dropout seeds $i$}
+  \State Cold-start the original base with a fresh LoRA adapter
+  \State Run 192 optimizer updates; audit initial weights, consumed tokens, and schedule
+  \State Evaluate with the shared public-example executor and frozen task panel
+\EndFor
+\State Retain both sources, every initialization, and all paired differences
+\end{algorithmic}
+\end{algorithm}
 
 \section{Experimental Design}
 \paragraph{Environment and data.} We use ALFWorld's text interface~\citep{shridhar2021alfworld}, not visual robot control. The API and Generic pools contain 721 and 732 eligible action demonstrations, with 418 and 508 distinct message contents, from 35 and 29 collection tasks. These are two fixed historical sources in one environment, not randomized harness treatments or independent environments. All current studies reuse the pools and make zero new teacher calls.
@@ -174,26 +213,26 @@ Global learning-oriented selection produces a higher-performing student than bot
 \bibliography{references}
 \endgroup
 
-\clearpage\appendix
+\appendix
 \section{Recorded Training Dynamics}
-\begin{figure*}[h]\centering
+\begin{figure}[H]\centering
 \includegraphics[width=0.9\textwidth]{figures/training-loss.pdf}
 \caption{Actual Trainer loss at logging steps 10 through 190. Each line averages 16 model histories per source/rule; shading is their descriptive SD, not a confidence interval. These are training-loss curves, not task-success learning curves. No value is fabricated for an unlogged update.}
-\end{figure*}
+\end{figure}
 The curves help audit optimization and show that low training loss alone is insufficient to rank behavioral utility. Their bands retain training variation. All students still run the fixed 192 updates; the final two updates do not create a new recorded loss point.
 
 \section{Aggregate Action Composition}
-\begin{figure*}[h]\centering
+\begin{figure}[H]\centering
 \includegraphics[width=0.92\textwidth]{figures/action-coverage.pdf}
 \caption{Action-family composition of the selected 768-presentation schedules, averaged over the two sampling seeds. Values are percentages. Only aggregate action categories are shown, with no task identities. Different distributions are observed properties of the selectors, not an identified causal explanation.}
-\end{figure*}
+\end{figure}
 Global selection is allowed to choose these distributions; matched comparisons fix the reference task/action position and distinct-content quotas. The distinction is why both comparisons are retained rather than treating one as a replacement for the other.
 
 \section{Imitation-Likelihood Scatter}\label{app:scatter}
-\begin{figure*}[h]\centering
+\begin{figure}[H]\centering
 \includegraphics[width=0.96\textwidth]{figures/imitation-learning.pdf}
 \caption{All 36 source/rule/sampling schedules. Horizontal coordinates are mean selected action NLL weighted by training presentations; vertical coordinates average the eight actual student initializations. Overlapping schedules are not independent corpus samples. No regression significance or new utility predictor is inferred from this plot.}
-\end{figure*}
+\end{figure}
 
 \section{Retained Historical Evidence}
 Earlier complete-pass scheduling improves success over subset replay by 5.176 and 1.270 points at the same update/presentation budget. Task-matched low-NLL selection is below Random by 17.773 and 7.812 points; task/action matching reduces the descriptive gap to 4.818 and 2.995 points. The separate canonical-scoring retraining comparison gives low-NLL-minus-Random differences of $-3.516$ and $-3.060$ points. These studies use older, repeatedly examined development panels and remain separate evidence, rather than being pooled into the fresh-panel estimate.
@@ -204,6 +243,13 @@ The original teacher-assisted versus ReAct source comparison also remains: its c
 Source protocols, numerical scoring checks, training/initialization roles, final aggregates, raw-audit receipts, cloud-file hashes, and figure data are versioned separately. Raw task identities, conversations, requests, and weights stay local. The global development data bind 564 frozen inputs; the original parent binds 509. The reserved-panel run binds its own 1,025 inputs and the benchmark execution gate. Completed model files can be relocated only with byte verification and original-path links, preserving composition revisions.
 
 This manuscript snapshot contains completed development outcomes and explicitly labeled reserved-panel status. It does not convert partial task successes into a method result. Generated confirmation tables may update only from the complete 97-model audited output, preserving the earlier snapshot.
+
+\clearpage
+\input{sections/historical-method}
+\clearpage
+\input{sections/historical-experiments}
+\clearpage
+\input{sections/historical-appendices}
 \end{document}
 """
 
@@ -339,6 +385,7 @@ def main():
         shutil.copyfile(Path("docs/paper/latex") / name, SOURCE / name)
     for path in FIGURES.glob("*.pdf"):
         shutil.copyfile(path, SOURCE / "figures" / path.name)
+    restoration = restore_sections(SOURCE)
     section, confirmation = confirmation_section()
     if confirmation is not None:
         confirmation_figure(confirmation)
@@ -379,7 +426,7 @@ def main():
     shutil.copyfile(OUTPUT / "main.pdf", OUTPUT / "global-selection-paper.pdf")
     output = OUTPUT / "global-selection-paper.pdf"
     manifest = dict(
-        version="global-v2",
+        version="global-v2-full",
         created_unix=time.time(),
         pdf=str(output),
         pdf_sha256=file_sha(output),
@@ -392,6 +439,7 @@ def main():
         else None,
         source_files={str(p): file_sha(p) for p in SOURCE.rglob("*") if p.is_file()},
         figure_data_sha256=file_sha("output/paper-global-v2/figure-data.json"),
+        restoration=restoration,
         raw_records_included=False,
         model_weights_included=False,
         visual_review_required=True,
