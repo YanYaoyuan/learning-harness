@@ -1,0 +1,12 @@
+{
+  "status": "three_cloud_files_and_64_native_endpoints_verified",
+  "checked_unix": 1794966691.3539934,
+  "artifact": "global-selection-d135680b3a8f-final:v0",
+  "files": {
+    "aggregate-summary.json": "2daa00e4ad4283b3705332d86fca307ea8a444b1327dd1a7234691c167566719",
+    "global-comparison.png": "ca9c35543359378c10ff4ea518e9e2395073dad2aa19652c4bec6332e46ce4dd",
+    "RESULTS.zh-CN.md": "bb84e6a1079603de86be9c83de23d4681919f6b945b6682ad6e2b949519dcc7b"
+  },
+  "native_student_runs_verified": 64,
+  "raw_records_uploaded": false
+}

@@ -1,0 +1,33 @@
+{
+  "version": "global-v2",
+  "created_unix": 1794970812.4283113,
+  "pdf": "output/pdf/global-selection-paper/global-selection-paper.pdf",
+  "pdf_sha256": "f4f191e0460c1d5a506b76734c292d1d76d93c2ee3588904f20363e348f4266a",
+  "build_script_sha256": "ac5f2a07451b441581632a9ffaa68d28e2db1d6e637bbb3e365e95d0cc3db674",
+  "confirmation_complete": false,
+  "confirmation_summary_sha256": null,
+  "source_files": {
+    "docs/paper/latex-global-v2/main.tex": "61f3f70a21aa767d880f6c9afb48a5369dc62b0f2b0c564f589be1eade0d8d71",
+    "docs/paper/latex-global-v2/README.zh-CN.md": "11c2689e7165828fe8ad5b90a4574dc2331ab0d364e4abca8bcb726647a661ae",
+    "docs/paper/latex-global-v2/neurips_2026.sty": "c3fc2894e83d2517ca18b66741d6c595986d97957dc08ec08bb2125a7ec4555a",
+    "docs/paper/latex-global-v2/references.bib": "131a21515b7596306cdd269559e8c5a7b5c24d060ea0bb699cfa3a45ae4631cd",
+    "docs/paper/latex-global-v2/build.sh": "5925afe9608971931bb6bf1b0d26162b6c7bd5d41ad91a0b8293dd7ed4c52116",
+    "docs/paper/latex-global-v2/figures/paired-initializations.pdf": "b728e7e8af6e18f55e442faadd62b438d639a2daf8b3196ed9a48dca6baf0c99",
+    "docs/paper/latex-global-v2/figures/imitation-learning.pdf": "15aa2597cdced6e179f39b9a04fb4a80cf336a32079f3972260357d97f4a3e1e",
+    "docs/paper/latex-global-v2/figures/selection-coverage-interaction.pdf": "e90b4d82df03efe305dbadf24dfe5972695331fdfcfbf8fc1dbd75a856477e79",
+    "docs/paper/latex-global-v2/figures/global-main.pdf": "d7f6af1d18ae6499bc5e9998638ffa9680e88ff56de92f086b9f09cdaec8a7a9",
+    "docs/paper/latex-global-v2/figures/training-loss.pdf": "eeba392e8f4f815644de51b4f9abe973ac62a19cdcdc509498a484a68045e27a",
+    "docs/paper/latex-global-v2/figures/action-coverage.pdf": "867cf16ae040a6c46de699312e4dfb6dfdaeca031b80d689c37a035de5cb7148",
+    "docs/paper/latex-global-v2/generated/confirmation.tex": "e3e73524e285e1fae4e708e40b6ad22b0409aecda1534ad46b428afdc0d8b351"
+  },
+  "figure_data_sha256": "076ab0435be3480330103c5cb076b5387b7211eb2ea5b7dffdabb4c6a2976405",
+  "raw_records_included": false,
+  "model_weights_included": false,
+  "visual_review_required": false,
+  "visual_reviewed_pages": 8,
+  "review_png_directory": "tmp/pdfs/global-v2-review-final",
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "missing_characters": false,
+  "reviewed_unix": 1794970900.1816392
+}

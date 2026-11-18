@@ -1,0 +1,3439 @@
+{
+  "complete": true,
+  "development_only": true,
+  "new_students": 64,
+  "reused_students": 32,
+  "new_episodes": 8192,
+  "compared_models_including_base": 97,
+  "compared_episodes": 12416,
+  "baseline_success": 0.671875,
+  "endpoints": {
+    "api": {
+      "global_random": {
+        "mean_success": 0.73193359375,
+        "per_initialization": {
+          "101": 0.69921875,
+          "202": 0.734375,
+          "303": 0.73828125,
+          "404": 0.74609375,
+          "505": 0.703125,
+          "606": 0.7421875,
+          "707": 0.74609375,
+          "808": 0.74609375
+        }
+      },
+      "global_high": {
+        "mean_success": 0.7734375,
+        "per_initialization": {
+          "101": 0.7578125,
+          "202": 0.79296875,
+          "303": 0.765625,
+          "404": 0.81640625,
+          "505": 0.77734375,
+          "606": 0.79296875,
+          "707": 0.734375,
+          "808": 0.75
+        }
+      },
+      "gradient_global": {
+        "mean_success": 0.814453125,
+        "per_initialization": {
+          "101": 0.8125,
+          "202": 0.80859375,
+          "303": 0.8125,
+          "404": 0.8359375,
+          "505": 0.8046875,
+          "606": 0.8203125,
+          "707": 0.80859375,
+          "808": 0.8125
+        }
+      }
+    },
+    "generic": {
+      "global_random": {
+        "mean_success": 0.67236328125,
+        "per_initialization": {
+          "101": 0.68359375,
+          "202": 0.66796875,
+          "303": 0.6640625,
+          "404": 0.6875,
+          "505": 0.671875,
+          "606": 0.6640625,
+          "707": 0.671875,
+          "808": 0.66796875
+        }
+      },
+      "global_high": {
+        "mean_success": 0.69140625,
+        "per_initialization": {
+          "101": 0.69140625,
+          "202": 0.6875,
+          "303": 0.7109375,
+          "404": 0.67578125,
+          "505": 0.703125,
+          "606": 0.68359375,
+          "707": 0.68359375,
+          "808": 0.6953125
+        }
+      },
+      "gradient_global": {
+        "mean_success": 0.73193359375,
+        "per_initialization": {
+          "101": 0.75,
+          "202": 0.70703125,
+          "303": 0.76171875,
+          "404": 0.6953125,
+          "505": 0.734375,
+          "606": 0.73828125,
+          "707": 0.74609375,
+          "808": 0.72265625
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "global_random": {
+      "per_source": {
+        "api": {
+          "101": 0.11328125,
+          "202": 0.07421875,
+          "303": 0.07421875,
+          "404": 0.08984375,
+          "505": 0.1015625,
+          "606": 0.078125,
+          "707": 0.0625,
+          "808": 0.06640625
+        },
+        "generic": {
+          "101": 0.06640625,
+          "202": 0.0390625,
+          "303": 0.09765625,
+          "404": 0.0078125,
+          "505": 0.0625,
+          "606": 0.07421875,
+          "707": 0.07421875,
+          "808": 0.0546875
+        }
+      },
+      "per_initialization": {
+        "101": 0.08984375,
+        "202": 0.056640625,
+        "303": 0.0859375,
+        "404": 0.048828125,
+        "505": 0.08203125,
+        "606": 0.076171875,
+        "707": 0.068359375,
+        "808": 0.060546875
+      },
+      "mean_difference": 0.071044921875
+    },
+    "global_high": {
+      "per_source": {
+        "api": {
+          "101": 0.0546875,
+          "202": 0.015625,
+          "303": 0.046875,
+          "404": 0.01953125,
+          "505": 0.02734375,
+          "606": 0.02734375,
+          "707": 0.07421875,
+          "808": 0.0625
+        },
+        "generic": {
+          "101": 0.05859375,
+          "202": 0.01953125,
+          "303": 0.05078125,
+          "404": 0.01953125,
+          "505": 0.03125,
+          "606": 0.0546875,
+          "707": 0.0625,
+          "808": 0.02734375
+        }
+      },
+      "per_initialization": {
+        "101": 0.056640625,
+        "202": 0.017578125,
+        "303": 0.048828125,
+        "404": 0.01953125,
+        "505": 0.029296875,
+        "606": 0.041015625,
+        "707": 0.068359375,
+        "808": 0.044921875
+      },
+      "mean_difference": 0.040771484375
+    }
+  },
+  "models": [
+    {
+      "case": {
+        "name": "b01-global_random-api-i101-s101",
+        "block": 1,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "ee18730acd4685699a9c93e07224fa0d36f425b88e04396966a99e26d68c3392",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "c25b70591b3ae525ca76a4c010984594520295dd3f4a7caf80ede710a25b0a9d",
+        "control_sha256": "7710a6ac6e5d1e2c4e9cef309da2c4b1af472fe43074edc5454e66890dca0365"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b01-global_random-generic-i101-s101",
+        "block": 1,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 92,
+      "mean_success": 0.71875,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "3fab4271e255cde2541d6f2305622c9d4eaafbe6e680094543c5e16718bf55fa",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "f8b1ad58b700da8f2e70fcfb38fa0bef19ff278541cce8f3ccce9327a983077c",
+        "control_sha256": "e08fc363fb06910709ffdb64d7d78cbeaada1e7b808bc6c43e6cc42d5e0bebd5"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 38
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b01-global_high-api-i101-s101",
+        "block": 1,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 97,
+      "mean_success": 0.7578125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "d83f589d6e7dfcece20d603da741164cea0e85e02636021d65db316072287eb7",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "5f069d182101427e1d3324f9ab6f0e97e2ba483aa896810df07fc7c0c17daeb3",
+        "control_sha256": "d345e53c55c041253acf11b326e2831ed5059b2d90bbe90ca590680d05545361"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 43
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b01-global_high-generic-i101-s101",
+        "block": 1,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 87,
+      "mean_success": 0.6796875,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "8352cb3c0e59bcbf765d297b89efbd107b5a0517cd3eded4e0722bddd5e8864f",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "3f13cb2b18cfdd9ef97e217c6fc93d8dd3729f1069c767f3faff45197b78c2fd",
+        "control_sha256": "a5324b82b8af0d8abcc267578f90830f3a1008364c8882569ac2c0a90ec585ea"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 35
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b02-global_random-api-i101-s202",
+        "block": 2,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 89,
+      "mean_success": 0.6953125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "5e7e27d27c1d460d4866a7aa8c8d459cd2d3f35619bb8f18fe578c4707d2d4c5",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "64efd81f35a0df58b16064920c1cb8b469d47188e9dccc96def68abdb30a10bd",
+        "control_sha256": "b51988945bf1f1c0b7bf33348bcda773c0dbedd2a480862f94cc503f0f0a7241"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b02-global_random-generic-i101-s202",
+        "block": 2,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 83,
+      "mean_success": 0.6484375,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "a282f387548dd7bf9047d355db296340b72b4056a6a3a90ac4bd3c7cc946d89d",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "fef2461a42538c57b45d5e2f6bafb3708afb8f1e7e113d5421e81fb1c618fbec",
+        "control_sha256": "7c3a2bcd4b9d3347c67dbc9094d718c728a4f0d04e870a824cf08dc2eaa89a09"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 50
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 33
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b02-global_high-api-i101-s202",
+        "block": 2,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 97,
+      "mean_success": 0.7578125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "f04ac191e4796cfdd8a995e159393f79eb26ad728d813f5c86728066362bc88d",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "a0146eb81d970e5378df859f8e5185839e4b0771953d0caf50dc3a207f99d23b",
+        "control_sha256": "7ab1b9b4f87ff5489798c1fdcfe03225a71952caef00093a7e8ea16b62471663"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 43
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b02-global_high-generic-i101-s202",
+        "block": 2,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "913576f58c4a5225775a3964fa57e6739bf1ca07a0b8526aaf9e72d39f1a9820",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "21d2d4764da103bff49e2b9cf9243d77a88263413ae1c8b24ad059f9a75fac35",
+        "control_sha256": "483f75639197ea430714eb47e277593717da96ef574ae0048150382b41888764"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b03-global_random-api-i202-s101",
+        "block": 3,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 97,
+      "mean_success": 0.7578125,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "2618e7abb62c591d696b11d7625e1c4bd812e1d3e2176b245c56aa6834558c2a",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "d27464326525c5afa4ac2e19123919f0c453aab8934d7891712221bf5c43e695",
+        "control_sha256": "ee034001128f4aa33613ba604e1a440f30fb1671ee4508aee766be8361687a4e"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 44
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b03-global_random-generic-i202-s101",
+        "block": 3,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 87,
+      "mean_success": 0.6796875,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "df804bed69f6d989ea5f427cd60b1f1b70ad1189a884f635340f3e78471a132d",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "e7e867d5e609a0e9ebcd74bcdf31dc250a0b8b66489dd62a2c3791cc1695048a",
+        "control_sha256": "b0c5b3db2d4f8b6c4ca432f869679ff70d64d0e11b1237b48943ff2eda81eb26"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 34
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b03-global_high-api-i202-s101",
+        "block": 3,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 101,
+      "mean_success": 0.7890625,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "79959ce57a3bed29ecda2447c47c5eb23d0100a7c0ae0359d72458b06574b1e8",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "e584252933f940e11913f34180ec6a950f02591b5c5c718888bd6dc558f15a7d",
+        "control_sha256": "2df6e290de4b0b1fba08898b6e0d6e3ccb8f8df9a34e4dd21cc82d749cd4653d"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 58
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 43
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b03-global_high-generic-i202-s101",
+        "block": 3,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 88,
+      "mean_success": 0.6875,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "f3bedebdcb8d483825d9eb9a933326d63695cb848e3fc28b46ad8707da31e871",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "3dc94a5bfe527ae42438b3cd14af99f19b06ba9a92bb4f36606bc878e3359e0c",
+        "control_sha256": "99b84dc2b8954700804dbbc888a17933438dc6879787bc405bdfbf508a5c48e1"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 35
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b04-global_random-api-i202-s202",
+        "block": 4,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 91,
+      "mean_success": 0.7109375,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "da393321f2bf441123f16d372f3c8f1fadde45012269e061f1e223148f1c6f1d",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "054c11459e07b8fa0ac774cc2b25998e098ec66dad3a44ea2aa0ee40e4251a5a",
+        "control_sha256": "16b6c118b2fe6bd9792fb58db64824e83a71fa442399a738c81cd184cc37f3ff"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b04-global_random-generic-i202-s202",
+        "block": 4,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 84,
+      "mean_success": 0.65625,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "b4ee43615e76af59dccb053770079062629b82e6721fa85e0cf5fe80b97341f0",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "28a4a19f35d8260bf7f24372206c3e765e2ad2fba59d98435ac933228a9ce471",
+        "control_sha256": "67ef5f3c186dd7695473ab5d8507571348015bf9cb05de22830821f792f0dd50"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 47
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b04-global_high-api-i202-s202",
+        "block": 4,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 102,
+      "mean_success": 0.796875,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "ab134aeed92c3a285f68f62c4021a3b7adc62f8c1f8f97f1a26975e298f63892",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "f9f9a25a3825093511269aa3a9816f4d453fda0950416f81f6d94403cca55d16",
+        "control_sha256": "fcd8a07d51090f2790c2574d8a8e4123837825aa578750751429b4bdc83a6d71"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 47
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b04-global_high-generic-i202-s202",
+        "block": 4,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 88,
+      "mean_success": 0.6875,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "3f13c17e86bc37ac61bdfbf2d9a68d190808670451ee28df788e467863bddfc7",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "bd74e3b71bf86b3beb894a5ac50cc1f66e4b33296bc8e86ff2fd261074c8031e",
+        "control_sha256": "6cb6047d7ab3f8547f6afe2325062c29a0e354fce05f0c9ce77cf16403b6f44c"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 34
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b05-global_random-api-i303-s101",
+        "block": 5,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 303,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 98,
+      "mean_success": 0.765625,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "d580bface5d73531679e5c9afad76cbde7cfdfd735975dc54bd902ce429d0630",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "d7201e3eebb1c42a4293ace3b55d0f16d85cfbe6610b19db6436d2050b629140",
+        "control_sha256": "f82e1cb0706574205735e5b770bb2ef147f5f7b7b7aab77d942f68c22b882c3b"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 45
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b05-global_random-generic-i303-s101",
+        "block": 5,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 303,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 81,
+      "mean_success": 0.6328125,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "046de2072273fa8efdf8684f2b997a1ed1aa410029c8e192405224e469f17578",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "28e18f36bc74e11dab1fbc829ee405c7ada6bb682aee434697c3511eeabfe775",
+        "control_sha256": "358fa3c32e28cf2571694d8d79c411cbe6206a986953600d53988ae139c715bb"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 50
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 31
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b05-global_high-api-i303-s101",
+        "block": 5,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 303,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 100,
+      "mean_success": 0.78125,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "f62834f01c24328647f2b175564f5c7274fdf2af1050a3be38efa31df9ced78e",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "52b0381670c2fc5b64ff8312992b66c1e96cd63d9fd25b32e75213d6baf3ca88",
+        "control_sha256": "7d1a70c91bbd0d01105b758215fb35a653065700c60b3a70b2e3c6fc963d3b03"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 43
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b05-global_high-generic-i303-s101",
+        "block": 5,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 303,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "cd019237475ff62747a115dee167b9666edb7d306936088d2513ca3aa9639f2f",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "a4a4c731ab890545309998c2802efe8ed2a8c3a6f291d3df8e4d66f716298914",
+        "control_sha256": "5845157e7da4b9093688cd320d72edde482aceded9eedb2adb0289577b122732"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b06-global_random-api-i303-s202",
+        "block": 6,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 303,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 91,
+      "mean_success": 0.7109375,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "378632e7045ba6e3b3698c2b3bde6ffc23b555cb969aa59ac12ca9df367917cb",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "10d0c3df111b9ce3f4c6bd35aad8b3ec6aa6bec9bd5bc2f35332618fbed06860",
+        "control_sha256": "7d4f190b780d075842d022f7383ceb252171e16f1f58466328d51140bfa561a8"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b06-global_random-generic-i303-s202",
+        "block": 6,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 303,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 89,
+      "mean_success": 0.6953125,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "cf84b60dd9381b65117a44a77e005fcb8cb46b9e0d2262721477c2b5b6ce3c4c",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "11ad69553366e4b8a76aed5c1e29bf315a0cd1523823d7fee38c760671567918",
+        "control_sha256": "42e303734be4429dec93aa794d218bc93bf5707acb270dd6be6f57eb91a6b985"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 49
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b06-global_high-api-i303-s202",
+        "block": 6,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 303,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 96,
+      "mean_success": 0.75,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "ad9106186c8a22fb2d9862b58322e3650e42065868c9b3dacf0ecd4008a3dcd3",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "3378a243d16aac093dbf0bb641ce02fbc9762653864aee6bda2c0a099b643d85",
+        "control_sha256": "7cc87741990e93b28387b606e45b992333aa9ec6d2f7f6930030c19bf78bd5e5"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 41
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b06-global_high-generic-i303-s202",
+        "block": 6,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 303,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 92,
+      "mean_success": 0.71875,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "3ee7cbb787b2877ce274befbf5c48623fdf5dcfe0ed591506888477e90157eb1",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "9cb154903ff3621ba6b3e3593fa38194c7e66d8400901a0cee847ca87083d3df",
+        "control_sha256": "415f88a72cc904455b3e9bde02f16c39296ea871163671ef3f3c3fc93a61b735"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 38
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b07-global_random-api-i404-s101",
+        "block": 7,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 404,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 95,
+      "mean_success": 0.7421875,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "2375c6006d76a3bbc65f5c7dd4438bfe9b9295727d397a98af0e4509c042bf6d",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "ac80f9e3f530e1e0358c4c0da9d129bce09ec760c6ae1ed588f12136d0ecaadb",
+        "control_sha256": "a2ff343af904aedb38dc8b3ebe6bd73ececf46088015f43e98ba6314b6eb5b1d"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 38
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b07-global_random-generic-i404-s101",
+        "block": 7,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 404,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 85,
+      "mean_success": 0.6640625,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "10adc4005ccfbe9768a2e5333072e705a3d3bca3058fbb8cbd1b8c6a13fa6c7f",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "4386d7aba323f33e773817c1fb246cdf44eef8e762c2d82b663b3f76783d5594",
+        "control_sha256": "172188d3b5d45e3e77b7faed70dff452c6c1a28ff7b793ec747a4ac4d24bab17"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 31
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b07-global_high-api-i404-s101",
+        "block": 7,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 404,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 105,
+      "mean_success": 0.8203125,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "b601cfb03502470a6f3cff74c209aff31f4fae1800c435e12087604d927c5a39",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "9f7961ec360fe384137f4af16b65bc6531d433f346ec5f71243cf46dfea19bb4",
+        "control_sha256": "c71e6be70f4b997c3bf783828cfa4163805351f73e87c71c7661787ac6eee1b7"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 48
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b07-global_high-generic-i404-s101",
+        "block": 7,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 404,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 87,
+      "mean_success": 0.6796875,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "2b6d33f481fbae7bb7451b0f362b435f22a64a4a7401ef19a6d006ed60908390",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "9765a3a76684e9aa77da4b18dbd564b69d00c6edf969734b532e140dae10c029",
+        "control_sha256": "b9bd2ded56a7157f60aca8a81a470dfdc1090cc454c72edf2ff4be0af95129c4"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 35
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b08-global_random-api-i404-s202",
+        "block": 8,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 404,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 96,
+      "mean_success": 0.75,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "3f65b4c0b899027dc9cff6568939ebf1495aef4cb32d96aa0b8c06da80b56b4e",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "015e388a7db313c5fd6b97dcd81a468a5a9105f67fbbbd10337851f8ff75843b",
+        "control_sha256": "15353bdb8c396d5304d5cdb1baeb1f183155d1a503fc139eebc616b3c1934852"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 41
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b08-global_random-generic-i404-s202",
+        "block": 8,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 404,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 91,
+      "mean_success": 0.7109375,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "ab72e96516271c0926092e6df51401839e59a3489a6d95da94833b14d8fc0823",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "8cfda0ea8d573957c2730ea717de755701564173bc52e30ffda7125c09644d8a",
+        "control_sha256": "3ec59d48156b064201ca801f108507cdc9483e1568c853542ca25e49e0eebac5"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b08-global_high-api-i404-s202",
+        "block": 8,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 404,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 104,
+      "mean_success": 0.8125,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "16a51ce9123b396986099c0df034935201e84186637e02e68ab94c88bbd851db",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "15170185b1a18c6e5a99606cf0bce8fd9ef85eec2c6761ebbb88f4002760e047",
+        "control_sha256": "ede2d6de3e61982b7cda2b5a79c2a217d87934e12e7b81d9ecfc0f40ee16cc6a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 49
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b08-global_high-generic-i404-s202",
+        "block": 8,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 404,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 86,
+      "mean_success": 0.671875,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "0c4c4550261b7418798017ac0c856bc84a027a663554148b0e15e2c9b154f50b",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "6c81d02e29de8388935a34e65a9912630236aa6beb1eecf85739ad5d7a5bec98",
+        "control_sha256": "fe4a364d8e961e2df0d9363ebb6566a095f7d5463c94e4b93bbe3e4bc83dfd74"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 50
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 36
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b09-global_random-api-i505-s101",
+        "block": 9,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 505,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 94,
+      "mean_success": 0.734375,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "9273dabf7286ef3d101cedb8c7ef2eed5feb6f08b8f8641e2b203a558a7779d9",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "cf7e47259886d686e24bac5815ee97ccb1b7a3ebae12f573407b52d49782d95a",
+        "control_sha256": "402616e17668f3f5e3243188185e3ed921a937dc3dc1605f9422a8747f3df1c1"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b09-global_random-generic-i505-s101",
+        "block": 9,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 505,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 86,
+      "mean_success": 0.671875,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "c2f355f9ee188dd1bc617987147668d097eccc8a7f196a7c1c3879829dad6553",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "35f121e77cfc30161838a9cddf80c0359091464eb941f2d6a55283c0c9171c99",
+        "control_sha256": "c19abd493425cff2effbea1db7da71c183cfecb7612c1664d2305c3907e2902e"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 33
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b09-global_high-api-i505-s101",
+        "block": 9,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 505,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 98,
+      "mean_success": 0.765625,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "d24d7540a14b4fd836e7c76d99f1ccda1b78f36a279eacb45aae4d3b5eb55233",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "9f5d1555f61ef0c6988aef835d5111cfed5eb15814e660553e39599a8ae16def",
+        "control_sha256": "7ed278aab31c779364ec404570eb50a01f82afeda320bc6f4f0708e8b021eaa6"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 43
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b09-global_high-generic-i505-s101",
+        "block": 9,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 505,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 95,
+      "mean_success": 0.7421875,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "311ff3ae37eb1a0ba86c0912dd67cdcb38e89f41d95b3803810272a6c997e2f7",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "0bd13541f63ae9d335a9168af63e3a9e04ff812eb77c8a8009fb7256d794a2ef",
+        "control_sha256": "f85213c80f6f44abd0b02853944dbe3307d339d6e3b4a912b3a2f283e61126c3"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 41
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b10-global_random-api-i505-s202",
+        "block": 10,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 505,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 86,
+      "mean_success": 0.671875,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "d7cb8e55f5305233aa4e1bb1d660eab30af8ac4d1f5ee8e771912082af79cc36",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "689fe31315407e629a28e414419013cb372c95ca306aba6eca2746352e8272b6",
+        "control_sha256": "320c1e0d86cd0b80247052190378456673b3928799922037e7d8528498dc911f"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 49
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b10-global_random-generic-i505-s202",
+        "block": 10,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 505,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 86,
+      "mean_success": 0.671875,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "d743a68711339f3f4c03f5f9e1760a7ea48c7655c1c2d2143e7c981fd218ea17",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "81bb034849a0828f4405f13a0de366e0a60be946a645cf3b55c3265b8ea3bff3",
+        "control_sha256": "cc6210176111f9f3071fe05633b2e28dfb474294d9a6a10418a04bb69af5d0ec"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 50
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 36
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b10-global_high-api-i505-s202",
+        "block": 10,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 505,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 101,
+      "mean_success": 0.7890625,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "03b545f3cfa125af7b0e00fff39360fdb5dad32b3de26b86ab976862bd126bd7",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "c8fd8bebee9d12af811b98c57021f57688ada950f7bdcdcb667e356fc1699a31",
+        "control_sha256": "1f889d616a7098a11cdac8a01334674a348a3900c1fcb221bb8539d78ffd761a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 49
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b10-global_high-generic-i505-s202",
+        "block": 10,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 505,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 85,
+      "mean_success": 0.6640625,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "9b3e2ae492524bbf55d1d426e6847c02bfb6930b646e0422fdfdc7c476791028",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "b63489245eef837b797fbe50328c0abb545d149049d9750ba9186603c19e6975",
+        "control_sha256": "9fdfba666d752a4841a515588322c812c9c30dffda6ba3e29b56fc6233e73681"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 34
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b11-global_random-api-i606-s101",
+        "block": 11,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 606,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 94,
+      "mean_success": 0.734375,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "969fdaaeae2fba8a22166ee7d4de8e1f5f967c1898de8c21b58ba649daaca840",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "cc6ce0e9d8c40d912e48809ee036896e3932e04be440e9a20d49ddf6050eb3f0",
+        "control_sha256": "da82012b93e2a6e5146f599de4b642bb8f8c6340b430e2c9d2be792858c8893c"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 41
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b11-global_random-generic-i606-s101",
+        "block": 11,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 606,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 87,
+      "mean_success": 0.6796875,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "ef8f52d34c4d77cc069000e50aaabacc83fa6ff56367eb07212aca3850e0abde",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "951e214fde6d8b30d26761bfb798f108fbd0941c8a5e113344ea5d4ac0f37092",
+        "control_sha256": "5adc6abc04e7da6722fb8f42135b898b572a2b3f15fe916445ba48b7cd85e7f8"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 32
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b11-global_high-api-i606-s101",
+        "block": 11,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 606,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 102,
+      "mean_success": 0.796875,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "598f6ab9e11d27b802934c924dbce255aa744e41848aed4f91fb7b5c4ac14734",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "2c943afb5914404b41d60384f22b61d489cac03805bc19116bb19468810aaae8",
+        "control_sha256": "4e252c5a975ce9981c22c95b8b76369c3fa8653b67e430c9b9f912c1a7a92666"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 47
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b11-global_high-generic-i606-s101",
+        "block": 11,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 606,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 86,
+      "mean_success": 0.671875,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "32856cf6d5c082b99507297b8f39df0590c2f715e490d81736ea71055a42a4b6",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "733fc5d17bea9c09a1273ff684e790f6b68c0de01c5b1c4c804d17ac4af68785",
+        "control_sha256": "c564bde091bfc9b86ea890a40f3a8bb400b7844f3961f4ebda7ee38a4b7eecec"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 34
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b12-global_random-api-i606-s202",
+        "block": 12,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 606,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 96,
+      "mean_success": 0.75,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "81d8257c7704a7b96ab7c5148615587f3e6406d834561a045c5806a41e6fe5e1",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "d57b37653373a9c5ef1cfaf8e5f512f8663638c001caa928a6ca5ceb1ad1b4ec",
+        "control_sha256": "e873dfbcfac23b517f907e85091a74aa1917812a8f36663a900212f34e1f729e"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 43
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b12-global_random-generic-i606-s202",
+        "block": 12,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 606,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 83,
+      "mean_success": 0.6484375,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "75eb8a31f8676bbbb9a176e69cf7401ef738ff25dfdb5badd403522230231012",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "13c92e39d4d7959770331b6587b83f0b932d947bc7c890e878c584aba4384136",
+        "control_sha256": "b3fd203694cf584cdb3a646b63a78f7c9312507147915d84ac65f5d0a2f9e5b2"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 49
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 34
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b12-global_high-api-i606-s202",
+        "block": 12,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 606,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 101,
+      "mean_success": 0.7890625,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "c6272751447e4f872fbecd4971e3c70d82474e8ce270bb456e753f7a4e39e8fd",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "9809d36bdd0f30d8c8aa79e410be68de0ecbaa09b4faf9962aa5fc82b37c8236",
+        "control_sha256": "24dc6f7f7e478b2df918a384106bc62c308a3f6259b260af63489bdba0dfd948"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 46
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b12-global_high-generic-i606-s202",
+        "block": 12,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 606,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 89,
+      "mean_success": 0.6953125,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "e99ec44d813dcd9800ca4d87bbd2dfad5eddff596ca12c761e111e3782ef293c",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "31421839e7b9ace266d5c3ae4e1125faa31546d62d1a3a0392ea9ea95eb41f97",
+        "control_sha256": "b1cf0180a81162b0039a02c0ee95e13ded1bcf4ebc001397cf64b864798bd069"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b13-global_random-api-i707-s101",
+        "block": 13,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 707,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 99,
+      "mean_success": 0.7734375,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "305749122fbfb4cb0f8720d3c19881a89c5b7be9ed31f130bc4229030c0de3ee",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "a98f3d02ff18ebdebc122d7ce8c0fbadd1773c758bc94ba553077fb60f9f53eb",
+        "control_sha256": "de8eaf9d91558b5017dae246fad3bbaefe7cc7c47208e66f43c77d8b1b2d812a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 44
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b13-global_random-generic-i707-s101",
+        "block": 13,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 707,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 87,
+      "mean_success": 0.6796875,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "dc966794c3f45f13b47005ed07510032c0b06712597db22d56ab30b563c53f58",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "bf72d78e5a8f9d394d640f30a20149b8cf51516a73fc6d27d9e593d645afc1a9",
+        "control_sha256": "e19f73bed896de1b211d2d3c2e7d30575a2894c2c72749ceeeb0d86bb52badb6"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 33
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b13-global_high-api-i707-s101",
+        "block": 13,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 707,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 93,
+      "mean_success": 0.7265625,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "06f09980db273820bcd98818cf3094313a808cb8b5af9ccff63d97fb14b3b2ec",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "46572a512fcc92830a4a73826bd577bac02dc479c498b945dd7ec86367eff101",
+        "control_sha256": "c185f81e55d6c97999ddd345142f01e2f4c91e8eede87d96249706845ebd4a4e"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b13-global_high-generic-i707-s101",
+        "block": 13,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 707,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 86,
+      "mean_success": 0.671875,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "eb98f80b2a2957b477e6eed0d0a3ab586e3c14dd86ee108778effc2d3401eccb",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "fe4f7adc4a03e0e7e089a24a10fa3454a44953e858c23ff9b15b9b906795e624",
+        "control_sha256": "b78c783b8ddce356d0d2ffff4d342f4ca5b4b5ee6d375e04445f9f04beb86ef0"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 35
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b14-global_random-api-i707-s202",
+        "block": 14,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 707,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 92,
+      "mean_success": 0.71875,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "4d9a3f97da62733e313442f9997a28c473b65f33ac5dee4ff68e5c9350258710",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "a9719848da93b90a2d8252aebfc6a675c2e705e5e0684361096ce7b363d9161f",
+        "control_sha256": "c062ede364607858525fec8f6ec3f8d064e7fa252e1c0502a57d46aab784c429"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b14-global_random-generic-i707-s202",
+        "block": 14,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 707,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 85,
+      "mean_success": 0.6640625,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "6c6dacf276c9d3d108600ae84e5d0fe88390304e039b52431c26f5200a2be205",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "fc8f0d6b42e9931e18efbed298b6c4dd83b6d424767ae48e949590777bbc1500",
+        "control_sha256": "018056d4222a5df2606c5e2158f4a3bc7e8688a42ff22fab328c3995986f6c9b"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 49
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 36
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b14-global_high-api-i707-s202",
+        "block": 14,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 707,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 95,
+      "mean_success": 0.7421875,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "9d41291ad7d049f4f6b2e3acef628a29ab6a7df2f54192409cba86f80c59e77c",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "b799a1bdfef4511ccd553e4294987e01deb3cf91f459c687de241ee4c67a9479",
+        "control_sha256": "987599cdff8b18b5fdaff38f842fdd084e583a5a45b54e9a9357d4a39b26ba3f"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 41
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b14-global_high-generic-i707-s202",
+        "block": 14,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 707,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 89,
+      "mean_success": 0.6953125,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "e10ad1052192525016e773f65b0a6dccbc64f3684b14356d6edfb0409d3de3c1",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "fc2bc25045a9115e852c7cf3965d247abc45ae4a0338e81803b66ce4172866e4",
+        "control_sha256": "f8ef4c6079217408e69ebc90be1060bce4c88854d7349018c105c9f6729c0c9e"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b15-global_random-api-i808-s101",
+        "block": 15,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 808,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 101,
+      "mean_success": 0.7890625,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "1f0f1c6c600614a167b2ecf708fed7adde28376f51f0f141c0b197ab4848e43e",
+        "input_tokens": 497109,
+        "target_tokens": 9855,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "2598b8b653d194e4b80052104f7220ba258aa2ad6a1b476c9c51eadd2b4d8daf",
+        "control_sha256": "324ab1b59742b245574174d588277d56ff97b3fe607b80db0d66df2786db6a75"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 56
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 45
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b15-global_random-generic-i808-s101",
+        "block": 15,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 808,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 88,
+      "mean_success": 0.6875,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "1c4a294e60126f0a6426d46391e218ac63bf34c55d57bbfb9db2b5ba44646561",
+        "input_tokens": 509928,
+        "target_tokens": 9297,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "0f9eabaab095be5073b8585a96eb294d7c215f73e77bb9c0c8a10bca6080328b",
+        "control_sha256": "7133edb9f7a3770c575237c439bab0fdede471112142f6e51ecbdcc61357fc09"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b15-global_high-api-i808-s101",
+        "block": 15,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 808,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 94,
+      "mean_success": 0.734375,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "444b9bd48efa9eeaa1d610ab36c988597b0d8020444f974dc4e7ca94cbe1f452",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "b1d4789bedac7f071fb1392547bef348dbe90043e215bb901e3b67ceb577b791",
+        "control_sha256": "a33457dbd3eb61b9b1130b3089e2fbac3735d12a2c208e7f219038c1a5fb2154"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 56
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 38
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b15-global_high-generic-i808-s101",
+        "block": 15,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 808,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 88,
+      "mean_success": 0.6875,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "8d45eb4720e53de24dc8d0f78347b4cb670be53811a16f1fd776ac78264e0226",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "55c25302e1824b0bae441aa0ab8eaf9ffd9fe8f260b5e9770b5dd6355af2fec3",
+        "control_sha256": "11f238fea95980e03e7d355c030be62f11677f992a1fb7c8c0a7ff2d9a3b081c"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 36
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b16-global_random-api-i808-s202",
+        "block": 16,
+        "policy": "global_random",
+        "source": "api",
+        "initialization_seed": 808,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "93d2b6e96a03aefd7b88505f0dcbafee6ea3cee57d7a0e949964bf2acda391d6",
+        "input_tokens": 487596,
+        "target_tokens": 9765,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "bf8af30b74130a538a66297ad60e81d5ead20d2087e47aab1315a50da185f306",
+        "control_sha256": "0b18fc4983ffd62682bead549fee5197d67d202a7765205a1ab5042291d2ff05"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b16-global_random-generic-i808-s202",
+        "block": 16,
+        "policy": "global_random",
+        "source": "generic",
+        "initialization_seed": 808,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 83,
+      "mean_success": 0.6484375,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "234d7c28e5b5b3e1d3b557d414cbc62da06cbc5cb3fa7224c6b978d18e9c25af",
+        "input_tokens": 527586,
+        "target_tokens": 9390,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "3ae5f5837724239dd339bc0e5b808eff8552d0339f560eae3c06ceaa14e83b40",
+        "control_sha256": "1b8514b8e0b983a98765ad6e7a0ab07422f34db339b9e991fb311bcacf7dac47"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 50
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 33
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b16-global_high-api-i808-s202",
+        "block": 16,
+        "policy": "global_high",
+        "source": "api",
+        "initialization_seed": 808,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 98,
+      "mean_success": 0.765625,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "5a6767a38d2cae695841ece4faa88eaba647bd1d5daebdcaf46432430cf804ae",
+        "input_tokens": 482826,
+        "target_tokens": 9951,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "f03450fda527eb68ca538418fd430a4396ced78144a757d0ffc24851ab5fec68",
+        "control_sha256": "2a9870e9a810398063d13de5ac95d7314a772d396a29466ed1b4cfc07ed9f1c3"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 45
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b16-global_high-generic-i808-s202",
+        "block": 16,
+        "policy": "global_high",
+        "source": "generic",
+        "initialization_seed": 808,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "2fd668098878d6a484b86d6fb96845a3b7ae4716c7b86b534cd8e4d52086e3bd",
+        "input_tokens": 512820,
+        "target_tokens": 9651,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "140ab78142f632c4ce2b62c75d72d046b1c9995c2398db7c12a850cfafa3f51b",
+        "control_sha256": "c46c49e6d42e3643ee2c96d6ce8e847bcd845ed28fc6ef8c188416d111f0c86a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b01-gradient_global-api-i101-s101",
+        "block": 1,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 105,
+      "mean_success": 0.8203125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "eeb634bfd4e9f7f38c26cb64849890ab533169f60d880df14a8baa28ec024252",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "952339f35a34c36093f5727f2b3898772d0abf69d2d7c54cba5d82985d06ad01",
+        "control_sha256": "fe9e69eec1487454b7daf949456a70801f651609eba6c168aa6c7f253454b3c0"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 48
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b01-gradient_global-generic-i101-s101",
+        "block": 1,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 101,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 97,
+      "mean_success": 0.7578125,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "5ef3c76f0427e72faf7459d690b82899a922b8549120c82928d22a6be5e07799",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "d63957e1f0e70b07477d29773cad7958f787eab814df4383a5e2697762e32af9",
+        "control_sha256": "c6fcf832666cd9a56375ec4c734418c1126453c4a384e1c10ce458e81cf75298"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b02-gradient_global-api-i101-s202",
+        "block": 2,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "c146261b3ff96c8df542f3590ed3d650126501451b4a1bc083e97b63344a9c8c",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "7f6bd7e5412700397057be329fbf41587834edada4ce7408d0aa22803bce5e86",
+        "control_sha256": "08dd2939775e2b52a32793ae7ac276856b6e0533e7d863b319b6160049bc5ea0"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 46
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b02-gradient_global-generic-i101-s202",
+        "block": 2,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 101,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 95,
+      "mean_success": 0.7421875,
+      "training": {
+        "initial_parameter_sha256": "a4d35a89c27b8e9384b54d7380383f41f8a3a995767cf99d7c0d0e2bba1c3b0a",
+        "adapter_sha256": "b9c6c060a7af1d81c32f32e2465b42df04114dde7e7ddebdeb025034f3d4e988",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "2e875dbc209093d530537a347ee12af5731e0de71b8d81249397a948cc406d44",
+        "control_sha256": "8ff9098221eaf42e46437766fcbdb15e873f14ff42e400230fc0590b803ca30a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 56
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b03-gradient_global-api-i202-s101",
+        "block": 3,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 104,
+      "mean_success": 0.8125,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "687df76bde63e90320962c8cae209eee397a569433f7d3499392656fa2fa5b74",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "1dea1e17bbeae1618f248acf6a6d20430339991d5b82d7682214adb4a0022ded",
+        "control_sha256": "ae3ffe593e601d69fa57008ad59b91c0aebe01b31c7858cb93c9c4c6c836b0e3"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 58
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 46
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b03-gradient_global-generic-i202-s101",
+        "block": 3,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 202,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "857d59174b16e0343f03ba908702a9c36013e06909aaf0b57c15f358cda00a50",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "b4d40025771a78a796cea5ac1e5e9d531c4673ab57a019384a9aa06dff079a9b",
+        "control_sha256": "6fff38b333096949de73056be810e9d273d11dee13f01eeed345689821e0806f"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 52
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 38
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b04-gradient_global-api-i202-s202",
+        "block": 4,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "80a5330cfd899753d9d7e14804063badcc91b6f6775b7d9ad997cb1c6a3ccbed",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "b63a4f8830a0fcc8e7714ec21cd9049917d410fe68781a342af25e2f1008db09",
+        "control_sha256": "c487f42a3965365fdb6c5c38e5ad25161075992897708f55afe88fc530c327da"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 49
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b04-gradient_global-generic-i202-s202",
+        "block": 4,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 202,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 91,
+      "mean_success": 0.7109375,
+      "training": {
+        "initial_parameter_sha256": "eb940326d45f43fa8e848d9355f5f670f1ace72bc625727a69162481e69e426b",
+        "adapter_sha256": "eecc8f58c5d1c5e3337437a23d4e5191f0592a660deb4990bf2afbb738fddb0a",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "cbde8aad3a4240e4a1b0fc7a0be14d3060fd1566e9da688646776574f81c31b2",
+        "control_sha256": "299e904d958e93701205aeb3db46bf72e8990f0e8b87587b4ffc9548413abf9e"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b05-gradient_global-api-i303-s101",
+        "block": 5,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 303,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 105,
+      "mean_success": 0.8203125,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "c295f44a7ba0167dc67443ee799c5d1030da45e64e3085a063fcbff42078eea3",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "ccd2d74dcc3582575902e5d59ff0ac6e53e0efec5be539ab1a43d0a590e2c076",
+        "control_sha256": "750e381a258e66bd5d03551b96b42e0c9f69d20b451e398d5429835636b82396"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 58
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 47
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b05-gradient_global-generic-i303-s101",
+        "block": 5,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 303,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 100,
+      "mean_success": 0.78125,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "359c700f413015f6a1f38f48918d0afdb321b55c490843b03001feb1f59c82c3",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "593f8c7184ee79e1c7d83a5ac1976bb0905df25eb5ecf077a152a9b0c55df50c",
+        "control_sha256": "221dca15d18ddffdd2e2dabd7c6552e0e3c4289ffb63311a7937735bd39de0e5"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 46
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b06-gradient_global-api-i303-s202",
+        "block": 6,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 303,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "2a1bb215f051e8c475759cdf7e15a2733abc7970fd413cb3b90ca4135c089bc6",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "706722e0c9b948aaf479a026dfe03bd9d850bb6a5e773e2b7d5bf0362925bf92",
+        "control_sha256": "056cea1bcf34a82c693b4b3f87f7f2a009725faa1830279ee3127dbbbad85c83"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 48
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b06-gradient_global-generic-i303-s202",
+        "block": 6,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 303,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 95,
+      "mean_success": 0.7421875,
+      "training": {
+        "initial_parameter_sha256": "5d8a4d0a41a98f15453de6fe2d85fb4ead45092ad921b2ae217ad1b308116ad1",
+        "adapter_sha256": "acfe71cb3e67f7ee0bf1e474d2b5575e4a2ba95f552bad02b3c24250a3fd39fe",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "ac22dcefafa76c52635de6e62a5c6851cd2463f79de5e32b6fc8eea8125a0a92",
+        "control_sha256": "3600012d2eddd4d7fc9b1ff99fae5d741030c7decc186d00b672828fb2b0fde0"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 41
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b07-gradient_global-api-i404-s101",
+        "block": 7,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 404,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 108,
+      "mean_success": 0.84375,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "600fe181b1a3edbc5e8bad36bad317fd47760cc4fb109991df0c207fe2f2f3fa",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "9c8b53155f1cf63d2162d89f005a89340a566bd20b7aa1f545569da74d360976",
+        "control_sha256": "d3a6a9c4ba37fe2d2e4486e1f68a7211ecfe8b07f2cba94e10465470544766bb"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 51
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b07-gradient_global-generic-i404-s101",
+        "block": 7,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 404,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "ebff5f8716d696464b0b7ffa3aa81b9d3fd006cace95e17f4228d780eb03267f",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "8f546a7480bec36ab5320b0fd1d527bf54a8c6ec296331f2f63361d6c0a16509",
+        "control_sha256": "4740eaefd06c734636949d7a570bc6d7606bec7cc7d5ae64da736c747f5a19b4"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 37
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b08-gradient_global-api-i404-s202",
+        "block": 8,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 404,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 106,
+      "mean_success": 0.828125,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "7f109f8c650353e382aa37822078e58409aab94b8caad7e5e57528f947bb2c9a",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "1cb431cb7b5cbc723bf2621a740b3a6542e243b5116f43ecb0feffe64babf196",
+        "control_sha256": "671fc36320f76efd4e7bbdc3dcec0428c36dbb99bd101b4fe61cbfdcde577446"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 58
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 48
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b08-gradient_global-generic-i404-s202",
+        "block": 8,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 404,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 88,
+      "mean_success": 0.6875,
+      "training": {
+        "initial_parameter_sha256": "dde2c1049af8fd4fb913566a6b603df6ef44aee0a6929da2ad6d6a47bc6b2381",
+        "adapter_sha256": "847fe171bb5c5abf0be9dcdf79c8483701fa536f105bbbea6d3cecb37b884a05",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "f19c5b79fe75100bbbde358ba7439814cf4d51df774d994fad67f607b5a551c7",
+        "control_sha256": "a98e2dd6404c3d8f7403046dbd24c83c475cf3b2261914ff90a767df14ef662a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 53
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 35
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b09-gradient_global-api-i505-s101",
+        "block": 9,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 505,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "2695657756b180f8ecc28828dff2d7e35754d7702e00dc5d187ae39dcf392ec4",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "d4fbd674a0eed8ca79b1ebb3f3609707ed6495defdbac03f1a1063fff795cbbe",
+        "control_sha256": "0616eabf48f04566088080facdab5cc551b63aa22009e4b004386648ed06a504"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 58
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 45
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b09-gradient_global-generic-i505-s101",
+        "block": 9,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 505,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "dfd505ed583679ed1c44b7cdcb86256a3c2facd41c2ed8be517397cb21e114bb",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "381e968ae9d470f59805d9c0baf583073337784f716cef87476c1b26fe00f655",
+        "control_sha256": "e6a429ed8d86e01aeb5c90ab8201e318310b34558931baf18a3d55df72b9e0db"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 36
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b10-gradient_global-api-i505-s202",
+        "block": 10,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 505,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "889983eb8472cc78f47dacc340f1cc089702090493f85ed6ee6a1812b1648255",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "db81364a22d4ddeb0e4de52217c6f62276c7f559a0fe8470f3c5f10bea272ac0",
+        "control_sha256": "d0893d4f14f6f7e1f0800db817c5baf371437e8825a1fa13da308a3b24616494"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 58
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 45
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b10-gradient_global-generic-i505-s202",
+        "block": 10,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 505,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 98,
+      "mean_success": 0.765625,
+      "training": {
+        "initial_parameter_sha256": "7789ab4ab5529e7b83c0e30129b771dfaaa658091c2672ca30b1e28688575563",
+        "adapter_sha256": "25aa8411106743c5204285e2112ee8980cc0d9ab536234d36bead60e3e67c2b4",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "25d09823796fdf0f132aa05de5508ad24c12161a26f7d3031c0b05a9813d6e98",
+        "control_sha256": "fcc6d9bf0d2585caa18e0710b60f6c868c2753f1fa82afe1b09ca60601564b23"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 56
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 42
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b11-gradient_global-api-i606-s101",
+        "block": 11,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 606,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "5a92baec9c60d457c5650f384771ec69275e9626391b447a12c17f30b6ed3df9",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "bedbe241de15271120cee09dbc982e95778708037f590befc44a3ca9a50e121c",
+        "control_sha256": "6c15024e60da73f3f1041371ef432d1b40c93724d11341a6f3072750dc5eb8eb"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 54
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 49
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b11-gradient_global-generic-i606-s101",
+        "block": 11,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 606,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 90,
+      "mean_success": 0.703125,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "0c2d2315ddff7cef40f9b41200c91cf3ec2f02d8ef4f5d7f62285217f27e7337",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "47b8aa0d3ce356f4262d679c07d77f519caf99dc591076496f30048b9bbd9cd0",
+        "control_sha256": "2a6fedc583bb7bef8684175e7982db0fed28c98d0406952c16202cfc776727c0"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 51
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b12-gradient_global-api-i606-s202",
+        "block": 12,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 606,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 107,
+      "mean_success": 0.8359375,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "6d36ec5f5aa6e734c8907793a85f12101b822ccea95dc5c32c3f5de54ea834b8",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "62c9ac8ffd249e2f28600c912b3f138bc1a547cf408f4fed8f18a06588971078",
+        "control_sha256": "7a51b4f62b1a69149495ffc432fc9ca660d5be287c9f4e832d9d6d51c3c1462b"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 56
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 51
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b12-gradient_global-generic-i606-s202",
+        "block": 12,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 606,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 99,
+      "mean_success": 0.7734375,
+      "training": {
+        "initial_parameter_sha256": "dd630f5abe8bac28819594a4fdfe136737fe24df3d97f91822825d6e9fa9d0d5",
+        "adapter_sha256": "a5bcc99ba7bd38c608b29d86afd94fb4660a7b219f2a39964a9349bc504db1e2",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "c995db31474ea459807fa410a7900edd2c6e344514864dc963b26f93c603d57d",
+        "control_sha256": "04ee562ba1a17b03a63467d9c06bbe67eff84b34a3e7691068ef58b475a3dda9"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 44
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b13-gradient_global-api-i707-s101",
+        "block": 13,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 707,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 104,
+      "mean_success": 0.8125,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "c56ac250c91d070b7d7b38904857baf2443398f0c5713165805976f1b54d494d",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "63fea33deb303fd276165ea82792679310b04a6d3146f2cd0aa1e7c84f37d30f",
+        "control_sha256": "6904d4f0e4932ea0d40401c2d79bea0eb9b063b3a19d0df4d611964f5b3d4ecf"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 56
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 48
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b13-gradient_global-generic-i707-s101",
+        "block": 13,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 707,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 96,
+      "mean_success": 0.75,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "80157eba3035e01ea61e5c470c2b7d4ad3aec0655052b21de69a598c2d91076e",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "af9bba0b2145130747f983f8608765983bc7a3b2a643d69064d87a31c19907b2",
+        "control_sha256": "bfd928ffc19c1bdccec609d6396ed9eb1e266c8f39f08add5ca40edf5d99748c"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b14-gradient_global-api-i707-s202",
+        "block": 14,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 707,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "c4cc7f86d8cb2ab49280a7fbb66deefb14c43f8d5e0ca215df703f0cbf6c4921",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "23e6f907a42859ec1e1f5708aa00f8c07fd319740f38afa405dc85b707162f80",
+        "control_sha256": "79c1531908f01380013774265b4c8104b3fc414ae41312fee6336c1a29e8656c"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 46
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b14-gradient_global-generic-i707-s202",
+        "block": 14,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 707,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 95,
+      "mean_success": 0.7421875,
+      "training": {
+        "initial_parameter_sha256": "1e0a3b3b223d6afffed7206b8732af0ef036096a22dde455033b0451546615cd",
+        "adapter_sha256": "57ae5cf991e62499b5d8988866a223c099f6937dbbb2e8f412d4de5ff44a8d67",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "873403d7a4755a9e245008d65b58ebf6b623e61e14025d4db194b48d1d9ad930",
+        "control_sha256": "94d51e0423aba77faa3031d251ecce105a64ffb9957f2af6a78fad354521a615"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 40
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b15-gradient_global-api-i808-s101",
+        "block": 15,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 808,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 105,
+      "mean_success": 0.8203125,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "1e49f6abce8ee39e50995e018b5d096968eb048df88f687456fc0a2134d3188d",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "90de53236885827e3f383dc7631c9e1cdad5f8e83c63b1ccbb630f351a78e907",
+        "control_sha256": "28231dcfe642bc66598a5bf1a3c7310c9e868998275103fc2c0ce2832459d3ba"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 48
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b15-gradient_global-generic-i808-s101",
+        "block": 15,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 808,
+        "sampling_seed": 101,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 94,
+      "mean_success": 0.734375,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "b10e51b6082075f23baadc5b78a50e57dfb4e5faedbdfcc24c349df80a0994a5",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "3b72c6adcc3de9195472a141c6b6e0ea2791a7106193bdf6804f6f66a79d95a7",
+        "control_sha256": "d259b68ba81b4f0464b9509af34f7b34a115817400f14682a2b06412be247d4a"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 39
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b16-gradient_global-api-i808-s202",
+        "block": 16,
+        "source": "api",
+        "policy": "gradient_global",
+        "initialization_seed": 808,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 103,
+      "mean_success": 0.8046875,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "28820d92cd8f3d10ae26ece659dd9f328033450d95226d1ed1861209a0ddb0cf",
+        "input_tokens": 467916,
+        "target_tokens": 9633,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "03904cc186928d7cb4f6f27c376164919783503e7d1b70e82dd82a3d6d034765",
+        "control_sha256": "b3379af798da23381df745373e66b087a239db45dfd1be0028ce05432f3ea3e1"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 57
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 46
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "b16-gradient_global-generic-i808-s202",
+        "block": 16,
+        "source": "generic",
+        "policy": "gradient_global",
+        "initialization_seed": 808,
+        "sampling_seed": 202,
+        "gpu": 0
+      },
+      "episodes": 128,
+      "successes": 91,
+      "mean_success": 0.7109375,
+      "training": {
+        "initial_parameter_sha256": "aca6740312dcab9848ed1b1089f6beec1f19e2aa5df4c14d45c72d892a8f092e",
+        "adapter_sha256": "7bd78952df99824661061a2cc975473120e0ffd4f052f0ef413f2f3eae9ab859",
+        "input_tokens": 507999,
+        "target_tokens": 9579,
+        "presentations": 768,
+        "optimizer_steps": 192,
+        "experiment_sha256": "b0923c5345e1328eab8d1a0232581ff85203bd4a4e773b100a5d076a54d78bc8",
+        "control_sha256": "3ef5ada6b4d9ad9c3b16932bd54c0e3ea46eec8c8ec1c5c976aa3f2b73187d48"
+      },
+      "families": {
+        "pick_and_place_simple": {
+          "tasks": 64,
+          "successes": 55
+        },
+        "pick_clean_then_place_in_recep": {
+          "tasks": 64,
+          "successes": 36
+        }
+      }
+    }
+  ],
+  "freeze_sha256": "d135680b3a8fa320ce255e0287728ba1e6b425f2b854d24cbed341e2906dec3f",
+  "added_gpu_hours": 17.419397306574812,
+  "parent_development_gpu_hours": 62.14581370804949,
+  "confirmation_evaluations": 0,
+  "inferential_tests_performed": false,
+  "raw_records_uploaded": false,
+  "scope": "Supplemental development comparison after parent outcomes were known; fixed historical pools, equal selection freedom and presentations, not equal tokens/FLOPs or a new gradient algorithm."
+}
