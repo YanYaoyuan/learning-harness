@@ -1,5 +1,11 @@
 # Learning-Oriented Harness Lab
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.27159-b31b1b.svg)](https://arxiv.org/abs/2611.27159)
+
+**论文：[From Acting to Learning: Experience Selection toward Continually Learning Agents](https://arxiv.org/abs/2611.27159)** · [PDF](https://arxiv.org/pdf/2611.27159)
+
+Yaoyuan Yan, Haoxiang Jie, Zhiyou Heng, Kailin Wang, Yumiao Li, Lifeng Liu, Anwan Yan.
+
 研究目标：检验提高即时求解表现的 harness，是否也最有利于模型形成持久、可迁移的能力。
 
 **当前研究入口（2026-11-11）**：[方案与思路](docs/RESEARCH_OVERVIEW.zh-CN.md) · [实验日志](docs/EXPERIMENT_LOG_2026-11-11.zh-CN.md) · [核心对照协议](docs/SOURCE_COMPARISON_V1.zh-CN.md) · [GitHub 快照说明](docs/GITHUB_SNAPSHOT.zh-CN.md)。候选方案是“教师辅助采集→SFT”，强基线是“ReAct 自采→同预算 SFT”；正在比较撤除辅助后的能力与后续适应，尚未得出最终学习优势结论。
