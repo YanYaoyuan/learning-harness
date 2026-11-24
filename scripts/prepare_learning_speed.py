@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Freeze an unrun adaptation pilot; never read new query outcomes or call models."""
+"""Prepare the adaptation pilot and freeze its inputs."""
 from collections import defaultdict
 import json
 from pathlib import Path

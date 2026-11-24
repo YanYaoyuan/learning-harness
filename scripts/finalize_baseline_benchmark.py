@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Wait for complete task records, audit results, and write the measured report."""
+"""Generate the benchmark report after all task records are complete."""
 import argparse
 import hashlib
 import json

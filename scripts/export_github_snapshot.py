@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export an explicit, credential-checked research snapshot without touching runs."""
+"""Export a research snapshot and check exported files for credentials."""
 import argparse
 from collections import Counter
 from datetime import datetime,timezone

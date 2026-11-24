@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Upload the already measured v2 controls and publication figure exports."""
+"""Upload completed v2 results and figure exports to W&B."""
 import csv
 import hashlib
 import json

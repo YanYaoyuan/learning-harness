@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the figure pack from its small measured-data export; no model needed."""
+"""Render figures from an exported measured-data file."""
 import argparse
 import json
 from pathlib import Path

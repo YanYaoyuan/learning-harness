@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Post-hoc, read-only audit of completed experiments. No model/API calls.
+"""Audit archived experiments and export trace summaries.
 
-Outputs are separate from frozen experiment reports. Trace categories describe
-observed milestones, not causes. Bootstrap intervals are exploratory, pointwise,
-and conditional on the collected data and three paired training seeds.
-"""
+Outputs are separate from frozen reports. Trace categories describe observed
+milestones. Exploratory bootstrap intervals are conditional on the collected
+data and three paired training seeds."""
 import argparse
 from collections import Counter, defaultdict
 import csv

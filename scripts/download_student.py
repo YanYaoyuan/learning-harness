@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pinned public model download with HTTP ranges and LFS SHA-256 checks."""
+"""Download pinned model weights with range requests and SHA-256 verification."""
 from __future__ import annotations
 
 import argparse

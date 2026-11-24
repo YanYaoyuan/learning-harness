@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible, vector-exportable figures from completed measured runs only."""
+"""Plot completed study results and export vector figures."""
 from __future__ import annotations
 
 import csv

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replay all reference actions; every reset, feedback and won bit must match."""
+"""Compare environment resets, feedback, and outcomes by replaying reference actions."""
 from concurrent.futures import ThreadPoolExecutor
 import json
 from pathlib import Path

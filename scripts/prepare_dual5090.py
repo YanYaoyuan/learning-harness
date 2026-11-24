@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare a bounded, API-free discovery experiment without touching final tests."""
+"""Prepare task splits and settings for the dual-GPU pilot."""
 from __future__ import annotations
 
 import json

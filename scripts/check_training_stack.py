@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exercise the actual LoRA entrypoint on a tiny RANDOM model, not research data."""
+"""Check the LoRA training entry point with a small randomly initialized model."""
 from __future__ import annotations
 
 import json

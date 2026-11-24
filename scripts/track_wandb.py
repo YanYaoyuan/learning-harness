@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cloud tracking by a read-only observer; model processes stay independent."""
+"""Synchronize experiment logs with W&B in a separate observer process."""
 from collections import defaultdict
 import argparse
 import gzip

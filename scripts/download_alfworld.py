@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download official text-only ALFWorld assets, without vision checkpoints."""
+"""Download official ALFWorld text-environment assets."""
 from __future__ import annotations
 
 import argparse

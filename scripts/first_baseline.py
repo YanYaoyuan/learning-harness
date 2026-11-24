@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Finish the local four-task B0 check after verified weights are available."""
+"""Run the four-task B0 check using verified local model weights."""
 from __future__ import annotations
 
 import argparse

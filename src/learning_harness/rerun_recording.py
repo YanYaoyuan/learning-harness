@@ -1,8 +1,6 @@
-"""Read-only Rerun import of append-only experiment logs.
+"""Import append-only experiment logs into Rerun.
 
-The SDK is optional and imported only by the recording command. No simulator,
-model, credential loader, or random-number generator is touched by this module.
-"""
+The optional Rerun SDK is loaded by the recording command."""
 from __future__ import annotations
 
 import ast

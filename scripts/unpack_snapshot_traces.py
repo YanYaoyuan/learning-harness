@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore archived JSONL traces with checksum checks, never overwrite different data."""
+"""Restore archived JSONL traces after checksum and conflict checks."""
 import argparse
 import gzip
 import hashlib

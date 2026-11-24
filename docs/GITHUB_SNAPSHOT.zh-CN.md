@@ -1,37 +1,35 @@
-# GitHub 研究快照说明
+# 仓库快照与资产恢复
 
-这是私有研究备份，包含方案、历史判断与修正、协议、代码、测试、实验元数据、逐任务结果、训练输入与已生成图表。当前核心对照仍在运行，快照中的进度以各文件的采集时点为准，不是全部训练完成后的原子备份。
+仓库存放研究代码、协议、历史报告及选定实验产物。最初导出时，部分实验仍在运行；带日期的进度记录反映各自采集时点。已发表论文和项目首页汇总最终选样结果。
 
-## 包含与保留在运行机器上的内容
+## 文件范围
 
-包含 `src/`、`scripts/`、`tests/`、`configs/`、`requirements/`、`docs/`、ALFWorld 划分 manifest、精选 `output/` 和实验 `runs/` 中的 JSON/JSONL/CSV/图表。公开轨迹的大型 `steps/events/calls/batches.jsonl` 使用 gzip 保存；正在变化的核心对照评测事件流不打包，逐任务提交记录照常保留。
+src/、scripts/、tests/、configs/、requirements/ 和 docs/ 包含实现、依赖与文档。归档资产包括 ALFWorld 划分清单、选定 output/ 产物，以及 runs/ 下的 JSON、JSONL、CSV 和图表。
 
-模型与 adapter 权重、重复 tokenizer、原始仿真数据、下载的论文 PDF、虚拟环境、SDK 缓存、控制台日志及本机凭据不入库。模型和数据使用原下载/准备脚本获取，权重校验值及实验配置保留。论文调研保留文字、链接和下载清单。
+较大的公开轨迹文件 steps/events/calls/batches.jsonl 以 gzip 保存。最初导出时仍在变化的核心对照评测事件流未打包，已提交的逐任务结果保留。
 
-`.env.local`、`key.env`、本机 `.aws/.codex/.agents` 等设置不会被读取或打包；示例环境变量文件保留空密钥。导出器检查高置信度凭据模式，发现匹配时停止。源码中的变量名和空示例不等于真实凭据。
+模型与 adapter 权重、重复 tokenizer、原始仿真数据、下载的外部论文 PDF、虚拟环境、SDK 缓存和控制台日志保留在运行机器上。模型与环境下载脚本、权重校验值和实验配置用于重建这些资产。论文调研保留文字、链接和下载清单。
 
-`SNAPSHOT_MANIFEST.json` 记录逐文件原始快照 SHA256、上传文件 SHA256、大小、导出起止时间和任何被丢弃的不完整 JSONL 尾行。
+本机凭据与设置（.env.local、key.env、.aws/.codex/.agents）排除在导出范围外；示例环境文件仅含空密钥。导出器在写入前检查凭据模式。
 
-## 验证与使用
+SNAPSHOT_MANIFEST.json 记录初次导出文件的原始与上传 SHA-256、大小、导出时间，以及被丢弃的不完整 JSONL 尾行。后续文档修订由 Git 提交记录追踪，该清单不是每次提交后重建的完整索引。实验自身的冻结记录独立于这份快照清单。
 
-常规 CPU 单元测试所需依赖参照 `requirements/`，部分统计测试需要 NumPy/Matplotlib；ALFWorld 环境与模型训练依赖分开安装。真实 GPU 复现需下载固定模型和环境数据，并按对应实验协议重建运行资产。
-
-只还原某轮的已打包轨迹：
+## 恢复轨迹
 
 ```bash
 python3 scripts/unpack_snapshot_traces.py --study baseline-benchmark-v1
 ```
 
-脚本验证压缩与解压后的校验值，已有同名但不同内容的文件不会覆盖。可用完整结果和图表直接查阅研究记录；不要在下载快照后立即执行 `--stage all` 恢复原机器进程，因为原机器的权重路径和虚拟环境并未打包。
+脚本检查压缩和解压内容的校验值，拒绝覆盖内容冲突的已有文件。恢复训练或评测还需要对应权重、虚拟环境和协议指定的本地路径，详见[运行说明](REPRODUCIBILITY.md)。
 
-重新导出当前工作区，不修改运行数据：
+## 导出工作区
 
 ```bash
 python3 scripts/export_github_snapshot.py --out /tmp/learning-harness-new-snapshot
 ```
 
-导出目录必须为空。上传流程在独立 Git 工作区进行，运行机器原有数据、冻结代码和 GPU 进程保持原状。
+目标目录需为空。导出过程只读取工作区；上传在独立 Git 目录中进行。
 
-## 第三方来源
+## 第三方来源与许可
 
-仅随仓库存放运行所需的 ReAct/Reflexion 提示和少量参考源码，固定 commit 见 `configs/baseline-sources.lock.json`，各自 MIT 许可证保存在 `third_party/ReAct/LICENSE` 与 `third_party/Reflexion/LICENSE`。其他参考方法使用来源锁和获取脚本，不宣称已完成复现。此私有备份不另行授予本项目公开开源许可。
+仓库保留 ReAct/Reflexion 提示及少量参考源码。固定 commit 见 configs/baseline-sources.lock.json，MIT 许可证位于 third_party/ReAct/LICENSE 和 third_party/Reflexion/LICENSE。其他参考方法通过来源锁和获取脚本管理，其获取状态与复现状态分别记录。本项目尚未另行授予公开开源许可。

@@ -1,4 +1,4 @@
-"""Load literal credentials without sourcing shell code or logging values."""
+"""Read literal teacher credentials from environment files."""
 from __future__ import annotations
 
 import os

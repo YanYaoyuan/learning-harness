@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch immutable public baseline source archives. Does not execute their code."""
+"""Download pinned baseline source archives."""
 from __future__ import annotations
 
 import io

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run six bounded local training/evaluation jobs on two explicitly assigned GPUs."""
+"""Run six training and evaluation jobs on two assigned GPUs."""
 from __future__ import annotations
 
 import argparse

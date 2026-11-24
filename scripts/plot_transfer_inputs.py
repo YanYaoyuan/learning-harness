@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plot measured A-source composition, not projected learning outcomes."""
+"""Plot the composition of A-stage training data."""
 from collections import Counter
 import json
 from pathlib import Path

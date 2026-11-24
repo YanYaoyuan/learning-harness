@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn a completed discovery result into a concise auditable research note."""
+"""Generate the first-round experiment report from completed results."""
 import json
 from pathlib import Path
 
@@ -56,13 +56,13 @@ def main():
 
 区间仅描述这一个训练 seed 的任务差异，不包含训练随机性；零差距或区间含零不能证明等效。
 
-## 判断
+## 结果分析
 
 {verdict}
 
-本轮混合和蒸馏都没有缩小来源差距的点估计。这不证明它们普遍无效；样本不足以判断等效、稳定机制、可预测性或可迁移性。本轮不进入学习型 harness 或 meta-RL。
+混合和蒸馏均未缩小本轮来源差距的点估计。单训练种子和有限任务数不足以判断方法的稳定性或可迁移性。
 
-先扩大成功训练任务的覆盖并重复独立训练种子；若出现差距，再补按任务类型和示范数量匹配的对照。只有在多种支持下发现稳定效应，才值得研究机制与预测；跨模型/环境验证仍需单独设计。
+后续对照扩大成功任务覆盖，重复独立训练种子，并匹配任务类型和示范数量，以区分覆盖与内容差异。跨模型、跨环境验证需要单独设计。
 
 ## 数据与限制
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Small serial local inference server for the pilot; no vLLM dependency."""
+"""Serve serial model inference for pilot experiments."""
 from __future__ import annotations
 
 import argparse

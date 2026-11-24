@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Backfill and optionally follow real experiment logs into Rerun recordings."""
+"""Import experiment logs into Rerun and optionally follow new records."""
 import argparse
 import json
 import os
